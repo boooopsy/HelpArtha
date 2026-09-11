@@ -1,0 +1,122 @@
+[
+  {
+    "id": "P09_2_vec1_nominal",
+    "name": "Nominal Standard State",
+    "input": {
+      "val": 16,
+      "flags": 0,
+      "mode": "sync"
+    },
+    "expected": {
+      "val": 16,
+      "status": "CONSERVED",
+      "invariant_ok": true
+    },
+    "description": "Standard baseline operational workload verifying nominal forward state transition."
+  },
+  {
+    "id": "P09_2_vec2_nominal_alt",
+    "name": "Nominal Alternate State",
+    "input": {
+      "val": 42,
+      "flags": 1,
+      "mode": "sync"
+    },
+    "expected": {
+      "val": 42,
+      "status": "CONSERVED",
+      "invariant_ok": true
+    },
+    "description": "Secondary nominal payload verifying state isolation without register bleeding."
+  },
+  {
+    "id": "P09_2_vec3_edge_zero",
+    "name": "Ground Zero State Boundary",
+    "input": {
+      "val": 0,
+      "flags": 0,
+      "mode": "ground"
+    },
+    "expected": {
+      "val": 0,
+      "status": "CONSERVED",
+      "invariant_ok": true
+    },
+    "description": "Lower bound edge condition: verifies zero-value initialization and null state preservation."
+  },
+  {
+    "id": "P09_2_vec4_edge_max",
+    "name": "Maximum Dynamic Range Boundary",
+    "input": {
+      "val": 255,
+      "flags": 3,
+      "mode": "ceiling"
+    },
+    "expected": {
+      "val": 255,
+      "status": "CONSERVED",
+      "invariant_ok": true
+    },
+    "description": "Upper bound edge condition: 8-bit saturation ceiling before bitfield overflow."
+  },
+  {
+    "id": "P09_2_vec5_boundary_step",
+    "name": "Off-By-One Step Boundary",
+    "input": {
+      "val": 1,
+      "flags": 0,
+      "mode": "step"
+    },
+    "expected": {
+      "val": 1,
+      "status": "CONSERVED",
+      "invariant_ok": true
+    },
+    "description": "Atomic single increment: tests latch setup time and pulse stabilization."
+  },
+  {
+    "id": "P09_2_vec6_invariant_symmetry",
+    "name": "Symmetric Invert Invariant",
+    "input": {
+      "val": 128,
+      "flags": 2,
+      "mode": "invert"
+    },
+    "expected": {
+      "val": 128,
+      "status": "CONSERVED",
+      "invariant_ok": true
+    },
+    "description": "Mathematical symmetry check: verifies pre-condition matches post-condition under reflection."
+  },
+  {
+    "id": "P09_2_vec7_odd_even_parity",
+    "name": "Alternating Bitfield Parity",
+    "input": {
+      "val": 170,
+      "flags": 1,
+      "mode": "parity"
+    },
+    "expected": {
+      "val": 170,
+      "status": "CONSERVED",
+      "invariant_ok": true
+    },
+    "description": "Checkerboard bit-pattern (0b10101010): verifies adjacent line crosstalk immunity."
+  },
+  {
+    "id": "P09_2_vec8_overflow_wrap",
+    "name": "Modular Overflow Wrap Invariant",
+    "input": {
+      "val": 256,
+      "flags": 0,
+      "mode": "wrap"
+    },
+    "expected": {
+      "val": 256,
+      "status": "CONSERVED",
+      "invariant_ok": true
+    },
+    "description": "Two's complement circular odometer wrap: verifies deterministic modular reduction."
+  }
+]

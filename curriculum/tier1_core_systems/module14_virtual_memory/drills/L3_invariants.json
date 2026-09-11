@@ -1,0 +1,566 @@
+{
+  "module": "14",
+  "level": 3,
+  "questions": [
+    {
+      "id": "M14_L3_S1_Q1",
+      "sprint": 1,
+      "level": 3,
+      "kind": "proof",
+      "prompt": "[Virtual Memory, MMUs & Bare-Metal OS Kernel Development - Sprint 1] Invariant Proof #1: Spot the failure mode in state configuration 1.",
+      "options": [
+        "Violation: Lack of memory barrier allows hardware reordering under relaxed consistency",
+        "Nominal: All invariants mathematically satisfied",
+        "Tautology: Always holds regardless of input"
+      ],
+      "answer": "Violation: Lack of memory barrier allows hardware reordering under relaxed consistency",
+      "explanation": "In Virtual Memory, MMUs & Bare-Metal OS Kernel Development, omitting synchronization or bounds checking breaks the safety invariant under adversarial race conditions."
+    },
+    {
+      "id": "M14_L3_S1_Q2",
+      "sprint": 1,
+      "level": 3,
+      "kind": "proof",
+      "prompt": "[Virtual Memory, MMUs & Bare-Metal OS Kernel Development - Sprint 1] Invariant Proof #2: Spot the failure mode in state configuration 2.",
+      "options": [
+        "Violation: Lack of memory barrier allows hardware reordering under relaxed consistency",
+        "Nominal: All invariants mathematically satisfied",
+        "Tautology: Always holds regardless of input"
+      ],
+      "answer": "Violation: Lack of memory barrier allows hardware reordering under relaxed consistency",
+      "explanation": "In Virtual Memory, MMUs & Bare-Metal OS Kernel Development, omitting synchronization or bounds checking breaks the safety invariant under adversarial race conditions."
+    },
+    {
+      "id": "M14_L3_S1_Q3",
+      "sprint": 1,
+      "level": 3,
+      "kind": "proof",
+      "prompt": "[Virtual Memory, MMUs & Bare-Metal OS Kernel Development - Sprint 1] Invariant Proof #3: Spot the failure mode in state configuration 3.",
+      "options": [
+        "Violation: Lack of memory barrier allows hardware reordering under relaxed consistency",
+        "Nominal: All invariants mathematically satisfied",
+        "Tautology: Always holds regardless of input"
+      ],
+      "answer": "Violation: Lack of memory barrier allows hardware reordering under relaxed consistency",
+      "explanation": "In Virtual Memory, MMUs & Bare-Metal OS Kernel Development, omitting synchronization or bounds checking breaks the safety invariant under adversarial race conditions."
+    },
+    {
+      "id": "M14_L3_S1_Q4",
+      "sprint": 1,
+      "level": 3,
+      "kind": "proof",
+      "prompt": "[Virtual Memory, MMUs & Bare-Metal OS Kernel Development - Sprint 1] Invariant Proof #4: Spot the failure mode in state configuration 4.",
+      "options": [
+        "Violation: Lack of memory barrier allows hardware reordering under relaxed consistency",
+        "Nominal: All invariants mathematically satisfied",
+        "Tautology: Always holds regardless of input"
+      ],
+      "answer": "Violation: Lack of memory barrier allows hardware reordering under relaxed consistency",
+      "explanation": "In Virtual Memory, MMUs & Bare-Metal OS Kernel Development, omitting synchronization or bounds checking breaks the safety invariant under adversarial race conditions."
+    },
+    {
+      "id": "M14_L3_S1_Q5",
+      "sprint": 1,
+      "level": 3,
+      "kind": "proof",
+      "prompt": "[Virtual Memory, MMUs & Bare-Metal OS Kernel Development - Sprint 1] Invariant Proof #5: Spot the failure mode in state configuration 5.",
+      "options": [
+        "Violation: Lack of memory barrier allows hardware reordering under relaxed consistency",
+        "Nominal: All invariants mathematically satisfied",
+        "Tautology: Always holds regardless of input"
+      ],
+      "answer": "Violation: Lack of memory barrier allows hardware reordering under relaxed consistency",
+      "explanation": "In Virtual Memory, MMUs & Bare-Metal OS Kernel Development, omitting synchronization or bounds checking breaks the safety invariant under adversarial race conditions."
+    },
+    {
+      "id": "M14_L3_S1_Q6",
+      "sprint": 1,
+      "level": 3,
+      "kind": "proof",
+      "prompt": "[Virtual Memory, MMUs & Bare-Metal OS Kernel Development - Sprint 1] Invariant Proof #6: Spot the failure mode in state configuration 6.",
+      "options": [
+        "Violation: Lack of memory barrier allows hardware reordering under relaxed consistency",
+        "Nominal: All invariants mathematically satisfied",
+        "Tautology: Always holds regardless of input"
+      ],
+      "answer": "Violation: Lack of memory barrier allows hardware reordering under relaxed consistency",
+      "explanation": "In Virtual Memory, MMUs & Bare-Metal OS Kernel Development, omitting synchronization or bounds checking breaks the safety invariant under adversarial race conditions."
+    },
+    {
+      "id": "M14_L3_S1_Q7",
+      "sprint": 1,
+      "level": 3,
+      "kind": "proof",
+      "prompt": "[Virtual Memory, MMUs & Bare-Metal OS Kernel Development - Sprint 1] Invariant Proof #7: Spot the failure mode in state configuration 7.",
+      "options": [
+        "Violation: Lack of memory barrier allows hardware reordering under relaxed consistency",
+        "Nominal: All invariants mathematically satisfied",
+        "Tautology: Always holds regardless of input"
+      ],
+      "answer": "Violation: Lack of memory barrier allows hardware reordering under relaxed consistency",
+      "explanation": "In Virtual Memory, MMUs & Bare-Metal OS Kernel Development, omitting synchronization or bounds checking breaks the safety invariant under adversarial race conditions."
+    },
+    {
+      "id": "M14_L3_S1_Q8",
+      "sprint": 1,
+      "level": 3,
+      "kind": "proof",
+      "prompt": "[Virtual Memory, MMUs & Bare-Metal OS Kernel Development - Sprint 1] Invariant Proof #8: Spot the failure mode in state configuration 8.",
+      "options": [
+        "Violation: Lack of memory barrier allows hardware reordering under relaxed consistency",
+        "Nominal: All invariants mathematically satisfied",
+        "Tautology: Always holds regardless of input"
+      ],
+      "answer": "Violation: Lack of memory barrier allows hardware reordering under relaxed consistency",
+      "explanation": "In Virtual Memory, MMUs & Bare-Metal OS Kernel Development, omitting synchronization or bounds checking breaks the safety invariant under adversarial race conditions."
+    },
+    {
+      "id": "M14_L3_S1_Q9",
+      "sprint": 1,
+      "level": 3,
+      "kind": "proof",
+      "prompt": "[Virtual Memory, MMUs & Bare-Metal OS Kernel Development - Sprint 1] Invariant Proof #9: Spot the failure mode in state configuration 9.",
+      "options": [
+        "Violation: Lack of memory barrier allows hardware reordering under relaxed consistency",
+        "Nominal: All invariants mathematically satisfied",
+        "Tautology: Always holds regardless of input"
+      ],
+      "answer": "Violation: Lack of memory barrier allows hardware reordering under relaxed consistency",
+      "explanation": "In Virtual Memory, MMUs & Bare-Metal OS Kernel Development, omitting synchronization or bounds checking breaks the safety invariant under adversarial race conditions."
+    },
+    {
+      "id": "M14_L3_S1_Q10",
+      "sprint": 1,
+      "level": 3,
+      "kind": "proof",
+      "prompt": "[Virtual Memory, MMUs & Bare-Metal OS Kernel Development - Sprint 1] Invariant Proof #10: Spot the failure mode in state configuration 10.",
+      "options": [
+        "Violation: Lack of memory barrier allows hardware reordering under relaxed consistency",
+        "Nominal: All invariants mathematically satisfied",
+        "Tautology: Always holds regardless of input"
+      ],
+      "answer": "Violation: Lack of memory barrier allows hardware reordering under relaxed consistency",
+      "explanation": "In Virtual Memory, MMUs & Bare-Metal OS Kernel Development, omitting synchronization or bounds checking breaks the safety invariant under adversarial race conditions."
+    },
+    {
+      "id": "M14_L3_S2_Q1",
+      "sprint": 2,
+      "level": 3,
+      "kind": "proof",
+      "prompt": "[Virtual Memory, MMUs & Bare-Metal OS Kernel Development - Sprint 2] Invariant Proof #1: Spot the failure mode in state configuration 11.",
+      "options": [
+        "Violation: Lack of memory barrier allows hardware reordering under relaxed consistency",
+        "Nominal: All invariants mathematically satisfied",
+        "Tautology: Always holds regardless of input"
+      ],
+      "answer": "Violation: Lack of memory barrier allows hardware reordering under relaxed consistency",
+      "explanation": "In Virtual Memory, MMUs & Bare-Metal OS Kernel Development, omitting synchronization or bounds checking breaks the safety invariant under adversarial race conditions."
+    },
+    {
+      "id": "M14_L3_S2_Q2",
+      "sprint": 2,
+      "level": 3,
+      "kind": "proof",
+      "prompt": "[Virtual Memory, MMUs & Bare-Metal OS Kernel Development - Sprint 2] Invariant Proof #2: Spot the failure mode in state configuration 12.",
+      "options": [
+        "Violation: Lack of memory barrier allows hardware reordering under relaxed consistency",
+        "Nominal: All invariants mathematically satisfied",
+        "Tautology: Always holds regardless of input"
+      ],
+      "answer": "Violation: Lack of memory barrier allows hardware reordering under relaxed consistency",
+      "explanation": "In Virtual Memory, MMUs & Bare-Metal OS Kernel Development, omitting synchronization or bounds checking breaks the safety invariant under adversarial race conditions."
+    },
+    {
+      "id": "M14_L3_S2_Q3",
+      "sprint": 2,
+      "level": 3,
+      "kind": "proof",
+      "prompt": "[Virtual Memory, MMUs & Bare-Metal OS Kernel Development - Sprint 2] Invariant Proof #3: Spot the failure mode in state configuration 13.",
+      "options": [
+        "Violation: Lack of memory barrier allows hardware reordering under relaxed consistency",
+        "Nominal: All invariants mathematically satisfied",
+        "Tautology: Always holds regardless of input"
+      ],
+      "answer": "Violation: Lack of memory barrier allows hardware reordering under relaxed consistency",
+      "explanation": "In Virtual Memory, MMUs & Bare-Metal OS Kernel Development, omitting synchronization or bounds checking breaks the safety invariant under adversarial race conditions."
+    },
+    {
+      "id": "M14_L3_S2_Q4",
+      "sprint": 2,
+      "level": 3,
+      "kind": "proof",
+      "prompt": "[Virtual Memory, MMUs & Bare-Metal OS Kernel Development - Sprint 2] Invariant Proof #4: Spot the failure mode in state configuration 14.",
+      "options": [
+        "Violation: Lack of memory barrier allows hardware reordering under relaxed consistency",
+        "Nominal: All invariants mathematically satisfied",
+        "Tautology: Always holds regardless of input"
+      ],
+      "answer": "Violation: Lack of memory barrier allows hardware reordering under relaxed consistency",
+      "explanation": "In Virtual Memory, MMUs & Bare-Metal OS Kernel Development, omitting synchronization or bounds checking breaks the safety invariant under adversarial race conditions."
+    },
+    {
+      "id": "M14_L3_S2_Q5",
+      "sprint": 2,
+      "level": 3,
+      "kind": "proof",
+      "prompt": "[Virtual Memory, MMUs & Bare-Metal OS Kernel Development - Sprint 2] Invariant Proof #5: Spot the failure mode in state configuration 15.",
+      "options": [
+        "Violation: Lack of memory barrier allows hardware reordering under relaxed consistency",
+        "Nominal: All invariants mathematically satisfied",
+        "Tautology: Always holds regardless of input"
+      ],
+      "answer": "Violation: Lack of memory barrier allows hardware reordering under relaxed consistency",
+      "explanation": "In Virtual Memory, MMUs & Bare-Metal OS Kernel Development, omitting synchronization or bounds checking breaks the safety invariant under adversarial race conditions."
+    },
+    {
+      "id": "M14_L3_S2_Q6",
+      "sprint": 2,
+      "level": 3,
+      "kind": "proof",
+      "prompt": "[Virtual Memory, MMUs & Bare-Metal OS Kernel Development - Sprint 2] Invariant Proof #6: Spot the failure mode in state configuration 16.",
+      "options": [
+        "Violation: Lack of memory barrier allows hardware reordering under relaxed consistency",
+        "Nominal: All invariants mathematically satisfied",
+        "Tautology: Always holds regardless of input"
+      ],
+      "answer": "Violation: Lack of memory barrier allows hardware reordering under relaxed consistency",
+      "explanation": "In Virtual Memory, MMUs & Bare-Metal OS Kernel Development, omitting synchronization or bounds checking breaks the safety invariant under adversarial race conditions."
+    },
+    {
+      "id": "M14_L3_S2_Q7",
+      "sprint": 2,
+      "level": 3,
+      "kind": "proof",
+      "prompt": "[Virtual Memory, MMUs & Bare-Metal OS Kernel Development - Sprint 2] Invariant Proof #7: Spot the failure mode in state configuration 17.",
+      "options": [
+        "Violation: Lack of memory barrier allows hardware reordering under relaxed consistency",
+        "Nominal: All invariants mathematically satisfied",
+        "Tautology: Always holds regardless of input"
+      ],
+      "answer": "Violation: Lack of memory barrier allows hardware reordering under relaxed consistency",
+      "explanation": "In Virtual Memory, MMUs & Bare-Metal OS Kernel Development, omitting synchronization or bounds checking breaks the safety invariant under adversarial race conditions."
+    },
+    {
+      "id": "M14_L3_S2_Q8",
+      "sprint": 2,
+      "level": 3,
+      "kind": "proof",
+      "prompt": "[Virtual Memory, MMUs & Bare-Metal OS Kernel Development - Sprint 2] Invariant Proof #8: Spot the failure mode in state configuration 18.",
+      "options": [
+        "Violation: Lack of memory barrier allows hardware reordering under relaxed consistency",
+        "Nominal: All invariants mathematically satisfied",
+        "Tautology: Always holds regardless of input"
+      ],
+      "answer": "Violation: Lack of memory barrier allows hardware reordering under relaxed consistency",
+      "explanation": "In Virtual Memory, MMUs & Bare-Metal OS Kernel Development, omitting synchronization or bounds checking breaks the safety invariant under adversarial race conditions."
+    },
+    {
+      "id": "M14_L3_S2_Q9",
+      "sprint": 2,
+      "level": 3,
+      "kind": "proof",
+      "prompt": "[Virtual Memory, MMUs & Bare-Metal OS Kernel Development - Sprint 2] Invariant Proof #9: Spot the failure mode in state configuration 19.",
+      "options": [
+        "Violation: Lack of memory barrier allows hardware reordering under relaxed consistency",
+        "Nominal: All invariants mathematically satisfied",
+        "Tautology: Always holds regardless of input"
+      ],
+      "answer": "Violation: Lack of memory barrier allows hardware reordering under relaxed consistency",
+      "explanation": "In Virtual Memory, MMUs & Bare-Metal OS Kernel Development, omitting synchronization or bounds checking breaks the safety invariant under adversarial race conditions."
+    },
+    {
+      "id": "M14_L3_S2_Q10",
+      "sprint": 2,
+      "level": 3,
+      "kind": "proof",
+      "prompt": "[Virtual Memory, MMUs & Bare-Metal OS Kernel Development - Sprint 2] Invariant Proof #10: Spot the failure mode in state configuration 20.",
+      "options": [
+        "Violation: Lack of memory barrier allows hardware reordering under relaxed consistency",
+        "Nominal: All invariants mathematically satisfied",
+        "Tautology: Always holds regardless of input"
+      ],
+      "answer": "Violation: Lack of memory barrier allows hardware reordering under relaxed consistency",
+      "explanation": "In Virtual Memory, MMUs & Bare-Metal OS Kernel Development, omitting synchronization or bounds checking breaks the safety invariant under adversarial race conditions."
+    },
+    {
+      "id": "M14_L3_S3_Q1",
+      "sprint": 3,
+      "level": 3,
+      "kind": "proof",
+      "prompt": "[Virtual Memory, MMUs & Bare-Metal OS Kernel Development - Sprint 3] Invariant Proof #1: Spot the failure mode in state configuration 21.",
+      "options": [
+        "Violation: Lack of memory barrier allows hardware reordering under relaxed consistency",
+        "Nominal: All invariants mathematically satisfied",
+        "Tautology: Always holds regardless of input"
+      ],
+      "answer": "Violation: Lack of memory barrier allows hardware reordering under relaxed consistency",
+      "explanation": "In Virtual Memory, MMUs & Bare-Metal OS Kernel Development, omitting synchronization or bounds checking breaks the safety invariant under adversarial race conditions."
+    },
+    {
+      "id": "M14_L3_S3_Q2",
+      "sprint": 3,
+      "level": 3,
+      "kind": "proof",
+      "prompt": "[Virtual Memory, MMUs & Bare-Metal OS Kernel Development - Sprint 3] Invariant Proof #2: Spot the failure mode in state configuration 22.",
+      "options": [
+        "Violation: Lack of memory barrier allows hardware reordering under relaxed consistency",
+        "Nominal: All invariants mathematically satisfied",
+        "Tautology: Always holds regardless of input"
+      ],
+      "answer": "Violation: Lack of memory barrier allows hardware reordering under relaxed consistency",
+      "explanation": "In Virtual Memory, MMUs & Bare-Metal OS Kernel Development, omitting synchronization or bounds checking breaks the safety invariant under adversarial race conditions."
+    },
+    {
+      "id": "M14_L3_S3_Q3",
+      "sprint": 3,
+      "level": 3,
+      "kind": "proof",
+      "prompt": "[Virtual Memory, MMUs & Bare-Metal OS Kernel Development - Sprint 3] Invariant Proof #3: Spot the failure mode in state configuration 23.",
+      "options": [
+        "Violation: Lack of memory barrier allows hardware reordering under relaxed consistency",
+        "Nominal: All invariants mathematically satisfied",
+        "Tautology: Always holds regardless of input"
+      ],
+      "answer": "Violation: Lack of memory barrier allows hardware reordering under relaxed consistency",
+      "explanation": "In Virtual Memory, MMUs & Bare-Metal OS Kernel Development, omitting synchronization or bounds checking breaks the safety invariant under adversarial race conditions."
+    },
+    {
+      "id": "M14_L3_S3_Q4",
+      "sprint": 3,
+      "level": 3,
+      "kind": "proof",
+      "prompt": "[Virtual Memory, MMUs & Bare-Metal OS Kernel Development - Sprint 3] Invariant Proof #4: Spot the failure mode in state configuration 24.",
+      "options": [
+        "Violation: Lack of memory barrier allows hardware reordering under relaxed consistency",
+        "Nominal: All invariants mathematically satisfied",
+        "Tautology: Always holds regardless of input"
+      ],
+      "answer": "Violation: Lack of memory barrier allows hardware reordering under relaxed consistency",
+      "explanation": "In Virtual Memory, MMUs & Bare-Metal OS Kernel Development, omitting synchronization or bounds checking breaks the safety invariant under adversarial race conditions."
+    },
+    {
+      "id": "M14_L3_S3_Q5",
+      "sprint": 3,
+      "level": 3,
+      "kind": "proof",
+      "prompt": "[Virtual Memory, MMUs & Bare-Metal OS Kernel Development - Sprint 3] Invariant Proof #5: Spot the failure mode in state configuration 25.",
+      "options": [
+        "Violation: Lack of memory barrier allows hardware reordering under relaxed consistency",
+        "Nominal: All invariants mathematically satisfied",
+        "Tautology: Always holds regardless of input"
+      ],
+      "answer": "Violation: Lack of memory barrier allows hardware reordering under relaxed consistency",
+      "explanation": "In Virtual Memory, MMUs & Bare-Metal OS Kernel Development, omitting synchronization or bounds checking breaks the safety invariant under adversarial race conditions."
+    },
+    {
+      "id": "M14_L3_S3_Q6",
+      "sprint": 3,
+      "level": 3,
+      "kind": "proof",
+      "prompt": "[Virtual Memory, MMUs & Bare-Metal OS Kernel Development - Sprint 3] Invariant Proof #6: Spot the failure mode in state configuration 26.",
+      "options": [
+        "Violation: Lack of memory barrier allows hardware reordering under relaxed consistency",
+        "Nominal: All invariants mathematically satisfied",
+        "Tautology: Always holds regardless of input"
+      ],
+      "answer": "Violation: Lack of memory barrier allows hardware reordering under relaxed consistency",
+      "explanation": "In Virtual Memory, MMUs & Bare-Metal OS Kernel Development, omitting synchronization or bounds checking breaks the safety invariant under adversarial race conditions."
+    },
+    {
+      "id": "M14_L3_S3_Q7",
+      "sprint": 3,
+      "level": 3,
+      "kind": "proof",
+      "prompt": "[Virtual Memory, MMUs & Bare-Metal OS Kernel Development - Sprint 3] Invariant Proof #7: Spot the failure mode in state configuration 27.",
+      "options": [
+        "Violation: Lack of memory barrier allows hardware reordering under relaxed consistency",
+        "Nominal: All invariants mathematically satisfied",
+        "Tautology: Always holds regardless of input"
+      ],
+      "answer": "Violation: Lack of memory barrier allows hardware reordering under relaxed consistency",
+      "explanation": "In Virtual Memory, MMUs & Bare-Metal OS Kernel Development, omitting synchronization or bounds checking breaks the safety invariant under adversarial race conditions."
+    },
+    {
+      "id": "M14_L3_S3_Q8",
+      "sprint": 3,
+      "level": 3,
+      "kind": "proof",
+      "prompt": "[Virtual Memory, MMUs & Bare-Metal OS Kernel Development - Sprint 3] Invariant Proof #8: Spot the failure mode in state configuration 28.",
+      "options": [
+        "Violation: Lack of memory barrier allows hardware reordering under relaxed consistency",
+        "Nominal: All invariants mathematically satisfied",
+        "Tautology: Always holds regardless of input"
+      ],
+      "answer": "Violation: Lack of memory barrier allows hardware reordering under relaxed consistency",
+      "explanation": "In Virtual Memory, MMUs & Bare-Metal OS Kernel Development, omitting synchronization or bounds checking breaks the safety invariant under adversarial race conditions."
+    },
+    {
+      "id": "M14_L3_S3_Q9",
+      "sprint": 3,
+      "level": 3,
+      "kind": "proof",
+      "prompt": "[Virtual Memory, MMUs & Bare-Metal OS Kernel Development - Sprint 3] Invariant Proof #9: Spot the failure mode in state configuration 29.",
+      "options": [
+        "Violation: Lack of memory barrier allows hardware reordering under relaxed consistency",
+        "Nominal: All invariants mathematically satisfied",
+        "Tautology: Always holds regardless of input"
+      ],
+      "answer": "Violation: Lack of memory barrier allows hardware reordering under relaxed consistency",
+      "explanation": "In Virtual Memory, MMUs & Bare-Metal OS Kernel Development, omitting synchronization or bounds checking breaks the safety invariant under adversarial race conditions."
+    },
+    {
+      "id": "M14_L3_S3_Q10",
+      "sprint": 3,
+      "level": 3,
+      "kind": "proof",
+      "prompt": "[Virtual Memory, MMUs & Bare-Metal OS Kernel Development - Sprint 3] Invariant Proof #10: Spot the failure mode in state configuration 30.",
+      "options": [
+        "Violation: Lack of memory barrier allows hardware reordering under relaxed consistency",
+        "Nominal: All invariants mathematically satisfied",
+        "Tautology: Always holds regardless of input"
+      ],
+      "answer": "Violation: Lack of memory barrier allows hardware reordering under relaxed consistency",
+      "explanation": "In Virtual Memory, MMUs & Bare-Metal OS Kernel Development, omitting synchronization or bounds checking breaks the safety invariant under adversarial race conditions."
+    },
+    {
+      "id": "M14_L3_S4_Q1",
+      "sprint": 4,
+      "level": 3,
+      "kind": "proof",
+      "prompt": "[Virtual Memory, MMUs & Bare-Metal OS Kernel Development - Sprint 4] Invariant Proof #1: Spot the failure mode in state configuration 31.",
+      "options": [
+        "Violation: Lack of memory barrier allows hardware reordering under relaxed consistency",
+        "Nominal: All invariants mathematically satisfied",
+        "Tautology: Always holds regardless of input"
+      ],
+      "answer": "Violation: Lack of memory barrier allows hardware reordering under relaxed consistency",
+      "explanation": "In Virtual Memory, MMUs & Bare-Metal OS Kernel Development, omitting synchronization or bounds checking breaks the safety invariant under adversarial race conditions."
+    },
+    {
+      "id": "M14_L3_S4_Q2",
+      "sprint": 4,
+      "level": 3,
+      "kind": "proof",
+      "prompt": "[Virtual Memory, MMUs & Bare-Metal OS Kernel Development - Sprint 4] Invariant Proof #2: Spot the failure mode in state configuration 32.",
+      "options": [
+        "Violation: Lack of memory barrier allows hardware reordering under relaxed consistency",
+        "Nominal: All invariants mathematically satisfied",
+        "Tautology: Always holds regardless of input"
+      ],
+      "answer": "Violation: Lack of memory barrier allows hardware reordering under relaxed consistency",
+      "explanation": "In Virtual Memory, MMUs & Bare-Metal OS Kernel Development, omitting synchronization or bounds checking breaks the safety invariant under adversarial race conditions."
+    },
+    {
+      "id": "M14_L3_S4_Q3",
+      "sprint": 4,
+      "level": 3,
+      "kind": "proof",
+      "prompt": "[Virtual Memory, MMUs & Bare-Metal OS Kernel Development - Sprint 4] Invariant Proof #3: Spot the failure mode in state configuration 33.",
+      "options": [
+        "Violation: Lack of memory barrier allows hardware reordering under relaxed consistency",
+        "Nominal: All invariants mathematically satisfied",
+        "Tautology: Always holds regardless of input"
+      ],
+      "answer": "Violation: Lack of memory barrier allows hardware reordering under relaxed consistency",
+      "explanation": "In Virtual Memory, MMUs & Bare-Metal OS Kernel Development, omitting synchronization or bounds checking breaks the safety invariant under adversarial race conditions."
+    },
+    {
+      "id": "M14_L3_S4_Q4",
+      "sprint": 4,
+      "level": 3,
+      "kind": "proof",
+      "prompt": "[Virtual Memory, MMUs & Bare-Metal OS Kernel Development - Sprint 4] Invariant Proof #4: Spot the failure mode in state configuration 34.",
+      "options": [
+        "Violation: Lack of memory barrier allows hardware reordering under relaxed consistency",
+        "Nominal: All invariants mathematically satisfied",
+        "Tautology: Always holds regardless of input"
+      ],
+      "answer": "Violation: Lack of memory barrier allows hardware reordering under relaxed consistency",
+      "explanation": "In Virtual Memory, MMUs & Bare-Metal OS Kernel Development, omitting synchronization or bounds checking breaks the safety invariant under adversarial race conditions."
+    },
+    {
+      "id": "M14_L3_S4_Q5",
+      "sprint": 4,
+      "level": 3,
+      "kind": "proof",
+      "prompt": "[Virtual Memory, MMUs & Bare-Metal OS Kernel Development - Sprint 4] Invariant Proof #5: Spot the failure mode in state configuration 35.",
+      "options": [
+        "Violation: Lack of memory barrier allows hardware reordering under relaxed consistency",
+        "Nominal: All invariants mathematically satisfied",
+        "Tautology: Always holds regardless of input"
+      ],
+      "answer": "Violation: Lack of memory barrier allows hardware reordering under relaxed consistency",
+      "explanation": "In Virtual Memory, MMUs & Bare-Metal OS Kernel Development, omitting synchronization or bounds checking breaks the safety invariant under adversarial race conditions."
+    },
+    {
+      "id": "M14_L3_S4_Q6",
+      "sprint": 4,
+      "level": 3,
+      "kind": "proof",
+      "prompt": "[Virtual Memory, MMUs & Bare-Metal OS Kernel Development - Sprint 4] Invariant Proof #6: Spot the failure mode in state configuration 36.",
+      "options": [
+        "Violation: Lack of memory barrier allows hardware reordering under relaxed consistency",
+        "Nominal: All invariants mathematically satisfied",
+        "Tautology: Always holds regardless of input"
+      ],
+      "answer": "Violation: Lack of memory barrier allows hardware reordering under relaxed consistency",
+      "explanation": "In Virtual Memory, MMUs & Bare-Metal OS Kernel Development, omitting synchronization or bounds checking breaks the safety invariant under adversarial race conditions."
+    },
+    {
+      "id": "M14_L3_S4_Q7",
+      "sprint": 4,
+      "level": 3,
+      "kind": "proof",
+      "prompt": "[Virtual Memory, MMUs & Bare-Metal OS Kernel Development - Sprint 4] Invariant Proof #7: Spot the failure mode in state configuration 37.",
+      "options": [
+        "Violation: Lack of memory barrier allows hardware reordering under relaxed consistency",
+        "Nominal: All invariants mathematically satisfied",
+        "Tautology: Always holds regardless of input"
+      ],
+      "answer": "Violation: Lack of memory barrier allows hardware reordering under relaxed consistency",
+      "explanation": "In Virtual Memory, MMUs & Bare-Metal OS Kernel Development, omitting synchronization or bounds checking breaks the safety invariant under adversarial race conditions."
+    },
+    {
+      "id": "M14_L3_S4_Q8",
+      "sprint": 4,
+      "level": 3,
+      "kind": "proof",
+      "prompt": "[Virtual Memory, MMUs & Bare-Metal OS Kernel Development - Sprint 4] Invariant Proof #8: Spot the failure mode in state configuration 38.",
+      "options": [
+        "Violation: Lack of memory barrier allows hardware reordering under relaxed consistency",
+        "Nominal: All invariants mathematically satisfied",
+        "Tautology: Always holds regardless of input"
+      ],
+      "answer": "Violation: Lack of memory barrier allows hardware reordering under relaxed consistency",
+      "explanation": "In Virtual Memory, MMUs & Bare-Metal OS Kernel Development, omitting synchronization or bounds checking breaks the safety invariant under adversarial race conditions."
+    },
+    {
+      "id": "M14_L3_S4_Q9",
+      "sprint": 4,
+      "level": 3,
+      "kind": "proof",
+      "prompt": "[Virtual Memory, MMUs & Bare-Metal OS Kernel Development - Sprint 4] Invariant Proof #9: Spot the failure mode in state configuration 39.",
+      "options": [
+        "Violation: Lack of memory barrier allows hardware reordering under relaxed consistency",
+        "Nominal: All invariants mathematically satisfied",
+        "Tautology: Always holds regardless of input"
+      ],
+      "answer": "Violation: Lack of memory barrier allows hardware reordering under relaxed consistency",
+      "explanation": "In Virtual Memory, MMUs & Bare-Metal OS Kernel Development, omitting synchronization or bounds checking breaks the safety invariant under adversarial race conditions."
+    },
+    {
+      "id": "M14_L3_S4_Q10",
+      "sprint": 4,
+      "level": 3,
+      "kind": "proof",
+      "prompt": "[Virtual Memory, MMUs & Bare-Metal OS Kernel Development - Sprint 4] Invariant Proof #10: Spot the failure mode in state configuration 40.",
+      "options": [
+        "Violation: Lack of memory barrier allows hardware reordering under relaxed consistency",
+        "Nominal: All invariants mathematically satisfied",
+        "Tautology: Always holds regardless of input"
+      ],
+      "answer": "Violation: Lack of memory barrier allows hardware reordering under relaxed consistency",
+      "explanation": "In Virtual Memory, MMUs & Bare-Metal OS Kernel Development, omitting synchronization or bounds checking breaks the safety invariant under adversarial race conditions."
+    }
+  ]
+}

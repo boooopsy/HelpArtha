@@ -1,0 +1,637 @@
+[
+  {
+    "id": "P00_2_vec1_already_sorted",
+    "name": "Already Sorted",
+    "input": {
+      "cells": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    "expected": {
+      "cells": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "sorted_cells": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "comparisons": 6,
+      "swaps": 0,
+      "trace": [
+        {
+          "pointer": 0,
+          "compared": [
+            1,
+            2
+          ],
+          "swapped": false
+        },
+        {
+          "pointer": 1,
+          "compared": [
+            2,
+            3
+          ],
+          "swapped": false
+        },
+        {
+          "pointer": 2,
+          "compared": [
+            3,
+            4
+          ],
+          "swapped": false
+        },
+        {
+          "pointer": 0,
+          "compared": [
+            1,
+            2
+          ],
+          "swapped": false
+        },
+        {
+          "pointer": 1,
+          "compared": [
+            2,
+            3
+          ],
+          "swapped": false
+        },
+        {
+          "pointer": 0,
+          "compared": [
+            1,
+            2
+          ],
+          "swapped": false
+        }
+      ]
+    },
+    "description": "A pre-sorted row should require comparisons but zero swaps."
+  },
+  {
+    "id": "P00_2_vec2_single_cell",
+    "name": "Single Cell",
+    "input": {
+      "cells": [
+        9
+      ]
+    },
+    "expected": {
+      "cells": [
+        9
+      ],
+      "sorted_cells": [
+        9
+      ],
+      "comparisons": 0,
+      "swaps": 0,
+      "trace": []
+    },
+    "description": "A single token has nothing to compare against."
+  },
+  {
+    "id": "P00_2_vec3_two_cells_swap",
+    "name": "Two Cells Needing One Swap",
+    "input": {
+      "cells": [
+        2,
+        1
+      ]
+    },
+    "expected": {
+      "cells": [
+        2,
+        1
+      ],
+      "sorted_cells": [
+        1,
+        2
+      ],
+      "comparisons": 1,
+      "swaps": 1,
+      "trace": [
+        {
+          "pointer": 0,
+          "compared": [
+            2,
+            1
+          ],
+          "swapped": true
+        }
+      ]
+    },
+    "description": "The simplest possible out-of-order case: one comparison, one swap."
+  },
+  {
+    "id": "P00_2_vec4_duplicates",
+    "name": "Duplicate Values",
+    "input": {
+      "cells": [
+        3,
+        3,
+        1
+      ]
+    },
+    "expected": {
+      "cells": [
+        3,
+        3,
+        1
+      ],
+      "sorted_cells": [
+        1,
+        3,
+        3
+      ],
+      "comparisons": 3,
+      "swaps": 2,
+      "trace": [
+        {
+          "pointer": 0,
+          "compared": [
+            3,
+            3
+          ],
+          "swapped": false
+        },
+        {
+          "pointer": 1,
+          "compared": [
+            3,
+            1
+          ],
+          "swapped": true
+        },
+        {
+          "pointer": 0,
+          "compared": [
+            3,
+            1
+          ],
+          "swapped": true
+        }
+      ]
+    },
+    "description": "Equal neighbors must never be swapped, only strictly-greater ones."
+  },
+  {
+    "id": "P00_2_vec5_full_reverse",
+    "name": "Fully Reversed",
+    "input": {
+      "cells": [
+        4,
+        3,
+        2,
+        1
+      ]
+    },
+    "expected": {
+      "cells": [
+        4,
+        3,
+        2,
+        1
+      ],
+      "sorted_cells": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "comparisons": 6,
+      "swaps": 6,
+      "trace": [
+        {
+          "pointer": 0,
+          "compared": [
+            4,
+            3
+          ],
+          "swapped": true
+        },
+        {
+          "pointer": 1,
+          "compared": [
+            4,
+            2
+          ],
+          "swapped": true
+        },
+        {
+          "pointer": 2,
+          "compared": [
+            4,
+            1
+          ],
+          "swapped": true
+        },
+        {
+          "pointer": 0,
+          "compared": [
+            3,
+            2
+          ],
+          "swapped": true
+        },
+        {
+          "pointer": 1,
+          "compared": [
+            3,
+            1
+          ],
+          "swapped": true
+        },
+        {
+          "pointer": 0,
+          "compared": [
+            2,
+            1
+          ],
+          "swapped": true
+        }
+      ]
+    },
+    "description": "A fully reversed row is the worst case: every comparison also swaps."
+  },
+  {
+    "id": "P00_2_vec6_negative_numbers",
+    "name": "Negative Numbers",
+    "input": {
+      "cells": [
+        -1,
+        -5,
+        2
+      ]
+    },
+    "expected": {
+      "cells": [
+        -1,
+        -5,
+        2
+      ],
+      "sorted_cells": [
+        -5,
+        -1,
+        2
+      ],
+      "comparisons": 3,
+      "swaps": 1,
+      "trace": [
+        {
+          "pointer": 0,
+          "compared": [
+            -1,
+            -5
+          ],
+          "swapped": true
+        },
+        {
+          "pointer": 1,
+          "compared": [
+            -1,
+            2
+          ],
+          "swapped": false
+        },
+        {
+          "pointer": 0,
+          "compared": [
+            -5,
+            -1
+          ],
+          "swapped": false
+        }
+      ]
+    },
+    "description": "Ordering must work correctly with negative integers, not just positive tokens."
+  },
+  {
+    "id": "P00_2_vec7_full_eight_cells",
+    "name": "Full Eight-Cell Grid",
+    "input": {
+      "cells": [
+        8,
+        1,
+        7,
+        2,
+        6,
+        3,
+        5,
+        4
+      ]
+    },
+    "expected": {
+      "cells": [
+        8,
+        1,
+        7,
+        2,
+        6,
+        3,
+        5,
+        4
+      ],
+      "sorted_cells": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "comparisons": 28,
+      "swaps": 16,
+      "trace": [
+        {
+          "pointer": 0,
+          "compared": [
+            8,
+            1
+          ],
+          "swapped": true
+        },
+        {
+          "pointer": 1,
+          "compared": [
+            8,
+            7
+          ],
+          "swapped": true
+        },
+        {
+          "pointer": 2,
+          "compared": [
+            8,
+            2
+          ],
+          "swapped": true
+        },
+        {
+          "pointer": 3,
+          "compared": [
+            8,
+            6
+          ],
+          "swapped": true
+        },
+        {
+          "pointer": 4,
+          "compared": [
+            8,
+            3
+          ],
+          "swapped": true
+        },
+        {
+          "pointer": 5,
+          "compared": [
+            8,
+            5
+          ],
+          "swapped": true
+        },
+        {
+          "pointer": 6,
+          "compared": [
+            8,
+            4
+          ],
+          "swapped": true
+        },
+        {
+          "pointer": 0,
+          "compared": [
+            1,
+            7
+          ],
+          "swapped": false
+        },
+        {
+          "pointer": 1,
+          "compared": [
+            7,
+            2
+          ],
+          "swapped": true
+        },
+        {
+          "pointer": 2,
+          "compared": [
+            7,
+            6
+          ],
+          "swapped": true
+        },
+        {
+          "pointer": 3,
+          "compared": [
+            7,
+            3
+          ],
+          "swapped": true
+        },
+        {
+          "pointer": 4,
+          "compared": [
+            7,
+            5
+          ],
+          "swapped": true
+        },
+        {
+          "pointer": 5,
+          "compared": [
+            7,
+            4
+          ],
+          "swapped": true
+        },
+        {
+          "pointer": 0,
+          "compared": [
+            1,
+            2
+          ],
+          "swapped": false
+        },
+        {
+          "pointer": 1,
+          "compared": [
+            2,
+            6
+          ],
+          "swapped": false
+        },
+        {
+          "pointer": 2,
+          "compared": [
+            6,
+            3
+          ],
+          "swapped": true
+        },
+        {
+          "pointer": 3,
+          "compared": [
+            6,
+            5
+          ],
+          "swapped": true
+        },
+        {
+          "pointer": 4,
+          "compared": [
+            6,
+            4
+          ],
+          "swapped": true
+        },
+        {
+          "pointer": 0,
+          "compared": [
+            1,
+            2
+          ],
+          "swapped": false
+        },
+        {
+          "pointer": 1,
+          "compared": [
+            2,
+            3
+          ],
+          "swapped": false
+        },
+        {
+          "pointer": 2,
+          "compared": [
+            3,
+            5
+          ],
+          "swapped": false
+        },
+        {
+          "pointer": 3,
+          "compared": [
+            5,
+            4
+          ],
+          "swapped": true
+        },
+        {
+          "pointer": 0,
+          "compared": [
+            1,
+            2
+          ],
+          "swapped": false
+        },
+        {
+          "pointer": 1,
+          "compared": [
+            2,
+            3
+          ],
+          "swapped": false
+        },
+        {
+          "pointer": 2,
+          "compared": [
+            3,
+            4
+          ],
+          "swapped": false
+        },
+        {
+          "pointer": 0,
+          "compared": [
+            1,
+            2
+          ],
+          "swapped": false
+        },
+        {
+          "pointer": 1,
+          "compared": [
+            2,
+            3
+          ],
+          "swapped": false
+        },
+        {
+          "pointer": 0,
+          "compared": [
+            1,
+            2
+          ],
+          "swapped": false
+        }
+      ]
+    },
+    "description": "The maximum-size grid this project supports (8 cells) must still sort correctly end to end."
+  },
+  {
+    "id": "P00_2_vec8_conservation_check",
+    "name": "Token Conservation",
+    "input": {
+      "cells": [
+        6,
+        6,
+        6
+      ]
+    },
+    "expected": {
+      "cells": [
+        6,
+        6,
+        6
+      ],
+      "sorted_cells": [
+        6,
+        6,
+        6
+      ],
+      "comparisons": 3,
+      "swaps": 0,
+      "trace": [
+        {
+          "pointer": 0,
+          "compared": [
+            6,
+            6
+          ],
+          "swapped": false
+        },
+        {
+          "pointer": 1,
+          "compared": [
+            6,
+            6
+          ],
+          "swapped": false
+        },
+        {
+          "pointer": 0,
+          "compared": [
+            6,
+            6
+          ],
+          "swapped": false
+        }
+      ]
+    },
+    "description": "All-identical tokens: sorted_cells must be the exact same multiset as cells, with zero swaps."
+  }
+]

@@ -1,0 +1,363 @@
+{
+  "module": "00",
+  "level": 2,
+  "questions": [
+    {
+      "id": "M00_L2_Q1",
+      "sprint": 1,
+      "kind": "mcq",
+      "prompt": "The 3-bit marble counter starts at 0 and receives 3 marble drops. What is its final value?",
+      "options": [
+        "3",
+        "4",
+        "2",
+        "0"
+      ],
+      "answer": "3",
+      "explanation": "Counting up 3 times from 0 with wraparound at 8 lands on 3 (no wraparound needed).",
+      "level": 2
+    },
+    {
+      "id": "M00_L2_Q2",
+      "sprint": 1,
+      "kind": "mcq",
+      "prompt": "The 3-bit marble counter starts at 5 and receives 4 marble drops. What is its final value?",
+      "options": [
+        "1",
+        "2",
+        "0",
+        "5"
+      ],
+      "answer": "1",
+      "explanation": "Counting up 4 times from 5 with wraparound at 8 lands on 1, wrapping around 1 time(s) along the way.",
+      "level": 2
+    },
+    {
+      "id": "M00_L2_Q3",
+      "sprint": 1,
+      "kind": "mcq",
+      "prompt": "The 3-bit marble counter starts at 7 and receives 1 marble drops. What is its final value?",
+      "options": [
+        "0",
+        "1",
+        "7",
+        "2"
+      ],
+      "answer": "0",
+      "explanation": "Counting up 1 times from 7 with wraparound at 8 lands on 0, wrapping around 1 time(s) along the way.",
+      "level": 2
+    },
+    {
+      "id": "M00_L2_Q4",
+      "sprint": 1,
+      "kind": "mcq",
+      "prompt": "The 3-bit marble counter starts at 2 and receives 20 marble drops. What is its final value?",
+      "options": [
+        "6",
+        "7",
+        "5",
+        "2"
+      ],
+      "answer": "6",
+      "explanation": "Counting up 20 times from 2 with wraparound at 8 lands on 6, wrapping around 2 time(s) along the way.",
+      "level": 2
+    },
+    {
+      "id": "M00_L2_Q5",
+      "sprint": 1,
+      "kind": "mcq",
+      "prompt": "The 3-bit marble counter starts at 6 and receives 10 marble drops. What is its final value?",
+      "options": [
+        "0",
+        "1",
+        "7",
+        "6"
+      ],
+      "answer": "0",
+      "explanation": "Counting up 10 times from 6 with wraparound at 8 lands on 0, wrapping around 2 time(s) along the way.",
+      "level": 2
+    },
+    {
+      "id": "M00_L2_Q6",
+      "sprint": 1,
+      "kind": "mcq",
+      "prompt": "The 3-bit marble counter starts at 1 and receives 7 marble drops. What is its final value?",
+      "options": [
+        "0",
+        "1",
+        "7",
+        "2"
+      ],
+      "answer": "0",
+      "explanation": "Counting up 7 times from 1 with wraparound at 8 lands on 0, wrapping around 1 time(s) along the way.",
+      "level": 2
+    },
+    {
+      "id": "M00_L2_Q7",
+      "sprint": 1,
+      "kind": "mcq",
+      "prompt": "The 3-bit marble counter starts at 3 and receives 5 marble drops. What is its final value?",
+      "options": [
+        "0",
+        "1",
+        "7",
+        "3"
+      ],
+      "answer": "0",
+      "explanation": "Counting up 5 times from 3 with wraparound at 8 lands on 0, wrapping around 1 time(s) along the way.",
+      "level": 2
+    },
+    {
+      "id": "M00_L2_Q8",
+      "sprint": 1,
+      "kind": "mcq",
+      "prompt": "The 3-bit marble counter starts at 4 and receives 9 marble drops. What is its final value?",
+      "options": [
+        "5",
+        "6",
+        "4",
+        "7"
+      ],
+      "answer": "5",
+      "explanation": "Counting up 9 times from 4 with wraparound at 8 lands on 5, wrapping around 1 time(s) along the way.",
+      "level": 2
+    },
+    {
+      "id": "M00_L2_Q9",
+      "sprint": 1,
+      "kind": "mcq",
+      "prompt": "Row [3, 1, 2] is bubble-sorted by the Token Grid State Machine. How many total comparisons and swaps happen?",
+      "options": [
+        "3 comparisons, 2 swaps",
+        "3 comparisons, 1 swaps",
+        "4 comparisons, 2 swaps",
+        "3 comparisons, 3 swaps"
+      ],
+      "answer": "3 comparisons, 2 swaps",
+      "explanation": "Bubble sort on a row of 3 makes a fixed number of comparisons regardless of order (3 here); swaps only happen when a pair is out of order, which totals 2 for this row.",
+      "level": 2
+    },
+    {
+      "id": "M00_L2_Q10",
+      "sprint": 1,
+      "kind": "mcq",
+      "prompt": "Row [4, 3, 2, 1] is bubble-sorted by the Token Grid State Machine. How many total comparisons and swaps happen?",
+      "options": [
+        "6 comparisons, 6 swaps",
+        "6 comparisons, 5 swaps",
+        "7 comparisons, 6 swaps",
+        "6 comparisons, 7 swaps"
+      ],
+      "answer": "6 comparisons, 6 swaps",
+      "explanation": "Bubble sort on a row of 4 makes a fixed number of comparisons regardless of order (6 here); swaps only happen when a pair is out of order, which totals 6 for this row.",
+      "level": 2
+    },
+    {
+      "id": "M00_L2_Q11",
+      "sprint": 2,
+      "kind": "mcq",
+      "prompt": "Row [1, 2, 3, 4] is bubble-sorted by the Token Grid State Machine. How many total comparisons and swaps happen?",
+      "options": [
+        "6 comparisons, 0 swaps",
+        "7 comparisons, 0 swaps",
+        "6 comparisons, 1 swaps"
+      ],
+      "answer": "6 comparisons, 0 swaps",
+      "explanation": "Bubble sort on a row of 4 makes a fixed number of comparisons regardless of order (6 here); swaps only happen when a pair is out of order, which totals 0 for this row.",
+      "level": 2
+    },
+    {
+      "id": "M00_L2_Q12",
+      "sprint": 2,
+      "kind": "mcq",
+      "prompt": "Row [5, 5, 1] is bubble-sorted by the Token Grid State Machine. How many total comparisons and swaps happen?",
+      "options": [
+        "3 comparisons, 2 swaps",
+        "3 comparisons, 1 swaps",
+        "4 comparisons, 2 swaps",
+        "3 comparisons, 3 swaps"
+      ],
+      "answer": "3 comparisons, 2 swaps",
+      "explanation": "Bubble sort on a row of 3 makes a fixed number of comparisons regardless of order (3 here); swaps only happen when a pair is out of order, which totals 2 for this row.",
+      "level": 2
+    },
+    {
+      "id": "M00_L2_Q13",
+      "sprint": 2,
+      "kind": "mcq",
+      "prompt": "Row [8, 1, 7, 2, 6, 3, 5, 4] is bubble-sorted by the Token Grid State Machine. How many total comparisons and swaps happen?",
+      "options": [
+        "28 comparisons, 16 swaps",
+        "28 comparisons, 15 swaps",
+        "29 comparisons, 16 swaps",
+        "28 comparisons, 17 swaps"
+      ],
+      "answer": "28 comparisons, 16 swaps",
+      "explanation": "Bubble sort on a row of 8 makes a fixed number of comparisons regardless of order (28 here); swaps only happen when a pair is out of order, which totals 16 for this row.",
+      "level": 2
+    },
+    {
+      "id": "M00_L2_Q14",
+      "sprint": 2,
+      "kind": "mcq",
+      "prompt": "Row [2, 1] is bubble-sorted by the Token Grid State Machine. How many total comparisons and swaps happen?",
+      "options": [
+        "1 comparisons, 1 swaps",
+        "1 comparisons, 0 swaps",
+        "2 comparisons, 1 swaps",
+        "1 comparisons, 2 swaps"
+      ],
+      "answer": "1 comparisons, 1 swaps",
+      "explanation": "Bubble sort on a row of 2 makes a fixed number of comparisons regardless of order (1 here); swaps only happen when a pair is out of order, which totals 1 for this row.",
+      "level": 2
+    },
+    {
+      "id": "M00_L2_Q15",
+      "sprint": 2,
+      "kind": "mcq",
+      "prompt": "Row [9, 4, 4, 1] is bubble-sorted by the Token Grid State Machine. How many total comparisons and swaps happen?",
+      "options": [
+        "6 comparisons, 5 swaps",
+        "6 comparisons, 4 swaps",
+        "7 comparisons, 5 swaps",
+        "6 comparisons, 6 swaps"
+      ],
+      "answer": "6 comparisons, 5 swaps",
+      "explanation": "Bubble sort on a row of 4 makes a fixed number of comparisons regardless of order (6 here); swaps only happen when a pair is out of order, which totals 5 for this row.",
+      "level": 2
+    },
+    {
+      "id": "M00_L2_Q16",
+      "sprint": 2,
+      "kind": "mcq",
+      "prompt": "Row [1, 1, 1] is bubble-sorted by the Token Grid State Machine. How many total comparisons and swaps happen?",
+      "options": [
+        "3 comparisons, 0 swaps",
+        "4 comparisons, 0 swaps",
+        "3 comparisons, 1 swaps"
+      ],
+      "answer": "3 comparisons, 0 swaps",
+      "explanation": "Bubble sort on a row of 3 makes a fixed number of comparisons regardless of order (3 here); swaps only happen when a pair is out of order, which totals 0 for this row.",
+      "level": 2
+    },
+    {
+      "id": "M00_L2_Q17",
+      "sprint": 2,
+      "kind": "mcq",
+      "prompt": "The Stream Comparator watches marbles [1, 1, 1, 2] drop in order. What happens?",
+      "options": [
+        "halts at index 3",
+        "halts at index 2",
+        "halts at index 4",
+        "never halts"
+      ],
+      "answer": "halts at index 3",
+      "explanation": "Scanning left to right and comparing each marble to the one before it: the first mismatch occurs at index 3.",
+      "level": 2
+    },
+    {
+      "id": "M00_L2_Q18",
+      "sprint": 2,
+      "kind": "mcq",
+      "prompt": "The Stream Comparator watches marbles [7, 7, 7, 7] drop in order. What happens?",
+      "options": [
+        "never halts",
+        "halts at index 1",
+        "halts at index 0",
+        "halts at index 3"
+      ],
+      "answer": "never halts",
+      "explanation": "Scanning left to right and comparing each marble to the one before it: every neighboring pair matches, so it never halts.",
+      "level": 2
+    },
+    {
+      "id": "M00_L2_Q19",
+      "sprint": 2,
+      "kind": "mcq",
+      "prompt": "The Stream Comparator watches marbles [1, 2, 3] drop in order. What happens?",
+      "options": [
+        "halts at index 1",
+        "halts at index 0",
+        "halts at index 2",
+        "never halts"
+      ],
+      "answer": "halts at index 1",
+      "explanation": "Scanning left to right and comparing each marble to the one before it: the first mismatch occurs at index 1.",
+      "level": 2
+    },
+    {
+      "id": "M00_L2_Q20",
+      "sprint": 2,
+      "kind": "mcq",
+      "prompt": "The Stream Comparator watches marbles [3] drop in order. What happens?",
+      "options": [
+        "never halts",
+        "halts at index 1",
+        "halts at index 0"
+      ],
+      "answer": "never halts",
+      "explanation": "Scanning left to right and comparing each marble to the one before it: every neighboring pair matches, so it never halts.",
+      "level": 2
+    },
+    {
+      "id": "M00_L2_Q21",
+      "sprint": 3,
+      "kind": "mcq",
+      "prompt": "The Stream Comparator watches marbles [0, 0, 0, 0, 0, 0, 0, 1] drop in order. What happens?",
+      "options": [
+        "halts at index 7",
+        "halts at index 6",
+        "halts at index 8",
+        "never halts"
+      ],
+      "answer": "halts at index 7",
+      "explanation": "Scanning left to right and comparing each marble to the one before it: the first mismatch occurs at index 7.",
+      "level": 2
+    },
+    {
+      "id": "M00_L2_Q22",
+      "sprint": 3,
+      "kind": "mcq",
+      "prompt": "The Stream Comparator watches marbles [5, 5, 4, 4] drop in order. What happens?",
+      "options": [
+        "halts at index 2",
+        "halts at index 1",
+        "halts at index 3",
+        "never halts"
+      ],
+      "answer": "halts at index 2",
+      "explanation": "Scanning left to right and comparing each marble to the one before it: the first mismatch occurs at index 2.",
+      "level": 2
+    },
+    {
+      "id": "M00_L2_Q23",
+      "sprint": 3,
+      "kind": "mcq",
+      "prompt": "The Stream Comparator watches marbles [2, 2, 2] drop in order. What happens?",
+      "options": [
+        "never halts",
+        "halts at index 1",
+        "halts at index 0",
+        "halts at index 2"
+      ],
+      "answer": "never halts",
+      "explanation": "Scanning left to right and comparing each marble to the one before it: every neighboring pair matches, so it never halts.",
+      "level": 2
+    },
+    {
+      "id": "M00_L2_Q24",
+      "sprint": 3,
+      "kind": "mcq",
+      "prompt": "The Stream Comparator watches marbles [1, 2, 2, 1] drop in order. What happens?",
+      "options": [
+        "halts at index 1",
+        "halts at index 0",
+        "halts at index 2",
+        "never halts"
+      ],
+      "answer": "halts at index 1",
+      "explanation": "Scanning left to right and comparing each marble to the one before it: the first mismatch occurs at index 1.",
+      "level": 2
+    }
+  ]
+}

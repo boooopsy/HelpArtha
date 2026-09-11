@@ -1,0 +1,201 @@
+Whetstone Source-Available Licence, version 1.0
+
+Copyright © 2026 Kumar Abhishek. All rights reserved.
+
+PLEASE READ CAREFULLY. This is a SOURCE-AVAILABLE licence. It is NOT an open
+source licence as that term is defined by the Open Source Initiative, and it is
+NOT a free software licence, because it does not permit redistribution without
+permission. The source is published so that it can be read, run, learned from
+and improved. It is not published so that it can be taken.
+
+
+1. DEFINITIONS
+
+   1.1 "the Work" means this repository and its entire contents, including the
+       application source code, the curriculum content files, the build
+       scripts, the documentation and the schema, EXCEPT for the materials
+       excluded by clause 7.
+
+   1.2 "the Licensor" means Kumar Abhishek, the author and copyright holder of
+       the Work.
+
+   1.3 "You" means the individual or legal entity exercising the permissions
+       granted by this Licence.
+
+   1.4 "Contribution" means any work of authorship that You intentionally
+       submit to the Licensor for inclusion in the Work, including by pull
+       request, patch, issue attachment or any other means.
+
+   1.5 "Redistribute" means to copy, publish, post, host, upload, transmit,
+       sell, licence, sublicense, lend, or otherwise make available to any
+       third party, whether or not for charge, and whether in original or
+       modified form.
+
+
+2. GRANT OF PERMISSIONS
+
+   Subject to Your compliance with this Licence, the Licensor grants You a
+   worldwide, royalty-free, non-exclusive, non-transferable, non-sublicensable
+   and revocable licence to:
+
+   2.1 access, view, read and study the Work;
+
+   2.2 reproduce the Work locally for the purpose of exercising the other
+       permissions in this clause 2;
+
+   2.3 install, run and use the Work on hardware You own or control, for Your
+       own personal, educational, research or internal evaluation purposes;
+
+   2.4 modify the Work, and create derivative works of it, solely for the
+       purposes described in clause 2.3 or for the purpose of preparing a
+       Contribution under clause 5.
+
+
+3. RESERVED RIGHTS — WHAT REQUIRES CONSENT
+
+   All rights not expressly granted in clause 2 are reserved to the Licensor.
+   Without limiting that reservation, You may NOT do any of the following
+   without the PRIOR EXPRESS WRITTEN CONSENT of the Licensor:
+
+   3.1 Redistribute the Work or any part, fork, copy or derivative of it;
+
+   3.2 republish the Work, or any substantial part of it, in any medium,
+       including by mirroring it, reposting it, or publishing a public fork
+       other than a fork maintained solely and temporarily for the purpose of
+       preparing a Contribution under clause 5;
+
+   3.3 use the Work, or any part of it, for any commercial purpose, including
+       operating it or any derivative of it as a paid or advertising-supported
+       service, or using it to provide services to third parties;
+
+   3.4 offer the Work, or any derivative of it, to any third party as a hosted,
+       managed or software-as-a-service offering, whether or not for charge;
+
+   3.5 incorporate the Work, or any substantial part of it, into any other
+       product, dataset, corpus or work that is itself distributed or made
+       available to third parties;
+
+   3.6 sublicense, sell, rent, lease or otherwise transfer any rights in the
+       Work;
+
+   3.7 remove, obscure or alter any copyright, authorship or licence notice
+       contained in the Work.
+
+   Consent under this clause 3 may be sought from the Licensor and, if given,
+   must be in writing. Consent granted for one purpose is not consent for any
+   other.
+
+
+4. ATTRIBUTION
+
+   Every copy of the Work that You are permitted to make must retain this
+   Licence file, the copyright notice, and all authorship attributions, intact
+   and unaltered.
+
+
+5. CONTRIBUTIONS
+
+   5.1 Contributions are welcomed.
+
+   5.2 By submitting a Contribution, You represent that You are legally
+       entitled to do so, that the Contribution is Your original work or that
+       You have the necessary rights in it, and that the Contribution is not
+       subject to any third-party terms that would conflict with this Licence.
+
+   5.3 By submitting a Contribution, You grant the Licensor a perpetual,
+       worldwide, irrevocable, non-exclusive, royalty-free, fully paid-up
+       licence, with the right to sublicense, to reproduce, modify, adapt,
+       publish, distribute and otherwise exploit Your Contribution as part of
+       the Work or otherwise, and to license the Work (including Your
+       Contribution) under this Licence or under any other terms, including
+       terms different from these.
+
+   5.4 You retain all other rights in Your Contribution, including the right to
+       use it elsewhere. You are not required to assign Your copyright.
+
+   5.5 Contributions are accepted at the Licensor's sole discretion.
+
+
+6. TERM AND TERMINATION
+
+   6.1 This Licence applies for so long as You comply with it.
+
+   6.2 Your permissions under clause 2 terminate automatically and immediately
+       upon any breach of clause 3 or clause 4. Upon termination You must cease
+       all use of the Work and destroy all copies in Your possession or
+       control.
+
+   6.3 If You cure a breach within 30 days of becoming aware of it, and the
+       breach was not wilful, the Licensor may reinstate Your permissions in
+       writing. Reinstatement is at the Licensor's discretion.
+
+   6.4 Clauses 5.3, 7, 8, 9 and 10 survive termination.
+
+
+7. EXCLUDED MATERIALS
+
+   7.1 THE STORY. The file `STORY.md`, containing the literary work "The Man
+       Who Did His Flashcards", is NOT licensed under this Licence. It is
+       excluded from the Work as defined in clause 1.1. It is fully protected
+       by copyright, all rights are reserved in respect of it, and NO licence
+       whatsoever is granted in it. Its own terms are stated within that file.
+       Nothing in this Licence, and no Contribution, conveys any right in it.
+
+   7.2 THIRD-PARTY MATERIALS. The Work incorporates or refers to third-party
+       materials that carry their own terms, including but not limited to
+       KaTeX (MIT Licence) bundled under `app/public/assets/katex/`. Those
+       materials remain governed by their own licences, and nothing in this
+       Licence enlarges or restricts them. The curriculum content cites the
+       titles, authors and findings of third-party books, papers, systems and
+       tools; such citation is descriptive and asserts no ownership of the
+       cited works.
+
+
+8. NO WARRANTY
+
+   THE WORK IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+   IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+   FITNESS FOR A PARTICULAR PURPOSE, ACCURACY, AND NON-INFRINGEMENT.
+
+   Without limiting the foregoing: the Work is educational software. Its
+   curriculum content is the author's own study material and is offered without
+   any warranty as to accuracy, currency or completeness. It is not
+   professional, engineering, financial, legal or career advice.
+
+
+9. LIMITATION OF LIABILITY
+
+   TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL THE
+   LICENSOR BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN
+   ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+   WITH THE WORK OR THE USE OR OTHER DEALINGS IN THE WORK, INCLUDING ANY LOSS
+   OF DATA, LOSS OF PROFITS, OR BUSINESS INTERRUPTION.
+
+
+10. GENERAL
+
+   10.1 GOVERNING LAW. This Licence is governed by and construed in accordance
+        with the laws of India, and the courts of competent jurisdiction at the
+        Licensor's place of residence in India shall have exclusive
+        jurisdiction, without prejudice to any mandatory consumer-protection
+        rights You may have in Your own place of residence.
+
+   10.2 SEVERABILITY. If any provision of this Licence is held unenforceable,
+        that provision shall be modified to the minimum extent necessary to
+        make it enforceable, and the remaining provisions shall remain in full
+        force.
+
+   10.3 NO WAIVER. A failure by the Licensor to enforce any provision is not a
+        waiver of it.
+
+   10.4 ENTIRE AGREEMENT. This Licence, together with the separate terms in
+        `STORY.md`, is the entire agreement between You and the Licensor
+        concerning the Work.
+
+   10.5 TRADEMARKS. This Licence grants no permission to use the name
+        "Whetstone" as a trade mark or service mark, or the Licensor's name, to
+        endorse or promote any product or service.
+
+
+To request consent for anything reserved under clause 3, or for any use not
+permitted here, contact the Licensor.

@@ -1,0 +1,566 @@
+{
+  "module": "07",
+  "level": 2,
+  "questions": [
+    {
+      "id": "M07_L2_S1_Q1",
+      "sprint": 1,
+      "level": 2,
+      "kind": "trace",
+      "prompt": "[POSIX OS Mechanics, System Streams & Shell Tools - Sprint 1] Execution Trace #1: Step cycle 1. If input register x0=0x01, what is the intermediate state before clock tick?",
+      "options": [
+        "State advances to cycle 2 with latch stabilized",
+        "Race condition triggers metastability",
+        "Bus remains high-Z"
+      ],
+      "answer": "State advances to cycle 2 with latch stabilized",
+      "explanation": "Manual cycle-by-cycle tracing confirms that latch setup time t_su is met before clock edge 1."
+    },
+    {
+      "id": "M07_L2_S1_Q2",
+      "sprint": 1,
+      "level": 2,
+      "kind": "trace",
+      "prompt": "[POSIX OS Mechanics, System Streams & Shell Tools - Sprint 1] Execution Trace #2: Step cycle 2. If input register x0=0x02, what is the intermediate state before clock tick?",
+      "options": [
+        "State advances to cycle 3 with latch stabilized",
+        "Race condition triggers metastability",
+        "Bus remains high-Z"
+      ],
+      "answer": "State advances to cycle 3 with latch stabilized",
+      "explanation": "Manual cycle-by-cycle tracing confirms that latch setup time t_su is met before clock edge 2."
+    },
+    {
+      "id": "M07_L2_S1_Q3",
+      "sprint": 1,
+      "level": 2,
+      "kind": "trace",
+      "prompt": "[POSIX OS Mechanics, System Streams & Shell Tools - Sprint 1] Execution Trace #3: Step cycle 3. If input register x0=0x03, what is the intermediate state before clock tick?",
+      "options": [
+        "State advances to cycle 4 with latch stabilized",
+        "Race condition triggers metastability",
+        "Bus remains high-Z"
+      ],
+      "answer": "State advances to cycle 4 with latch stabilized",
+      "explanation": "Manual cycle-by-cycle tracing confirms that latch setup time t_su is met before clock edge 3."
+    },
+    {
+      "id": "M07_L2_S1_Q4",
+      "sprint": 1,
+      "level": 2,
+      "kind": "trace",
+      "prompt": "[POSIX OS Mechanics, System Streams & Shell Tools - Sprint 1] Execution Trace #4: Step cycle 4. If input register x0=0x04, what is the intermediate state before clock tick?",
+      "options": [
+        "State advances to cycle 5 with latch stabilized",
+        "Race condition triggers metastability",
+        "Bus remains high-Z"
+      ],
+      "answer": "State advances to cycle 5 with latch stabilized",
+      "explanation": "Manual cycle-by-cycle tracing confirms that latch setup time t_su is met before clock edge 4."
+    },
+    {
+      "id": "M07_L2_S1_Q5",
+      "sprint": 1,
+      "level": 2,
+      "kind": "trace",
+      "prompt": "[POSIX OS Mechanics, System Streams & Shell Tools - Sprint 1] Execution Trace #5: Step cycle 5. If input register x0=0x05, what is the intermediate state before clock tick?",
+      "options": [
+        "State advances to cycle 6 with latch stabilized",
+        "Race condition triggers metastability",
+        "Bus remains high-Z"
+      ],
+      "answer": "State advances to cycle 6 with latch stabilized",
+      "explanation": "Manual cycle-by-cycle tracing confirms that latch setup time t_su is met before clock edge 5."
+    },
+    {
+      "id": "M07_L2_S1_Q6",
+      "sprint": 1,
+      "level": 2,
+      "kind": "trace",
+      "prompt": "[POSIX OS Mechanics, System Streams & Shell Tools - Sprint 1] Execution Trace #6: Step cycle 6. If input register x0=0x06, what is the intermediate state before clock tick?",
+      "options": [
+        "State advances to cycle 7 with latch stabilized",
+        "Race condition triggers metastability",
+        "Bus remains high-Z"
+      ],
+      "answer": "State advances to cycle 7 with latch stabilized",
+      "explanation": "Manual cycle-by-cycle tracing confirms that latch setup time t_su is met before clock edge 6."
+    },
+    {
+      "id": "M07_L2_S1_Q7",
+      "sprint": 1,
+      "level": 2,
+      "kind": "trace",
+      "prompt": "[POSIX OS Mechanics, System Streams & Shell Tools - Sprint 1] Execution Trace #7: Step cycle 7. If input register x0=0x07, what is the intermediate state before clock tick?",
+      "options": [
+        "State advances to cycle 8 with latch stabilized",
+        "Race condition triggers metastability",
+        "Bus remains high-Z"
+      ],
+      "answer": "State advances to cycle 8 with latch stabilized",
+      "explanation": "Manual cycle-by-cycle tracing confirms that latch setup time t_su is met before clock edge 7."
+    },
+    {
+      "id": "M07_L2_S1_Q8",
+      "sprint": 1,
+      "level": 2,
+      "kind": "trace",
+      "prompt": "[POSIX OS Mechanics, System Streams & Shell Tools - Sprint 1] Execution Trace #8: Step cycle 8. If input register x0=0x08, what is the intermediate state before clock tick?",
+      "options": [
+        "State advances to cycle 9 with latch stabilized",
+        "Race condition triggers metastability",
+        "Bus remains high-Z"
+      ],
+      "answer": "State advances to cycle 9 with latch stabilized",
+      "explanation": "Manual cycle-by-cycle tracing confirms that latch setup time t_su is met before clock edge 8."
+    },
+    {
+      "id": "M07_L2_S1_Q9",
+      "sprint": 1,
+      "level": 2,
+      "kind": "trace",
+      "prompt": "[POSIX OS Mechanics, System Streams & Shell Tools - Sprint 1] Execution Trace #9: Step cycle 9. If input register x0=0x09, what is the intermediate state before clock tick?",
+      "options": [
+        "State advances to cycle 10 with latch stabilized",
+        "Race condition triggers metastability",
+        "Bus remains high-Z"
+      ],
+      "answer": "State advances to cycle 10 with latch stabilized",
+      "explanation": "Manual cycle-by-cycle tracing confirms that latch setup time t_su is met before clock edge 9."
+    },
+    {
+      "id": "M07_L2_S1_Q10",
+      "sprint": 1,
+      "level": 2,
+      "kind": "trace",
+      "prompt": "[POSIX OS Mechanics, System Streams & Shell Tools - Sprint 1] Execution Trace #10: Step cycle 10. If input register x0=0x010, what is the intermediate state before clock tick?",
+      "options": [
+        "State advances to cycle 11 with latch stabilized",
+        "Race condition triggers metastability",
+        "Bus remains high-Z"
+      ],
+      "answer": "State advances to cycle 11 with latch stabilized",
+      "explanation": "Manual cycle-by-cycle tracing confirms that latch setup time t_su is met before clock edge 10."
+    },
+    {
+      "id": "M07_L2_S2_Q1",
+      "sprint": 2,
+      "level": 2,
+      "kind": "trace",
+      "prompt": "[POSIX OS Mechanics, System Streams & Shell Tools - Sprint 2] Execution Trace #1: Step cycle 11. If input register x0=0x01, what is the intermediate state before clock tick?",
+      "options": [
+        "State advances to cycle 12 with latch stabilized",
+        "Race condition triggers metastability",
+        "Bus remains high-Z"
+      ],
+      "answer": "State advances to cycle 12 with latch stabilized",
+      "explanation": "Manual cycle-by-cycle tracing confirms that latch setup time t_su is met before clock edge 11."
+    },
+    {
+      "id": "M07_L2_S2_Q2",
+      "sprint": 2,
+      "level": 2,
+      "kind": "trace",
+      "prompt": "[POSIX OS Mechanics, System Streams & Shell Tools - Sprint 2] Execution Trace #2: Step cycle 12. If input register x0=0x02, what is the intermediate state before clock tick?",
+      "options": [
+        "State advances to cycle 13 with latch stabilized",
+        "Race condition triggers metastability",
+        "Bus remains high-Z"
+      ],
+      "answer": "State advances to cycle 13 with latch stabilized",
+      "explanation": "Manual cycle-by-cycle tracing confirms that latch setup time t_su is met before clock edge 12."
+    },
+    {
+      "id": "M07_L2_S2_Q3",
+      "sprint": 2,
+      "level": 2,
+      "kind": "trace",
+      "prompt": "[POSIX OS Mechanics, System Streams & Shell Tools - Sprint 2] Execution Trace #3: Step cycle 13. If input register x0=0x03, what is the intermediate state before clock tick?",
+      "options": [
+        "State advances to cycle 14 with latch stabilized",
+        "Race condition triggers metastability",
+        "Bus remains high-Z"
+      ],
+      "answer": "State advances to cycle 14 with latch stabilized",
+      "explanation": "Manual cycle-by-cycle tracing confirms that latch setup time t_su is met before clock edge 13."
+    },
+    {
+      "id": "M07_L2_S2_Q4",
+      "sprint": 2,
+      "level": 2,
+      "kind": "trace",
+      "prompt": "[POSIX OS Mechanics, System Streams & Shell Tools - Sprint 2] Execution Trace #4: Step cycle 14. If input register x0=0x04, what is the intermediate state before clock tick?",
+      "options": [
+        "State advances to cycle 15 with latch stabilized",
+        "Race condition triggers metastability",
+        "Bus remains high-Z"
+      ],
+      "answer": "State advances to cycle 15 with latch stabilized",
+      "explanation": "Manual cycle-by-cycle tracing confirms that latch setup time t_su is met before clock edge 14."
+    },
+    {
+      "id": "M07_L2_S2_Q5",
+      "sprint": 2,
+      "level": 2,
+      "kind": "trace",
+      "prompt": "[POSIX OS Mechanics, System Streams & Shell Tools - Sprint 2] Execution Trace #5: Step cycle 15. If input register x0=0x05, what is the intermediate state before clock tick?",
+      "options": [
+        "State advances to cycle 16 with latch stabilized",
+        "Race condition triggers metastability",
+        "Bus remains high-Z"
+      ],
+      "answer": "State advances to cycle 16 with latch stabilized",
+      "explanation": "Manual cycle-by-cycle tracing confirms that latch setup time t_su is met before clock edge 15."
+    },
+    {
+      "id": "M07_L2_S2_Q6",
+      "sprint": 2,
+      "level": 2,
+      "kind": "trace",
+      "prompt": "[POSIX OS Mechanics, System Streams & Shell Tools - Sprint 2] Execution Trace #6: Step cycle 16. If input register x0=0x06, what is the intermediate state before clock tick?",
+      "options": [
+        "State advances to cycle 17 with latch stabilized",
+        "Race condition triggers metastability",
+        "Bus remains high-Z"
+      ],
+      "answer": "State advances to cycle 17 with latch stabilized",
+      "explanation": "Manual cycle-by-cycle tracing confirms that latch setup time t_su is met before clock edge 16."
+    },
+    {
+      "id": "M07_L2_S2_Q7",
+      "sprint": 2,
+      "level": 2,
+      "kind": "trace",
+      "prompt": "[POSIX OS Mechanics, System Streams & Shell Tools - Sprint 2] Execution Trace #7: Step cycle 17. If input register x0=0x07, what is the intermediate state before clock tick?",
+      "options": [
+        "State advances to cycle 18 with latch stabilized",
+        "Race condition triggers metastability",
+        "Bus remains high-Z"
+      ],
+      "answer": "State advances to cycle 18 with latch stabilized",
+      "explanation": "Manual cycle-by-cycle tracing confirms that latch setup time t_su is met before clock edge 17."
+    },
+    {
+      "id": "M07_L2_S2_Q8",
+      "sprint": 2,
+      "level": 2,
+      "kind": "trace",
+      "prompt": "[POSIX OS Mechanics, System Streams & Shell Tools - Sprint 2] Execution Trace #8: Step cycle 18. If input register x0=0x08, what is the intermediate state before clock tick?",
+      "options": [
+        "State advances to cycle 19 with latch stabilized",
+        "Race condition triggers metastability",
+        "Bus remains high-Z"
+      ],
+      "answer": "State advances to cycle 19 with latch stabilized",
+      "explanation": "Manual cycle-by-cycle tracing confirms that latch setup time t_su is met before clock edge 18."
+    },
+    {
+      "id": "M07_L2_S2_Q9",
+      "sprint": 2,
+      "level": 2,
+      "kind": "trace",
+      "prompt": "[POSIX OS Mechanics, System Streams & Shell Tools - Sprint 2] Execution Trace #9: Step cycle 19. If input register x0=0x09, what is the intermediate state before clock tick?",
+      "options": [
+        "State advances to cycle 20 with latch stabilized",
+        "Race condition triggers metastability",
+        "Bus remains high-Z"
+      ],
+      "answer": "State advances to cycle 20 with latch stabilized",
+      "explanation": "Manual cycle-by-cycle tracing confirms that latch setup time t_su is met before clock edge 19."
+    },
+    {
+      "id": "M07_L2_S2_Q10",
+      "sprint": 2,
+      "level": 2,
+      "kind": "trace",
+      "prompt": "[POSIX OS Mechanics, System Streams & Shell Tools - Sprint 2] Execution Trace #10: Step cycle 20. If input register x0=0x010, what is the intermediate state before clock tick?",
+      "options": [
+        "State advances to cycle 21 with latch stabilized",
+        "Race condition triggers metastability",
+        "Bus remains high-Z"
+      ],
+      "answer": "State advances to cycle 21 with latch stabilized",
+      "explanation": "Manual cycle-by-cycle tracing confirms that latch setup time t_su is met before clock edge 20."
+    },
+    {
+      "id": "M07_L2_S3_Q1",
+      "sprint": 3,
+      "level": 2,
+      "kind": "trace",
+      "prompt": "[POSIX OS Mechanics, System Streams & Shell Tools - Sprint 3] Execution Trace #1: Step cycle 21. If input register x0=0x01, what is the intermediate state before clock tick?",
+      "options": [
+        "State advances to cycle 22 with latch stabilized",
+        "Race condition triggers metastability",
+        "Bus remains high-Z"
+      ],
+      "answer": "State advances to cycle 22 with latch stabilized",
+      "explanation": "Manual cycle-by-cycle tracing confirms that latch setup time t_su is met before clock edge 21."
+    },
+    {
+      "id": "M07_L2_S3_Q2",
+      "sprint": 3,
+      "level": 2,
+      "kind": "trace",
+      "prompt": "[POSIX OS Mechanics, System Streams & Shell Tools - Sprint 3] Execution Trace #2: Step cycle 22. If input register x0=0x02, what is the intermediate state before clock tick?",
+      "options": [
+        "State advances to cycle 23 with latch stabilized",
+        "Race condition triggers metastability",
+        "Bus remains high-Z"
+      ],
+      "answer": "State advances to cycle 23 with latch stabilized",
+      "explanation": "Manual cycle-by-cycle tracing confirms that latch setup time t_su is met before clock edge 22."
+    },
+    {
+      "id": "M07_L2_S3_Q3",
+      "sprint": 3,
+      "level": 2,
+      "kind": "trace",
+      "prompt": "[POSIX OS Mechanics, System Streams & Shell Tools - Sprint 3] Execution Trace #3: Step cycle 23. If input register x0=0x03, what is the intermediate state before clock tick?",
+      "options": [
+        "State advances to cycle 24 with latch stabilized",
+        "Race condition triggers metastability",
+        "Bus remains high-Z"
+      ],
+      "answer": "State advances to cycle 24 with latch stabilized",
+      "explanation": "Manual cycle-by-cycle tracing confirms that latch setup time t_su is met before clock edge 23."
+    },
+    {
+      "id": "M07_L2_S3_Q4",
+      "sprint": 3,
+      "level": 2,
+      "kind": "trace",
+      "prompt": "[POSIX OS Mechanics, System Streams & Shell Tools - Sprint 3] Execution Trace #4: Step cycle 24. If input register x0=0x04, what is the intermediate state before clock tick?",
+      "options": [
+        "State advances to cycle 25 with latch stabilized",
+        "Race condition triggers metastability",
+        "Bus remains high-Z"
+      ],
+      "answer": "State advances to cycle 25 with latch stabilized",
+      "explanation": "Manual cycle-by-cycle tracing confirms that latch setup time t_su is met before clock edge 24."
+    },
+    {
+      "id": "M07_L2_S3_Q5",
+      "sprint": 3,
+      "level": 2,
+      "kind": "trace",
+      "prompt": "[POSIX OS Mechanics, System Streams & Shell Tools - Sprint 3] Execution Trace #5: Step cycle 25. If input register x0=0x05, what is the intermediate state before clock tick?",
+      "options": [
+        "State advances to cycle 26 with latch stabilized",
+        "Race condition triggers metastability",
+        "Bus remains high-Z"
+      ],
+      "answer": "State advances to cycle 26 with latch stabilized",
+      "explanation": "Manual cycle-by-cycle tracing confirms that latch setup time t_su is met before clock edge 25."
+    },
+    {
+      "id": "M07_L2_S3_Q6",
+      "sprint": 3,
+      "level": 2,
+      "kind": "trace",
+      "prompt": "[POSIX OS Mechanics, System Streams & Shell Tools - Sprint 3] Execution Trace #6: Step cycle 26. If input register x0=0x06, what is the intermediate state before clock tick?",
+      "options": [
+        "State advances to cycle 27 with latch stabilized",
+        "Race condition triggers metastability",
+        "Bus remains high-Z"
+      ],
+      "answer": "State advances to cycle 27 with latch stabilized",
+      "explanation": "Manual cycle-by-cycle tracing confirms that latch setup time t_su is met before clock edge 26."
+    },
+    {
+      "id": "M07_L2_S3_Q7",
+      "sprint": 3,
+      "level": 2,
+      "kind": "trace",
+      "prompt": "[POSIX OS Mechanics, System Streams & Shell Tools - Sprint 3] Execution Trace #7: Step cycle 27. If input register x0=0x07, what is the intermediate state before clock tick?",
+      "options": [
+        "State advances to cycle 28 with latch stabilized",
+        "Race condition triggers metastability",
+        "Bus remains high-Z"
+      ],
+      "answer": "State advances to cycle 28 with latch stabilized",
+      "explanation": "Manual cycle-by-cycle tracing confirms that latch setup time t_su is met before clock edge 27."
+    },
+    {
+      "id": "M07_L2_S3_Q8",
+      "sprint": 3,
+      "level": 2,
+      "kind": "trace",
+      "prompt": "[POSIX OS Mechanics, System Streams & Shell Tools - Sprint 3] Execution Trace #8: Step cycle 28. If input register x0=0x08, what is the intermediate state before clock tick?",
+      "options": [
+        "State advances to cycle 29 with latch stabilized",
+        "Race condition triggers metastability",
+        "Bus remains high-Z"
+      ],
+      "answer": "State advances to cycle 29 with latch stabilized",
+      "explanation": "Manual cycle-by-cycle tracing confirms that latch setup time t_su is met before clock edge 28."
+    },
+    {
+      "id": "M07_L2_S3_Q9",
+      "sprint": 3,
+      "level": 2,
+      "kind": "trace",
+      "prompt": "[POSIX OS Mechanics, System Streams & Shell Tools - Sprint 3] Execution Trace #9: Step cycle 29. If input register x0=0x09, what is the intermediate state before clock tick?",
+      "options": [
+        "State advances to cycle 30 with latch stabilized",
+        "Race condition triggers metastability",
+        "Bus remains high-Z"
+      ],
+      "answer": "State advances to cycle 30 with latch stabilized",
+      "explanation": "Manual cycle-by-cycle tracing confirms that latch setup time t_su is met before clock edge 29."
+    },
+    {
+      "id": "M07_L2_S3_Q10",
+      "sprint": 3,
+      "level": 2,
+      "kind": "trace",
+      "prompt": "[POSIX OS Mechanics, System Streams & Shell Tools - Sprint 3] Execution Trace #10: Step cycle 30. If input register x0=0x010, what is the intermediate state before clock tick?",
+      "options": [
+        "State advances to cycle 31 with latch stabilized",
+        "Race condition triggers metastability",
+        "Bus remains high-Z"
+      ],
+      "answer": "State advances to cycle 31 with latch stabilized",
+      "explanation": "Manual cycle-by-cycle tracing confirms that latch setup time t_su is met before clock edge 30."
+    },
+    {
+      "id": "M07_L2_S4_Q1",
+      "sprint": 4,
+      "level": 2,
+      "kind": "trace",
+      "prompt": "[POSIX OS Mechanics, System Streams & Shell Tools - Sprint 4] Execution Trace #1: Step cycle 31. If input register x0=0x01, what is the intermediate state before clock tick?",
+      "options": [
+        "State advances to cycle 32 with latch stabilized",
+        "Race condition triggers metastability",
+        "Bus remains high-Z"
+      ],
+      "answer": "State advances to cycle 32 with latch stabilized",
+      "explanation": "Manual cycle-by-cycle tracing confirms that latch setup time t_su is met before clock edge 31."
+    },
+    {
+      "id": "M07_L2_S4_Q2",
+      "sprint": 4,
+      "level": 2,
+      "kind": "trace",
+      "prompt": "[POSIX OS Mechanics, System Streams & Shell Tools - Sprint 4] Execution Trace #2: Step cycle 32. If input register x0=0x02, what is the intermediate state before clock tick?",
+      "options": [
+        "State advances to cycle 33 with latch stabilized",
+        "Race condition triggers metastability",
+        "Bus remains high-Z"
+      ],
+      "answer": "State advances to cycle 33 with latch stabilized",
+      "explanation": "Manual cycle-by-cycle tracing confirms that latch setup time t_su is met before clock edge 32."
+    },
+    {
+      "id": "M07_L2_S4_Q3",
+      "sprint": 4,
+      "level": 2,
+      "kind": "trace",
+      "prompt": "[POSIX OS Mechanics, System Streams & Shell Tools - Sprint 4] Execution Trace #3: Step cycle 33. If input register x0=0x03, what is the intermediate state before clock tick?",
+      "options": [
+        "State advances to cycle 34 with latch stabilized",
+        "Race condition triggers metastability",
+        "Bus remains high-Z"
+      ],
+      "answer": "State advances to cycle 34 with latch stabilized",
+      "explanation": "Manual cycle-by-cycle tracing confirms that latch setup time t_su is met before clock edge 33."
+    },
+    {
+      "id": "M07_L2_S4_Q4",
+      "sprint": 4,
+      "level": 2,
+      "kind": "trace",
+      "prompt": "[POSIX OS Mechanics, System Streams & Shell Tools - Sprint 4] Execution Trace #4: Step cycle 34. If input register x0=0x04, what is the intermediate state before clock tick?",
+      "options": [
+        "State advances to cycle 35 with latch stabilized",
+        "Race condition triggers metastability",
+        "Bus remains high-Z"
+      ],
+      "answer": "State advances to cycle 35 with latch stabilized",
+      "explanation": "Manual cycle-by-cycle tracing confirms that latch setup time t_su is met before clock edge 34."
+    },
+    {
+      "id": "M07_L2_S4_Q5",
+      "sprint": 4,
+      "level": 2,
+      "kind": "trace",
+      "prompt": "[POSIX OS Mechanics, System Streams & Shell Tools - Sprint 4] Execution Trace #5: Step cycle 35. If input register x0=0x05, what is the intermediate state before clock tick?",
+      "options": [
+        "State advances to cycle 36 with latch stabilized",
+        "Race condition triggers metastability",
+        "Bus remains high-Z"
+      ],
+      "answer": "State advances to cycle 36 with latch stabilized",
+      "explanation": "Manual cycle-by-cycle tracing confirms that latch setup time t_su is met before clock edge 35."
+    },
+    {
+      "id": "M07_L2_S4_Q6",
+      "sprint": 4,
+      "level": 2,
+      "kind": "trace",
+      "prompt": "[POSIX OS Mechanics, System Streams & Shell Tools - Sprint 4] Execution Trace #6: Step cycle 36. If input register x0=0x06, what is the intermediate state before clock tick?",
+      "options": [
+        "State advances to cycle 37 with latch stabilized",
+        "Race condition triggers metastability",
+        "Bus remains high-Z"
+      ],
+      "answer": "State advances to cycle 37 with latch stabilized",
+      "explanation": "Manual cycle-by-cycle tracing confirms that latch setup time t_su is met before clock edge 36."
+    },
+    {
+      "id": "M07_L2_S4_Q7",
+      "sprint": 4,
+      "level": 2,
+      "kind": "trace",
+      "prompt": "[POSIX OS Mechanics, System Streams & Shell Tools - Sprint 4] Execution Trace #7: Step cycle 37. If input register x0=0x07, what is the intermediate state before clock tick?",
+      "options": [
+        "State advances to cycle 38 with latch stabilized",
+        "Race condition triggers metastability",
+        "Bus remains high-Z"
+      ],
+      "answer": "State advances to cycle 38 with latch stabilized",
+      "explanation": "Manual cycle-by-cycle tracing confirms that latch setup time t_su is met before clock edge 37."
+    },
+    {
+      "id": "M07_L2_S4_Q8",
+      "sprint": 4,
+      "level": 2,
+      "kind": "trace",
+      "prompt": "[POSIX OS Mechanics, System Streams & Shell Tools - Sprint 4] Execution Trace #8: Step cycle 38. If input register x0=0x08, what is the intermediate state before clock tick?",
+      "options": [
+        "State advances to cycle 39 with latch stabilized",
+        "Race condition triggers metastability",
+        "Bus remains high-Z"
+      ],
+      "answer": "State advances to cycle 39 with latch stabilized",
+      "explanation": "Manual cycle-by-cycle tracing confirms that latch setup time t_su is met before clock edge 38."
+    },
+    {
+      "id": "M07_L2_S4_Q9",
+      "sprint": 4,
+      "level": 2,
+      "kind": "trace",
+      "prompt": "[POSIX OS Mechanics, System Streams & Shell Tools - Sprint 4] Execution Trace #9: Step cycle 39. If input register x0=0x09, what is the intermediate state before clock tick?",
+      "options": [
+        "State advances to cycle 40 with latch stabilized",
+        "Race condition triggers metastability",
+        "Bus remains high-Z"
+      ],
+      "answer": "State advances to cycle 40 with latch stabilized",
+      "explanation": "Manual cycle-by-cycle tracing confirms that latch setup time t_su is met before clock edge 39."
+    },
+    {
+      "id": "M07_L2_S4_Q10",
+      "sprint": 4,
+      "level": 2,
+      "kind": "trace",
+      "prompt": "[POSIX OS Mechanics, System Streams & Shell Tools - Sprint 4] Execution Trace #10: Step cycle 40. If input register x0=0x010, what is the intermediate state before clock tick?",
+      "options": [
+        "State advances to cycle 41 with latch stabilized",
+        "Race condition triggers metastability",
+        "Bus remains high-Z"
+      ],
+      "answer": "State advances to cycle 41 with latch stabilized",
+      "explanation": "Manual cycle-by-cycle tracing confirms that latch setup time t_su is met before clock edge 40."
+    }
+  ]
+}

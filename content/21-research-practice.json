@@ -1,0 +1,2533 @@
+{
+  "domain": {
+    "id": "res",
+    "n": "21",
+    "title": "Research Practice & Public Artifacts",
+    "color": "#4A6B5B",
+    "tag": "read · reproduce · measure · write · publish · apply",
+    "why": "The engineers who make unusually fast jumps into top research labs almost all share one habit: they build things in public. That means writing up what you tried, publishing code, explaining what you learned — even when it's small. Top labs say this openly: public work is one of the strongest things you can show, often more convincing than a degree. This domain is also where you learn why Whetstone itself is built the way it is, so the tool you're using stops being a mystery too.",
+    "uid": "01M23NVBKDJNK5VB6JZRA68TBW"
+  },
+  "people": [
+    {
+      "name": "Andrej Karpathy",
+      "role": "Founding member of OpenAI; former director of AI at Tesla",
+      "contribution": "Wrote 'A Recipe for Training Neural Networks', the canonical debugging-first experimental protocol (become one with the data, dumb baseline, overfit, regularize, tune), and nanoGPT and micrograd, which are minimal reproductions used as teaching artifacts by thousands of people.",
+      "x": "https://x.com/karpathy",
+      "site": "https://karpathy.ai/",
+      "verified": true
+    },
+    {
+      "name": "Neel Nanda",
+      "role": "Mechanistic interpretability lead, Google DeepMind",
+      "contribution": "Wrote the staged mech-interp on-ramp ('public research output is your best credential') and 'Highly Opinionated Advice on How to Write ML Papers', which frames a paper as one to three concrete claims with everything else in service of them. Author of TransformerLens.",
+      "x": "https://x.com/NeelNanda5",
+      "site": "https://www.neelnanda.io/",
+      "verified": true
+    },
+    {
+      "name": "Chris Olah",
+      "role": "Anthropic co-founder, head of interpretability",
+      "contribution": "Co-wrote 'Research Debt' and co-founded Distill, arguing that distillation is a first-class research contribution and that missing interpretive labour compounds like technical debt. Entered the field with no degree, via a decade of public visualization work.",
+      "x": "https://x.com/ch402",
+      "site": "https://colah.github.io/",
+      "verified": true
+    },
+    {
+      "name": "Sasha Rush",
+      "role": "Professor at Cornell Tech; researcher at Cursor",
+      "contribution": "Wrote 'The Annotated Transformer', the reference example of a line-by-line executable paper reproduction, plus the GPU Puzzles and Tensor Puzzles series that turn reading into running code.",
+      "x": "https://x.com/srush_nlp",
+      "site": "https://rush-nlp.com/",
+      "verified": true
+    },
+    {
+      "name": "Andy Matuschak",
+      "role": "Independent researcher on tools for thought",
+      "contribution": "Wrote 'How to write good prompts', which gives the five properties of a working retrieval prompt (focused, precise, consistent, tractable, effortful) and names the failure modes: pattern matching, binary prompts, orphan prompts. Co-built Quantum Country.",
+      "x": "https://x.com/andy_matuschak",
+      "site": "https://andymatuschak.org/",
+      "verified": true
+    },
+    {
+      "name": "Michael Nielsen",
+      "role": "Writer and researcher; author of 'Neural Networks and Deep Learning'",
+      "contribution": "Wrote 'Augmenting Long-term Memory' and 'Principles of Effective Research', and co-built the Quantum Country mnemonic medium, the best existing dataset on spaced repetition embedded in genuinely technical material.",
+      "x": "https://x.com/michael_nielsen",
+      "site": "https://michaelnielsen.org/",
+      "verified": true
+    },
+    {
+      "name": "Simon Willison",
+      "role": "Creator of Datasette; co-creator of Django",
+      "contribution": "Wrote 'What to blog about', which reduces the first-post problem to two formats that need no originality: the TIL note and the project write-up. Publishes at a cadence that demonstrates the argument.",
+      "x": "https://x.com/simonw",
+      "site": "https://simonwillison.net/",
+      "verified": true,
+      "note": "also active on Mastodon at fedi.simonwillison.net/@simon and on Bluesky"
+    },
+    {
+      "name": "Rachel Thomas",
+      "role": "Co-founder of fast.ai; founding director of the USF Center for Applied Data Ethics",
+      "contribution": "Her post 'Why you (yes, you) should blog' (2017) is the source of the advice used here: write for the person one step behind you, write about what you learned last month, and treat writing as deliberate practice rather than talent. She co-founded fast.ai, whose course-notes-as-blog-posts culture is the same argument in practice.",
+      "x": "https://x.com/math_rachel",
+      "site": "https://rachel.fast.ai/",
+      "verified": true
+    },
+    {
+      "name": "Lilian Weng",
+      "role": "Co-founder of Thinking Machines Lab; formerly VP of research at OpenAI",
+      "contribution": "Writes Lil'Log, the reference example of the survey-post genre: long, heavily-figured syntheses of a subfield that become the entry point other researchers cite instead of the primary sources.",
+      "x": "https://x.com/lilianweng",
+      "site": "https://lilianweng.github.io/",
+      "verified": true
+    },
+    {
+      "name": "Jason Wei",
+      "role": "Researcher at OpenAI; formerly Google Brain",
+      "contribution": "First author on chain-of-thought prompting and on the emergent-abilities paper, and writes short public notes on research taste and on why the choice of problem dominates the quality of execution.",
+      "x": "https://x.com/_jasonwei",
+      "site": "https://www.jasonwei.net/",
+      "verified": true
+    },
+    {
+      "name": "Nathan Lambert",
+      "role": "Post-training lead at the Allen Institute for AI; writes Interconnects",
+      "contribution": "Runs a high-cadence public research newsletter alongside open model releases (OLMo, Tulu), and is a working demonstration that publishing the reasoning behind results is compatible with shipping the results.",
+      "x": "https://x.com/natolambert",
+      "site": "https://www.natolambert.com/",
+      "verified": true,
+      "note": "also posts at bsky.app/profile/natolambert.bsky.social and sigmoid.social/@natolambert"
+    },
+    {
+      "name": "Keller Jordan",
+      "role": "Researcher on neural network training",
+      "contribution": "Created the modded-nanogpt speedrun, a public leaderboard with attributed, comparable records for training a 124M model to a fixed validation loss, and the Muon optimizer that came out of it.",
+      "x": "https://x.com/kellerjordan0",
+      "site": "https://kellerjordan.github.io/",
+      "verified": true
+    },
+    {
+      "name": "Joelle Pineau",
+      "role": "Professor at McGill; formerly VP of AI research at Meta",
+      "contribution": "Co-author of 'Deep Reinforcement Learning that Matters', which showed that reported deep-RL results swing with random seeds and codebase choices, and drove the NeurIPS reproducibility checklist and code-submission policy.",
+      "x": null,
+      "site": "https://www.cs.mcgill.ca/~jpineau/",
+      "verified": false,
+      "note": "no X account linked from her McGill page; the reproducibility checklist is hosted there"
+    }
+  ],
+  "sections": [
+    {
+      "t": "Reading papers and code",
+      "note": "Reading is a budgeted activity with a stopping rule, not an act of devotion.",
+      "concepts": [
+        {
+          "t": "The three-pass read",
+          "preserved": false,
+          "L0": {
+            "body": "# Keshav, How to Read a Paper (ACM SIGCOMM CCR 37(3), 2007)\n\npass 1  5-10 min  abstract, intro, headings, conclusions, refs\n                  extract: Category, Context, Correctness, Contributions, Clarity\n                  output:  a decision - stop, or continue\n\npass 2  <= 1 h    figures, tables, axes, units, error bars; the setup\n                  skip proofs\n                  output:  a summary with evidence, for someone else\n\npass 3  1-5 h     virtual re-implementation, from the same assumptions\n                  output:  hidden assumptions; the experiment they skipped",
+            "cloze": "Keshav's first pass takes {{c1::5-10 minutes}} and its only output is {{c2::a decision to stop or continue}}. The third pass is a {{c3::virtual re-implementation}} and takes about {{c4::1-5 hours}}."
+          },
+          "L1": "Keshav's method: a 5-to-10 minute triage pass, a one-hour comprehension pass, and a one-to-five hour reconstruction pass. Each pass has a different output, and you enter the next one only if the previous one earned it.",
+          "L2": "The passes are not increasing thoroughness applied to the same activity. They answer different questions. Pass one asks whether this paper is for you. Pass two asks what was actually measured. Pass three asks whether you would get the same number.",
+          "L3": "Linear reading fails because comprehension is not uniform across a paper. Most of the decision-relevant content sits in the abstract, the figures and the experimental section; the related-work prose and the proofs carry almost none of it on a first encounter. Budgeting by pass converts an unbounded task into three bounded ones with explicit exit conditions, which is why you finish. It also matches how you will use the paper: most you need only at pass-one depth, a few at pass two, and one or two a month at pass three, which is the only depth from which you can reproduce anything or find an error.",
+          "L4": [
+            {
+              "kind": "compute",
+              "prompt_tpl": "You have {h} hours of reading time this week and {n} candidate papers. You pass-one every candidate (10 min each) and pass-two exactly half of them (60 min each). Using the remaining time at 180 min per pass-three read, how many papers reach pass three?",
+              "params": {
+                "h": [
+                  10,
+                  20,
+                  40
+                ],
+                "n": [
+                  8,
+                  12
+                ]
+              },
+              "grader": "numeric",
+              "tolerance": 0.001,
+              "answer": "floor((60*h - 40*n) / 180). For h=20, n=8 that is floor(880/180) = 4; for h=10, n=8 it is floor(280/180) = 1; for h=40, n=12 it is floor(1920/180) = 10.",
+              "answer_expr": "floor((60*h-40*n)/180)",
+              "explanation": "Pass one costs 10n minutes, pass two costs 60 times n/2 which is 30n, so the fixed cost is 40n minutes. What is left of 60h minutes divides by 180. The point of the arithmetic is that pass three is expensive enough that a week buys single digits, which is why the stopping rule in pass one has to be real.",
+              "uid": "01M23NVBKD361TKRKMQ86QEJGS"
+            },
+            {
+              "kind": "choose-and-justify",
+              "prompt_tpl": "You are {g} into a pass-two read and realise you cannot tell what the baseline was trained on. What do you do, and which pass does that question belong to?",
+              "params": {
+                "g": [
+                  "twenty minutes",
+                  "forty minutes"
+                ]
+              },
+              "grader": "free",
+              "answer": "Stop reading prose and go to the experimental section, appendix and released code, because 'what was the baseline trained on' is the core pass-two question. If the paper does not answer it, that is a finding about the paper: record it and either drop to pass one and move on, or escalate to pass three against the code.",
+              "explanation": "Pass two is defined by the experimental setup, not by the narrative. A setup you cannot reconstruct is the single most common reason a result fails to reproduce, and noticing it is worth more than finishing the paper.",
+              "uid": "01M23NVBKDJ3AWPN9XM50SK6PA"
+            }
+          ],
+          "L5": "w07-tcp-full-stack",
+          "prereqs": [],
+          "resources": [
+            "https://web.stanford.edu/class/ee384m/Handouts/HowtoReadPaper.pdf"
+          ],
+          "people": [
+            "Sasha Rush"
+          ],
+          "tags": [
+            "reading",
+            "papers",
+            "method"
+          ],
+          "uid": "01M23NVBKD0V08H1044WRFAG5B"
+        },
+        {
+          "t": "Deciding not to read",
+          "preserved": false,
+          "L0": {
+            "body": "# The read/skip decision, applied at the end of pass one.\n\nread if:   it changes something you will do this month\n           OR it is the load-bearing citation under a claim you rely on\n           OR you intend to reproduce it\n\nskip if:   you are reading it to feel current\n           OR the abstract's claim is one you already believe and will not test\n           OR no code, no released hyperparameters, and no error bars\n\nqueue:     one line in a notes file - title, url, why it might matter, date\n           re-triage the queue monthly; unread after 90 days is a delete, not a debt",
+            "cloze": "The default answer at the end of pass one is {{c1::skip}}. Read only if the paper {{c2::changes something you will do this month}}, sits under a claim you rely on, or you intend to {{c3::reproduce}} it."
+          },
+          "L1": "The output of pass one is usually a decision to stop. A read/skip rule makes that explicit: read only if the paper changes an action, supports a claim you depend on, or is a reproduction target. Everything else goes in a queue with a expiry date.",
+          "L2": "The failure is not reading too little, it is reading to feel current. Papers consumed for currency produce recognition, and recognition is the weakest memory format there is: Rowland's meta-analysis puts recognition tests at g around 0.31 against 0.5 to 0.8 for recall.",
+          "L3": "arXiv cs.LG alone posts on the order of a hundred papers a day. No stopping rule means the queue wins, and the symptom is a person who can name every recent result and reproduce none of them. The rule to internalise is Catherine Olsson's: rather than learn X, try to learn to do X. A paper you will not act on, cite or reproduce is not learning material, it is news. Keep the queue anyway - a one-line entry costs seconds - but timestamp entries and delete rather than carry them. A queue that only grows is a to-do list that has become a guilt generator, which is the SRS review-backlog failure under another name.",
+          "L4": [
+            {
+              "kind": "choose-and-justify",
+              "prompt_tpl": "A paper claims a {p} percent improvement on a benchmark you do not use, releases no code, and reports a single run. Apply the read/skip rule and justify the call.",
+              "params": {
+                "p": [
+                  2,
+                  8
+                ]
+              },
+              "grader": "free",
+              "answer": "Skip, and record one line in the queue. It fails all three read conditions: it changes no action of yours, you do not depend on the claim, and with no code and one run it is not a viable reproduction target. A single run on a benchmark you do not use carries almost no information either way.",
+              "explanation": "The rule is deliberately harsh because the cost of a wrong skip is bounded - the paper still exists, and if it matters it will be cited at you - while the cost of a wrong read is an hour you cannot get back plus the illusion that you engaged with it.",
+              "uid": "01M23NVBKDXWPREXZZY96AH6XR"
+            },
+            {
+              "kind": "explain",
+              "prompt_tpl": "Explain why keeping {n} unread papers in a queue is fine but keeping them as an obligation is not.",
+              "params": {
+                "n": [
+                  40,
+                  200
+                ]
+              },
+              "grader": "free",
+              "answer": "The queue is an index: a one-line entry costs seconds and makes the paper findable when a project actually needs it. Treating the same list as a backlog converts it into debt, produces avoidance, and the avoidance generalises to the whole practice. Timestamp entries and delete at 90 days.",
+              "explanation": "This is the same mechanism as the SRS review-debt spiral: an accumulating obligation triggers avoidance, avoidance grows the obligation. The fix in both cases is to make the store lossy on purpose rather than to promise yourself you will catch up.",
+              "uid": "01M23NVBKDRFFG4K863GAMB1GQ"
+            }
+          ],
+          "L5": "d07-6",
+          "prereqs": [
+            "The three-pass read"
+          ],
+          "resources": [
+            "https://80000hours.org/articles/ml-engineering-career-transition-guide/"
+          ],
+          "people": [
+            "Neel Nanda"
+          ],
+          "tags": [
+            "reading",
+            "attention",
+            "triage"
+          ],
+          "uid": "01M23NVBKDQ9P2HY8M9BQ0RV9V"
+        },
+        {
+          "t": "Entry points and the call graph",
+          "preserved": false,
+          "L0": {
+            "body": "# Reading an unfamiliar repo: find where control enters, then follow it down.\n\nrg -n 'if __name__' --glob '!test*'        # python entry points\ncat pyproject.toml | rg -A3 'scripts|console_scripts'\nrg -n 'def main|argparse|@click|@app.command'\n\n# then map the graph outward from one entry point, not inward from the file tree\npython -X importtime -c 'import pkg' 2>&1 | tail -20     # what actually loads\npython -m cProfile -s cumtime train.py --steps 1 | head -40   # what actually runs\n\n# LOC is a map of the territory; the call graph is the territory.",
+            "cloze": "Start reading a repo from an {{c1::entry point}}, not the file tree. `python -m cProfile -s cumtime` sorted by {{c2::cumulative time}} gives you the call graph of what actually ran, which beats reading {{c3::directory listings}}."
+          },
+          "L1": "You do not read a codebase, you trace one execution of it. Find the entry point (a main, a console script, a test), run it once with the smallest possible input, and let the call graph tell you which of the thousands of files are on the path.",
+          "L2": "Directory structure is documentation written by the authors for themselves and it is often a lie about importance. A profile sorted by cumulative time, or a single stack trace from a deliberately triggered exception, ranks the code by what actually executes.",
+          "L3": "A large repo has a huge static surface and a small dynamic one. Of 400 files, a training run might touch 30, and 6 of those hold the logic you care about. Reading breadth-first from the file tree spends your attention proportional to the code that exists; reading from an entry point spends it proportional to the code that runs. Concretely: run the smallest end-to-end path (one training step, one test, one request), capture it with cProfile sorted by cumulative time or with py-spy, and you get a ranked list of the functions on the critical path. Then read those, in call order, top down. The same move works in C++ and Rust with perf and a debugger; the language changes, the principle does not.",
+          "L4": [
+            {
+              "kind": "choose-and-justify",
+              "prompt_tpl": "You are handed a {n}-file research repo and asked to change how the loss is computed. Give the first three commands you run and say why the file tree is not one of them.",
+              "params": {
+                "n": [
+                  200,
+                  900
+                ]
+              },
+              "grader": "free",
+              "answer": "Find the entry point (rg for __main__ or console_scripts), run the smallest end-to-end step under cProfile or py-spy, and grep the profile output for loss. The file tree ranks by the authors' filing habits; the profile ranks by execution, which is what a change to the loss actually intersects.",
+              "explanation": "The static surface and the dynamic surface of a repo differ by an order of magnitude. Any strategy that reads in file-tree order pays attention proportional to the wrong quantity, and in a research repo much of the static surface is dead experiment code.",
+              "uid": "01M23NVBKD7XFQZFNBRWF1BA5B"
+            },
+            {
+              "kind": "find-the-bug",
+              "prompt_tpl": "A colleague says they have read the whole repo and still cannot find where the {thing} is applied. What is wrong with their method?",
+              "params": {
+                "thing": [
+                  "learning-rate schedule",
+                  "attention mask"
+                ]
+              },
+              "grader": "free",
+              "answer": "They read statically, so they never learned which of the several definitions is the one that runs. Research repos routinely contain three implementations of a thing, two of them dead. A single run with a breakpoint or a print at the call site resolves in seconds what static reading cannot resolve at all.",
+              "explanation": "Dead code is the normal state of a research repository, because experiments are kept rather than deleted. Only execution distinguishes the live definition from the abandoned ones, which is why the debugger is a reading tool and not just a fixing tool.",
+              "uid": "01M23NVBKDH5VVQ7HVWPTQ5XZB"
+            }
+          ],
+          "L5": "w07-tcp-full-stack",
+          "prereqs": [],
+          "resources": [
+            "https://github.com/benfred/py-spy",
+            "https://docs.python.org/3/library/profile.html"
+          ],
+          "people": [
+            "Andrej Karpathy"
+          ],
+          "tags": [
+            "code-reading",
+            "profiling",
+            "tools"
+          ],
+          "uid": "01M23NVBKDXMMEBQZ7G4X5WC4N"
+        },
+        {
+          "t": "The debugger and git archaeology",
+          "preserved": false,
+          "L0": {
+            "body": "# The debugger as a reading tool: stop at the line, inspect the world.\n(Pdb) b model.py:214 ; c ; pp {k: v.shape for k, v in batch.items()} ; w ; u\n\n# git as the record of why the code is shaped like this\ngit log -L 200,260:model.py       # history of just these lines\ngit log -S 'rotary_emb' --oneline # commits that added or removed the string\ngit blame -w -C -M model.py       # ignore whitespace, follow moves and copies\ngit bisect start HEAD v0.3.1      # find the commit that changed the number\ngit log --merges --oneline -20    # which PRs; then read those threads",
+            "cloze": "`git log -S` finds commits where a {{c1::string's occurrence count changed}}, `git log -L` shows the history of {{c2::a line range}}, and `git blame -w -C -M` ignores whitespace and follows {{c3::code that moved or was copied}}."
+          },
+          "L1": "Two reading tools most people only use for fixing. A breakpoint answers what the data actually looks like at line 214; git log -S, git log -L and git blame answer why the line is there and what it replaced.",
+          "L2": "git blame without -w -C -M lies to you constantly: a reformat or a file move makes every line look authored by whoever ran the formatter. The commit message is usually worthless; the linked PR discussion is where the reasoning is.",
+          "L3": "Code carries no record of the alternatives tried and rejected, and that is precisely what you need in order to change it safely. History carries it. A one-line workaround commented 'temp fix' is meaningless until git log -S on the surrounding symbol shows it landed the same day as a revert and the PR thread names the failing case. A breakpoint is the fastest reading instrument available: actual tensor shapes, dtypes and device placement in a research codebase are almost never what the hints and docstrings claim. Ten seconds at a breakpoint resolves what ten minutes of reading leaves ambiguous. git bisect turns 'when did this number change' into a logarithmic search you can automate.",
+          "L4": [
+            {
+              "kind": "compute",
+              "prompt_tpl": "A regression appeared somewhere in the last {n} commits. Each bisect step costs {m} minutes to build and test. What is the worst-case wall-clock cost of git bisect, and how does that compare with reading all {n} diffs? Answer with the worst-case bisect cost in minutes.",
+              "params": {
+                "n": [
+                  512,
+                  1024
+                ],
+                "m": [
+                  4,
+                  9
+                ]
+              },
+              "grader": "numeric",
+              "tolerance": 0.001,
+              "answer": "ceil(log2(n)) * m minutes. For n=512, m=4 that is 9*4 = 36 minutes; n=1024, m=4 is 10*4 = 40; n=512, m=9 is 81. Reading n diffs at even one minute each is 512 to 1024 minutes.",
+              "answer_expr": "ceil(log2(n))*m",
+              "explanation": "Bisect is binary search over commits, so the cost is logarithmic in history length and linear in the cost of one test. That is why the highest-leverage preparation is a fast scripted reproducer: git bisect run turns the whole search into one command.",
+              "uid": "01M23NVBKD5D08BXFZA0KF2E74"
+            },
+            {
+              "kind": "explain",
+              "prompt_tpl": "Explain why `git blame` on a file that was reformatted {t} shows almost no useful authorship, and which flags fix it.",
+              "params": {
+                "t": [
+                  "last year",
+                  "in the last release"
+                ]
+              },
+              "grader": "free",
+              "answer": "A wholesale reformat rewrites every line, so blame attributes all of them to the formatting commit. -w ignores whitespace-only changes, -C detects lines copied from other files in the same commit, and -M detects lines moved within a file. Together they see through the reformat to the real authoring commit.",
+              "explanation": "Blame is a per-line last-touch index, not an authorship record. Every mechanical rewrite - formatters, license headers, import sorters, mass renames - destroys it unless you ask blame to look through them.",
+              "uid": "01M23NVBKDNSTKPERW8GABMC2D"
+            }
+          ],
+          "L5": "d02-6",
+          "prereqs": [
+            "Entry points and the call graph"
+          ],
+          "resources": [
+            "https://git-scm.com/docs/git-bisect",
+            "https://git-scm.com/docs/git-log"
+          ],
+          "people": [],
+          "tags": [
+            "code-reading",
+            "git",
+            "debugging"
+          ],
+          "uid": "01M23NVBKD288CX69YDE4ZW1PJ"
+        }
+      ],
+      "uid": "01M23NVBKDRJ797TJ6WAB34AJR"
+    },
+    {
+      "t": "Reproduction",
+      "note": "The cheapest way to acquire taste, and the most legible artifact you can publish.",
+      "concepts": [
+        {
+          "t": "What reproduce actually means",
+          "preserved": false,
+          "L0": {
+            "body": "# ACM's terms (Artifact Review and Badging v1.1), which the ML community mostly ignores.\n\nrepeatable    same team, same artifact, same setup          -> you rerun your own code\nreproducible  different team, SAME artifact (their code)    -> you run their code\nreplicable    different team, DIFFERENT artifact (your code) -> you rewrite it\n\n# NeurIPS/ICML usage inverts 'reproducible' and 'replicable' relative to ACM.\n# Say what you did, not which word you used:\n#   'ran the released code on the released config, got 71.2 vs 71.4 reported, 3 seeds'",
+            "cloze": "Under ACM's badging terms, running {{c1::their code}} is reproduction and rewriting it as {{c2::your own implementation}} is replication - and the ML literature routinely {{c3::swaps the two words}}, so state what you actually did instead."
+          },
+          "L1": "Three distinct things get called reproduction: rerunning your own artifact, running someone else's artifact, and rebuilding the result from the paper alone. They test different claims and have wildly different costs.",
+          "L2": "The words are not stable. ACM and the ML conferences use reproducible and replicable in opposite senses, so the label communicates nothing. Report the operation instead: whose code, whose data, whose hyperparameters, how many seeds, and what number you got.",
+          "L3": "Each level falsifies something different. Running their code and failing means the artifact is broken or the environment underspecified. Running your own implementation and failing means either you are wrong or the paper omits something load-bearing, and you cannot tell which until you diff against their code. That asymmetry is why the order is reproduce first, replicate second: their artifact is your oracle. Gundersen and Kjensmo's survey of AAAI and IJCAI papers found only a small minority shared code and data, which is why many reproductions start at the hardest level. The most useful sentence in a write-up is operational: which artifact, which config, how many seeds, what you got.",
+          "L4": [
+            {
+              "kind": "choose-and-justify",
+              "prompt_tpl": "You reimplement a paper from the text and get {d} points below the reported number. Name the two hypotheses this is consistent with, and the cheapest experiment that separates them.",
+              "params": {
+                "d": [
+                  3,
+                  7
+                ]
+              },
+              "grader": "free",
+              "answer": "Either your implementation differs from theirs, or the paper omits something load-bearing. Cheapest separator: run their released code on their config. If it hits the reported number, the gap is in your code and you diff. If it does not, the gap is in the paper or the environment and you have found something publishable.",
+              "explanation": "Failure at the replication level is uninformative on its own because two very different causes produce the same symptom. Reproduction with the authors' artifact is the oracle that splits them, which is why you do it first even when your goal is a from-scratch implementation.",
+              "uid": "01M23NVBKDJRN0RCFQMSPA2AJV"
+            },
+            {
+              "kind": "explain",
+              "prompt_tpl": "A write-up says 'we reproduced the result'. List the {n} facts that sentence must be expanded into before it means anything.",
+              "params": {
+                "n": [
+                  4,
+                  5
+                ]
+              },
+              "grader": "free",
+              "answer": "Whose code, whose data and preprocessing, whose hyperparameters and config, how many seeds and what spread, and on what hardware and software versions. Plus the number you obtained against the number reported.",
+              "explanation": "'Reproduced' is a claim about a process, and the process is exactly what the word hides. Papers with Reproducibility badges attach these facts as an artifact appendix precisely because the adjective alone is not checkable.",
+              "uid": "01M23NVBKDSRT8B836DT3750XP"
+            }
+          ],
+          "L5": "w14-raft",
+          "prereqs": [],
+          "resources": [
+            "https://www.acm.org/publications/policies/artifact-review-and-badging-current",
+            "https://arxiv.org/abs/1709.06560"
+          ],
+          "people": [
+            "Joelle Pineau"
+          ],
+          "tags": [
+            "reproduction",
+            "terminology",
+            "rigor"
+          ],
+          "uid": "01M23NVBKD4NS3MXXXRBGXAERF"
+        },
+        {
+          "t": "The minimal reproduction",
+          "preserved": false,
+          "L0": {
+            "body": "# Shrink until the result appears in seconds, then keep it there.\n\ntarget:   one file, one command, under 5 minutes on one GPU (ideally on CPU)\n          fixed seed, tiny model, tiny data slice, assert on the number\n\n# example skeleton\npython repro.py --steps 200 --d_model 64 --n_layer 2 --seed 0\n  step 200 | loss 4.812 | expected 4.81 +/- 0.05   OK\n\n# the test is: does the PHENOMENON survive the shrink, not the absolute number.\n# if the effect disappears at small scale, that is itself the finding - report it.",
+            "cloze": "A minimal reproduction is {{c1::one file, one command}}, runs in minutes, and asserts on the number. The thing that must survive shrinking is {{c2::the phenomenon}}, not the absolute metric value."
+          },
+          "L1": "A minimal reproduction is the smallest self-contained script that exhibits the phenomenon, with a fixed seed and an assertion on the expected value. It is the unit of currency in experimental work: it is what you debug, share, and file bugs against.",
+          "L2": "Minimal does not mean simplified. Every element you strip must be one you have shown the effect does not depend on. Stripping until it runs fast and then finding the effect is gone tells you nothing unless you checked at each step which removal killed it.",
+          "L3": "A minimal repro converts a slow, noisy, expensive question into a fast, deterministic, cheap one, and that changes what you are able to do. At five minutes a run you can bisect, ablate and try twenty variants in an afternoon; at six hours a run you get one guess a day and you will start rationalising instead of testing. The construction is a bisection over the configuration: halve the model, halve the data, halve the steps, and after each cut check the phenomenon is still there. When it disappears you have localised a dependency, which is a result. Karpathy's recipe works from the other end - dumbest end-to-end skeleton, fixed seeds, verify the initial loss matches theory, then add.",
+          "L4": [
+            {
+              "kind": "compute",
+              "prompt_tpl": "A run takes {t} hours. You shrink it to a {m}-minute minimal repro. In one 8-hour day, how many hypotheses can you test in each regime, and what is the ratio? Answer with the ratio.",
+              "params": {
+                "t": [
+                  6,
+                  3
+                ],
+                "m": [
+                  5,
+                  12
+                ]
+              },
+              "grader": "numeric",
+              "tolerance": 0.01,
+              "answer": "floor(8/t) versus floor(480/m). For t=6, m=5: 1 versus 96, a ratio of 96. For t=3, m=12: 2 versus 40, a ratio of 20. For t=6, m=12: 1 versus 40.",
+              "answer_expr": "floor(480/m)/floor(8/t)",
+              "explanation": "The ratio is the whole argument. Iteration count, not cleverness, is what finds the bug, and shrinking the loop by one to two orders of magnitude changes the kind of question you are able to ask - from one guess a day to a systematic sweep.",
+              "uid": "01M23NVBKD817HPNH6PARJWS89"
+            },
+            {
+              "kind": "find-the-bug",
+              "prompt_tpl": "Someone shrinks a repro from {a} layers to {b} and the effect vanishes, so they conclude their minimal repro is broken. What is the error in that reasoning?",
+              "params": {
+                "a": [
+                  24,
+                  32
+                ],
+                "b": [
+                  2,
+                  4
+                ]
+              },
+              "grader": "free",
+              "answer": "The effect vanishing is data, not a bug. It says the phenomenon depends on something they removed - depth, capacity, or a training-duration threshold. The correct move is to bisect the cut to find the smallest configuration where it survives, and report that threshold as part of the result.",
+              "explanation": "Treating a disappearing effect as a broken harness discards the most informative observation available: the boundary of the phenomenon. Many published findings are really claims about a regime, and the shrink is what locates the regime's edge.",
+              "uid": "01M23NVBKDE4TXB0CA94WBQJYW"
+            }
+          ],
+          "L5": "w14-raft",
+          "prereqs": [
+            "What reproduce actually means"
+          ],
+          "resources": [
+            "https://karpathy.github.io/2019/04/25/recipe/",
+            "https://github.com/karpathy/nanoGPT"
+          ],
+          "people": [
+            "Andrej Karpathy"
+          ],
+          "tags": [
+            "reproduction",
+            "debugging",
+            "method"
+          ],
+          "uid": "01M23NVBKD5QSFEJT5QEXYC7W2"
+        },
+        {
+          "t": "The reproduction ladder",
+          "preserved": false,
+          "L0": {
+            "body": "# Four rungs. Each one is publishable. Each one costs about 3x the last.\n\n1 rerun       their code, their config, their data   -> does the artifact work?\n2 reimplement your code, their config, their data   -> is the paper sufficient?\n3 vary        your code, new seeds/data/scale/hparams -> how far does it hold?\n4 extend      a claim the paper implies but never tested -> a contribution\n\n# Stop where your evidence stops. A clean rung 2 write-up beats a hand-waved rung 4.",
+            "cloze": "The ladder runs rerun, {{c1::reimplement}}, vary, {{c2::extend}}. Rung 3 asks how far the claim holds under {{c3::new conditions}} such as different seeds, data or scale."
+          },
+          "L1": "Rerun their artifact, reimplement from the paper, vary the conditions, extend to a claim they did not test. Four rungs, each roughly three times the cost of the last, and each one a complete artifact you can publish on its own.",
+          "L2": "Most people jump to rung four because it sounds like research, and produce something unfalsifiable. Rungs one and two are where the errors live, and a negative result at rung two - the paper is not sufficient to rebuild the result - is a genuine contribution that gets read.",
+          "L3": "The ladder is ordered by how much of the uncertainty is yours. At rung one any failure is theirs. At rung two failure is ambiguous until you diff against their code, which is why rung one comes first. At rung three you begin to own the claim: the standard variations are seeds, dataset, scale and tuning budget, and the standard finding is that a headline gap shrinks or inverts under one of them - Melis, Dyer and Blunsom found properly regularised LSTMs beat newer architectures once every model got equal tuning. Rung four is where a reproduction becomes a paper, and it is reachable because rungs one to three taught you the failure modes of the setup.",
+          "L4": [
+            {
+              "kind": "choose-and-justify",
+              "prompt_tpl": "You have {w} weeks and no prior publications. Pick a rung to target and justify it against the alternative one rung higher.",
+              "params": {
+                "w": [
+                  3,
+                  6
+                ]
+              },
+              "grader": "free",
+              "answer": "Target rung two, and a clean rung three if it comes cheaply. A finished reimplementation with released code, seed spread and an honest diff against the paper is a complete artifact; a half-finished extension is not an artifact at all. Cost roughly triples per rung, so one rung up is most of the budget.",
+              "explanation": "Finishing is the constraint that dominates. The ladder exists so that you can stop at a rung and still have shipped something legible, which is exactly what a first public artifact needs to be.",
+              "uid": "01M23NVBKDDR4ME4S3B258MC3T"
+            },
+            {
+              "kind": "explain",
+              "prompt_tpl": "Explain why a rung-{r} result that contradicts the paper is more valuable to publish than a rung-{r} result that confirms it.",
+              "params": {
+                "r": [
+                  2,
+                  3
+                ]
+              },
+              "grader": "free",
+              "answer": "Confirmation is the prior; the literature already asserts it, so the update is small. A contradiction is a large update and is scarce, because negative results are systematically under-published. It also forces you to be precise about the conditions, which is where the real content is.",
+              "explanation": "The caveat is that a contradiction has a much higher evidential bar: before publishing it you must have run their artifact, matched their preprocessing, and reported seed spread, or you have published your own bug.",
+              "uid": "01M23NVBKDB54HVBSV7T0KPXF0"
+            }
+          ],
+          "L5": "w24-speedrun-reproduction",
+          "prereqs": [
+            "The minimal reproduction"
+          ],
+          "resources": [
+            "https://arxiv.org/abs/1707.05589",
+            "https://www.lesswrong.com/posts/jP9KDyMkchuv6tHwm/how-to-become-a-mechanistic-interpretability-researcher"
+          ],
+          "people": [
+            "Neel Nanda"
+          ],
+          "tags": [
+            "reproduction",
+            "planning",
+            "research"
+          ],
+          "uid": "01M23NVBKDF61RM12JFC4X1MMC"
+        },
+        {
+          "t": "Reproduction as the strongest credential",
+          "preserved": false,
+          "L0": {
+            "body": "# What a hiring reader can verify in five minutes:\n\n  a repo that runs           -> you can ship\n  a number that matches      -> you can measure\n  a documented divergence    -> you are honest under pressure\n  a seed spread and CI       -> you know what a result is\n  a written-up decision log  -> you can communicate\n\n# What they cannot verify: a course certificate, a reading list, a grade.\n# Anthropic careers: 'interesting independent research, thoughtful blog posts,\n#  or open source contributions'. Neel Nanda: 'public research output is your\n#  best credential.'",
+            "cloze": "A reproduction is legible because a reader can check {{c1::the number against the paper}} in minutes. Anthropic's careers page asks for independent research, blog posts or {{c2::open source contributions}} rather than credentials."
+          },
+          "L1": "A reproduction is the highest-signal-per-hour artifact available to someone with no track record, because it is externally checkable. The claim has a reference value, the code either runs or does not, and the reader needs no trust in you at all.",
+          "L2": "It is not valued because reproducing is hard. It is valued because it is falsifiable. A from-scratch side project proves only that you can build something nobody will check; a reproduction puts a number next to a published number and invites the comparison.",
+          "L3": "The four inputs common to every documented fast transition: a strong foundation, full-time focus, a named mentor or feedback community, and an environment producing public artifacts by default. Reproduction is the cheapest way to manufacture the fourth alone. Ziegler's route into OpenAI's safety team was six weeks of reimplementing five or more foundational deep-RL algorithms at two to ten days each - rung two, repeated. The EleutherAI paper records people with minimal CS background becoming core contributors within weeks, where work was public by construction. The honesty: Ziegler was an MIT CS graduate who had begun a Stanford PhD, so those weeks were retargeting.",
+          "L4": [
+            {
+              "kind": "choose-and-justify",
+              "prompt_tpl": "You have {h} hours and want one artifact for a fellowship application. Choose between a novel side project and a reproduction with an ablation, and justify on verifiability.",
+              "params": {
+                "h": [
+                  60,
+                  150
+                ]
+              },
+              "grader": "free",
+              "answer": "The reproduction. Its claim is checkable against a published reference number in minutes, so it transfers signal without requiring the reader to trust your framing. A novel project makes the reader evaluate both the problem choice and the execution, which is a much higher bar with no external anchor.",
+              "explanation": "Reviewers are time-constrained and default to skepticism about unverifiable claims. An artifact whose correctness a stranger can check cheaply converts your effort into evidence; one that cannot is asking for trust you have not yet earned.",
+              "uid": "01M23NVBKDMGGHG2HW5YV9YDQ2"
+            },
+            {
+              "kind": "explain",
+              "prompt_tpl": "Ziegler moved from software engineering into OpenAI's safety team after about {w} weeks. Explain what that number does and does not support.",
+              "params": {
+                "w": [
+                  6
+                ]
+              },
+              "grader": "free",
+              "answer": "It supports the claim that reimplementation is an efficient route into research engineering: he read 20 to 30 deep-RL papers and implemented five or more algorithms at 2 to 10 days each. It does not support 'novice to OpenAI in six weeks': he had an MIT CS degree, had started a Stanford PhD, and was already an elite engineer retargeting existing ability.",
+              "explanation": "The 80,000 Hours guide states its own assumed starting point - a technical degree plus the ability to pass a Google software interview - and gives a floor of at minimum 200 hours for someone starting with less. Quoting the six weeks without the fine print is the standard misuse of this case.",
+              "uid": "01M23NVBKDGNSQ59KFAWPCFW12"
+            }
+          ],
+          "L5": "w24-speedrun-reproduction",
+          "prereqs": [
+            "The reproduction ladder"
+          ],
+          "resources": [
+            "https://www.anthropic.com/careers",
+            "https://80000hours.org/articles/ml-engineering-career-transition-guide/",
+            "https://arxiv.org/pdf/2210.06413"
+          ],
+          "people": [
+            "Neel Nanda",
+            "Chris Olah"
+          ],
+          "tags": [
+            "career",
+            "artifacts",
+            "reproduction"
+          ],
+          "uid": "01M23NVBKDVRMFMRCKZ7DB5971"
+        }
+      ],
+      "uid": "01M23NVBKDE3MS3GE75RV9A770"
+    },
+    {
+      "t": "Designing an experiment",
+      "note": "The rules that make a result mean something, and the arithmetic behind them.",
+      "concepts": [
+        {
+          "t": "Hypothesis before the run",
+          "preserved": false,
+          "L0": {
+            "body": "# Write this in the notebook BEFORE the job is submitted. Four lines.\n\nH:        adding rotary embeddings lowers val loss at fixed step count\nPredict:  val loss at 10k steps drops by 0.03 to 0.08; if it drops <0.01, H is wrong\nMeasure:  val loss @ 10k, 3 seeds, same data order, same LR schedule\nKill:     if the 3-seed CI overlaps baseline's CI, I stop and write it up as negative\n\n# The prediction with a NUMBER is the part everyone skips, and it is the part\n# that makes the result falsifiable and stops post-hoc reinterpretation.",
+            "cloze": "Before submitting a run, write the hypothesis, a {{c1::numeric prediction with a range}}, the measurement, and a {{c2::kill condition}}. The numeric prediction is what makes the result {{c3::falsifiable}}."
+          },
+          "L1": "Before a run starts, write down the hypothesis, a numeric prediction with a range, what you will measure, and the condition under which you declare it dead. Four lines, ninety seconds, in the notebook and timestamped.",
+          "L2": "The point is not planning, it is preventing post-hoc reinterpretation. Without a written prediction, every outcome is confirmable: a gain confirms the idea, no gain means it needs more steps, a loss means the baseline was undertrained. You cannot detect this in yourself afterwards.",
+          "L3": "This is a cheap private preregistration targeting a documented failure. Researcher degrees of freedom - choosing the metric, the checkpoint, the seed set and the stopping point after seeing the data - inflate false positives severely; Simmons, Nelson and Simonsohn showed a handful of undisclosed analysis choices pushes the false-positive rate past 50 percent. In ML those degrees of freedom are larger than in psychology, because you also choose step count and eval subset. Writing the prediction first costs nothing and converts an ambiguous outcome into a decision. The kill condition matters as much: it makes a negative result a completed experiment rather than a project you quietly abandon.",
+          "L4": [
+            {
+              "kind": "find-the-bug",
+              "prompt_tpl": "An experiment shows a {d} point gain at step {s}, but the plan said the metric was final-step accuracy. The researcher reports the step-{s} number. Name the error and its effect on the false-positive rate.",
+              "params": {
+                "d": [
+                  0.4,
+                  1.1
+                ],
+                "s": [
+                  7000,
+                  12000
+                ]
+              },
+              "grader": "free",
+              "answer": "Outcome-contingent selection of the reporting point: the checkpoint was chosen after seeing the results. It is one of the researcher degrees of freedom Simmons and colleagues showed can push false positives above 50 percent when combined with a few others, and it makes the reported effect an upper bound on noise, not an estimate of signal.",
+              "explanation": "The honest options are to report the pre-specified metric and mention the intermediate peak as an observation, or to declare this exploratory and rerun with the new metric pre-specified. Either is fine; silently switching is not.",
+              "uid": "01M23NVBKEYD0AY01P611ZJACJ"
+            },
+            {
+              "kind": "explain",
+              "prompt_tpl": "Write the four-line pre-run plan for the hypothesis that {h} improves throughput.",
+              "params": {
+                "h": [
+                  "fused attention kernels",
+                  "gradient checkpointing removal"
+                ]
+              },
+              "grader": "free",
+              "answer": "H states the causal claim; Predict gives a numeric range and the value below which the claim is refuted; Measure names the exact metric, the number of repeats and everything held fixed; Kill states the condition under which you stop and write a negative result. All four before submission, timestamped.",
+              "explanation": "The line that does the work is the numeric prediction, because it is the only one that can be wrong. A plan with a directional prediction only - 'it will help' - is compatible with almost any outcome and therefore constrains nothing.",
+              "uid": "01M23NVBKEGMHX439EJNVJK613"
+            }
+          ],
+          "L5": "w15-jepsen-break-it",
+          "prereqs": [],
+          "resources": [
+            "https://journals.sagepub.com/doi/10.1177/0956797611417632"
+          ],
+          "people": [
+            "Andrej Karpathy"
+          ],
+          "tags": [
+            "experiment-design",
+            "rigor",
+            "preregistration"
+          ],
+          "uid": "01M23NVBKD2T4XWHZ6KRGZN0MY"
+        },
+        {
+          "t": "The single-variable rule",
+          "preserved": false,
+          "L0": {
+            "body": "# One change per run. The diff between two configs must be one line.\n\ndiff configs/base.yaml configs/exp_017.yaml\n  < lr: 3.0e-4\n  ---\n  > lr: 6.0e-4\n\n# NOT this:\n  < lr: 3.0e-4          < warmup: 500      < batch: 256\n  > lr: 6.0e-4          > warmup: 2000     > batch: 512\n# ^ a gain here is uninterpretable: 3 changes, 2**3 - 1 = 7 possible attributions,\n#   and the interactions are exactly where the surprises live.",
+            "cloze": "If a run differs from the baseline in {{c1::3}} settings, a gain has {{c2::7}} possible attributions and you cannot assign credit. Enforce it mechanically with a {{c3::diff}} of the two configs."
+          },
+          "L1": "Two runs you compare must differ in exactly one thing. Enforce it mechanically by diffing the two config files, because the changes that break this are the ones you made without noticing: a different node, a newer library, a re-shuffled dataset.",
+          "L2": "The rule is not about scientific purity, it is about attribution. With k simultaneous changes there are 2 to the k, minus one, non-empty subsets that could be responsible, and interactions mean you cannot recover the answer by reasoning afterwards - only by running the missing cells.",
+          "L3": "Violations are usually accidental. You change the learning rate and the job lands on a different GPU type with a different matmul path; you rerun a week later and the data loader has been updated; you compare against a baseline copied from a paper trained with a different tokenizer. Each is a second variable. The defences are cheap: keep configs in version control and diff them, pin library and CUDA versions, log the git SHA and the full resolved config with every run, and rerun the baseline yourself in the same environment rather than quoting a published number. Bouthillier and colleagues showed data sampling, initialisation and hyperparameter choice each move results markedly.",
+          "L4": [
+            {
+              "kind": "compute",
+              "prompt_tpl": "A run differs from baseline in {k} settings and shows an improvement. How many non-empty subsets of those settings could be responsible, and how many additional single-change runs would isolate the main effects? Answer with the number of candidate subsets.",
+              "params": {
+                "k": [
+                  3,
+                  4,
+                  5
+                ]
+              },
+              "grader": "numeric",
+              "tolerance": 0.001,
+              "answer": "2**k - 1 candidate subsets, and k additional single-change runs to get the main effects. For k=3: 7 subsets, 3 runs. k=4: 15 and 4. k=5: 31 and 5.",
+              "answer_expr": "2**k-1",
+              "explanation": "The k runs recover main effects only. Interactions need the full factorial, which is 2**k cells, so the practical rule is to avoid ever entering the situation: change one thing per run and the attribution is free.",
+              "uid": "01M23NVBKEG8XAK0XY7D8YWMY4"
+            },
+            {
+              "kind": "find-the-bug",
+              "prompt_tpl": "A team reports that a new optimizer beats Adam by {d} points. The new-optimizer runs were launched {t} after the baseline, from a rebuilt image. What confound should you check first?",
+              "params": {
+                "d": [
+                  0.5,
+                  1.4
+                ],
+                "t": [
+                  "three weeks",
+                  "two months"
+                ]
+              },
+              "grader": "free",
+              "answer": "The environment. A rebuilt image changes framework, CUDA and kernel versions, and possibly the data snapshot and shuffling. Rerun the baseline inside the new image before believing any part of the comparison; log git SHA, resolved config and library versions with every run.",
+              "explanation": "Time is the most common hidden variable in a research repo, because everything drifts: data, dependencies, cluster hardware. A baseline number older than the current environment is not a baseline, it is a memory.",
+              "uid": "01M23NVBKECG4RSG272EPEC0J2"
+            }
+          ],
+          "L5": "w15-jepsen-break-it",
+          "prereqs": [
+            "Hypothesis before the run"
+          ],
+          "resources": [
+            "https://arxiv.org/abs/2103.03098"
+          ],
+          "people": [
+            "Joelle Pineau"
+          ],
+          "tags": [
+            "experiment-design",
+            "confounds",
+            "rigor"
+          ],
+          "uid": "01M23NVBKE5SPMG85GAQDNCZ94"
+        },
+        {
+          "t": "Ablations that actually isolate",
+          "preserved": false,
+          "L0": {
+            "body": "# An ablation removes ONE component and holds everything else fixed - including\n# the things removal silently changes.\n\nfull      : 12 layers, d=768, +new_module        87.3M params, 4.1e18 FLOPs\nablate v1 : 12 layers, d=768, -new_module        84.9M params, 3.9e18 FLOPs   <- NOT isolated\nablate v2 : 12 layers, d=776, -new_module        87.3M params, 4.1e18 FLOPs   <- isolated\n\n# v1 confounds 'the module' with '2.4M fewer parameters and 5% less compute'.\n# Also match: tuned LR per arm, same token budget, same data order, same seeds.",
+            "cloze": "Deleting a module also removes its {{c1::parameters and FLOPs}}, so an honest ablation must {{c2::re-match the parameter and compute budget}} and re-tune the learning rate {{c3::per arm}}."
+          },
+          "L1": "An ablation removes one component to attribute the effect to it. It only works if removal changes nothing else - and removal always changes parameter count, compute, and often the optimal learning rate, so those have to be re-matched.",
+          "L2": "The standard broken ablation deletes a module and keeps everything else literally identical, which quietly compares a bigger model against a smaller one at the same step count. The finding then reads as 'more parameters help', dressed up as a claim about the component.",
+          "L3": "Three things move when you ablate. Parameters and FLOPs drop, so widen or deepen what remains until the budgets agree. The loss landscape changes, so the previously tuned learning rate is no longer optimal for the ablated arm - and an undertuned arm loses, which is the artefact Melis and colleagues found once every model got equal tuning. Regularisation interacts, so a module that also regularises cannot be removed without re-tuning dropout and weight decay. The defensible protocol: match parameters and token budget, tune the learning rate independently per arm over the same grid, run several seeds, report the interval. Anything less measures your tuning effort, not the component.",
+          "L4": [
+            {
+              "kind": "find-the-bug",
+              "prompt_tpl": "Removing a module drops params from {a}M to {b}M and val accuracy by 1.2 points, and the authors conclude the module is essential. State the flaw and the fix.",
+              "params": {
+                "a": [
+                  87,
+                  120
+                ],
+                "b": [
+                  85,
+                  116
+                ]
+              },
+              "grader": "free",
+              "answer": "The arms differ in capacity and compute as well as in the module, so the 1.2 points is attributable to either. Fix: widen or deepen the ablated model back to the same parameter count and token budget, tune the learning rate separately in each arm, and rerun with several seeds before claiming anything.",
+              "explanation": "This is the most common broken ablation in the literature. It is not fraud, it is the default behaviour of deleting a block from a config, which is why the parameter-matching step has to be an explicit item on your checklist.",
+              "uid": "01M23NVBKE9ZF8H0P8N5GW44Z5"
+            },
+            {
+              "kind": "choose-and-justify",
+              "prompt_tpl": "You have compute for {n} runs and want to ablate 3 components at 3 seeds each. What do you cut, and why is cutting seeds the wrong answer?",
+              "params": {
+                "n": [
+                  12,
+                  18
+                ]
+              },
+              "grader": "free",
+              "answer": "Cut the number of ablated components, not the seeds. With one seed per arm you cannot distinguish a real effect from seed noise, so all three ablations become uninterpretable. Two components at three seeds plus a matched baseline is a result; three at one seed is not.",
+              "explanation": "Seeds are what convert a number into an estimate with an interval. Spending your budget on more conditions measured badly maximises the number of claims you cannot defend, which is the opposite of what a limited budget should buy.",
+              "uid": "01M23NVBKEK5DJB82Q0VXCVG1B"
+            }
+          ],
+          "L5": "w24-speedrun-reproduction",
+          "prereqs": [
+            "The single-variable rule"
+          ],
+          "resources": [
+            "https://arxiv.org/abs/1707.05589"
+          ],
+          "people": [
+            "Sasha Rush"
+          ],
+          "tags": [
+            "ablation",
+            "experiment-design",
+            "rigor"
+          ],
+          "uid": "01M23NVBKEE5W9G70V7RAS9APJ"
+        },
+        {
+          "t": "Seeds, variance, and how many runs",
+          "preserved": false,
+          "L0": {
+            "body": "# One run is a sample of size 1 from a distribution you have not characterised.\n\nseeds control: init, data order, dropout masks, augmentation, and (with nondeterministic\n               kernels) the reduction order itself.\n\n# report this, not a single number:\n  method A: 71.4, 70.9, 72.1, 71.0, 71.6   mean 71.40  sd 0.49  n=5\n  95% CI on the mean = mean +/- t(0.975, n-1) * sd / sqrt(n)\n                     = 71.40 +/- 2.776 * 0.49 / 2.236 = 71.40 +/- 0.61\n\n# to resolve a gap d with sd s at 80% power, alpha=0.05, two-sided, per arm:\n#   n ~= 16 * (s/d)**2      (the standard rule of thumb)",
+            "cloze": "The 95 percent CI on a mean of n seeds is mean plus or minus {{c1::t(0.975, n-1) * sd / sqrt(n)}}. To resolve a gap d with per-seed sd s at 80 percent power, you need about {{c2::16 * (s/d)**2}} runs per arm."
+          },
+          "L1": "A single training run is one draw from a distribution over seeds. Report mean, standard deviation, n, and an interval. The number of seeds you need is set by the ratio of the effect you claim to the spread you observe, and it is usually more than three.",
+          "L2": "The usual mistake is not too few seeds, it is calling a difference real when the intervals overlap. And the mirror error: a difference can be statistically clear and practically irrelevant - a 0.1-point gain that costs 30 percent more compute is a worse configuration, whatever the p-value says.",
+          "L3": "Henderson and colleagues showed in Deep Reinforcement Learning that Matters that splitting one algorithm's runs into two groups by seed can produce an apparently significant difference between a method and itself. That is the calibration you need: seed variance is often the same size as published gaps. The arithmetic is standard. With per-seed standard deviation s and true gap d, runs per arm for 80 percent power at the 5 percent level is about 16 times (s/d) squared: at s of 0.5 and a claimed 0.5 point gain that is roughly 16 per arm, not 3. Report the interval on the mean, not the best run; a maximum over n trials grows with n regardless of method quality.",
+          "L4": [
+            {
+              "kind": "compute",
+              "prompt_tpl": "Per-seed standard deviation is {s} accuracy points. You want 80 percent power to detect a true gap of {d} points at the 5 percent level, two-sided. About how many runs per arm?",
+              "params": {
+                "s": [
+                  0.5,
+                  0.8
+                ],
+                "d": [
+                  0.3,
+                  0.5,
+                  1.0
+                ]
+              },
+              "grader": "numeric",
+              "tolerance": 0.03,
+              "answer": "n is about 16*(s/d)**2 per arm. s=0.5, d=0.5 gives 16. s=0.5, d=0.3 gives about 44. s=0.8, d=1.0 gives about 10. s=0.8, d=0.3 gives about 114.",
+              "answer_expr": "16*(s/d)**2",
+              "explanation": "The 16 comes from 2*(z(0.975)+z(0.80))**2, which is 2*(1.96+0.84)**2, about 15.7. The practical consequence is brutal: sub-point gains at typical seed noise need tens of runs per arm, which is why most single-run sub-point claims in the literature are unsupported.",
+              "uid": "01M23NVBKE6HTV1BKS4914AH9N"
+            },
+            {
+              "kind": "compute",
+              "prompt_tpl": "Five seeds give accuracies with mean {m} and sample sd {sd}. Compute the 95 percent CI on the mean and state whether a baseline at {b} is excluded. Answer with the half-width of the 95 percent confidence interval.",
+              "params": {
+                "m": [
+                  71.4,
+                  68.2
+                ],
+                "sd": [
+                  0.49,
+                  1.2
+                ],
+                "b": [
+                  70.9,
+                  67.0
+                ]
+              },
+              "grader": "numeric",
+              "tolerance": 0.01,
+              "answer": "CI = m +/- 2.776*sd/sqrt(5) = m +/- 1.2413*sd. For m=71.4, sd=0.49: 71.40 +/- 0.61, so 70.9 is inside and not excluded. For m=68.2, sd=1.20: 68.20 +/- 1.49, so 67.0 is inside and not excluded.",
+              "answer_expr": "2.776*sd/sqrt(5)",
+              "explanation": "t(0.975, 4) is 2.776, and sqrt(5) is 2.236. Note that in both draws the baseline sits inside the interval, which is the normal situation at n=5 with realistic spreads - and the normal situation is that you cannot yet claim a difference.",
+              "uid": "01M23NVBKE2EPBRHB9BZBYP0JV"
+            }
+          ],
+          "L5": "w15-jepsen-break-it",
+          "prereqs": [
+            "The single-variable rule"
+          ],
+          "resources": [
+            "https://arxiv.org/abs/1709.06560",
+            "https://arxiv.org/abs/1909.03004",
+            "https://arxiv.org/abs/2103.03098"
+          ],
+          "people": [
+            "Joelle Pineau"
+          ],
+          "tags": [
+            "statistics",
+            "seeds",
+            "variance"
+          ],
+          "uid": "01M23NVBKEM0QT60XQ30YVCKZ1"
+        },
+        {
+          "t": "Scaling the experiment down",
+          "preserved": false,
+          "L0": {
+            "body": "# Shrink the run, keep the comparison. Three scalings that usually preserve a ranking:\n\n1 fixed-ratio shrink : d_model/2, n_layer/2, tokens/8 - keep tokens-per-param near Chinchilla-optimal (~20)\n2 iso-FLOP arms      : every arm gets the SAME compute budget C, not the same step count\n3 scaling ladder     : run 3-4 sizes, plot metric vs log(C), compare SLOPES not points\n\n# What does NOT survive a shrink:\n#   emergent/threshold behaviours, long-context effects, anything about data scale,\n#   anything whose mechanism is 'the model is big enough to have spare capacity'.",
+            "cloze": "Compare arms at {{c1::equal compute}} rather than equal step count, and where you can, run {{c2::3-4 model sizes}} and compare the {{c3::slopes}} of metric against log-compute rather than single points."
+          },
+          "L1": "You almost never have the paper's compute. The move is to shrink the run while preserving the comparison: hold the compute budget equal across arms, keep the token-to-parameter ratio sane, and where possible compare trends across a few sizes rather than single points.",
+          "L2": "Shrinking invalidates a conclusion when the phenomenon is itself a function of scale. Threshold and emergent behaviours, long-context effects, and anything driven by spare capacity will not appear in a small model, and their absence at small scale is not evidence against them.",
+          "L3": "Many architectural and optimisation effects are scale-invariant in sign even when their magnitude changes - modded-nanogpt is an existence proof at 124M parameters, where Muon was found and later adopted at frontier scale. The disciplined version is a small scaling ladder: three or four sizes, plot the metric against log compute, compare slopes. Equal slopes with a constant offset suggest the gap survives; converging slopes say it does not. State the shrink explicitly in the write-up, with what you believe it preserves and what it cannot test. Nanda's on-ramp assumes rented cloud GPUs, and EleutherAI's donated clusters made the same point: the compute barrier is surmountable.",
+          "L4": [
+            {
+              "kind": "choose-and-justify",
+              "prompt_tpl": "The paper trains a {b}B model. You have one GPU. Name one claim from such a paper you can test at 100M scale and one you cannot, with reasons.",
+              "params": {
+                "b": [
+                  7,
+                  70
+                ]
+              },
+              "grader": "free",
+              "answer": "Testable: an optimizer or architecture change measured iso-FLOP at small scale, because its sign is often scale-invariant and you can compare slopes across a small ladder. Not testable: an emergent or threshold capability, long-context behaviour, or anything requiring spare capacity - absence at 100M is uninformative about presence at 7B.",
+              "explanation": "The distinction is whether the mechanism depends on scale. State it in the write-up: 'this reproduction tests the optimisation claim at 100M and cannot test the capability claim' is a stronger paper than one that quietly implies it tested both.",
+              "uid": "01M23NVBKEZJQ2HK5AHVT1C190"
+            },
+            {
+              "kind": "compute",
+              "prompt_tpl": "Arm A uses {p1}M params, arm B uses {p2}M. Under an iso-FLOP protocol at budget C with the usual 6*N*D estimate, what is the ratio of training tokens D_A to D_B?",
+              "params": {
+                "p1": [
+                  100,
+                  124
+                ],
+                "p2": [
+                  125,
+                  160
+                ]
+              },
+              "grader": "numeric",
+              "tolerance": 0.02,
+              "answer": "D = C/(6N), so D_A/D_B = p2/p1. For 100 and 125 the ratio is 1.25; for 124 and 160 it is about 1.290; for 100 and 160 it is 1.6.",
+              "answer_expr": "p2/p1",
+              "explanation": "Iso-FLOP means the smaller model sees proportionally more tokens, which is exactly the trade the comparison is supposed to expose. Comparing at equal step count instead silently hands the larger arm more compute, and that is the most common way a scaled-down ablation lies.",
+              "uid": "01M23NVBKEZD8YRRJ4YH9AA8K5"
+            }
+          ],
+          "L5": "w24-speedrun-reproduction",
+          "prereqs": [
+            "The minimal reproduction",
+            "Seeds, variance, and how many runs"
+          ],
+          "resources": [
+            "https://github.com/KellerJordan/modded-nanogpt",
+            "https://arxiv.org/abs/2203.15556"
+          ],
+          "people": [
+            "Keller Jordan"
+          ],
+          "tags": [
+            "scaling",
+            "compute",
+            "experiment-design"
+          ],
+          "uid": "01M23NVBKEJGN57ATFMF8Z6KVS"
+        }
+      ],
+      "uid": "01M23NVBKD0PPG1T93T6GBQNJ4"
+    },
+    {
+      "t": "The statistics of ML claims",
+      "note": "How published numbers get to be wrong without anyone lying.",
+      "concepts": [
+        {
+          "t": "The reproducibility crisis in ML",
+          "preserved": false,
+          "L0": {
+            "body": "# Dacrema, Cremonesi, Jannach (RecSys 2019): 18 deep-learning recommender papers\n#   from top venues, systematically re-evaluated.\n\n  reproducible with reasonable effort ..... 7 of 18   (39%)\n  of those 7, beaten by simple heuristics . 6         (nearest-neighbour, graph-based)\n  consistently better than a tuned linear . 0\n\n# Henderson et al. 2018 (deep RL): the same algorithm, split into two groups by\n#   SEED, can show an apparently significant difference against itself.\n# NeurIPS response: code-submission policy + the ML Reproducibility Checklist.",
+            "cloze": "Dacrema and colleagues could reproduce {{c1::7}} of 18 neural recommender papers, and {{c2::6}} of those were beaten by simple heuristics. Henderson showed the same algorithm split by {{c3::seed}} can look significantly different from itself."
+          },
+          "L1": "ML has a reproducibility problem distinct from psychology's. Very little is fraud. The mechanism is underspecified setups, uncontrolled variance, unlogged hyperparameter search, and unreleased code, combined with a reviewing culture that rewarded the number.",
+          "L2": "The crisis is not that results are false, it is that most published numbers are the maximum over an unreported search. Max over n trials rises with n regardless of method quality, so a paper with more compute for tuning wins even when its method is neutral.",
+          "L3": "Dacrema and colleagues re-evaluated 18 neural recommendation papers from top venues: only 7 could be reproduced with reasonable effort, and 6 of those 7 were often beaten by simple nearest-neighbour or graph heuristics. Henderson and colleagues showed that in deep RL the between-seed variance is large enough that one algorithm can appear significantly different from itself. The response was structural rather than moral: NeurIPS added a code-submission policy and the ML Reproducibility Checklist, ACM added artifact badging. The consequence for you: the base rate of claims surviving an honest reimplementation is low enough that a careful reproduction is a contribution.",
+          "L4": [
+            {
+              "kind": "compute",
+              "prompt_tpl": "Of {n} papers, {r} were reproducible with reasonable effort, and {b} of those were often beaten by simple heuristics. What fraction of the original {n} survived as clear improvements over simple baselines?",
+              "params": {
+                "n": [
+                  18
+                ],
+                "r": [
+                  7
+                ],
+                "b": [
+                  6
+                ]
+              },
+              "grader": "numeric",
+              "tolerance": 0.01,
+              "answer": "(r - b)/n = (7-6)/18 = 1/18, about 5.6 percent. And the paper notes that the one survivor did not consistently beat a well-tuned linear ranking method either.",
+              "answer_expr": "(r-b)/n",
+              "explanation": "The arithmetic is the point. Two independent filters - can it be rebuilt, and does it beat something simple - each remove most of the field, and they compose multiplicatively. This is the base rate you should hold when reading any single new result.",
+              "uid": "01M23NVBKER0S0Q3Q55GGS7J3G"
+            },
+            {
+              "kind": "explain",
+              "prompt_tpl": "Explain why 'report the best of {k} runs' is a reporting practice that manufactures progress with no dishonesty on anyone's part.",
+              "params": {
+                "k": [
+                  20,
+                  100
+                ]
+              },
+              "grader": "free",
+              "answer": "The maximum of k draws from any distribution increases with k, so a method given a larger search budget reports a higher number regardless of quality. Nobody lied; the statistic itself is budget-dependent. The fix is Dodge's: report expected best performance as a function of search budget, so the comparison is budget-matched.",
+              "explanation": "This is why compute-rich groups can appear to make faster methodological progress than they do, and why a reproduction that matches tuning budget across arms often erases a published gap without finding any error in the original.",
+              "uid": "01M23NVBKETVJ2AD88ATJ8XTB6"
+            }
+          ],
+          "L5": "w24-speedrun-reproduction",
+          "prereqs": [
+            "Seeds, variance, and how many runs"
+          ],
+          "resources": [
+            "https://arxiv.org/abs/1907.06902",
+            "https://arxiv.org/abs/1709.06560",
+            "https://arxiv.org/abs/2003.12206"
+          ],
+          "people": [
+            "Joelle Pineau"
+          ],
+          "tags": [
+            "reproducibility",
+            "statistics",
+            "meta-science"
+          ],
+          "uid": "01M23NVBKEXR661V0SSSBD09M3"
+        },
+        {
+          "t": "Undertuned baselines",
+          "preserved": false,
+          "L0": {
+            "body": "# The most common way a true-looking result is false.\n\n              tuning trials   best val   reported\n  new method      200          71.8       71.8\n  baseline         12          68.9       68.9   <- the 2.9 point 'gain'\n  baseline        200          71.6       never run\n\n# Melis, Dyer, Blunsom 2017: with equal tuning, a properly regularised LSTM\n#   beat the newer architectures it was supposed to have been superseded by.\n# Lucic et al. 2018 (GANs): with enough hyperparameter search and restarts,\n#   most models reached similar scores.",
+            "cloze": "If the new method gets {{c1::200}} tuning trials and the baseline gets {{c2::12}}, the comparison measures {{c3::tuning budget}}, not method quality. Melis and colleagues found a well-tuned LSTM beat the architectures said to supersede it."
+          },
+          "L1": "The dominant failure in method comparisons is not a bug, it is asymmetric effort. Your method gets weeks of tuning and the baseline gets whatever the original repo shipped with, so the reported gap measures attention rather than architecture.",
+          "L2": "You cannot fix this by trying harder to be fair, because the asymmetry is structural: you debug your method until it works and you stop debugging the baseline as soon as it runs. The only fix is a budget-matched protocol fixed before you start.",
+          "L3": "Two large studies make this concrete. Melis, Dyer and Blunsom re-tuned language-model architectures under a common hyperparameter budget and found a properly regularised LSTM outperformed the models reported to have replaced it, concluding the earlier gaps came from inconsistent experimental conditions. Lucic and colleagues did the same for GANs and found that with enough hyperparameter optimisation and random restarts most models reached comparable scores. The protocol that survives review: fix the search budget per arm in advance, use the same search algorithm and grid everywhere, and report the budget alongside the number.",
+          "L4": [
+            {
+              "kind": "find-the-bug",
+              "prompt_tpl": "A paper reports {g} points over a baseline. The appendix shows {a} tuning trials for the method and {b} for the baseline. What is the minimum extra experiment needed before the claim means anything?",
+              "params": {
+                "g": [
+                  2.9,
+                  1.4
+                ],
+                "a": [
+                  200,
+                  120
+                ],
+                "b": [
+                  12,
+                  20
+                ]
+              },
+              "grader": "free",
+              "answer": "Re-tune the baseline with the same search algorithm, the same grid and the same number of trials as the method, with several seeds, then compare intervals. Until that run exists the reported gap is confounded with search budget and cannot be attributed to the method.",
+              "explanation": "This single missing run is the most common gap between a published claim and a defensible one. It is also the cheapest reproduction contribution available: re-tuning a baseline is mechanical work that regularly overturns headline results.",
+              "uid": "01M23NVBKE48VZ07S8Z56TJRKY"
+            },
+            {
+              "kind": "explain",
+              "prompt_tpl": "Explain why a researcher acting entirely in good faith still produces undertuned baselines, using a {n}-week project as the example.",
+              "params": {
+                "n": [
+                  6,
+                  12
+                ]
+              },
+              "grader": "free",
+              "answer": "Effort follows attention. You iterate on your own method because failures there look like bugs to fix, and you stop touching the baseline once it runs, because failures there look like the baseline being bad. Nothing dishonest happens; the asymmetry is produced by the debugging loop itself, which is why the budget must be fixed in advance.",
+              "explanation": "This is why the fix is procedural rather than ethical. Pre-committing to an equal per-arm search budget removes the decision from the point where your incentives are strongest, which is the same logic as writing the numeric prediction before the run.",
+              "uid": "01M23NVBKEQ81G1DVMBJ986GCN"
+            }
+          ],
+          "L5": "w24-speedrun-reproduction",
+          "prereqs": [
+            "Ablations that actually isolate"
+          ],
+          "resources": [
+            "https://arxiv.org/abs/1707.05589",
+            "https://arxiv.org/abs/1711.10337",
+            "https://arxiv.org/abs/1909.03004"
+          ],
+          "people": [
+            "Sasha Rush"
+          ],
+          "tags": [
+            "baselines",
+            "tuning",
+            "rigor"
+          ],
+          "uid": "01M23NVBKEC9TCTDJ1574D28K4"
+        },
+        {
+          "t": "Benchmark contamination",
+          "preserved": false,
+          "L0": {
+            "body": "# Test data in the training corpus. The default assumption for any web-scraped model.\n\n  check 1  n-gram overlap: is a 13-gram of each test item in the corpus?\n  check 2  canary strings: BIG-bench ships a UUID never to be trained on\n  check 3  fresh set: build a NEW test set from the same generator, compare\n\n# Scale AI's GSM1k (2024): a fresh GSM8k-style set built from scratch.\n#   accuracy drops of up to 8 points for some model families\n#   Spearman r^2 = 0.36 between P(model emits a GSM8k item) and the drop\n# Dodge et al. 2021: other benchmarks' eval examples are present in C4.",
+            "cloze": "The strongest contamination test is to {{c1::build a fresh test set from the same generator}}. On GSM1k, some model families dropped by up to {{c2::8}} points, with Spearman r-squared {{c3::0.36}} against the model's probability of emitting a GSM8k example."
+          },
+          "L1": "Contamination is test data present in the training corpus. On web-scale pretraining it is the default state, not an accident, and it inflates any benchmark whose items existed on the public internet before the training cutoff.",
+          "L2": "N-gram overlap checks give false comfort. They miss paraphrase, translation, and the very common case where the benchmark was discussed rather than copied. The only strong test is a fresh test set drawn from the same generating process.",
+          "L3": "Scale AI built GSM1k to match GSM8k's distribution and found accuracy drops of up to 8 points for some model families, with a Spearman r-squared of 0.36 between a model's probability of generating a GSM8k example and its GSM8k-to-GSM1k gap - a direct memorisation signal. They also found frontier models largely generalised, so the honest reading is that contamination is real, uneven, and not a blanket dismissal. Dodge and colleagues documenting C4 found other benchmarks' eval examples inside the corpus. Practically: distrust any benchmark predating the model's cutoff without a contamination analysis, and ship a canary string with anything you release.",
+          "L4": [
+            {
+              "kind": "choose-and-justify",
+              "prompt_tpl": "A model scores {s} on a benchmark published in {y}, and the model's training cutoff is later. Rank three checks - n-gram overlap, canary string search, fresh-set replication - by how much they would change your belief.",
+              "params": {
+                "s": [
+                  92,
+                  78
+                ],
+                "y": [
+                  2021,
+                  2019
+                ]
+              },
+              "grader": "free",
+              "answer": "Fresh-set replication is strongest: it is immune to paraphrase and discussion leakage and directly measures generalisation. Canary search is next but only works if the benchmark shipped a canary. N-gram overlap is weakest, because it misses paraphrase, translation, and items discussed rather than copied.",
+              "explanation": "The ordering follows from what each test can miss. Overlap tests bound one contamination channel; a fresh set bounds all of them at once, which is why GSM1k was built rather than a corpus search being run.",
+              "uid": "01M23NVBKERX37YWFEXRY4PH44"
+            },
+            {
+              "kind": "compute",
+              "prompt_tpl": "A model scores {a} on the public benchmark and {b} on a freshly-built equivalent. Express the overfitting gap, and say what a gap of that size does and does not license you to conclude. Answer with the gap in points.",
+              "params": {
+                "a": [
+                  84,
+                  76
+                ],
+                "b": [
+                  76,
+                  73
+                ]
+              },
+              "grader": "numeric",
+              "tolerance": 0.01,
+              "answer": "The gap is a - b: 8 points for 84 versus 76, and 3 points for 76 versus 73. It licenses 'this model's public-benchmark score overstates its ability on this task distribution by that much'. It does not license 'the model cannot do the task' - GSM1k found all models still generalised substantially.",
+              "answer_expr": "a-b",
+              "explanation": "The gap is a measurement of score inflation, not of capability. Conflating the two is the standard overreaction to contamination findings and is as wrong as ignoring contamination entirely.",
+              "uid": "01M23NVBKEMEJJHGDRQJVQ93Y7"
+            }
+          ],
+          "L5": "w24-speedrun-reproduction",
+          "prereqs": [
+            "The reproducibility crisis in ML"
+          ],
+          "resources": [
+            "https://arxiv.org/abs/2405.00332",
+            "https://arxiv.org/abs/2104.08758"
+          ],
+          "people": [
+            "Jason Wei"
+          ],
+          "tags": [
+            "evaluation",
+            "contamination",
+            "benchmarks"
+          ],
+          "uid": "01M23NVBKEH1TZ1R71G300ME2C"
+        },
+        {
+          "t": "Goodhart's law on evaluations",
+          "preserved": false,
+          "L0": {
+            "body": "# Strathern: 'When a measure becomes a target, it ceases to be a good measure.'\n\n  metric      proxy for            how it decouples\n  ----------  -------------------  -------------------------------\n  BLEU        translation quality  n-gram matching, fluent nonsense\n  perplexity  modelling quality    tokenizer- and corpus-dependent\n  MMLU        broad knowledge      multiple-choice + contamination\n  win-rate    helpfulness          length and formatting bias\n\n# Always ask both:\n#   is the difference real?    (CI on the mean, seeds)\n#   is it useful?              (effect size against cost)",
+            "cloze": "Goodhart's law, in Strathern's form: when a measure becomes a {{c1::target}}, it ceases to be a good {{c2::measure}}. Always ask both whether a difference is {{c3::real}} and whether it is large enough to matter."
+          },
+          "L1": "Every metric is a proxy for something you cannot measure directly. Optimising against it moves the proxy and the target apart, because the cheapest way to raise the proxy is almost never the thing the proxy was standing in for.",
+          "L2": "The second, quieter error is treating statistical significance as importance. With enough seeds any nonzero difference becomes significant; the question that matters is whether the effect is large relative to its cost. A 0.1-point gain for 30 percent more compute is a worse configuration.",
+          "L3": "The decoupling has a mechanism. A metric is a function of behaviour with a large preimage: many behaviours produce the same score, and only some are the behaviour you wanted. Optimisation searches that preimage and finds the cheapest member, usually a shortcut - length bias in preference scores, formatting bias in judged evaluations, n-gram matching in BLEU. The defences: hold out a metric you never optimise against, rotate evaluations, read samples by hand, report effect sizes with intervals rather than p-values. Significance answers whether the sign is reliable; effect size answers whether anyone should care. State the effect in the units the reader pays in.",
+          "L4": [
+            {
+              "kind": "choose-and-justify",
+              "prompt_tpl": "Method B beats A by {d} points with non-overlapping 95 percent intervals over {n} seeds, and costs 30 percent more compute per token. Is B better? Justify without using the word significant.",
+              "params": {
+                "d": [
+                  0.1,
+                  2.4
+                ],
+                "n": [
+                  10,
+                  20
+                ]
+              },
+              "grader": "free",
+              "answer": "It depends on the effect relative to the cost. At 0.1 points for 30 percent more compute, the same compute spent on more data or a larger model almost certainly buys more, so B is worse in practice despite a reliable sign. At 2.4 points the effect may well justify the cost. Reliability and magnitude are separate questions.",
+              "explanation": "Non-overlapping intervals establish that the sign is trustworthy, nothing more. The decision needs an exchange rate between the metric and the cost, which is why iso-FLOP or iso-cost comparison is the honest frame for any efficiency claim.",
+              "uid": "01M23NVBKE8CG3N3MWWCDKKDY8"
+            },
+            {
+              "kind": "explain",
+              "prompt_tpl": "A judged evaluation rewards {b}. Describe the shortcut a model will find and one cheap defence.",
+              "params": {
+                "b": [
+                  "longer answers",
+                  "confident-sounding answers"
+                ]
+              },
+              "grader": "free",
+              "answer": "The model will produce more of the rewarded surface feature without more of the underlying quality - padding, hedging removal, formatting - because that is the cheapest point in the metric's preimage. Cheap defences: control for length or confidence in the scoring, hold out an unoptimised evaluation, and read samples by hand.",
+              "explanation": "The general form: find the cheapest behaviour that maximises the proxy, then ask whether you would accept it. If the answer is no, the metric needs a control or a companion metric that the shortcut damages.",
+              "uid": "01M23NVBKEC7CKSPJMRTFFRABH"
+            }
+          ],
+          "L5": "w24-speedrun-reproduction",
+          "prereqs": [
+            "Seeds, variance, and how many runs"
+          ],
+          "resources": [
+            "https://en.wikipedia.org/wiki/Goodhart%27s_law",
+            "https://arxiv.org/abs/2405.00332"
+          ],
+          "people": [
+            "Nathan Lambert"
+          ],
+          "tags": [
+            "evaluation",
+            "goodhart",
+            "effect-size"
+          ],
+          "uid": "01M23NVBKEFDZ8ZV3JV9353BD1"
+        }
+      ],
+      "uid": "01M23NVBKE6F03ADD8DX45M65M"
+    },
+    {
+      "t": "Taste and the record",
+      "note": "Choosing what to work on, stopping, and being able to find it later.",
+      "concepts": [
+        {
+          "t": "The why-now test",
+          "preserved": false,
+          "L0": {
+            "body": "# Before starting: answer three questions in writing.\n\n  1 why this?   what changes if it works, and who would act differently?\n  2 why now?    what became true recently - a released model, a cheaper GPU hour,\n                a new tool, a dataset, a result that opened an attack?\n  3 why me?     what do you have that most people attempting this do not?\n\n# Hamming: 'If you do not work on an important problem, it's unlikely you'll do\n#   important work.' And: 'It is not the consequence that makes a problem\n#   important, it is that you have a reasonable attack.'",
+            "cloze": "Hamming's test for importance is not the size of the consequence but whether you have {{c1::a reasonable attack}}. The why-now question asks what {{c2::became true recently}} that makes the problem newly tractable."
+          },
+          "L1": "Problem choice dominates execution quality. The screen is three written answers: why this problem matters, what changed recently that makes it newly attackable, and what you specifically bring. A problem that fails the second question is usually already worked out.",
+          "L2": "Importance is not the same as consequence. Hamming's criterion is that an important problem is one where you have a reasonable line of attack; a world-shaking problem with no attack is not important for you, it is a daydream you can spend years inside.",
+          "L3": "The why-now question is the highest-yield of the three because it is the one with an objective answer. Something recently changed: a capable open model was released, a GPU hour got cheaper, a library made an analysis a hundred times faster, or a result eliminated an assumption. If nothing changed, then either the problem is genuinely open and hard, or competent people have already tried and failed for a reason you have not yet found. Both are worth knowing before you commit weeks. The why-me question is scoping, not modesty: an unusual combination such as systems plus ML is a real edge. Write the three answers down; they become the opening paragraph.",
+          "L4": [
+            {
+              "kind": "choose-and-justify",
+              "prompt_tpl": "You want to work on {p}. Answer the why-now question, and say what it means if you cannot.",
+              "params": {
+                "p": [
+                  "a faster attention kernel",
+                  "an interpretability result on a small open model"
+                ]
+              },
+              "grader": "free",
+              "answer": "A good why-now names a specific recent change: a new hardware generation with different tensor-core shapes, a newly released open model with published weights and training data, or a tool that made the analysis tractable. If you cannot name one, assume competent people have already tried, and go find out what stopped them before spending weeks.",
+              "explanation": "Failing the why-now test is not a veto, but it converts the next step from 'start building' into 'find the prior attempts'. That search is cheap and it either produces the missing why-now or saves you the project.",
+              "uid": "01M23NVBKECZX1PGT9T1H43GWN"
+            },
+            {
+              "kind": "explain",
+              "prompt_tpl": "Hamming says importance is about having a reasonable attack, not about consequence. Explain how that changes which of {n} candidate problems you pick.",
+              "params": {
+                "n": [
+                  5,
+                  10
+                ]
+              },
+              "grader": "free",
+              "answer": "It reorders the list. You drop the highest-consequence problems where you have no line of attack, and promote mid-consequence problems where you have a specific first experiment you could run this week. The criterion is the existence of a concrete attack, not the size of the headline.",
+              "explanation": "Hamming's own example is that many people spend careers on important-sounding problems with no method, which is why he pairs the advice with the open-door habit: exposure to other people's problems is what supplies attacks you would not have found alone.",
+              "uid": "01M23NVBKE36SVPX4V1S3Q6SCP"
+            }
+          ],
+          "L5": "w24-speedrun-reproduction",
+          "prereqs": [],
+          "resources": [
+            "https://www.cs.virginia.edu/~robins/YouAndYourResearch.html",
+            "https://michaelnielsen.org/blog/principles-of-effective-research/"
+          ],
+          "people": [
+            "Michael Nielsen",
+            "Jason Wei"
+          ],
+          "tags": [
+            "taste",
+            "problem-selection",
+            "planning"
+          ],
+          "uid": "01M23NVBKERDTG61SCMXP0VH30"
+        },
+        {
+          "t": "Knowing when to abandon",
+          "preserved": false,
+          "L0": {
+            "body": "# Write the kill condition at the start, in the same file as the hypothesis.\n\n  kill if:  no signal after 5 working days of focused effort\n            OR the minimal repro will not stabilise\n            OR the result would not change anyone's action even if true\n            OR someone published it last week and did it better\n\n# Abandon does not mean delete. It means:\n  write 400 words on what you tried, what you saw, and why you stopped\n  push the repo with the notes\n  a documented negative result is an artifact; an undocumented one is nothing",
+            "cloze": "Set the kill condition {{c1::at the start}}, next to the hypothesis. Abandoning correctly means writing {{c2::what you tried and why you stopped}} and pushing it, because an undocumented dead end is {{c3::nothing}}."
+          },
+          "L1": "Set the stopping condition before you are emotionally invested, and when it triggers, stop and write it up. The write-up is what converts an abandoned project from wasted weeks into a small artifact and a reusable piece of knowledge.",
+          "L2": "The failure is not persisting too long, it is abandoning silently. A project you quietly stop leaves nothing behind, so you cannot tell later whether the idea was wrong or your implementation was, and neither can anyone else who tries it next.",
+          "L3": "Sunk cost is the obvious trap, and the standard advice - hours already spent are not evidence about hours remaining - is correct but insufficient, because the real driver is that abandoning feels like admitting the time was wasted. The write-up removes that framing: four hundred words on what you tried, what you saw and why you stopped is a genuine artifact, and negative results are scarce enough to get read. Nanda's on-ramp is built around this: throwaway one-to-five-day mini-projects before one-to-two week ones. Short pre-committed horizons make abandonment routine rather than an identity event, and they raise the number of shots you take.",
+          "L4": [
+            {
+              "kind": "choose-and-justify",
+              "prompt_tpl": "You are {d} days into a {w}-week project with no signal and a repro that will not stabilise. Argue for stopping, and describe the minimum artifact you leave behind.",
+              "params": {
+                "d": [
+                  9,
+                  14
+                ],
+                "w": [
+                  3,
+                  6
+                ]
+              },
+              "grader": "free",
+              "answer": "Stop: an unstable minimal repro means you cannot attribute anything you measure, so more days buy no information. Leave a repo with the harness, the configs, a short log of what was tried, and 400 words on the specific instability and what you ruled out. That is a usable artifact for you and for the next person.",
+              "explanation": "The instability, not the missing signal, is the decisive fact. Without a stable repro every subsequent result is uninterpretable, so the project has no path to a defensible claim regardless of how much time remains.",
+              "uid": "01M23NVBKEZWCRY1JKQN0QQY1W"
+            },
+            {
+              "kind": "explain",
+              "prompt_tpl": "Explain why running {n} one-week disposable projects can beat one {n}-week project for someone with no track record.",
+              "params": {
+                "n": [
+                  6,
+                  10
+                ]
+              },
+              "grader": "free",
+              "answer": "It raises the number of independent shots and shortens feedback, so you learn what problems suit you and what tooling you lack. It also produces several small write-ups rather than one unfinished thing, and finishing is what makes an artifact legible. The cost is that no single result is deep.",
+              "explanation": "This mirrors Nanda's staged on-ramp, which puts throwaway 1-to-5-day mini-projects before real ones. The tradeoff reverses once you have taste and a working setup, at which point depth starts paying more than breadth.",
+              "uid": "01M23NVBKES2MZ0R1TPXBCZH3X"
+            }
+          ],
+          "L5": "w24-speedrun-reproduction",
+          "prereqs": [
+            "Hypothesis before the run",
+            "The why-now test"
+          ],
+          "resources": [
+            "https://www.lesswrong.com/posts/jP9KDyMkchuv6tHwm/how-to-become-a-mechanistic-interpretability-researcher"
+          ],
+          "people": [
+            "Neel Nanda"
+          ],
+          "tags": [
+            "taste",
+            "project-management",
+            "negative-results"
+          ],
+          "uid": "01M23NVBKEK4XN6NXCBV4KXB3G"
+        },
+        {
+          "t": "The lab notebook",
+          "preserved": false,
+          "L0": {
+            "body": "# One append-only file per project, plus one immutable directory per run.\n\n  runs/2026-09-03__rope-lr6e4__seed0__a91f3c2/\n    config.resolved.yaml  the FULL resolved config, not the diff\n    env.txt               git SHA, dirty flag, pip freeze, CUDA, GPU\n    metrics.jsonl         one json object per eval step\n    notes.md              hypothesis, prediction, outcome, verdict\n\n# Name = date, slug, varied knob, seed, config hash.\n# The hash disambiguates; the slug makes it findable by eye.\n# Never edit a run directory. A rerun is a new directory.",
+            "cloze": "A run directory records the {{c1::fully resolved config}}, the environment including the git SHA, per-step metrics, and notes. Run directories are {{c2::immutable}}: a rerun creates {{c3::a new directory}}."
+          },
+          "L1": "One append-only notebook per project and one immutable directory per run, named by date, the knob you varied, the seed and a config hash. The hash makes the run unambiguous; the human slug makes it findable by scanning.",
+          "L2": "The thing that fails six months later is not the metrics, it is the environment. A run without the git SHA, the dirty flag and the resolved config is unreproducible even by you, because the code and the defaults it depended on have both moved.",
+          "L3": "Two properties make a record survive. Immutability: never overwrite a run directory, because a record's value is that it says what happened, and a mutable record silently becomes what you last believed. Resolution: log the fully resolved config, not the command line or the diff, since defaults move underneath you and a diff against a moving base is meaningless later. Write the verdict in the notes at the time - hypothesis, prediction, outcome, decision - because metrics alone will not tell future-you why you stopped. A tracker is a convenience over this structure, not a replacement: if it is deleted the directories must still reconstruct the experiment.",
+          "L4": [
+            {
+              "kind": "find-the-bug",
+              "prompt_tpl": "A run directory contains metrics and the command line that launched it, but no resolved config and no git SHA. {n} months later you cannot reproduce the number. Name the two mechanisms.",
+              "params": {
+                "n": [
+                  6,
+                  12
+                ]
+              },
+              "grader": "free",
+              "answer": "Defaults drifted, so the same command line now resolves to a different configuration; and the code changed, so without a SHA you cannot check out what ran. Either alone breaks reproduction, and together they make it impossible to tell which caused the divergence.",
+              "explanation": "This is why the resolved config and the SHA are the two mandatory fields. Everything else in the run directory is a convenience; those two are what make the record a record rather than a memory.",
+              "uid": "01M23NVBKEA9PYGFSEMFE48YMV"
+            },
+            {
+              "kind": "choose-and-justify",
+              "prompt_tpl": "You have {n} runs from the last month and need to find the one that used a learning rate of 6e-4 with rotary embeddings. Compare a naming scheme of run_001..run_{n} against date-slug-knob-seed-hash.",
+              "params": {
+                "n": [
+                  200,
+                  900
+                ]
+              },
+              "grader": "free",
+              "answer": "Sequential names carry no information, so the search is a scan of every config. The date-slug-knob-seed-hash scheme makes the answer a shell glob, and the hash disambiguates runs whose slugs collide. Naming is a search index you build for free at launch time.",
+              "explanation": "The cost asymmetry decides it: naming costs nothing at launch and the alternative is a linear scan every time you need to find something. This is the same reason commit messages and file names matter more than their length suggests.",
+              "uid": "01M23NVBKEF5D0MJXCSR2WG7SE"
+            }
+          ],
+          "L5": "w20-design-and-load",
+          "prereqs": [
+            "Hypothesis before the run"
+          ],
+          "resources": [
+            "https://mlflow.org/docs/latest/ml/tracking/",
+            "https://docs.wandb.ai/"
+          ],
+          "people": [
+            "Andrej Karpathy"
+          ],
+          "tags": [
+            "record-keeping",
+            "tooling",
+            "reproducibility"
+          ],
+          "uid": "01M23NVBKE3EJM23JWWZXZG62D"
+        }
+      ],
+      "uid": "01M23NVBKE72K1RAFTXQ4GYW5A"
+    },
+    {
+      "t": "Writing it down",
+      "note": "The artifact is the write-up. The work is the input to it.",
+      "concepts": [
+        {
+          "t": "The structure of a technical post",
+          "preserved": false,
+          "L0": {
+            "body": "# One claim. Everything below it is evidence or context for that claim.\n\n  title      the claim, or the specific thing you did. not a topic.\n  first 3 lines   what you did, what you found, why it matters. no throat-clearing.\n  the result      the number or the figure, early. before the method.\n  how            enough for a reader to rebuild it. link the repo.\n  what it means   the interpretation, clearly separated from the result.\n  limitations     what you did not test. this is where credibility is won.\n\n# Headings must be readable alone, in order, as a summary of the post.",
+            "cloze": "A technical post carries {{c1::one claim}}. Put the result {{c2::before the method}}, and write headings that read alone, in order, as a {{c3::summary of the post}}."
+          },
+          "L1": "One claim per post, stated in the title and in the first three lines, with the result before the method. Then how you did it, what it means, and what you did not test. Limitations are not a formality; they are where a technical reader decides to trust you.",
+          "L2": "Nobody reads linearly. A technical reader scans the title, the first paragraph, the figures and the headings, and decides in about fifteen seconds whether to read. So the structure has to survive being skimmed: the headings alone must tell the story, and every figure must be legible with only its caption.",
+          "L3": "Writing result-first inverts the order in which you did the work, and that is the point: your order is chronological, the reader's is importance-ordered. Rachel Thomas sharpens the targeting - pick one specific reader, and write about what you learned last month, because you are best positioned to help the person one step behind you and you still remember what was confusing. Olah and Carter's Research Debt makes the structural argument: unclear explanation is a cost the whole field pays, and distillation is research work, not a service task. The test before publishing: delete every sentence that does not support the one claim, then check the headings still read as a summary.",
+          "L4": [
+            {
+              "kind": "choose-and-justify",
+              "prompt_tpl": "You have a post with {n} sections that opens with {k} paragraphs of background before the result. Rewrite the opening in outline form and justify the reordering.",
+              "params": {
+                "n": [
+                  6,
+                  9
+                ],
+                "k": [
+                  3,
+                  5
+                ]
+              },
+              "grader": "free",
+              "answer": "Open with the claim and the number in three lines, then one short paragraph of context only if the claim is unintelligible without it, then the figure. Background moves below the result or into a link. The reason is that the reader decides whether to continue before reaching paragraph three, so anything load-bearing must be above that line.",
+              "explanation": "This is the inverted-pyramid structure from news writing, and it works for the same reason: readers leave at every paragraph boundary, so information should be ordered by importance rather than by the order in which you discovered it.",
+              "uid": "01M23NVBKEJ3BAX4A6TW001BMF"
+            },
+            {
+              "kind": "explain",
+              "prompt_tpl": "Explain the test 'read only the {n} headings in order' and what a failure of that test tells you about the draft.",
+              "params": {
+                "n": [
+                  6,
+                  8
+                ]
+              },
+              "grader": "free",
+              "answer": "If the headings alone do not convey the claim, the evidence and the conclusion, the post relies on the reader consuming every paragraph, which most will not do. Failure usually means the headings are topics rather than statements: 'Results' instead of 'Rotary embeddings cut val loss by 0.05 at fixed compute'.",
+              "explanation": "Turning headings into assertions is the cheapest structural upgrade available to a draft. It also exposes missing structure, because a section with no assertion to make is usually a section that should be a sentence.",
+              "uid": "01M23NVBKEZEFXXF9RS5KAGPYC"
+            }
+          ],
+          "L5": "w20-design-and-load",
+          "prereqs": [],
+          "resources": [
+            "https://www.fast.ai/posts/2019-05-13-blogging-advice.html",
+            "https://distill.pub/2017/research-debt/"
+          ],
+          "people": [
+            "Rachel Thomas",
+            "Chris Olah",
+            "Lilian Weng"
+          ],
+          "tags": [
+            "writing",
+            "communication",
+            "structure"
+          ],
+          "uid": "01M23NVBKEJ0GAQG8C2WD67RS2"
+        },
+        {
+          "t": "Figures that carry the argument",
+          "preserved": false,
+          "L0": {
+            "body": "# A figure must be readable with only its caption, by someone who read nothing else.\n\n  axes labelled with units; log scale marked as log\n  error bars or a shaded band, and the caption says what they are (sd? 95% CI? n?)\n  the baseline on the same axes, not in a different figure\n  the caption states the takeaway as a sentence, not 'Figure 3: results'\n\n# Caption template:\n#   'Fig 3. Method B reaches the same val loss as A using 38% fewer FLOPs.\n#    5 seeds per arm, shaded band is +/- 1 sd, iso-FLOP budget, 124M params.'",
+            "cloze": "A caption should state {{c1::the takeaway as a sentence}} and say what the error band is - standard deviation, {{c2::95 percent CI}}, and n. Put the baseline {{c3::on the same axes}}."
+          },
+          "L1": "The figure is the part of your write-up that most readers will actually consume, so it has to carry the argument alone. Labelled axes with units, the baseline on the same axes, an error band whose definition is stated, and a caption that says what to conclude.",
+          "L2": "A figure without an error band is a claim without evidence, and the most common tell of an unreliable result. The second tell is a caption that names the figure instead of stating the finding, which signals the author has not decided what the figure is for.",
+          "L3": "Nanda's paper-writing advice puts figures at the centre for a mechanical reason: readers form their judgement from the abstract and the figures, so unclear figures read as unclear work regardless of the text. Build each figure from the claim backwards - decide the sentence the reader should leave with, choose the visualisation that makes it obvious, drop everything else. Practical rules: same axes for compared arms, compute rather than steps on the x-axis when the claim is about efficiency, a log axis when the quantity spans orders of magnitude and say so, and never two bars without intervals.",
+          "L4": [
+            {
+              "kind": "find-the-bug",
+              "prompt_tpl": "A figure shows two bars, {a} and {b}, with no error bars, and is captioned 'Figure 2: comparison of methods'. List every problem and the minimum fix.",
+              "params": {
+                "a": [
+                  71.4,
+                  68.0
+                ],
+                "b": [
+                  69.6,
+                  67.2
+                ]
+              },
+              "grader": "free",
+              "answer": "No uncertainty shown, so the difference cannot be assessed; no n; no statement of what varies between arms; and a caption that names rather than concludes. Minimum fix: several seeds per arm, plot means with intervals, state n and the interval type, and rewrite the caption as the finding it supports.",
+              "explanation": "Two bars without intervals is the single most common uninformative figure in applied ML. It is not merely incomplete: it actively invites the reader to treat a difference of unknown reliability as a fact.",
+              "uid": "01M23NVBKEW59Z0WHMZ7Y31BNH"
+            },
+            {
+              "kind": "explain",
+              "prompt_tpl": "You are claiming a {p} percent efficiency win. Explain why the x-axis should be compute rather than training steps.",
+              "params": {
+                "p": [
+                  20,
+                  38
+                ]
+              },
+              "grader": "free",
+              "answer": "Steps are not a cost. If the arms have different per-step cost - more parameters, extra kernels, more memory traffic - equal steps gives one arm more compute for free, so the plot can show a win that vanishes at equal cost. Plotting against FLOPs or wall-clock makes the claim mean what it says.",
+              "explanation": "The general rule for efficiency claims is that the x-axis must be the resource you claim to be saving. Anything else lets the comparison drift away from the sentence in the abstract.",
+              "uid": "01M23NVBKEV5TZ4H28ZC8PZ8GY"
+            }
+          ],
+          "L5": "w20-design-and-load",
+          "prereqs": [
+            "Seeds, variance, and how many runs",
+            "The structure of a technical post"
+          ],
+          "resources": [
+            "https://www.alignmentforum.org/posts/eJGptPbbFPZGLpjsp/highly-opinionated-advice-on-how-to-write-ml-papers",
+            "https://distill.pub/"
+          ],
+          "people": [
+            "Neel Nanda",
+            "Chris Olah"
+          ],
+          "tags": [
+            "writing",
+            "figures",
+            "communication"
+          ],
+          "uid": "01M23NVBKE2FPNYS0NZMMX1QAN"
+        },
+        {
+          "t": "The abstract as a contract",
+          "preserved": false,
+          "L0": {
+            "body": "# Every clause in the abstract is a promise that a later section must pay.\n\n  1 context     one sentence a non-specialist in your subfield can follow\n  2 the gap     what was not known or not tested\n  3 what we did the method, in one sentence, concrete\n  4 the result  the number, with its condition ('at equal compute', '5 seeds')\n  5 so what     what a reader should now do or believe differently\n\n# Test: for each claim in the abstract, name the figure or table that supports it.\n# A claim with no figure is either unsupported or belongs in future work.",
+            "cloze": "Test the abstract by naming, for each claim, {{c1::the figure or table that supports it}}. A claim with no supporting evidence belongs in {{c2::future work}}, not the abstract."
+          },
+          "L1": "The abstract is the only part most readers see, and every clause in it is a promise the body must pay. The test is mechanical: for each claim, name the figure or table that supports it, and delete or demote any claim with no answer.",
+          "L2": "The common failure is not overclaiming in an obvious way, it is unconditioned claiming. 'Our method improves accuracy by 2 points' is a different, much stronger claim than 'by 2 points at equal compute on one benchmark over five seeds', and only the second is one you can defend.",
+          "L3": "Nanda's advice is that a paper makes one to three specific concrete claims and everything else supports that narrative; the abstract is where you commit. The five-part structure - context, gap, method, result, implication - is a checklist, and its value is that a missing part is diagnostic. No gap means you have not said why the work was needed. No conditioned number means the result is not yet a result. No implication means you have not decided who this is for. Write the abstract before the paper is finished and rewrite it after: the first draft tells you what to run, the second what you found. The gap between them is the project's honest content.",
+          "L4": [
+            {
+              "kind": "find-the-bug",
+              "prompt_tpl": "An abstract claims 'we improve accuracy by {d} points and reduce training cost'. The paper contains one figure, of accuracy against steps. What is unsupported and what would fix it?",
+              "params": {
+                "d": [
+                  2.0,
+                  3.5
+                ]
+              },
+              "grader": "free",
+              "answer": "The cost claim has no supporting evidence, and the accuracy claim is unconditioned. Fix: add a figure with compute or wall-clock on the x-axis to support the cost claim, and condition the accuracy claim on the budget, benchmark and number of seeds - or drop the cost claim from the abstract.",
+              "explanation": "Running the name-the-figure test on your own abstract usually deletes one clause, and that deletion is the single highest-value edit in the paper, because unsupported abstract claims are what reviewers and readers punish hardest.",
+              "uid": "01M23NVBKEAHQ3GGKF5THNCFXD"
+            },
+            {
+              "kind": "explain",
+              "prompt_tpl": "Explain why writing the abstract {w} is a useful planning technique, not just a writing one.",
+              "params": {
+                "w": [
+                  "before running the experiments",
+                  "twice, before and after"
+                ]
+              },
+              "grader": "free",
+              "answer": "The draft abstract states the result you hope for, which immediately names the experiments and figures required to support it - it is a work plan in disguise. Rewriting it afterwards against what you actually measured exposes exactly where your expectations and your evidence diverged, which is usually the most interesting part of the project.",
+              "explanation": "This is the same mechanism as writing the numeric prediction before a run: committing to a claim in advance makes the mismatch visible instead of letting the narrative quietly reshape itself around whatever happened.",
+              "uid": "01M23NVBKEY588VKNGCQJKBW2V"
+            }
+          ],
+          "L5": "w20-design-and-load",
+          "prereqs": [
+            "The structure of a technical post"
+          ],
+          "resources": [
+            "https://www.alignmentforum.org/posts/eJGptPbbFPZGLpjsp/highly-opinionated-advice-on-how-to-write-ml-papers"
+          ],
+          "people": [
+            "Neel Nanda"
+          ],
+          "tags": [
+            "writing",
+            "abstract",
+            "papers"
+          ],
+          "uid": "01M23NVBKEYZY2YJPQS6VE01XN"
+        },
+        {
+          "t": "Writing a paper: arXiv norms and peer review",
+          "preserved": false,
+          "L0": {
+            "body": "# arXiv\n  endorsement: a first-time submitter to a category may need an endorser,\n    who checks topical fit only. It is explicitly NOT peer review.\n  versions are permanent: v1 stays public forever. cross-list, never duplicate.\n  pick a licence deliberately; the default is non-exclusive distribution.\n\n# reviewer comments: sort every review into three bins\n  1 wrong about the paper  -> your writing failed; fix the writing\n  2 right and fixable      -> fix it, say so in the response\n  3 right and not fixable  -> concede it in limitations\n# 'they did not read it' is bin 1 until proven otherwise.",
+            "cloze": "arXiv endorsement checks only that a paper is {{c1::appropriate for the subject area}} and is explicitly not {{c2::peer review}}. A reviewer who misread your paper is evidence of {{c3::a writing failure}} until proven otherwise."
+          },
+          "L1": "arXiv is a preprint server with an endorsement gate for first-time submitters to a category, permanent versions and a licence choice. Peer review happens elsewhere. Reviewer comments sort into three bins: they misread you, they are right and it is fixable, they are right and it is not.",
+          "L2": "Endorsement is not review and confers no quality signal; it only checks topical fit. And the reviewer who misunderstood your paper is data about your writing, not about the reviewer, because the next hundred readers will have less patience and no obligation.",
+          "L3": "Treating misreadings as writing bugs is the highest-leverage habit in revision, because it is the only interpretation that produces an action. A reviewer who thought your baseline was untuned has told you the tuning protocol was not visible enough; move it into the main text. Practically: post to arXiv when the work is finished enough that you would defend it, remember v1 is permanent, cross-list rather than resubmit, pick a licence that permits the reuse you want. In the response letter, answer every point, concede plainly where you are wrong, never argue about tone. Conceding a real limitation raises credibility more than defending it could.",
+          "L4": [
+            {
+              "kind": "choose-and-justify",
+              "prompt_tpl": "A reviewer writes that your method is {c}, which is not what the paper says. Classify the comment and give your two actions.",
+              "params": {
+                "c": [
+                  "only evaluated on one dataset",
+                  "an unmodified reimplementation of prior work"
+                ]
+              },
+              "grader": "free",
+              "answer": "Bin one: they misread, which means the paper did not make it clear. Actions: change the text or a figure so the point is unmissable in the main body, and in the response say plainly what the paper does and point to the revised location. Do not merely assert that the reviewer was wrong.",
+              "explanation": "The response letter is read by an editor and by the reviewer, but the revised paper is read by everyone else. Fixing the writing serves both, and it is the only response that improves the artifact rather than the argument about it.",
+              "uid": "01M23NVBKEWBP5D8FKMHY3F734"
+            },
+            {
+              "kind": "explain",
+              "prompt_tpl": "Explain what arXiv endorsement does and does not certify, and why treating {t} as validation is a mistake.",
+              "params": {
+                "t": [
+                  "an arXiv preprint",
+                  "an endorsed submission"
+                ]
+              },
+              "grader": "free",
+              "answer": "Endorsement certifies that a submission is topically appropriate for a category, checked by an established author in that area. It certifies nothing about correctness, novelty or quality, and arXiv states it is not peer review. Treating a preprint as validated confuses distribution with evaluation.",
+              "explanation": "This matters in both directions: do not oversell your own preprint as a publication, and do not dismiss preprints as unreviewed noise, since much of the field's most-used work appears there first and is evaluated by reproduction rather than by review.",
+              "uid": "01M23NVBKE9R9VQST4TFPRDH5Q"
+            }
+          ],
+          "L5": "w26-systolic-accelerator",
+          "prereqs": [
+            "The abstract as a contract"
+          ],
+          "resources": [
+            "https://arxiv.org/help/endorsement",
+            "https://arxiv.org/help/license"
+          ],
+          "people": [
+            "Neel Nanda",
+            "Sasha Rush"
+          ],
+          "tags": [
+            "writing",
+            "arxiv",
+            "peer-review"
+          ],
+          "uid": "01M23NVBKEFV624HK3J67FYC3S"
+        }
+      ],
+      "uid": "01M23NVBKER8D1TCDQRBKMMPZD"
+    },
+    {
+      "t": "Working in public",
+      "note": "How an artifact becomes a conversation, and a conversation becomes a door.",
+      "concepts": [
+        {
+          "t": "What to publish, and what not to",
+          "preserved": false,
+          "L0": {
+            "body": "# Publish\n  built     a repo that runs, with a README showing the output\n  measured  a reproduction, an ablation, a benchmark, with intervals\n  learned   a TIL: 'I figured this out, here are my notes'\n  failed    a documented negative result, with the configs\n\n# Do not publish\n  your employer's unreleased work, data, or numbers\n  personal data, or scraped data you cannot redistribute\n  security findings before the disclosure window closes\n  capability uplift you would not want copied\n  a claim you cannot support with a figure",
+            "cloze": "The four publishable forms are things you {{c1::built}}, measured, learned, and things that {{c2::failed}}. Simon Willison's liberating format is the {{c3::TIL}}, which makes no claim to originality."
+          },
+          "L1": "Four things are always publishable: something you built, something you measured, something you learned, and something that failed. The stop list is short and hard: employer confidential material, personal or non-redistributable data, undisclosed vulnerabilities, and claims you cannot evidence.",
+          "L2": "The belief that stops most people is that a post must be novel. Simon Willison's reframe removes it: the TIL claims no originality at all, it says here are my notes on something I just worked out. Novelty is a property of research papers, not of useful writing.",
+          "L3": "The stop list matters more than it looks, because one violation is unrecoverable in a way a boring post is not. Employer material is the common case: assume anything not already public is confidential, and get written permission rather than inferring it. Security findings follow coordinated disclosure - report first, publish after the window. Scraped data is usually not yours to redistribute, so publish the fetching code instead of the corpus. On capability uplift the norm is to publish the analysis and withhold the recipe. Everything outside that list is fair game, and your unpolished notes help more people than the perfect post you have not written.",
+          "L4": [
+            {
+              "kind": "choose-and-justify",
+              "prompt_tpl": "You spent {d} days debugging a subtle issue in an open-source library at work and want to write it up. What must you strip, and what remains publishable?",
+              "params": {
+                "d": [
+                  2,
+                  5
+                ]
+              },
+              "grader": "free",
+              "answer": "Strip internal service names, data, metrics, architecture details and anything identifying the workload. What remains is the library behaviour, a minimal public reproduction, the diagnosis and the fix - which is the useful part anyway. Get written sign-off before posting even after stripping.",
+              "explanation": "The technical content of a debugging story almost never depends on the proprietary context, so the strip is usually cheap. The step people skip is the written permission, which protects you rather than the employer.",
+              "uid": "01M23NVBKEMFTNVT1QYRG966XT"
+            },
+            {
+              "kind": "explain",
+              "prompt_tpl": "Explain why a {n}-word TIL note can be more valuable to a reader than a long survey post on the same topic.",
+              "params": {
+                "n": [
+                  300,
+                  600
+                ]
+              },
+              "grader": "free",
+              "answer": "It is indexed against the exact error message or symptom a searcher has, it says what worked rather than what exists, and it is written close in time to the confusion so it names the thing that was actually unclear. Surveys serve orientation; TILs serve someone stuck right now.",
+              "explanation": "This is Rachel Thomas's point about writing for the person one step behind you, in its cheapest form. It also explains why TILs compound: they are individually small but collectively become the searchable record that makes you findable.",
+              "uid": "01M23NVBKE6J5AAMGA2FA4PGSD"
+            }
+          ],
+          "L5": "w26-systolic-accelerator",
+          "prereqs": [
+            "The structure of a technical post"
+          ],
+          "resources": [
+            "https://simonwillison.net/2022/Nov/6/what-to-blog-about/",
+            "https://www.fast.ai/posts/2019-05-13-blogging-advice.html"
+          ],
+          "people": [
+            "Simon Willison",
+            "Rachel Thomas"
+          ],
+          "tags": [
+            "publishing",
+            "ethics",
+            "writing"
+          ],
+          "uid": "01M23NVBKEP7F5SGZKH8HT0RC2"
+        },
+        {
+          "t": "Cadence over polish",
+          "preserved": false,
+          "L0": {
+            "body": "# The first-post problem: post 1 has no audience, so its value looks like zero.\n# It is not zero. It is the cost of admission to posts 2 through 40.\n\n  target: one post every two weeks for six months = 13 posts\n  rule:   ship at 80% and fix in place; a published draft beats an unpublished essay\n  rule:   never delete an old post to hide that you were once a beginner\n\n# The distribution is the point: readership per post is heavy-tailed.\n# Most posts reach almost nobody. You cannot predict which one does not.",
+            "cloze": "Readership per post is {{c1::heavy-tailed}}, and you cannot predict in advance {{c2::which post lands}}. That is the argument for cadence: publish at {{c3::80 percent}} and fix in place."
+          },
+          "L1": "Set a cadence and hold it - one post every two weeks for six months is thirteen artifacts. Ship at eighty percent and edit in place. The first post has no audience, and that is not a reason to skip it, it is the entry fee for the ones that do.",
+          "L2": "Polish is the wrong optimisation target because outcomes per post are heavy-tailed and unpredictable. One post in twenty gets read widely, you cannot tell which in advance, and the only variable you control is how many you write.",
+          "L3": "The first-post problem is a coordination failure with yourself: the honest expected value of post one is near zero, so nothing motivates writing it. The resolution is to change the unit of account from the post to the sequence. Thirteen posts is a body of work with a visible cadence and a self-selecting audience; one post is a curiosity. Willison's two formats exist to lower the activation energy of any single post, and Thomas's advice to write about last month's learning keeps topics from running out. Cadence also beats polish because a long draft is a project and projects get abandoned, whereas a two-week rhythm is a habit with a cue.",
+          "L4": [
+            {
+              "kind": "compute",
+              "prompt_tpl": "You post every {k} weeks for {m} months. If one post in {r} reaches a wide audience, what is the probability at least one does, assuming independence? Answer with the probability.",
+              "params": {
+                "k": [
+                  2,
+                  4
+                ],
+                "m": [
+                  6,
+                  12
+                ],
+                "r": [
+                  20,
+                  10
+                ]
+              },
+              "grader": "numeric",
+              "tolerance": 0.02,
+              "answer": "n = floor(m*52/12/k) posts, and P = 1 - (1 - 1/r)**n. For k=2, m=6, r=20: n=13, P = 1-0.95**13 = 0.487. For k=2, m=12, r=20: n=26, P=0.737. For k=4, m=6, r=10: n=6, P=0.469.",
+              "answer_expr": "1-(1-1/r)**floor(m*52/12/k)",
+              "explanation": "Independence is a simplification - later posts benefit from an accumulated audience, so the real curve is better than this. Even under the pessimistic model, doubling the count moves you from a coin flip to roughly three in four, which is the entire argument for cadence.",
+              "uid": "01M23NVBKEN4XJB31Q6CY0DSS0"
+            },
+            {
+              "kind": "choose-and-justify",
+              "prompt_tpl": "You have a {w}-week-old draft you keep improving and a two-hour write-up of a thing you fixed yesterday. Which do you publish first?",
+              "params": {
+                "w": [
+                  3,
+                  8
+                ]
+              },
+              "grader": "free",
+              "answer": "The two-hour write-up. It is finishable today, it re-starts the cadence, and its details are still fresh. The old draft has been accumulating scope, not quality; cut it to its single claim and ship that, or retire it. Publishing restores the habit, which is the scarce resource.",
+              "explanation": "A draft that keeps growing is usually a draft with no single claim, which is a structural problem that more editing will not fix. Shipping the small thing also gives you the feedback that tells you whether the big draft is worth finishing.",
+              "uid": "01M23NVBKEKQ39FDEBDD4N3KRZ"
+            }
+          ],
+          "L5": "w26-systolic-accelerator",
+          "prereqs": [
+            "What to publish, and what not to"
+          ],
+          "resources": [
+            "https://simonwillison.net/2022/Nov/6/what-to-blog-about/"
+          ],
+          "people": [
+            "Simon Willison",
+            "Nathan Lambert"
+          ],
+          "tags": [
+            "publishing",
+            "habit",
+            "cadence"
+          ],
+          "uid": "01M23NVBKE4Q3ETMHFWCYHH1PA"
+        },
+        {
+          "t": "Choosing a venue",
+          "preserved": false,
+          "L0": {
+            "body": "# Match the venue to the artifact, and keep the canonical copy on a domain you own.\n\n  your own site   canonical; survives platforms. publish here first.\n  GitHub README   code artifacts - where people land from search\n  arXiv           a paper-shaped result: figures, related work, limitations\n  workshop paper  cheapest real peer review; the deadline forces finishing\n  LessWrong / AF  alignment work, with an engaged critical audience\n  a Discord       first draft, fastest feedback (GPU MODE, EleutherAI)\n\n# Then syndicate. Never let the syndicated copy be the only copy.",
+            "cloze": "Publish the canonical copy {{c1::on a domain you own}} and syndicate elsewhere. A {{c2::workshop paper}} is the cheapest genuinely peer-reviewed venue, and its deadline is what forces you to finish."
+          },
+          "L1": "Venue is a function of artifact shape and intended reader. Code goes to a GitHub README, a measured result to arXiv or a workshop, alignment work to LessWrong or the Alignment Forum, and a first draft to a community Discord. Keep the canonical copy on your own domain.",
+          "L2": "The mistake is publishing only into a platform. Platforms decay, change ranking, or delete accounts, and a body of work that lives entirely inside one is not yours. Syndicate freely, but the link you give people should point at a domain whose DNS you control.",
+          "L3": "The venue determines the readership, and the readership determines whether the artifact becomes a conversation. A kernel post read by twelve people who all write kernels beats a thousand impressions on a general feed. Workshop papers deserve special mention for people with no publications: genuinely peer-reviewed, a bar far below main-track, a deadline that forces finishing, and the first serious external critique most people get. The structural point from the career research applies: an engineer outside headquarters is disadvantaged on internal visibility, and public reputation routes around it - but only where the relevant people already read.",
+          "L4": [
+            {
+              "kind": "choose-and-justify",
+              "prompt_tpl": "You have {a} and want feedback from people who could hire you. Pick a venue and a syndication path, and say what you lose with each alternative.",
+              "params": {
+                "a": [
+                  "a Triton kernel that beats the PyTorch baseline",
+                  "an interpretability finding on a small open model"
+                ]
+              },
+              "grader": "free",
+              "answer": "For the kernel: a repo with benchmark numbers in the README, announced in the GPU MODE community, canonical write-up on your own site. For the interpretability result: LessWrong or the Alignment Forum, where the audience will actually critique it, again canonicalised on your own domain. A general social feed gives reach without competent readers; a bare arXiv post gives permanence without conversation.",
+              "explanation": "Feedback quality scales with reader expertise, not reader count. Choosing the venue by where the twelve people who can evaluate the work already are is a better rule than choosing by audience size.",
+              "uid": "01M23NVBKENZKZ69QC34TVBNSY"
+            },
+            {
+              "kind": "explain",
+              "prompt_tpl": "Explain why a {v} workshop paper can be a better first publication than a main-track submission.",
+              "params": {
+                "v": [
+                  "NeurIPS",
+                  "ICML"
+                ]
+              },
+              "grader": "free",
+              "answer": "The acceptance bar is far lower and the scope expected is a single result rather than a full story, so a good reproduction with an ablation can clear it. It is genuinely peer-reviewed, so it counts, and the deadline supplies the external forcing function that turns an ongoing project into a finished artifact.",
+              "explanation": "The reviews are the underrated part. Most people writing publicly for the first time have never had their work critiqued by someone obliged to read it carefully, and that feedback is worth more than the line on the CV.",
+              "uid": "01M23NVBKESW0SM6RBMA5C004Q"
+            }
+          ],
+          "L5": "w26-systolic-accelerator",
+          "prereqs": [
+            "Cadence over polish"
+          ],
+          "resources": [
+            "https://www.alignmentforum.org/",
+            "https://www.gpumode.com/"
+          ],
+          "people": [
+            "Nathan Lambert",
+            "Lilian Weng"
+          ],
+          "tags": [
+            "publishing",
+            "venue",
+            "community"
+          ],
+          "uid": "01M23NVBKEP9J4VAPXDVXPWN1R"
+        },
+        {
+          "t": "From artifact to conversation to job",
+          "preserved": false,
+          "L0": {
+            "body": "# The actual mechanism, in order. Each arrow has a failure mode.\n\n  artifact -> found     needs: a real title, a searchable problem, readers\n  found    -> read      needs: result first, figures, a claim in 3 lines\n  read     -> reply     needs: something specific to disagree with\n  reply    -> relation  needs: you answer, follow up, do the next thing\n  relation -> referral  needs: someone who knows your work when a role opens\n\n# Anthropic: 'We care about what you can do, not where you learned to do it.'\n# levels.fyi on Distinguished engineers: 'frequently published authors'.",
+            "cloze": "The chain runs artifact, found, read, {{c1::reply}}, relationship, {{c2::referral}}. The step people neglect is making the artifact {{c3::specific enough to disagree with}}."
+          },
+          "L1": "Public work converts into opportunity through a chain: the artifact is found, read, replied to, and the reply becomes a relationship that later produces a referral. Every step has a distinct requirement, and the chain breaks at whichever one you neglect.",
+          "L2": "The unintuitive requirement is at the reply step. A post that is agreeable and general gets read and forgotten; a post that makes a specific, falsifiable claim gets corrected, and being corrected in public by someone competent is the fastest path to knowing them.",
+          "L3": "Three sources converge on public output as a credential. Neel Nanda: public research output is your best credential. Anthropic's careers page asks for independent research, thoughtful blog posts or open-source contributions, and states about half its technical staff had no prior ML experience. levels.fyi notes distinguished engineers are frequently published authors. The causal arrow in the last is ambiguous - senior people write and writers get senior - so treat it as weaker evidence than the fellowship data. What is not ambiguous is the individual mechanism: a referral needs someone who already knows what you can do.",
+          "L4": [
+            {
+              "kind": "explain",
+              "prompt_tpl": "Your post got {v} views and no replies. Diagnose which link in the chain broke and give a concrete fix.",
+              "params": {
+                "v": [
+                  2000,
+                  300
+                ]
+              },
+              "grader": "free",
+              "answer": "Reading happened, engagement did not, so the break is read-to-reply: the post gave nobody anything specific to argue with or build on. Fix: state a falsifiable claim with a number and a condition, name the limitation you are least sure about, and ask one precise question at the end.",
+              "explanation": "An open, specific question is the cheapest conversion device available and it is almost always omitted. It also signals that you want correction, which is what makes competent people willing to spend their time replying.",
+              "uid": "01M23NVBKED6ZJ3X5HT83CM2PH"
+            },
+            {
+              "kind": "choose-and-justify",
+              "prompt_tpl": "You are based {loc} and targeting a lab whose research roles are all in SF and London. Argue for public artifacts over internal visibility as the primary strategy.",
+              "params": {
+                "loc": [
+                  "in Bengaluru",
+                  "outside any HQ city"
+                ]
+              },
+              "grader": "free",
+              "answer": "Internal visibility is structurally allocated to people near where decisions are made, so it is the weakest lever available to you. Public artifacts are location-independent and are read by exactly the people who staff those roles, which is why the fellowship and open-source routes dominate for remote candidates. The relocation or visa question remains live and should be planned, not deferred.",
+              "explanation": "Larson's survey found visibility to be structural - headquarters staff get more of it - and the labs' own job boards concentrate research roles in a few cities. Public work routes around the first constraint but does not remove the second.",
+              "uid": "01M23NVBKE5Q8X648AX34WWAVJ"
+            }
+          ],
+          "L5": "w26-systolic-accelerator",
+          "prereqs": [
+            "Choosing a venue",
+            "Reproduction as the strongest credential"
+          ],
+          "resources": [
+            "https://www.anthropic.com/careers",
+            "https://staffeng.com/guides/getting-the-title-where-you-are/",
+            "https://www.levels.fyi/blog/swe-level-framework.html"
+          ],
+          "people": [
+            "Neel Nanda",
+            "Chris Olah"
+          ],
+          "tags": [
+            "career",
+            "networking",
+            "artifacts"
+          ],
+          "uid": "01M23NVBKE4EZ3CB8PXH4CKHEF"
+        },
+        {
+          "t": "Open source and leaderboards as a hiring funnel",
+          "preserved": false,
+          "L0": {
+            "body": "# Pick a project you already use and can run the tests of.\n  signals: merged PRs from non-maintainers this month; a CONTRIBUTING file;\n           open labelled good-first-issues; maintainers who reply\n\n# The first PR, in order:\n  1 reproduce the bug and add a failing test\n  2 smallest possible fix; no drive-by refactors; match local style\n  3 one PR, one change; describe the failing case\n  4 answer review within a day; ask, do not defend\n\n# Leaderboards: GPU MODE runs kernel problems with a public leaderboard\n#   (kernelbot); modded-nanogpt logs attributed speedrun records.",
+            "cloze": "A first PR should start with {{c1::a failing test}} that reproduces the bug, make the {{c2::smallest possible fix}}, and avoid {{c3::drive-by refactors}}."
+          },
+          "L1": "Contribute to something you already use and can run the tests of. The first PR is a failing test plus the smallest fix, one change, described by its failing case. Kernel leaderboards such as GPU MODE's are the same funnel with an automatic, comparable score attached.",
+          "L2": "The reason first PRs stall is almost never the code. It is scope: a fix bundled with a refactor forces the maintainer to review two things and take responsibility for a design decision they did not ask for, so the cheapest response is to leave it.",
+          "L3": "Maintainer time is the scarce resource, and PR etiquette follows from minimising your draw on it. A failing test proves the bug without them reproducing it. A minimal diff makes review cheap. One change per PR stops a disagreement about one part blocking the rest. Fast, non-defensive replies keep the PR from going cold, which is how most first contributions die. Repeat this and your PRs get read first, which is the start of the maintainer path - triage, review rights, commit. Leaderboards compress the same funnel: the artifact and its ranking arrive together and need no advocacy from you.",
+          "L4": [
+            {
+              "kind": "find-the-bug",
+              "prompt_tpl": "A first-time contributor opens a PR with a {n}-line diff that fixes a bug, renames {k} variables for clarity, and reformats the file. It goes unreviewed for a month. Explain why, and rewrite the plan.",
+              "params": {
+                "n": [
+                  400,
+                  900
+                ],
+                "k": [
+                  12,
+                  30
+                ]
+              },
+              "grader": "free",
+              "answer": "The diff mixes a fix with two unrequested changes, so the maintainer must evaluate a bug fix, a naming decision and a reformat at once, and the reformat hides the real change. Rewrite as one PR: a failing test plus the minimal fix. Propose the rename and the reformat separately, after the fix lands.",
+              "explanation": "Review cost scales with the number of independent decisions, not with lines changed. A one-decision PR can be approved in minutes; a three-decision PR needs a conversation the maintainer has to schedule, which is why it waits.",
+              "uid": "01M23NVBKE3TSR71E4W9VWRBRV"
+            },
+            {
+              "kind": "choose-and-justify",
+              "prompt_tpl": "You have {h} hours and no public track record. Compare a leaderboard kernel submission with a first PR to a library you use, on speed of signal and durability.",
+              "params": {
+                "h": [
+                  20,
+                  50
+                ]
+              },
+              "grader": "free",
+              "answer": "The leaderboard gives faster, unambiguous signal: your score is comparable and attributed with no maintainer in the loop, so the result does not depend on anyone's availability. The merged PR is slower and gated on review, but it is durable evidence of working inside someone else's codebase, which is closer to the actual job. Do the leaderboard first, then the PR.",
+              "explanation": "They measure different things. A leaderboard rank shows you can optimise against a clear objective; a merged PR shows you can operate under constraints you did not choose, which is the harder and more transferable claim.",
+              "uid": "01M23NVBKEEG3GAHFG3BRZEEY0"
+            }
+          ],
+          "L5": "w26-systolic-accelerator",
+          "prereqs": [
+            "From artifact to conversation to job"
+          ],
+          "resources": [
+            "https://github.com/gpu-mode",
+            "https://github.com/KellerJordan/modded-nanogpt",
+            "https://arxiv.org/pdf/2210.06413"
+          ],
+          "people": [
+            "Keller Jordan",
+            "Simon Willison"
+          ],
+          "tags": [
+            "open-source",
+            "competitions",
+            "career"
+          ],
+          "uid": "01M23NVBKEJH8W2KM51DEG3B15"
+        }
+      ],
+      "uid": "01M23NVBKE8PKMK881T16T8FAA"
+    },
+    {
+      "t": "The learning system itself",
+      "note": "Why this app is built the way it is, with the numbers behind each decision.",
+      "concepts": [
+        {
+          "t": "Spacing and retrieval are the practice you control",
+          "preserved": false,
+          "L0": {
+            "body": "# Dunlosky 2013 rated 10 techniques for GENERALIZABILITY. Two got High:\n  practice testing      High\n  distributed practice  High\n  everything else       Moderate or Low (rereading, highlighting: Low)\n\n# Donoghue & Hattie 2021, effect sizes d (k studies):\n  distributed practice 0.85 (k=150)   re-reading    0.47 (k=113)\n  practice testing     0.74 (k=374)   interleaving  0.47 (k=104)\n  self-explanation     0.54 (k=93)    summarization 0.44 (k=234)\n\n# Cepeda 2008: the optimal gap gave a 64% increase in final recall over a\n#   zero-day gap, at retention intervals of 7, 35, 70 and 350 days.",
+            "cloze": "Dunlosky rated only {{c1::practice testing}} and {{c2::distributed practice}} as high utility. Donoghue and Hattie put distributed practice at d = {{c3::0.85}} and practice testing at d = 0.74."
+          },
+          "L1": "Of ten studied techniques only two earn high utility ratings across learners, materials and criterion tasks: practice testing and distributed practice. Everything else is a supporting move. This is why the app schedules retrieval over time rather than presenting material.",
+          "L2": "The ratings are about generalizability, not effect size, and the distinction matters: every technique in the 2021 meta-analysis clears d = 0.40, including re-reading at 0.47. What separates the top two is that they work across ages, materials and test formats, not that they are alone in working.",
+          "L3": "Cepeda and colleagues ran 1,354 subjects across 26 gap-by-retention-interval combinations, at retention intervals of 7, 35, 70 and 350 days. The optimal gap produced a 64 percent increase in final recall over a zero-day gap. The optimum is not a fixed ratio: it falls from roughly 14 to 31 percent of the retention interval at a week to two months, to about 6 to 7 percent at a year. The curve rises steeply and declines gently, so over-spacing is cheap and under-spacing expensive. Against Macnamara's finding that in professions practice explains under 1 percent of performance variance: scheduling buys retention, not expertise.",
+          "L4": [
+            {
+              "kind": "compute",
+              "prompt_tpl": "You need to still know something in {r} days. Using the Cepeda ratios (about 10 to 20 percent of the retention interval at short RIs, falling to 6 to 7 percent at a year), what gap should you target, and which direction is the safer error?",
+              "params": {
+                "r": [
+                  35,
+                  70,
+                  350
+                ]
+              },
+              "grader": "free",
+              "answer": "About 11 days for a 35-day interval, about 21 days for 70 days, and about 21 to 23 days for 350 days. Over-spacing is the safer error: the curve rises steeply to the optimum and falls gently after it.",
+              "explanation": "Note the ratio is not constant - 21/350 is about 6 percent while 11/35 is about 31 percent - so the popular 10 to 20 percent rule is a rounded summary of a ratio that drifts with the retention interval, not a law.",
+              "uid": "01M23NVBKEGZ9FV1R9DCCQQFXB"
+            },
+            {
+              "kind": "explain",
+              "prompt_tpl": "Re-reading scores d = {d} in the 2021 meta-analysis yet Dunlosky rates it Low utility. Explain how both can be true.",
+              "params": {
+                "d": [
+                  0.47
+                ]
+              },
+              "grader": "free",
+              "answer": "The meta-analytic d compares re-reading against no treatment, so it is measured against nothing rather than against testing. Dunlosky rates generalizability, and head-to-head re-reading loses badly to practice testing at longer delays. Different comparisons, different questions, no contradiction.",
+              "explanation": "This is the single most misread table in the learning literature. An effect size is meaningless without its comparison condition, which is why the ordering plus Dunlosky's reasoning matters more than the numbers alone.",
+              "uid": "01M23NVBKEZC8EXEH06YYBVT1N"
+            }
+          ],
+          "L5": "d01-8",
+          "prereqs": [],
+          "resources": [
+            "https://acs.ist.psu.edu/ist521/dunloskyRMNW13.pdf",
+            "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2021.581216/full",
+            "https://files.eric.ed.gov/fulltext/ED505660.pdf"
+          ],
+          "people": [
+            "Michael Nielsen",
+            "Andy Matuschak"
+          ],
+          "tags": [
+            "learning-science",
+            "spacing",
+            "retrieval"
+          ],
+          "uid": "01M23NVBKE83HQT24XGHN02WC0"
+        },
+        {
+          "t": "The re-reading illusion",
+          "preserved": false,
+          "L0": {
+            "body": "# Roediger & Karpicke 2006, Experiment 2. SSSS = 4 study blocks.\n# SSST = 3 study + 1 test. STTT = 1 study + 3 tests.\n\n  delay      SSSS   SSST   STTT\n  5 min      83%    78%    71%     <- studying wins\n  1 week     40%    56%    61%     <- testing wins, and the gap is large\n\n# Predicted 1-week recall (confidence):  SSSS 4.8 > SSST 4.2 > STTT 4.0\n# The group that performed WORST was the most confident.\n\n# Deslauriers et al. 2019 (Harvard physics RCT, N=149): active learning +0.46 SD\n#   on exams, while perceived learning was -0.56 SD.",
+            "cloze": "At one week, four study blocks gave {{c1::40}} percent recall and one study plus three tests gave {{c2::61}} percent - yet the study-only group predicted it would do {{c3::best}}."
+          },
+          "L1": "Restudying beats testing at five minutes and loses badly at one week: 40 percent against 61 percent in Roediger and Karpicke's second experiment. The group that performed worst was the most confident about how it would do.",
+          "L2": "This is not ignorance you can fix by knowing about it. The signal you use to judge learning is processing fluency, and re-reading raises fluency while doing little for retention, so the feeling of understanding and the fact of it move in opposite directions.",
+          "L3": "Deslauriers and colleagues ran the same inversion in a Harvard physics course, 149 students, within-subject randomised: active learning produced a 0.46 standard deviation gain on exams while students rated their perceived learning 0.56 standard deviations lower. Students learn more and feel like they learn less. For tool design: any system letting the learner pick their study mode is pulled toward re-reading, so retrieval must be the default. For you: your sense of whether a session went well is not evidence. The substitutes are objective - first-attempt recall after a day or more, and whether you can produce the answer without the material.",
+          "L4": [
+            {
+              "kind": "compute",
+              "prompt_tpl": "Using Roediger and Karpicke's Experiment 2 numbers, compute the SSSS-minus-STTT difference at 5 minutes and at 1 week, and state what the sign change means for a learner judging a session at {t}. Answer with the one-week difference in points.",
+              "params": {
+                "t": [
+                  "the end of the session",
+                  "the next morning"
+                ]
+              },
+              "grader": "numeric",
+              "tolerance": 0.01,
+              "answer": "At 5 minutes SSSS minus STTT is 83 - 71 = +12 points for studying. At 1 week it is 40 - 61 = -21 points, a 33-point swing. A learner judging at the end of a session sees only the +12 and concludes studying works better.",
+              "answer_expr": "40-61",
+              "explanation": "The testing effect is invisible at short delays and only appears after a day or more, which is exactly why learners disbelieve it. Rowland's moderator table shows the same thing: g = 0.41 under a day, 0.69 at a day or more.",
+              "uid": "01M23NVBKE4N4GF654AAW9PVJT"
+            },
+            {
+              "kind": "explain",
+              "prompt_tpl": "Students in the Harvard physics RCT learned {a} SD more and rated their learning {b} SD lower. Explain the mechanism and one design consequence.",
+              "params": {
+                "a": [
+                  0.46
+                ],
+                "b": [
+                  0.56
+                ]
+              },
+              "grader": "free",
+              "answer": "They judge learning by fluency, and a smooth lecture feels fluent while effortful active work feels like struggling. Since effort is what produces retention, the felt signal is anti-correlated with the real one. Design consequence: make retrieval the default rather than a setting, and warn the user once that effective sessions feel worse.",
+              "explanation": "The warning is worth giving even though it does not fully work - Yan, Bjork and Bjork found 60 percent still preferred blocking after being shown the data. It costs nothing and it reframes the discomfort as a signal rather than a failure.",
+              "uid": "01M23NVBKE6M9NSKV99GDKFG9G"
+            }
+          ],
+          "L5": "d01-8",
+          "prereqs": [
+            "Spacing and retrieval are the practice you control"
+          ],
+          "resources": [
+            "https://colinallen.dnsalias.org/Readings/2006_Roediger_Karpicke_PsychSci.pdf",
+            "https://www.pnas.org/doi/10.1073/pnas.1821936116"
+          ],
+          "people": [
+            "Michael Nielsen"
+          ],
+          "tags": [
+            "learning-science",
+            "metacognition",
+            "retrieval"
+          ],
+          "uid": "01M23NVBKE477QBYEEJJ37W8PB"
+        },
+        {
+          "t": "The Rowland floor",
+          "preserved": false,
+          "L0": {
+            "body": "# Rowland 2014 meta-analysis: 159 effect sizes, 61 studies.\n# Overall g = 0.50 [0.42, 0.58]; g = 0.66 with matched exposure.\n\n  moderator                        g\n  -------------------------------  -----\n  with feedback                    0.73\n  without feedback                 0.39\n  final test = recall              0.49-0.79\n  final test = recognition         0.31-0.32\n  retention interval >= 1 day      0.69\n  initial test performance <= 50%  0.03   <- not significant. zero.\n  initial 51-75%                   0.29\n  initial > 75%                    0.56",
+            "cloze": "When initial retrieval success is at or below 50 percent, the testing effect is g = {{c1::0.03}}, statistically indistinguishable from {{c2::zero}}. Feedback raises the effect from 0.39 to {{c3::0.73}}."
+          },
+          "L1": "Retrieval only works if it succeeds. Below 50 percent initial success the testing effect is g = 0.03, not distinguishable from zero. Feedback nearly doubles the effect, from 0.39 to 0.73, and recognition formats are worth about half of recall formats.",
+          "L2": "The intuition that harder items teach more is wrong past a threshold. Failed retrieval without successful re-encoding is wasted time, so an item you get wrong most of the time is not a challenge to persist with, it is a badly-formed item that needs splitting or more context.",
+          "L3": "Four design rules fall out of the moderator table. Always show the answer, because feedback moves g from 0.39 to 0.73 - and do not build delayed-feedback modes, since a 2026 meta-analysis of timing across 51 studies found g = 0.03, a null. Prefer recall over recognition, which earns about 0.31 against 0.49 to 0.79. Make the first review late enough to be effortful but not so late that success collapses. Intercept items you keep failing early rather than at Anki's default of eight lapses, and reformulate: split, add context, or suspend one of two interfering siblings. Matuschak's tractability criterion is the same finding as a design rule.",
+          "L4": [
+            {
+              "kind": "compute",
+              "prompt_tpl": "You are getting {p} percent of first attempts right on a deck. Using Rowland's moderator table, estimate the effect size you are getting and say what to change.",
+              "params": {
+                "p": [
+                  45,
+                  60,
+                  85
+                ]
+              },
+              "grader": "free",
+              "answer": "At 45 percent, g is about 0.03 - effectively nothing; split the items and add context. At 60 percent, g is about 0.29. At 85 percent, g is about 0.56. Success rate, not difficulty, is what predicts the benefit.",
+              "explanation": "This inverts the common instinct to make cards harder when learning feels too easy. The evidence says the productive range is high success, and that a deck sitting below half is not training you at all.",
+              "uid": "01M23NVBKE7AN5996R1EKJNZM9"
+            },
+            {
+              "kind": "choose-and-justify",
+              "prompt_tpl": "An item has failed {n} times. Compare persisting, deleting it, and reformulating it, using the moderator table.",
+              "params": {
+                "n": [
+                  3,
+                  6
+                ]
+              },
+              "grader": "free",
+              "answer": "Persisting is the worst option: at that success rate the effect is near zero, so the reviews cost time and teach nothing. Reformulate first - split into smaller items, add a disambiguating context tag, or suspend one of two interfering siblings. Delete if the fact fails the value test of being worth more than five minutes of lifetime lookup.",
+              "explanation": "Anki suspends leeches at eight lapses, which is late and passive. Intercepting at about three and routing to a reformulation flow keeps the failing item from consuming review slots at g near zero while the rest of the deck waits.",
+              "uid": "01M23NVBKET96R7JKKDCR6ZG1H"
+            }
+          ],
+          "L5": "d01-8",
+          "prereqs": [
+            "Spacing and retrieval are the practice you control"
+          ],
+          "resources": [
+            "https://pubmed.ncbi.nlm.nih.gov/25150680/",
+            "https://andymatuschak.org/prompts/"
+          ],
+          "people": [
+            "Andy Matuschak"
+          ],
+          "tags": [
+            "learning-science",
+            "card-design",
+            "retrieval"
+          ],
+          "uid": "01M23NVBKEFNB9W9SNSGE7J5KA"
+        },
+        {
+          "t": "Interleaving feels worse and works better",
+          "preserved": false,
+          "L0": {
+            "body": "# Kornell & Bjork 2008 (learning painters' styles):\n  ~78% classified NEW paintings better after interleaved study\n  ~78% believed BLOCKING had been as good or better\n\n# Yan, Bjork & Bjork 2016: after being TOLD 90% do better interleaved,\n#   60% still claimed blocking was superior.\n\n# Rohrer 2020 (randomised trial, school maths): interleaving distributes\n#   practice AND forces STRATEGY DISCRIMINATION - the student must choose\n#   a method rather than only execute a given one.\n\n# Rule: block until each schema exists, then interleave within clusters.",
+            "cloze": "In Kornell and Bjork's study about {{c1::78}} percent learned better from interleaving and about the same fraction believed {{c2::blocking}} was better. Rohrer's mechanism is {{c3::strategy discrimination}}: choosing the method, not just executing it."
+          },
+          "L1": "Mixing topics within a session beats blocking them, and almost everyone believes the opposite. Rohrer's account of why: interleaving forces you to choose a method rather than execute a given one, which is the step blocked practice silently deletes.",
+          "L2": "Interleaving is not universally good. Below a threshold of prior knowledge it manufactures failed retrievals, which Rowland shows are worth about zero. The rule is to block until each individual schema exists, then interleave - and to interleave within similar clusters, not across unrelated ones.",
+          "L3": "Two findings make interleaving a default the tool enforces rather than a setting. First the size: Kornell and Bjork found around 78 percent classified new paintings better after interleaved study while around 78 percent believed blocking was at least as good. Second the durability: Yan, Bjork and Bjork told participants 90 percent do better interleaved, and 60 percent still said blocking was superior. Preference points the wrong way, so it cannot be the control input. Carvalho and Goldstone give the boundary: interleaving emphasises between-category differences, blocking within-category similarities. Interleave coherence protocols against each other, not against Verilog syntax.",
+          "L4": [
+            {
+              "kind": "choose-and-justify",
+              "prompt_tpl": "You are learning {a} and {b} in the same week. Decide whether to interleave them, and state the prior-knowledge condition on your answer.",
+              "params": {
+                "a": [
+                  "MESI and MOESI coherence protocols",
+                  "LRU and LFU eviction"
+                ],
+                "b": [
+                  "SystemVerilog syntax",
+                  "Adam and SGD update rules"
+                ]
+              },
+              "grader": "free",
+              "answer": "Interleave the similar, easily-confused pair with each other, because that is where discrimination is the skill. Do not interleave across the dissimilar pair - there is nothing to discriminate, so it only adds switching cost. And do neither until each item is individually executable, since interleaving a novice produces failed retrievals worth about zero.",
+              "explanation": "Carvalho and Goldstone's attentional-bias account is the operative rule: interleaving highlights between-category differences, blocking highlights within-category similarities. Match the schedule to which of those you currently need.",
+              "uid": "01M23NVBKE2VJ24TRRWZGT3RQQ"
+            },
+            {
+              "kind": "explain",
+              "prompt_tpl": "After being told {p} percent of people learn better from interleaving, {q} percent still preferred blocking. Explain what that implies for how a study tool should be built.",
+              "params": {
+                "p": [
+                  90
+                ],
+                "q": [
+                  60
+                ]
+              },
+              "grader": "free",
+              "answer": "The illusion survives direct instruction, so user preference cannot be the control input for schedule shape. The tool should interleave by default within similarity clusters and gate it on a per-item mastery threshold, while telling the user once that the harder-feeling schedule is the effective one.",
+              "explanation": "This is the strongest argument in the whole learning literature for an opinionated default. Where a metacognitive illusion is large, documented, and resistant to correction, offering the choice is equivalent to choosing wrong for most users.",
+              "uid": "01M23NVBKE390D65YHP3M1RXC1"
+            }
+          ],
+          "L5": "d01-8",
+          "prereqs": [
+            "The Rowland floor"
+          ],
+          "resources": [
+            "https://bjorklab.psych.ucla.edu/wp-content/uploads/sites/13/2020/01/BjorkBjorkEducatinMythChapterPublishedFormSept2019.pdf",
+            "https://gwern.net/doc/psychology/spaced-repetition/2019-rohrer.pdf"
+          ],
+          "people": [
+            "Andy Matuschak"
+          ],
+          "tags": [
+            "learning-science",
+            "interleaving",
+            "scheduling"
+          ],
+          "uid": "01M23NVBKEJBSY6V8AA85QN484"
+        },
+        {
+          "t": "Implementation intentions",
+          "preserved": false,
+          "L0": {
+            "body": "# Gollwitzer & Sheeran 2006: 94 independent tests, ~8,000 participants.\n#   d = 0.65 on goal attainment, OVER AND ABOVE having the goal.\n\n  goal intention:  'I will review every day'                weak\n  if-then plan:    'IF it is 07:00 and I have sat down at\n                    my desk, THEN I do my reviews'          d = 0.65\n\n# Lally et al. 2010, habit formation in the wild:\n#   96 started, 82 finished, only 39 (48%) fit the model at all\n#   of those 39: median 66 days to asymptote, RANGE 18-254 days\n#   one missed day cost < 0.5 automaticity points, recovered fast",
+            "cloze": "An if-then plan delegates action initiation to a {{c1::situational cue}} and adds d = {{c2::0.65}} over the goal alone. Lally's median of {{c3::66}} days hides a range of 18 to 254 and applied to fewer than half the participants."
+          },
+          "L1": "An if-then plan naming a specific cue - if it is 7 a.m. and I have sat down, then I do my reviews - adds d = 0.65 to goal attainment over the intention alone, across 94 tests and about 8,000 participants. It is the cheapest adherence intervention known.",
+          "L2": "The mechanism is delegation, not motivation. Specifying the cue hands action initiation to the situation so it no longer requires a decision, which is why a vague plan with the same goal does nothing. The cue must be a concrete time and place, not a mood.",
+          "L3": "The companion finding matters as much. Lally and colleagues tracked habit formation in the wild: of 96 starters, 82 finished and only 39 produced data fitting the automaticity model at all. Among those 39 the median time to 95 percent of asymptote was 66 days with a range of 18 to 254 - a fourteenfold spread - so the quoted 66 days is a median of a minority, not a constant. The most useful result is the smallest: one missed day reduced automaticity by under half a point and recovered quickly. Any product that renders a lapse as a loss is manufacturing a problem the data says does not exist.",
+          "L4": [
+            {
+              "kind": "choose-and-justify",
+              "prompt_tpl": "Rewrite 'I will study {n} minutes a day' as an implementation intention, and explain which part carries the d = 0.65.",
+              "params": {
+                "n": [
+                  20,
+                  45
+                ]
+              },
+              "grader": "free",
+              "answer": "If it is 7:30 a.m. and I have sat down with coffee at my desk, then I open the app and do the day's reviews before anything else. The effect comes from the if-clause: a concrete, reliably-encountered situational cue that triggers the action without requiring a decision. Duration is not the operative part.",
+              "explanation": "Gollwitzer's mechanism is that the cue is encoded so that its occurrence initiates the behaviour automatically. A plan that specifies only the amount, or that names a feeling rather than a situation, has no cue to fire on.",
+              "uid": "01M23NVBKE63A28XQDXQPHCNQE"
+            },
+            {
+              "kind": "explain",
+              "prompt_tpl": "Lally reports a median of {m} days with a range of 18 to 254, and only 39 of 82 completers fitting the model. Explain why quoting '{m} days to form a habit' is a misuse.",
+              "params": {
+                "m": [
+                  66
+                ]
+              },
+              "grader": "free",
+              "answer": "The median is over the subset whose data fit an asymptotic model at all - fewer than half - and the spread is fourteenfold, so it describes almost nobody in particular. It also measures self-reported automaticity, not behaviour. The defensible claim is that habits take roughly two to eight months and vary enormously between people.",
+              "explanation": "The finding worth keeping from this study is not the median at all, it is that one missed day costs under half a point and recovers quickly. That is the number that should shape how a tool responds to a lapse.",
+              "uid": "01M23NVBKE7PDE0QA4P3J3EKYG"
+            }
+          ],
+          "L5": "d01-8",
+          "prereqs": [
+            "Spacing and retrieval are the practice you control"
+          ],
+          "resources": [
+            "https://cancercontrol.cancer.gov/sites/default/files/2020-06/goal_intent_attain.pdf",
+            "https://onlinelibrary.wiley.com/doi/abs/10.1002/ejsp.674"
+          ],
+          "people": [
+            "Michael Nielsen"
+          ],
+          "tags": [
+            "learning-science",
+            "habits",
+            "adherence"
+          ],
+          "uid": "01M23NVBKE2VJCSMXE4ZCCRZY7"
+        },
+        {
+          "t": "Calibration and confident wrongness",
+          "preserved": false,
+          "L0": {
+            "body": "# Rate confidence BEFORE seeing the answer. Then cross-tabulate.\n\n               correct     wrong\n  confident |  fine     |  THE SIGNAL  <- fix this first, always\n  unsure    |  fragile  |  known gap   <- ordinary study\n\n# Confident-and-wrong is the highest-value error in the system:\n#   the only one you would never have found on your own.\n\n# Tests that you understand something:\n  1 predict the result before running it, with a number\n  2 explain it to someone one step behind, without the source\n  3 name the condition under which it stops being true",
+            "cloze": "The highest-value cell in the confidence-by-correctness table is {{c1::confident and wrong}}, because it is the only error you would {{c2::never have found on your own}}. Understanding shows as prediction, explanation, and naming {{c3::the condition under which it fails}}."
+          },
+          "L1": "Rate your confidence before seeing the answer, then look at the confident-and-wrong cell first. It is the only error class you cannot discover unaided, because in every other cell you already knew something was off.",
+          "L2": "Feeling that you understand something is not evidence, and the studies show the correlation can invert: in Roediger and Karpicke the worst-performing group was the most confident. Confidence tracks fluency, and fluency is exactly what re-reading manufactures.",
+          "L3": "There are three usable tests of understanding, and none is a feeling. Predict the result before running it, with a number and a range - the hypothesis-before-the-run discipline turned on yourself. Explain it without the source to someone one step behind; Kobayashi's meta-analysis of 39 studies found teaching after study gives g = 0.48 with teaching expectancy and about -0.02 without, so the expectation at encoding does the work. Name the condition under which the claim stops holding. Pan and Rickard's transfer meta-analysis is the warning: after correcting for publication bias, retrieval often shows no transfer unless elaborated retrieval and adequate success are built in.",
+          "L4": [
+            {
+              "kind": "choose-and-justify",
+              "prompt_tpl": "Across {n} reviews you were confident and wrong on {k} items and unsure and wrong on {m}. Which set do you work on first and why?",
+              "params": {
+                "n": [
+                  200,
+                  400
+                ],
+                "k": [
+                  7,
+                  15
+                ],
+                "m": [
+                  40,
+                  90
+                ]
+              },
+              "grader": "free",
+              "answer": "The confident-and-wrong set, despite being far smaller. Those items are mismodelled rather than unlearned: you would never have flagged them yourself, and they are load-bearing in reasoning you already do. The unsure-and-wrong set is ordinary study and will be caught by normal review.",
+              "explanation": "The value of an error signal scales with how unlikely you were to find it unaided. Unsure-and-wrong is self-announcing; confident-and-wrong is silent, which is exactly why it survives and propagates into work you do downstream.",
+              "uid": "01M23NVBKEZZH5XQS16ZGANTXW"
+            },
+            {
+              "kind": "explain",
+              "prompt_tpl": "Kobayashi found teaching after study gives g = {a} with teaching expectancy and about {b} without. Explain what that implies about when the benefit is produced.",
+              "params": {
+                "a": [
+                  0.48
+                ],
+                "b": [
+                  -0.02
+                ]
+              },
+              "grader": "free",
+              "answer": "The benefit comes at encoding, not at teaching. Expecting to explain changes how you process the material - you look for structure, gaps and examples - so teaching without that expectation adds essentially nothing. Practically: decide before you study that you will have to explain it.",
+              "explanation": "This makes the intervention nearly free, since it is a framing rather than an activity. It is also why 'explain it to a rubber duck' works when you commit in advance and does little when bolted on afterwards.",
+              "uid": "01M23NVBKEB1EHXT8XM8GRYBY5"
+            }
+          ],
+          "L5": "d01-8",
+          "prereqs": [
+            "The re-reading illusion"
+          ],
+          "resources": [
+            "https://link.springer.com/article/10.1007/s10648-024-09871-4",
+            "https://pdf.retrievalpractice.org/transfer/Pan_Rickard_2018.pdf"
+          ],
+          "people": [
+            "Andy Matuschak",
+            "Michael Nielsen"
+          ],
+          "tags": [
+            "learning-science",
+            "calibration",
+            "metacognition"
+          ],
+          "uid": "01M23NVBKEFSHRE8G8EKEWG7XF"
+        }
+      ],
+      "uid": "01M23NVBKEVTDKKCJKWW2E9SCG"
+    },
+    {
+      "t": "Mentors and fellowships",
+      "note": "The two inputs every documented fast transition had that solitary study cannot supply.",
+      "concepts": [
+        {
+          "t": "Being worth mentoring",
+          "preserved": false,
+          "L0": {
+            "body": "# You do not ask for a mentor. You make yourself cheap to help.\n\n  before the first message   ship something public they could look at in 5 minutes\n  the first message          one specific question, with what you already tried\n  after any answer           do the thing, report back with the result, unprompted\n  the ask that works         'I did X, got Y, expected Z - what am I missing?'\n  the ask that fails         'would you mentor me?' / 'can I pick your brain?'\n\n# The relationship is a by-product of repeated cheap useful exchanges,\n# not something granted at the start.",
+            "cloze": "A working first message is {{c1::one specific question with what you already tried}}. The relationship is a by-product of {{c2::repeated cheap exchanges}}, not something granted in advance."
+          },
+          "L1": "Mentorship is not requested, it accretes. The unit is a specific question with your attempt attached, followed by actually doing the suggested thing and reporting the result. Do that three times and you have a mentor without either of you naming it.",
+          "L2": "The open-ended ask fails for a structural reason: it transfers the whole cost of scoping onto the person you are asking. A specific question with your prior attempt attached costs them minutes and gives them the pleasure of being useful, which is what makes it repeatable.",
+          "L3": "A named senior mentor or an active feedback community was one of the four inputs common to every documented fast transition, and it is the one solitary study cannot substitute for. The mechanism is error correction on things you cannot see: you can self-teach facts, but not the taste that tells you a result is suspicious. Communities beat individuals as a starting point because cost per person is lower and latency shorter - EleutherAI's paper records people with minimal background becoming core contributors within weeks in exactly that setting. Public artifacts make you legible enough to be helped: a repo can be judged in five minutes, an ambition cannot.",
+          "L4": [
+            {
+              "kind": "choose-and-justify",
+              "prompt_tpl": "Compare two opening messages to a researcher whose work you admire: a request to be mentored, and '{q}'. Explain the asymmetry in cost.",
+              "params": {
+                "q": [
+                  "I reproduced your Figure 3 and got 68.1 against your 71.4, here is my config - what am I likely missing?",
+                  "I tried your method on a different dataset and the gain vanished, here is the repo - is that expected?"
+                ]
+              },
+              "grader": "free",
+              "answer": "The first asks them to scope an open-ended relationship, which costs them thinking they have no time for. The second costs a few minutes, is interesting to them because it is about their own work, and creates a natural next exchange. Cost per reply is what determines whether there is a second one.",
+              "explanation": "The specific message also demonstrates competence without claiming it. A reproduction attempt with a config attached says more about what you can do than any self-description could, and it gives the other person something concrete to respond to.",
+              "uid": "01M23NVBKET9E8MBCS1XRF3K9B"
+            },
+            {
+              "kind": "explain",
+              "prompt_tpl": "Explain why joining an active community can outperform finding a single mentor for someone {s}.",
+              "params": {
+                "s": [
+                  "with no track record",
+                  "in a different time zone from their target labs"
+                ]
+              },
+              "grader": "free",
+              "answer": "Lower cost per person, shorter latency, many possible responders, and no single point of failure if one person is busy. Communities also produce public artifacts by default, which was one of the four inputs common to every documented fast transition. A single mentor is higher bandwidth but harder to obtain and easier to lose.",
+              "explanation": "EleutherAI is the documented case: software engineers and hobbyists with non-traditional backgrounds became core contributors within weeks, with shared compute and constant feedback. The community supplied both the mentorship and the artifact channel.",
+              "uid": "01M23NVBKERH8VKTM7NJ21549C"
+            }
+          ],
+          "L5": "d26-7",
+          "prereqs": [
+            "From artifact to conversation to job"
+          ],
+          "resources": [
+            "https://arxiv.org/pdf/2210.06413",
+            "https://www.lesswrong.com/posts/jP9KDyMkchuv6tHwm/how-to-become-a-mechanistic-interpretability-researcher"
+          ],
+          "people": [
+            "Neel Nanda"
+          ],
+          "tags": [
+            "mentorship",
+            "community",
+            "career"
+          ],
+          "uid": "01M23NVBKEZHNK3YPG55BC2TE9"
+        },
+        {
+          "t": "Sponsorship is not mentorship",
+          "preserved": false,
+          "L0": {
+            "body": "# Two different things, routinely confused.\n\n  mentorship   advice given TO you, in private\n               'here is how I would approach that'\n               costs the mentor time\n\n  sponsorship  advocacy FOR you, in rooms you are not in\n               'she should lead this' / 'we should interview him'\n               costs the sponsor political capital - hence rarer\n\n# Larson: about two-thirds of staff-plus engineers were promoted internally,\n#   one-third had to change companies. Visibility is structural: 'not in the\n#   room where decisions happen'; HQ staff get more of it.",
+            "cloze": "Mentorship is advice given {{c1::to you in private}}; sponsorship is advocacy {{c2::for you in rooms you are not in}}. Sponsorship is rarer because it costs the sponsor {{c3::political capital}}."
+          },
+          "L1": "Mentorship is advice given to you; sponsorship is advocacy for you in rooms you are not in. Sponsorship is what converts competence into opportunity, and it is much rarer because it costs the sponsor reputation rather than time.",
+          "L2": "You cannot ask for sponsorship the way you ask for advice, because a sponsor is staking their own credibility on you. What you can do is make sponsoring you cheap and safe: legible, verifiable work, and a track record of doing what you said you would do.",
+          "L3": "The career research is blunt about how much advancement is allocated rather than earned. Larson found roughly two-thirds of staff-plus engineers promoted internally and a third having to change companies, opportunity unevenly distributed across teams, and engineers citing not being in the room where decisions happen. Headquarters staff get more visibility, a structural tax on anyone outside an HQ city. Reilly's Being Glue documents the complement: coordination and mentoring work is systematically unrewarded, with committees answering that you did not produce much code. Public artifacts are the one lever outside this system entirely.",
+          "L4": [
+            {
+              "kind": "choose-and-justify",
+              "prompt_tpl": "Your manager gives excellent advice but never proposes you for visible work. Name what is missing, and give {n} concrete actions that do not involve asking for a promotion.",
+              "params": {
+                "n": [
+                  3
+                ]
+              },
+              "grader": "free",
+              "answer": "Sponsorship, not mentorship. Actions: make your work legible in writing where others can see it, volunteer for a scoped project with a visible outcome rather than glue work, and build a public artifact that gives someone outside your reporting line a reason to advocate for you. Ask your manager what would make advocating for you easy.",
+              "explanation": "The last question is the one that converts the relationship, because it makes the cost explicit and lets them tell you the actual blocker. It also distinguishes a manager who will not sponsor from one who does not know how.",
+              "uid": "01M23NVBKEEEFFQH5TSY9TMZ21"
+            },
+            {
+              "kind": "explain",
+              "prompt_tpl": "Larson found about {a} of staff-plus engineers were promoted internally and about {b} had to change companies. Explain what that implies about treating a title as a measure of skill.",
+              "params": {
+                "a": [
+                  "two-thirds"
+                ],
+                "b": [
+                  "one-third"
+                ]
+              },
+              "grader": "free",
+              "answer": "A third of people at that level could not get the title where they were, so the title tracks organisational opportunity and sponsorship as much as capability. It is a joint function of your work, your employer's scope, and someone advocating for you - which means a missing title is weak evidence about skill, in both directions.",
+              "explanation": "The practical consequence is that employer choice is part of the plan rather than a detail, since a company with no problems at a given scope cannot recognise work at that scope no matter how good you are.",
+              "uid": "01M23NVBKECB8XKZ15Q6RFA1RB"
+            }
+          ],
+          "L5": "d26-7",
+          "prereqs": [
+            "Being worth mentoring"
+          ],
+          "resources": [
+            "https://staffeng.com/guides/getting-the-title-where-you-are/",
+            "https://noidea.dog/glue",
+            "https://larahogan.me/blog/what-sponsorship-looks-like/"
+          ],
+          "people": [
+            "Rachel Thomas"
+          ],
+          "tags": [
+            "career",
+            "sponsorship",
+            "organisations"
+          ],
+          "uid": "01M23NVBKEG3MCN9V3H6WBKA4C"
+        },
+        {
+          "t": "What fellowships select for",
+          "preserved": false,
+          "L0": {
+            "body": "# MATS: 12 weeks, plus a 6-12 month extension.\n  631 researchers to date, 220+ papers, 19,000+ citations\n  75% of alumni now work in AI alignment, transparency or security\n  10% co-founded safety orgs (Apollo Research, Timaeus, Poseidon)\n\n# Anthropic Fellows: 4 months, stipend about USD 3,850 per week,\n#   compute about USD 15,000 per month, an Anthropic mentor.\n  stated: 'You don't need a PhD, prior ML experience, or published papers.'\n  first cohort: 80%+ produced papers; 40%+ joined Anthropic\n\n# Neither publishes an acceptance rate. Outcomes are self-reported.",
+            "cloze": "MATS reports {{c1::75}} percent of its 631 alumni now working in the field. Anthropic Fellows states you do not need a PhD, prior ML experience or {{c2::published papers}}, and over {{c3::40}} percent of the first cohort joined full-time."
+          },
+          "L1": "MATS and the Anthropic Fellows Program are the best-evidenced accelerants available: MATS reports 631 participants, 220-plus papers and 75 percent of alumni now working in the field; Anthropic reports over 80 percent of its first cohort producing papers and over 40 percent hired.",
+          "L2": "They do not select for credentials - Anthropic states explicitly that no PhD, prior ML experience or publications are required. They select for evidence that you can do research: strong Python, comfort with ambiguity, fast learning, and something public you actually finished.",
+          "L3": "Read the outcome numbers with the selection effect in view. Neither programme publishes an acceptance rate or applicant count and both figures are self-reported, so much of that 75 percent reflects who was admitted rather than what the programme added. Granting that, these are still the strongest outcome data available - far better documented than the bootcamp sector. A strong application contains a finished public artifact with a number in it, an honest account of a project that failed, a specific research direction rather than a general interest, and evidence you work unsupervised. Applying is high expected value precisely because the stated bar is behavioural.",
+          "L4": [
+            {
+              "kind": "compute",
+              "prompt_tpl": "MATS reports {n} participants and that {p} percent of alumni now work in the field. About how many people is that, and name two reasons the number overstates the programme's causal effect. Answer with the number of people.",
+              "params": {
+                "n": [
+                  631
+                ],
+                "p": [
+                  75
+                ]
+              },
+              "grader": "numeric",
+              "tolerance": 0.02,
+              "answer": "About 473 people, from 0.75 times 631. It overstates the causal effect because participants are selected competitively from an already-strong pool, and because the figure is self-reported by the programme with no control group and no published acceptance rate.",
+              "answer_expr": "n*p/100",
+              "explanation": "Selection effects are the standard confound in every programme outcome statistic. The right comparison would be against similar applicants who were rejected, which nobody publishes, so treat the number as an upper bound on the programme's contribution.",
+              "uid": "01M23NVBKET1F74YNF5W6B2PAX"
+            },
+            {
+              "kind": "choose-and-justify",
+              "prompt_tpl": "You have {w} weeks and no publications, and want the strongest possible fellowship application. Rank a reproduction with an ablation, a novel side project, and an extra online course.",
+              "params": {
+                "w": [
+                  8,
+                  12
+                ]
+              },
+              "grader": "free",
+              "answer": "Reproduction with an ablation first: it is verifiable against a published number and demonstrates measurement, not just building. Novel side project second: real evidence but the reader must evaluate both problem choice and execution. The course last and distantly - certificates without artifacts appear in no hiring account in the research.",
+              "explanation": "Anthropic's careers page asks for independent research, blog posts or open-source contributions, and states that about half its technical staff had no prior ML experience. The selection signal is demonstrated work, and reproductions are the cheapest demonstrated work that a stranger can check.",
+              "uid": "01M23NVBKE3Y56DH6Q65CREM6E"
+            }
+          ],
+          "L5": "d26-7",
+          "prereqs": [
+            "Reproduction as the strongest credential",
+            "Being worth mentoring"
+          ],
+          "resources": [
+            "https://www.matsprogram.org/",
+            "https://alignment.anthropic.com/2025/anthropic-fellows-program-2026/",
+            "https://www.anthropic.com/careers"
+          ],
+          "people": [
+            "Chris Olah",
+            "Neel Nanda"
+          ],
+          "tags": [
+            "fellowships",
+            "career",
+            "applications"
+          ],
+          "uid": "01M23NVBKE60RVY1VP6QR96PH3"
+        }
+      ],
+      "uid": "01M23NVBKEXXFPF6N0QEF8EF0J"
+    }
+  ]
+}

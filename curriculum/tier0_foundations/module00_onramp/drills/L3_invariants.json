@@ -1,0 +1,126 @@
+{
+  "module": "00",
+  "level": 3,
+  "questions": [
+    {
+      "id": "M00_L3_Q1",
+      "sprint": 1,
+      "kind": "mcq",
+      "prompt": "A learner claims: 'A 3-bit counter overflowing is basically the same as it just resetting for no reason.' What's wrong with this claim?",
+      "options": [
+        "Overflow isn't random reset \u2014 it's the deterministic result of running out of bits, exactly like a car odometer rolling from 999999 to 000000",
+        "Nothing is wrong, overflow really is a random reset",
+        "Overflow only happens if you press a reset button",
+        "3-bit counters can't overflow, only 8-bit ones can"
+      ],
+      "answer": "Overflow isn't random reset \u2014 it's the deterministic result of running out of bits, exactly like a car odometer rolling from 999999 to 000000",
+      "explanation": "Wraparound is fully deterministic and predictable: add 1 to the max representable value and it always lands on 0, because there's nowhere else for the carry to go.",
+      "level": 3
+    },
+    {
+      "id": "M00_L3_Q2",
+      "sprint": 1,
+      "kind": "mcq",
+      "prompt": "Why does bubble sort's FIRST full pass guarantee the largest element reaches the end, but NOT guarantee the second-largest is in its final place yet?",
+      "options": [
+        "The largest keeps 'winning' every comparison it's in and rides to the end, but the second-largest can still be blocked behind a bigger neighbor mid-pass",
+        "It's actually guaranteed after the first pass, all elements settle at once",
+        "Bubble sort never guarantees anything about element position",
+        "The second-largest also always finishes after one pass"
+      ],
+      "answer": "The largest keeps 'winning' every comparison it's in and rides to the end, but the second-largest can still be blocked behind a bigger neighbor mid-pass",
+      "explanation": "Only one element is guaranteed to fully bubble to its final spot per pass \u2014 the current maximum among the unsorted portion. Everything else may need more passes.",
+      "level": 3
+    },
+    {
+      "id": "M00_L3_Q3",
+      "sprint": 1,
+      "kind": "mcq",
+      "prompt": "The Stream Comparator halts at the FIRST mismatch and ignores everything after it. Why is this the correct design rather than a limitation?",
+      "options": [
+        "It mirrors the real physical interceptor: once tripped it can't un-trip, so checking further would be simulating something the physical machine can't do",
+        "It's a limitation the software should fix by checking the whole stream anyway",
+        "It's arbitrary \u2014 checking further wouldn't change anything",
+        "It only matters for streams longer than 8 items"
+      ],
+      "answer": "It mirrors the real physical interceptor: once tripped it can't un-trip, so checking further would be simulating something the physical machine can't do",
+      "explanation": "Whetstone's rule here is 'zero magic': the code must behave exactly like the physical mechanism it simulates, not add capabilities the marbles-and-gears version doesn't have.",
+      "level": 3
+    },
+    {
+      "id": "M00_L3_Q4",
+      "sprint": 1,
+      "kind": "mcq",
+      "prompt": "If you started the 3-bit counter at 0 and want it to return EXACTLY to 0 again, which pulse counts could achieve that?",
+      "options": [
+        "Any multiple of 8 (8, 16, 24, ...)",
+        "Any even number",
+        "Only exactly 8",
+        "Any multiple of 3"
+      ],
+      "answer": "Any multiple of 8 (8, 16, 24, ...)",
+      "explanation": "The counter has a period of 8 (2^3 states). It returns to any given value every 8 pulses, so any multiple of 8 pulses brings it back to 0.",
+      "level": 3
+    },
+    {
+      "id": "M00_L3_Q5",
+      "sprint": 1,
+      "kind": "mcq",
+      "prompt": "A learner writes a bubble sort that uses Python's built-in `sorted()` function and still passes vec1 and vec3, but fails the AST invariant check. Why does the harness reject it even though the OUTPUT is correct?",
+      "options": [
+        "Because this module's contract requires the comparisons/swaps to be performed step-by-step, not delegated to a library \u2014 getting the right answer the 'magic' way defeats the point of the exercise",
+        "Because sorted() is slower than bubble sort",
+        "Because sorted() only works on numbers, not tokens",
+        "The harness doesn't actually check for this"
+      ],
+      "answer": "Because this module's contract requires the comparisons/swaps to be performed step-by-step, not delegated to a library \u2014 getting the right answer the 'magic' way defeats the point of the exercise",
+      "explanation": "This is the 'zero-magic' rule running end to end: the SPEC explicitly prohibits shortcuts that skip past the mechanism you're supposed to be learning, even if the final output happens to match.",
+      "level": 3
+    },
+    {
+      "id": "M00_L3_Q6",
+      "sprint": 1,
+      "kind": "mcq",
+      "prompt": "Why is it meaningful that the 3-bit counter, the bubble sort, and the stream comparator are all 'pure functions' with no randomness, no clock, no hidden state?",
+      "options": [
+        "It means the exact same input will always produce the exact same output, which is what makes deterministic automated testing possible at all",
+        "It means they run faster than non-pure functions",
+        "It has no real meaning, it's just a style choice",
+        "It means they can't have bugs"
+      ],
+      "answer": "It means the exact same input will always produce the exact same output, which is what makes deterministic automated testing possible at all",
+      "explanation": "Determinism is what lets a fixed set of test vectors catch every bug: if a function could behave differently on the same input, no finite test suite could ever fully verify it.",
+      "level": 3
+    },
+    {
+      "id": "M00_L3_Q7",
+      "sprint": 1,
+      "kind": "mcq",
+      "prompt": "A row is already fully sorted before the Token Grid State Machine even starts. Does bubble sort still perform comparisons on it?",
+      "options": [
+        "Yes \u2014 it still walks the pointer and compares every neighboring pair, it just never triggers a swap",
+        "No \u2014 it detects the row is sorted and does nothing",
+        "No \u2014 sorted rows are skipped entirely by the spec",
+        "Only the first comparison happens, then it stops"
+      ],
+      "answer": "Yes \u2014 it still walks the pointer and compares every neighboring pair, it just never triggers a swap",
+      "explanation": "This basic version of bubble sort always does the full n(n-1)/2-style comparison sweep regardless of starting order; comparisons and swaps are two separate counts for exactly this reason.",
+      "level": 3
+    },
+    {
+      "id": "M00_L3_Q8",
+      "sprint": 1,
+      "kind": "mcq",
+      "prompt": "Two different starting values for the 3-bit counter, say 2 and 6, both receive exactly 8 pulses. Will they end up at the same value?",
+      "options": [
+        "Yes \u2014 both return to their own starting value, because 8 pulses is exactly one full period",
+        "No \u2014 6 will overflow and 2 won't, so they end up different",
+        "Yes \u2014 both will always land on 0 regardless of start",
+        "It depends on whether the start value is even or odd"
+      ],
+      "answer": "Yes \u2014 both return to their own starting value, because 8 pulses is exactly one full period",
+      "explanation": "Since the counter cycles through all 8 states before repeating, adding exactly 8 pulses always returns you to wherever you started, regardless of what that start value was.",
+      "level": 3
+    }
+  ]
+}

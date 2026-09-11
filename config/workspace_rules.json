@@ -1,0 +1,53 @@
+{
+  "modes": {
+    "apprentice": {
+      "name": "Apprentice Mode",
+      "target_demographic": "Age 8 to Concrete Operational / Systems Novice",
+      "min_touch_target_px": 44,
+      "base_font_size_px": 16,
+      "font_family_mono": "JetBrains Mono, monospace",
+      "font_family_body": "Source Serif 4, Georgia, serif",
+      "font_family_display": "Inter, sans-serif",
+      "audio_feedback": {
+        "enabled": true,
+        "synthesizer": "web_audio_relay",
+        "click_duration_ms": 12,
+        "clunk_duration_ms": 28
+      },
+      "interactive_simulators": {
+        "falstad_active": true,
+        "turing_tumble_active": true,
+        "digital_active": true,
+        "stylus_canvas_active": true
+      },
+      "sprint_structure": {
+        "questions_per_sprint": 10,
+        "rest_break_duration_seconds": 30,
+        "tactile_buffer_type": "circular_10_slot_register"
+      },
+      "diff_display": "visual_dual_state_inspector",
+      "trace_navigation": "bidirectional_time_travel_scrubber"
+    },
+    "master": {
+      "name": "Master Mode",
+      "target_demographic": "Adult / Advanced L8+ Distinguished Track",
+      "min_touch_target_px": 28,
+      "base_font_size_px": 14,
+      "data_density": "high",
+      "audio_feedback": {
+        "enabled": false
+      },
+      "editor_keybindings": "vim",
+      "tools": {
+        "gdb_lldb_terminal": true,
+        "assembly_disassembly_inspector": true,
+        "multi_file_diffs": true
+      },
+      "sprint_structure": {
+        "questions_per_sprint": 10,
+        "rest_break_duration_seconds": 10,
+        "tactile_buffer_type": "compact_register"
+      }
+    }
+  }
+}

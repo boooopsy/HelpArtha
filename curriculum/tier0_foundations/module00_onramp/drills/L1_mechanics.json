@@ -1,0 +1,156 @@
+{
+  "module": "00",
+  "level": 1,
+  "questions": [
+    {
+      "id": "M00_L1_Q1",
+      "sprint": 1,
+      "kind": "mcq",
+      "prompt": "In the 3-bit marble counter, how many distinct values can the register hold before it must wrap around?",
+      "options": [
+        "8 (0 through 7)",
+        "3 (0 through 2)",
+        "16 (0 through 15)",
+        "Unlimited"
+      ],
+      "answer": "8 (0 through 7)",
+      "explanation": "3 bits give 2^3 = 8 distinct patterns: 000 through 111, i.e. 0 through 7.",
+      "level": 1
+    },
+    {
+      "id": "M00_L1_Q2",
+      "sprint": 1,
+      "kind": "mcq",
+      "prompt": "What happens physically when the 3-bit marble counter is at 111 (7) and one more marble drops?",
+      "options": [
+        "All three gear-bits flip back to 000 at once",
+        "The machine jams and stops",
+        "Only the rightmost bit flips, giving 110",
+        "It adds a 4th bit automatically"
+      ],
+      "answer": "All three gear-bits flip back to 000 at once",
+      "explanation": "This is a carry ripple: 111 + 1 = 1000 in binary, but only 3 bits exist, so the overflow bit is lost and all three flip to 0.",
+      "level": 1
+    },
+    {
+      "id": "M00_L1_Q3",
+      "sprint": 1,
+      "kind": "mcq",
+      "prompt": "In the Token Grid State Machine, what does the pointer do on every single step?",
+      "options": [
+        "Compares exactly two neighboring cells",
+        "Compares the whole row against itself",
+        "Randomly picks two cells to compare",
+        "Moves without comparing anything"
+      ],
+      "answer": "Compares exactly two neighboring cells",
+      "explanation": "Bubble sort's pointer only ever looks at one adjacent pair (index i and i+1) per step.",
+      "level": 1
+    },
+    {
+      "id": "M00_L1_Q4",
+      "sprint": 1,
+      "kind": "mcq",
+      "prompt": "After ONE full left-to-right pass of the Token Grid State Machine, where does the largest value in the row always end up?",
+      "options": [
+        "At the far right end",
+        "At the far left end",
+        "Anywhere, it's not guaranteed",
+        "In the middle"
+      ],
+      "answer": "At the far right end",
+      "explanation": "Because the pointer always swaps a bigger left neighbor past a smaller right neighbor, the largest value keeps getting swapped rightward until it reaches the end of the pass.",
+      "level": 1
+    },
+    {
+      "id": "M00_L1_Q5",
+      "sprint": 1,
+      "kind": "mcq",
+      "prompt": "In the Mechanical Stream Comparator, what triggers the interceptor?",
+      "options": [
+        "Two consecutive marbles having different values",
+        "Any marble with an even value",
+        "The stream running out of marbles",
+        "Two consecutive marbles having the same value"
+      ],
+      "answer": "Two consecutive marbles having different values",
+      "explanation": "The comparator watches neighboring pairs and trips the interceptor the first time a pair disagrees.",
+      "level": 1
+    },
+    {
+      "id": "M00_L1_Q6",
+      "sprint": 1,
+      "kind": "mcq",
+      "prompt": "Once the interceptor in the Stream Comparator has tripped, what happens to later marbles in the same run?",
+      "options": [
+        "Nothing \u2014 the circuit stays tripped, later marbles are never checked",
+        "It resets automatically and keeps checking",
+        "It only ignores marbles equal to the last one",
+        "It re-checks from the beginning"
+      ],
+      "answer": "Nothing \u2014 the circuit stays tripped, later marbles are never checked",
+      "explanation": "A physical interceptor, once triggered, blocks the ramp \u2014 it doesn't reset mid-run. The comparator halts at the first mismatch.",
+      "level": 1
+    },
+    {
+      "id": "M00_L1_Q7",
+      "sprint": 1,
+      "kind": "mcq",
+      "prompt": "Why does this module use physical/tactile machines (Turing Tumble, token grids) before writing any code?",
+      "options": [
+        "So the underlying mechanism is felt and seen before it's abstracted into symbols",
+        "Because code is more error-prone than gears",
+        "Because Python can't express binary counting",
+        "It's purely decorative and has no teaching purpose"
+      ],
+      "answer": "So the underlying mechanism is felt and seen before it's abstracted into symbols",
+      "explanation": "Concrete-before-abstract is the core idea of this on-ramp: you build the intuition with something you can touch, then re-express the exact same logic in code.",
+      "level": 1
+    },
+    {
+      "id": "M00_L1_Q8",
+      "sprint": 1,
+      "kind": "mcq",
+      "prompt": "In binary, what does each additional bit do to the number of representable values?",
+      "options": [
+        "Doubles it",
+        "Adds one more value",
+        "Squares it",
+        "Has no effect"
+      ],
+      "answer": "Doubles it",
+      "explanation": "Each bit is a independent 0/1 choice, so n bits give 2^n combinations \u2014 one more bit always doubles the count.",
+      "level": 1
+    },
+    {
+      "id": "M00_L1_Q9",
+      "sprint": 1,
+      "kind": "mcq",
+      "prompt": "What is the largest value a 3-bit register can hold?",
+      "options": [
+        "7 (binary 111)",
+        "8 (binary 1000)",
+        "3 (binary 11)",
+        "15 (binary 1111)"
+      ],
+      "answer": "7 (binary 111)",
+      "explanation": "With 3 bits, values run 0 to 2^3 - 1 = 7. 8 would need a 4th bit.",
+      "level": 1
+    },
+    {
+      "id": "M00_L1_Q10",
+      "sprint": 1,
+      "kind": "mcq",
+      "prompt": "In the Token Grid State Machine's bubble sort, is a comparison the same thing as a swap?",
+      "options": [
+        "No \u2014 a comparison happens every step, a swap only happens if the left value is bigger",
+        "Yes, every comparison is also a swap",
+        "No \u2014 swaps happen every step, comparisons are optional",
+        "They only differ when the row has duplicates"
+      ],
+      "answer": "No \u2014 a comparison happens every step, a swap only happens if the left value is bigger",
+      "explanation": "Every step is a comparison; only some comparisons (when out of order) trigger a swap. An already-sorted row has comparisons but zero swaps.",
+      "level": 1
+    }
+  ]
+}

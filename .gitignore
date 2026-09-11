@@ -1,0 +1,25 @@
+# Local dev database (regenerate: bin/migrate.php up && import all domains)
+app/whetstone.sqlite
+*.sqlite
+*.sqlite3
+*.db
+
+# Runtime state — never committed
+app/var/logs/
+app/var/server.log
+app/var/uploads/
+app/var/backups/
+app/var/cache/
+app/var/shots/
+app/var/shots-all/
+app/var/shots-guest/
+app/storage/
+
+# Host-specific credentials
+app/config.local.php
+
+# Build junk
+__pycache__/
+*.pyc
+.DS_Store
+node_modules/

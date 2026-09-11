@@ -1,0 +1,1956 @@
+{
+  "domain": {
+    "id": "level",
+    "n": "14",
+    "title": "The Level Itself",
+    "color": "#5A4A3F",
+    "tag": "how Google levels work · the loop · what promotion actually measures",
+    "why": "Being technically excellent is necessary but not enough on its own to reach the most senior engineering levels — those are judged by how much impact your work has across an entire company, not just how much you personally know. This domain is honest about that: it's not a body of knowledge you can memorize your way through, it's a map of what kind of work and what kind of evidence actually opens those doors, so you can start building toward it early instead of discovering it too late.",
+    "uid": "01M23NVBGZ5AFF6HY11E5F9N4X"
+  },
+  "people": [
+    {
+      "name": "Will Larson",
+      "role": "Author of StaffEng and An Elegant Puzzle; former CTO at Calm, engineering leadership at Stripe and Uber",
+      "contribution": "Ran the StaffEng field survey of staff-plus engineers and produced the four archetypes (Tech Lead, Architect, Solver, Right Hand), the one-Tech-Lead-per-eight-engineers ratio, and the finding that roughly a third of people had to change companies to get the title.",
+      "x": null,
+      "site": "https://lethain.com/",
+      "verified": false,
+      "note": "no X or Bluesky link is published on lethain.com or staffeng.com; the blog and staffeng.com are the primary sources"
+    },
+    {
+      "name": "Tanya Reilly",
+      "role": "Principal engineer; author of The Staff Engineer's Path",
+      "contribution": "Wrote 'Being Glue' (noidea.dog/glue), the canonical account of why coordination, mentoring and design-review work is under-rewarded by promotion committees, with the data that women volunteer for non-promotable work 48 percent more often than men.",
+      "x": "https://x.com/whereistanya",
+      "site": "https://noidea.dog/",
+      "verified": true,
+      "note": "also active on Mastodon at hachyderm.io/@whereistanya"
+    },
+    {
+      "name": "Charity Majors",
+      "role": "Co-founder and CTO of Honeycomb",
+      "contribution": "Wrote the engineer/manager pendulum essays, the standard reference for the senior IC versus management choice. Note the limit: they address the IC/manager fork, not the criteria for Distinguished-level IC promotion.",
+      "x": null,
+      "site": "https://charity.wtf/",
+      "verified": false,
+      "note": "widely known on X but no handle is linked from charity.wtf, which now redirects to her newsletter"
+    },
+    {
+      "name": "Neel Nanda",
+      "role": "Leads the mechanistic interpretability team at Google DeepMind",
+      "contribution": "Wrote the staged mech-interp on-ramp (max 1 month of basics, 2-4 weeks of throwaway mini-projects, then 1-2 week project sprints) and the line this domain is built on: 'public research output is your best credential.'",
+      "x": "https://x.com/NeelNanda5",
+      "site": "https://www.neelnanda.io/",
+      "verified": true
+    },
+    {
+      "name": "Chris Olah",
+      "role": "Co-founder of Anthropic, leads interpretability",
+      "contribution": "The existence proof that the credential is not the gate: dropped out of a maths degree at 18, entered via a Thiel Fellowship and public visualization work, then Google Brain, OpenAI, and co-founding Anthropic. Founded Distill and the circuits research thread.",
+      "x": "https://x.com/ch402",
+      "site": "https://colah.github.io/",
+      "verified": true
+    },
+    {
+      "name": "Nathan Lambert",
+      "role": "Post-training lead at Ai2; writes Interconnects",
+      "contribution": "A working example of public technical writing as career instrument: Interconnects and the RLHF book are read inside frontier labs, and the OLMo and Tulu releases are the public artifacts the writing is anchored to.",
+      "x": "https://x.com/natolambert",
+      "site": "https://www.natolambert.com/",
+      "verified": true
+    },
+    {
+      "name": "Gergely Orosz",
+      "role": "Author of The Pragmatic Engineer; former engineering manager at Uber",
+      "contribution": "Publishes the most detailed public reporting on levelling, compensation bands, downlevelling and hiring-loop mechanics across big tech, including the Uber and Amazon ladders and how promotion packets are actually assembled.",
+      "x": "https://x.com/GergelyOrosz",
+      "site": "https://blog.pragmaticengineer.com/",
+      "verified": true
+    },
+    {
+      "name": "Ethan Evans",
+      "role": "Retired Amazon Vice President; 15+ years at Amazon, led global teams of 800+",
+      "contribution": "Publishes the promotion mechanics of a big-tech ladder from the inside of the committee: how a promo document is written, what a Bar Raiser reads for, and why scope and not effort decides the outcome.",
+      "x": null,
+      "site": "https://www.ethanevans.com/",
+      "verified": false,
+      "note": "his site links LinkedIn only; LinkedIn is where he publishes"
+    },
+    {
+      "name": "Ryan Peterman",
+      "role": "Staff software engineer at Instagram; writes The Developing Dev",
+      "contribution": "Wrote 'Scope, Not Titles' (developing.dev), the clearest short statement of the promotion function at Meta: 'the scope of your work is what is most likely to influence their guess' about your level.",
+      "x": "https://x.com/ryanlpeterman",
+      "site": "https://www.developing.dev/",
+      "verified": true
+    },
+    {
+      "name": "Keller Jordan",
+      "role": "Researcher; maintainer of the modded-nanogpt speedrun",
+      "contribution": "Built the modded-nanogpt speedrun: train a 124M GPT to 3.28 validation loss on FineWeb with 8 H100s, as fast as possible. 82 attributed records since May 2024, from a 45-minute llm.c baseline to 1.353 minutes. The Muon optimizer came out of it.",
+      "x": "https://x.com/kellerjordan0",
+      "site": "https://kellerjordan.github.io/",
+      "verified": true,
+      "note": "his site and repos state no employer; do not repeat second-hand affiliation claims"
+    },
+    {
+      "name": "Catherine Olsson",
+      "role": "Researcher; previously at Anthropic, OpenAI and Google Brain",
+      "contribution": "Source of the single most transferable line in the career-transition literature: 'Rather than learn X, try to learn to do X.' Co-subject of the 80,000 Hours episode that documents the software-to-research-engineer transition.",
+      "x": null,
+      "site": "https://80000hours.org/podcast/episodes/olsson-and-ziegler-ml-engineering-and-safety/",
+      "verified": false,
+      "note": "no first-party page with a social link was found; the 80,000 Hours episode is the citable source"
+    },
+    {
+      "name": "Daniel Ziegler",
+      "role": "Research engineer; moved from software engineering onto OpenAI's safety team",
+      "contribution": "The best-documented fast transition: about six full-time weeks, 20-30 deep-RL papers from Josh Achiam's key-papers list, and 5+ algorithms reimplemented at 2-10 days each. Read with the fine print: MIT CS, a started Stanford PhD, already-elite engineering.",
+      "x": null,
+      "site": "https://80000hours.org/articles/ml-engineering-career-transition-guide/",
+      "verified": false,
+      "note": "no first-party site with a verifiable handle found"
+    }
+  ],
+  "sections": [
+    {
+      "t": "The ladder, honestly",
+      "note": null,
+      "concepts": [
+        {
+          "t": "What the levels mean",
+          "preserved": true,
+          "L0": {
+            "body": "Google   Meta  Amazon              Microsoft        typical YOE\nL3       E3    SDE I               -                0-2\nL4       E4    SDE II              -                2-5\nL5       E5    SDE III             63/64            5-8    <- terminal\nL6       E6    Sr SDE / PE-track   65/66            8-12\nL7       E7    Principal (L7)      67/68            12-18\nL8       E8    Sr Principal (L8)   69/70            15-20+\nL9       E9    Distinguished (L10) Distinguished    18-25+\nL10      E10   VP / Distinguished  Technical Fellow 20-30+\n\nthe YOE column is folk knowledge, not data",
+            "cloze": "Google {{c1::L5}} = Meta E5 = Senior, and is the {{c2::terminal}}\nlevel with no up-or-out above it. Staff is {{c3::L6}}/E6.\nDistinguished is {{c4::L9}}/E9. The years-of-experience column is\n{{c5::folk knowledge, not data}}."
+          },
+          "L1": "L3 entry, L4 SWE, L5 Senior, L6 Staff, L7 Senior Staff, L8 Principal, L9 Distinguished, L10 Fellow. L5 is the terminal level — no up-or-out above it.",
+          "L2": "L6 is the first level where the assessment shifts from 'can you build it' to 'can you decide what should be built.' That shift, not additional technical depth, is what the promotion committee is looking for.",
+          "L3": "Terminal means the company will keep you at L5 indefinitely; below it, failure to progress eventually ends the employment. That single property explains why the levels above behave differently: promotion past L5 is opt-in and competitive rather than expected, so the criteria stop describing competence and start describing scarcity. Be careful with the years column: every widely circulating years-per-level table traces back to content farms that cite nothing and recycle each other. What is genuinely published is the shape of the pyramid, the under-10-percent figure for Staff, and each company's own written definition of scope per rung.",
+          "L4": [
+            {
+              "kind": "choose-and-justify",
+              "prompt_tpl": "A recruiter offers you {lvl} and says it is 'equivalent to Staff'. Name the Google, Meta and Amazon labels that actually correspond, and state what evidence you should ask for instead of trusting the mapping.",
+              "params": {
+                "lvl": [
+                  "E6",
+                  "L6",
+                  "SDE III"
+                ]
+              },
+              "grader": "free",
+              "answer": "Staff is Google L6, Meta E6, Amazon Senior SDE on the principal track. SDE III is Senior, one rung lower, so a claim that SDE III equals Staff is a downlevel dressed as an equivalence. Ask for the written scope definition for the level and the compensation band, not the label.",
+              "explanation": "Titles are not portable and companies exploit that. The ladder document and the band are the two things that mean the same thing everywhere, which is why Dropbox publishing its framework is unusually useful even if you never work there.",
+              "uid": "01M23NVBH05B1FWAV15W02CVYW"
+            },
+            {
+              "kind": "explain",
+              "prompt_tpl": "Explain what 'terminal level' means at {co} and derive why the promotion criteria above it describe scarcity rather than competence.",
+              "params": {
+                "co": [
+                  "Google",
+                  "a company with an up-or-out policy below Senior"
+                ]
+              },
+              "grader": "free",
+              "answer": "Terminal means you can stay at Senior indefinitely with no up-or-out pressure. Because staying is permitted, promotion above it is optional and must be rationed, so the rubric shifts from 'is this person good enough' to 'is this a scope only a few people in the company hold' - a comparative judgement rather than an absolute one.",
+              "explanation": "This is why 'I got better' does not produce a promotion above Senior. The rubric compares you against a scarce category, not against a bar. It also explains the committee structure: rationing decisions need a body that sees many candidates at once.",
+              "uid": "01M23NVBH0GVAC3THGZW356PFQ"
+            }
+          ],
+          "L5": "d26-7",
+          "prereqs": [],
+          "resources": [
+            "https://www.levels.fyi/blog/swe-level-framework.html"
+          ],
+          "people": [
+            "Gergely Orosz"
+          ],
+          "tags": [
+            "ladder",
+            "levels",
+            "mapping"
+          ],
+          "uid": "01M23NVBH0TCXY3TN06NZV2X3R"
+        },
+        {
+          "t": "L8 and L9 are not interview outcomes",
+          "preserved": true,
+          "L0": {
+            "body": "what an L8/L9 external hire actually looks like:\n  a named system the industry uses, or\n  a body of published work with a citation trail, or\n  a recognized public track record with people who will vouch\n\nGoogle Fellows, observed pattern:\n  most joined between 1999 and 2013\n  recognized 12-25 years after joining\n  PhDs common; Jeff Dean 1999, Sanjay Ghemawat 2000, Jouppi 2013\n\nthere is no loop. there is a search, and then a negotiation.",
+            "cloze": "External hires at L8/L9 are driven by {{c1::public track record}},\nnot by an interview loop. Most Google Fellows joined between\n{{c2::1999 and 2013}} and were recognized {{c3::12-25 years}} later.\nThere is no loop; there is a {{c4::search}}, and then a negotiation."
+          },
+          "L1": "External hires at these levels are rare and driven by public track record — recognized systems, papers, a name that carries weight. There is no loop to prepare for.",
+          "L2": "The honest path is entering at L6 or L7 and being promoted on demonstrated impact. Anyone selling L9 interview prep is selling something that doesn't exist.",
+          "L3": "The mechanism is that the level is a claim about industry-scale impact, and an interview cannot produce evidence of industry-scale impact. Interviews sample skill in a two-hour window; L8 and L9 require a record other people already know about. This is why the honest route is entry at L6 or L7 and internal promotion, and why anything selling L9 interview preparation is selling a stage that does not occur. The corollary for planning: the observed Fellow pattern is 15 to 25 years of tenure with a named body of work, so what an external candidate is assessed on at those levels was accumulated elsewhere, over a decade, usually in public.",
+          "L4": [
+            {
+              "kind": "choose-and-justify",
+              "prompt_tpl": "You are {y} years into your career and want to reach Distinguished. Choose between preparing harder for senior interview loops and spending the same hours on public technical work, and justify with what an L8/L9 external hire is assessed on.",
+              "params": {
+                "y": [
+                  3,
+                  6
+                ]
+              },
+              "grader": "free",
+              "answer": "Public work. Interview preparation raises the probability of entering at L6 rather than L5, which is worth something and is bounded. The L8/L9 decision is a search over people with a known public record, so the only input that can ever make you visible to that search is work someone outside your company can see.",
+              "explanation": "Both matter, at different times. Loop preparation has the shorter shelf life and a hard ceiling; public work compounds and is the only one that appears in the criteria for the level actually being targeted. The two are not in conflict on any single day, but they are in conflict over a year of hours.",
+              "uid": "01M23NVBH01D9AZCW4XA14VQ6A"
+            }
+          ],
+          "L5": "d26-7",
+          "prereqs": [
+            "What the levels mean"
+          ],
+          "resources": [
+            "https://www.levels.fyi/blog/swe-level-framework.html"
+          ],
+          "people": [
+            "Will Larson",
+            "Chris Olah"
+          ],
+          "tags": [
+            "hiring",
+            "distinguished",
+            "track-record"
+          ],
+          "uid": "01M23NVBH0Y319N23FFF1D6HEA"
+        },
+        {
+          "t": "What promotion committees actually read",
+          "preserved": true,
+          "L0": {
+            "body": "the packet:\n  self-assessment, written by you\n  peer feedback, 4-8 people, weighted toward outside your team\n  manager's case\n  artifacts: design docs, launch results, incident writeups\n\nscored on:\n  scope       how many teams changed behaviour because of you\n  complexity  ambiguity resolved, not difficulty overcome\n  impact      outcomes attributable to your judgment\n\nthe committee never met you. they read the record only.",
+            "cloze": "A packet is a {{c1::self-assessment}} plus peer feedback plus the\nmanager's case plus artifacts. It is scored on {{c2::scope}}, complexity\nand impact, where scope means {{c3::how many teams changed behaviour\nbecause of you}}. The committee {{c4::never met you}}."
+          },
+          "L1": "A packet of your own writing plus peer feedback, assessed on scope, complexity, and impact. Ambiguity resolved, cross-team influence, and outcomes attributable to your judgment.",
+          "L2": "Scope means how many teams your decisions affected. Two engineers with identical technical output level differently based entirely on blast radius of influence, and that is a thing you can deliberately choose to increase.",
+          "L3": "Scope is the only one of the three that you can move deliberately and quickly, because it is a property of which problem you pick rather than of how well you execute. Two engineers can ship identical code and land in different levels because one shipped it into a corner and the other shipped it into a dependency three teams now build on. The operational consequence is to choose work by blast radius before choosing it by interest, and to write it down where the affected teams will cite it. Peer feedback from outside your team converts blast radius into packet evidence, which is why the cross-team document beats the cross-team conversation.",
+          "L4": [
+            {
+              "kind": "compute",
+              "prompt_tpl": "Two engineers ship equally difficult systems. A's system is used by {a} team; B's by {b} teams and is a build dependency for {c} more. Using scope as the scored variable, rank them and state the ratio of their blast radii. Answer with the ratio of blast radii.",
+              "params": {
+                "a": [
+                  1
+                ],
+                "b": [
+                  3,
+                  4
+                ],
+                "c": [
+                  2,
+                  5
+                ]
+              },
+              "grader": "numeric",
+              "tolerance": 0.01,
+              "answer": "B's blast radius is b + c teams versus A's a. b=3,c=2 -> 5 vs 1, ratio 5. b=3,c=5 -> 8 vs 1, ratio 8. b=4,c=2 -> 6 vs 1, ratio 6. b=4,c=5 -> 9 vs 1, ratio 9. B ranks higher on scope in every case despite equal difficulty.",
+              "answer_expr": "(b+c)/a",
+              "explanation": "Counting teams is crude and it is closer to what the rubric measures than any measure of difficulty. The practical use is at project selection time: if you can name only one team affected before you start, the packet will say so afterwards.",
+              "uid": "01M23NVBH0M4HM981QR17GE77N"
+            },
+            {
+              "kind": "explain",
+              "prompt_tpl": "You resolved a {n}-month ambiguity that three teams were blocked on, and produced very little code. Explain how to write that into a packet so the committee scores it, and name the failure mode if you do not.",
+              "params": {
+                "n": [
+                  6,
+                  9
+                ]
+              },
+              "grader": "free",
+              "answer": "Write it as a decision with named alternatives, the evidence that selected one, the teams unblocked, and the dated document they now cite. The failure mode is the committee reading low code output and concluding no impact yet - Reilly's exact quote about glue work: 'You're not producing much code. You didn't have any impact yet.'",
+              "explanation": "Complexity in the rubric means ambiguity resolved, not difficulty overcome, so this work scores well when it is written as a decision and badly when it is written as coordination. The artifact is what makes the difference legible to people who were not there.",
+              "uid": "01M23NVBH0MJ84AVA2MZEYPTWC"
+            }
+          ],
+          "L5": "d26-7",
+          "prereqs": [
+            "What the levels mean"
+          ],
+          "resources": [
+            "https://noidea.dog/glue",
+            "https://www.developing.dev/p/scope-not-titles"
+          ],
+          "people": [
+            "Tanya Reilly",
+            "Ryan Peterman",
+            "Ethan Evans"
+          ],
+          "tags": [
+            "promotion",
+            "packet",
+            "scope"
+          ],
+          "uid": "01M23NVBH0JM1S6BY9M4QB6BN6"
+        },
+        {
+          "t": "The realistic external target",
+          "preserved": true,
+          "L0": {
+            "body": "external offer expectation, strong staff-equivalent candidate:\n  L6 / E6      default target\n  L7 / E7      needs demonstrated multi-org technical leadership\n               plus a referral advocating for the level\n  L5 / E5      the common actual outcome (\"downlevel\")\n\nwhat moves the level up, in order of effect:\n  1. an internal advocate who states the level before the loop\n  2. one design round with real depth, not uniform breadth\n  3. a public artifact the interviewers have already seen\n\nLarson: 1/3 of staff-plus engineers changed companies for the title",
+            "cloze": "The default external target for a strong staff-equivalent candidate\nis {{c1::L6}}/E6; {{c2::L7}} needs multi-org leadership plus a referral.\n{{c3::Downlevelling}} is the common outcome when the loop is merely good.\nAbout {{c4::one third}} of staff-plus engineers changed companies for the\ntitle."
+          },
+          "L1": "L6 for a strong staff-equivalent candidate. L7 with demonstrated multi-org technical leadership and usually a referral advocating for the level.",
+          "L2": "Downleveling is common and is the default outcome when the loop is merely good. The counter is depth demonstrated concretely in the design interview plus a strong internal advocate.",
+          "L3": "Downlevelling is a default, not a punishment: committees resolve uncertainty downward because the cost of a wrong high level is visible and the cost of a wrong low level is not. The two counters are asymmetric in effort. An internal advocate who names the target level before the loop costs one relationship and moves the prior; a design round with genuine depth costs months of preparation and moves the evidence. Do both, in that order. Larson's survey gives the other half: two-thirds got staff-plus by internal promotion, one-third had to change companies, and about half the women surveyed had to. If internal promotion is blocked, switching is a documented route, not an admission of failure.",
+          "L4": [
+            {
+              "kind": "choose-and-justify",
+              "prompt_tpl": "You are targeting {lvl} externally and have {w} weeks. Allocate them between design-round depth, a referral who will advocate for the level, and a publishable artifact. Justify the allocation.",
+              "params": {
+                "lvl": [
+                  "L6",
+                  "L7"
+                ],
+                "w": [
+                  8,
+                  12
+                ]
+              },
+              "grader": "free",
+              "answer": "Spend the first week securing the referral, since it is cheap and sets the level before evaluation begins. Spend most of the rest on design-round depth, which is the highest-weighted round at senior levels. The artifact only pays off if it already exists or is nearly done, because it will not be finished and noticed inside the window.",
+              "explanation": "The ordering follows cost and timing. The referral is a small action with a large effect on the prior, and it must happen first to matter. Depth in the design round is the differentiator the loop actually scores. The artifact is a long-horizon investment mispriced as a short-horizon one.",
+              "uid": "01M23NVBH06YEJH1HP1PKRP25S"
+            }
+          ],
+          "L5": "d26-7",
+          "prereqs": [
+            "What the levels mean"
+          ],
+          "resources": [
+            "https://staffeng.com/guides/getting-the-title-where-you-are/"
+          ],
+          "people": [
+            "Will Larson",
+            "Gergely Orosz"
+          ],
+          "tags": [
+            "hiring",
+            "downlevel",
+            "negotiation"
+          ],
+          "uid": "01M23NVBH006VEADK2HRZD80YF"
+        },
+        {
+          "t": "What each rung actually measures",
+          "preserved": false,
+          "L0": {
+            "body": "Dropbox IC7 (Sr. Principal), verbatim from the public framework:\n  Scope:     \"I own and deliver company-wide product or platform goals\n              with multi-year, multi-team effect\"\n  Influence: \"I typically influence EPD and company-wide strategy to\n              achieve business-impacting goals.\"\n\nlevels.fyi framework, verbatim:\n  Staff:         \"usually make up less than 10% of the company\"\n  Distinguished: impact \"spans across the company and sometimes\n                 industry\"; \"frequently published authors\"",
+            "cloze": "Dropbox IC7 Scope: \"I own and deliver {{c1::company-wide}} product or\nplatform goals with {{c2::multi-year, multi-team}} effect.\"\n\nlevels.fyi: Staff engineers \"usually make up {{c3::less than 10%}} of the\ncompany.\" Distinguished impact \"spans across the company and sometimes\n{{c4::industry}}\"."
+          },
+          "L1": "Dropbox publishes its full engineering ladder, so you can read a company's own promotion language instead of a blogger's summary. IC7 is defined by three sentences about scope, influence and impact, and every one of them is a statement about organisations.",
+          "L2": "Every noun in those definitions is a unit of organisation: company-wide, multi-year, multi-team, EPD strategy. Not one clause is about knowing more things. There is no curriculum whose completion satisfies a phrase that contains a time constant you cannot compress and a headcount you do not control.",
+          "L3": "Map the rungs and the pattern holds across companies: Senior is L5/E5/SDE III, Staff is L6/E6, Senior Staff or Principal is L7/E7, Principal or Distinguished is L8/E8, Distinguished is L9/E9, Fellow is L10/E10. levels.fyi's framework is the only published population figure anywhere in this space: Staff is under 10 percent of a company. Nothing above that is published by anyone. The usual claim that each rung is roughly an order of magnitude scarcer gives Principal around 1 percent and Distinguished around 0.1 percent, but that is inference, not data, and anyone quoting you an exact headcount for L9 is guessing.",
+          "L4": [
+            {
+              "kind": "explain",
+              "prompt_tpl": "Quote the Dropbox IC7 scope line from memory and name the {n} organisational quantities it requires. Then state what fraction of that line is a claim about technical knowledge.",
+              "params": {
+                "n": [
+                  3
+                ]
+              },
+              "grader": "free",
+              "answer": "\"I own and deliver company-wide product or platform goals with multi-year, multi-team effect.\" The three organisational quantities are breadth (company-wide), duration (multi-year), and headcount (multi-team). None of the line is a claim about technical knowledge.",
+              "explanation": "The point of doing this from memory is that the line is short enough to hold and specific enough to plan against. Once you can recite it you stop treating a reading list as progress toward IC7, because you can see that the sentence contains no term a reading list moves.",
+              "uid": "01M23NVBH054B9W40HK1XAGMPF"
+            },
+            {
+              "kind": "compute",
+              "prompt_tpl": "An engineering org has {E} engineers. Using the one published figure (Staff is under 10 percent of the company) and the common assumption that each rung above Staff is roughly an order of magnitude scarcer, estimate the Staff, Principal and Distinguished headcounts, and state which of the three numbers is actually sourced. Answer with the Staff headcount.",
+              "params": {
+                "E": [
+                  30000,
+                  8000,
+                  1200
+                ]
+              },
+              "grader": "numeric",
+              "tolerance": 0.01,
+              "answer": "Staff ~ 0.10E, Principal ~ 0.01E, Distinguished ~ 0.001E. E=30000 -> 3000 / 300 / 30. E=8000 -> 800 / 80 / 8. E=1200 -> 120 / 12 / 1.2. Only the Staff figure is sourced; the other two are inference from an unverified order-of-magnitude assumption.",
+              "answer_expr": "0.10*E",
+              "explanation": "levels.fyi publishes the under-10-percent figure for Staff. No major company publishes level population counts at all, so the Principal and Distinguished numbers here are a modelling assumption. The useful takeaway is the shape: at 1200 engineers the model predicts roughly one Distinguished engineer, which is why small companies have no L9 problems to solve.",
+              "uid": "01M23NVBH0WAQ74HDVBR1N5S69"
+            },
+            {
+              "kind": "choose-and-justify",
+              "prompt_tpl": "Two candidates for promotion to {level}. A shipped a technically harder system alone. B shipped a simpler system that three other teams adopted and now depend on. Who levels higher under the published ladder language, and which exact phrase decides it?",
+              "params": {
+                "level": [
+                  "IC7",
+                  "Staff",
+                  "Principal"
+                ]
+              },
+              "grader": "free",
+              "answer": "B. The deciding phrase is 'multi-year, multi-team effect' in the Dropbox scope line, and its equivalent in every other ladder. Technical difficulty appears nowhere in the definition; number of teams affected appears in it directly.",
+              "explanation": "This is the single most common misreading of a ladder. Difficulty is a property of the work; scope is a property of the blast radius. The rubric scores the second. A is not being punished for depth, but depth only converts into level when other teams' outcomes depend on it.",
+              "uid": "01M23NVBH0T2JET94NVBWYJHV2"
+            }
+          ],
+          "L5": "d26-7",
+          "prereqs": [],
+          "resources": [
+            "https://dropbox.github.io/dbx-career-framework/ic7_senior_principal_software_engineer.html",
+            "https://dropbox.github.io/dbx-career-framework/",
+            "https://www.levels.fyi/blog/swe-level-framework.html"
+          ],
+          "people": [
+            "Gergely Orosz",
+            "Ethan Evans"
+          ],
+          "tags": [
+            "ladder",
+            "primary-source",
+            "scope"
+          ],
+          "uid": "01M23NVBH01AMCE6JWJW0JCEQS"
+        },
+        {
+          "t": "Scope, not knowledge breadth, is the promoted variable",
+          "preserved": false,
+          "L0": {
+            "body": "level ~= f(scope of problems owned,\n           organizational recognition,\n           sponsor seniority,\n           years of visible track record)\n\nknowledge  ->  a prerequisite filter, not a term in f\n\nPeterman (Meta): \"Scope Is King... the scope of your work is what is\n  most likely to influence their guess\" [at your level]\nLarson: \"A Staff engineer isn't a better Senior engineer, but someone\n  who's moved into fulfilling one of the Staff archetypes.\"\nLarson: \"Being a Staff-engineer is... the intersection of the role,\n  your behaviors, your impact, and the organization's recognition.",
+            "cloze": "level ~= f({{c1::scope of problems owned}},\n           organizational recognition,\n           {{c2::sponsor seniority}},\n           years of visible track record)\n\nKnowledge is a {{c3::prerequisite filter}}, not a term in f.\n\nLarson: \"A Staff engineer isn't a {{c4::better Senior engineer}}, but\nsomeone who's moved into fulfilling one of the Staff archetypes."
+          },
+          "L1": "Across every first-hand account of staff-plus promotion, the scored variables are scope, judgment under ambiguity, and organisational recognition. Breadth of knowledge appears in none of them. It is a gate you pass once, not a dial the committee reads.",
+          "L2": "This inverts how most people study. A programme that maximises knowledge acquired is optimising a variable the committee does not score, while the variable it does score is largely set by which problems your employer has and lets you own. Studying harder cannot raise a term that is not in the function.",
+          "L3": "Larson's framing is the sharpest version: Staff is a different job, not the same job done better, so 'get better at engineering' is not a path to it. The archetypes only exist at certain company sizes, which means the ceiling on your level is partly set by your employer, not by you. What this actually implies for study is narrow and useful: study to clear the filter, then spend the marginal hour on the things that produce scope - owning a problem end to end, writing the document others execute, and picking an employer with problems big enough to have a Staff-shaped hole in them. There is no L9 problem at a forty-person startup.",
+          "L4": [
+            {
+              "kind": "choose-and-justify",
+              "prompt_tpl": "You have {h} spare hours this quarter. Option A: work through {n} more textbooks in adjacent subfields. Option B: take ownership of one cross-team problem nobody owns and write the document that resolves it. Under the promotion function, which one moves your level, and what does the other one actually buy?",
+              "params": {
+                "h": [
+                  200,
+                  300
+                ],
+                "n": [
+                  3,
+                  4
+                ]
+              },
+              "grader": "free",
+              "answer": "B moves level, because it adds scope and organisational recognition, both terms in the function. A buys nothing on the level axis directly; it raises the probability you can hold scope competently when you get it, which is real but is a filter effect, not a scored term.",
+              "explanation": "The honest version of this is not 'stop studying'. It is that study is instrumental: it makes you able to take the scope. If you already clear the technical bar for the problems available to you, more breadth has close to zero marginal effect on level and a large opportunity cost.",
+              "uid": "01M23NVBH08M2KW25EH06M5VS0"
+            },
+            {
+              "kind": "explain",
+              "prompt_tpl": "Two engineers at {co} produce identical technical output this year. One is promoted, one is not. Using the promotion function, name the term that differed and describe how it is measured in a packet.",
+              "params": {
+                "co": [
+                  "a large company",
+                  "a company with 5,000 engineers"
+                ]
+              },
+              "grader": "free",
+              "answer": "Scope, measured as blast radius: how many teams changed what they do because of the decision. In a packet it shows up as named teams, named dependencies, and peer feedback from outside the author's own team - not as lines of code or system complexity.",
+              "explanation": "Blast radius is the thing you can deliberately increase without working more hours: choose problems whose resolution other teams are waiting on, and write the resolution down where they can adopt it. The packet is evidence of that, which is why cross-team peer feedback carries disproportionate weight.",
+              "uid": "01M23NVBH0AK1JAC0WKB78Y4JR"
+            }
+          ],
+          "L5": "d26-7",
+          "prereqs": [
+            "What each rung actually measures"
+          ],
+          "resources": [
+            "https://www.developing.dev/p/scope-not-titles",
+            "https://staffeng.com/guides/getting-the-title-where-you-are/",
+            "https://staffeng.com/guides/staff-archetypes/"
+          ],
+          "people": [
+            "Ryan Peterman",
+            "Will Larson"
+          ],
+          "tags": [
+            "scope",
+            "promotion",
+            "study-strategy"
+          ],
+          "uid": "01M23NVBH0K3NM6W6X4RJCF730"
+        },
+        {
+          "t": "Four clocks, not one",
+          "preserved": false,
+          "L0": {
+            "body": "milestone                     duration     evidence\nemployable competence, new    6 wk - 6 mo  Ziegler ~6 wk (elite start);\n  domain                                   80k floor 200 h; MATS 12 wk\nstrong senior, owns a system  4-8 yr       ladder folk data [thin]\nstaff-plus (L6/E6+)           8-12 yr      \"luck, timing, and work\";\n                                           1/3 switched companies\ndistinguished (L9/E9)         15-25 yr     Google Fellows joined\n                                           1999-2013\n\nrow 1 compresses under intensity. rows 2-4 do not.",
+            "cloze": "employable competence in a new domain: {{c1::6 weeks to 6 months}}\nstrong senior: {{c2::4-8 years}}\nstaff-plus: {{c3::8-12 years}}, and roughly {{c4::one third}} had to change\n  companies to get the title at all\ndistinguished: {{c5::15-25 years}}\n\nRow 1 compresses under intensity. The rest do not."
+          },
+          "L1": "Four different milestones get collapsed into one word, career, and they run on different clocks. Skill acquisition responds to intensity and lands in weeks or months. Level does not, because level contains a track-record term and a recognition term.",
+          "L2": "The compressible row is the only one people quote. Ziegler's six weeks are real and are also the six weeks of an MIT computer science graduate who had started a Stanford PhD, retargeting existing elite ability. The floor 80,000 Hours gives a less-prepared starter is at minimum 200 hours, and likely more.",
+          "L3": "Why the bottom three rows resist compression: each contains terms that require other people to observe you over calendar time. Dropbox IC7 asks for multi-year, multi-team effect, so at month 36 of a perfect start you have roughly one such cycle of evidence against a level that asks for a portfolio of them. Google's Fellows joined between 1999 and 2013 and were recognised 12 to 25 years later. Macnamara's meta-analysis of 88 studies puts deliberate practice at 12 percent of performance variance overall and under 1 percent, not statistically significant, in professions - partly a measurement artifact, but not evidence that hours alone produce elite professional standing.",
+          "L4": [
+            {
+              "kind": "compute",
+              "prompt_tpl": "You begin full-time in {start}. Using the 15-25 year band for Distinguished, give the earliest and latest calendar years the level becomes plausible, and state the one condition that can make both numbers infinite. Answer with the earliest plausible year.",
+              "params": {
+                "start": [
+                  2026,
+                  2027
+                ]
+              },
+              "grader": "numeric",
+              "tolerance": 0.001,
+              "answer": "start + 15 to start + 25. 2026 -> 2041 to 2051. 2027 -> 2042 to 2052. Both are infinite if you never work at a company that has company-scale problems, because the level is defined by scope the employer must supply.",
+              "answer_expr": "start+15",
+              "explanation": "The arithmetic is trivial and that is the point: it converts an aspiration into two dates you can look at. The condition matters more than the dates. Distinguished is a recognition of company-scale impact, so an employer without company-scale problems has no rung to promote you into, no matter how many years pass.",
+              "uid": "01M23NVBH00PBCCGTK658E9GSD"
+            },
+            {
+              "kind": "compute",
+              "prompt_tpl": "At {h} focused hours per day, how many calendar days does the {F}-hour floor for a domain transition take, and how does that compare with the 500-600 hour block that a full quarter of this kind of work represents? Answer with the number of calendar days.",
+              "params": {
+                "h": [
+                  12,
+                  8
+                ],
+                "F": [
+                  200,
+                  500,
+                  600
+                ]
+              },
+              "grader": "numeric",
+              "tolerance": 0.01,
+              "answer": "days = F / h. h=12: 200 h -> 16.7 d, 500 h -> 41.7 d, 600 h -> 50 d. h=8: 200 h -> 25 d, 500 h -> 62.5 d, 600 h -> 75 d. A 500-600 hour quarter is roughly 2.5-3x the 80,000 Hours floor and about 2-3x the hours in Ziegler's six weeks.",
+              "answer_expr": "F/h",
+              "explanation": "This is the honest good news in the dossier. On the only clock that compresses, twelve hours a day for a quarter is a serious block - several times the stated minimum. It buys competence and artifacts. It does not buy a rung, because rungs are on the other three clocks.",
+              "uid": "01M23NVBH0S9THS2XXJ3XGHFEF"
+            },
+            {
+              "kind": "choose-and-justify",
+              "prompt_tpl": "Someone tells you a {m}-month programme will make you a Distinguished Engineer. Name which of the four clocks they are implicitly claiming to compress, and give the single sentence from a published ladder that refutes it.",
+              "params": {
+                "m": [
+                  3,
+                  6,
+                  12
+                ]
+              },
+              "grader": "free",
+              "answer": "They are claiming to compress the fourth clock using the mechanism of the first. The refutation is the Dropbox IC7 scope line: 'I own and deliver company-wide product or platform goals with multi-year, multi-team effect.' A multi-year effect cannot be evidenced inside a programme shorter than multiple years.",
+              "explanation": "The claim is not merely optimistic, it is category error: it treats a recognition level as a skill level. Notice the refutation is a quote from a company's own framework rather than an opinion, which is why this is the useful thing to memorise.",
+              "uid": "01M23NVBH05B808NC7842QSWAG"
+            }
+          ],
+          "L5": "d26-7",
+          "prereqs": [
+            "What each rung actually measures"
+          ],
+          "resources": [
+            "https://library.scottbarrykaufman.com/uploads/2014/07/Macnamara-et-al.-2014.pdf",
+            "https://80000hours.org/articles/ml-engineering-career-transition-guide/",
+            "https://staffeng.com/guides/getting-the-title-where-you-are/"
+          ],
+          "people": [
+            "Daniel Ziegler",
+            "Will Larson"
+          ],
+          "tags": [
+            "timelines",
+            "evidence",
+            "expectations"
+          ],
+          "uid": "01M23NVBH0VKRCTMZNQG22EF07"
+        },
+        {
+          "t": "The India map, checked against live job boards",
+          "preserved": false,
+          "L0": {
+            "body": "Frontier labs, on their own boards (Sep 2026):\n  Anthropic  research / research eng: SF, NY, Seattle, London, Zurich,\n             Ontario.  India technical roles: none.\n  OpenAI     India: marketing, GTM enablement, exec business partner,\n             partnerships, workplace ops. No core research roles.\n\nReal and hiring, in India:\n  Google Research India    Bengaluru  research scientist / engineer\n  Microsoft Research India Bengaluru  postdoc (1-2 yr), internships\n  NVIDIA India  ~10,000 staff, Bangalore/Hyderabad/Pune/Gurugram,\n                GPU architecture, CUDA, DL accel [thin source]",
+            "cloze": "Anthropic research roles are in SF, NY, Seattle, London, Zurich and\nOntario. India technical roles: {{c1::none}}.\nOpenAI's India listings are {{c2::go-to-market, partnerships and operations}}.\nNVIDIA India is about {{c3::10,000}} staff with real GPU architecture work\nin {{c4::Bangalore}}."
+          },
+          "L1": "Checked against the companies' own boards rather than commentary: the frontier labs have no India-based research or research-engineering roles. What does exist in India is Google Research India and MSR India in Bengaluru, and a very large NVIDIA silicon and AI presence.",
+          "L2": "The uncomfortable consequence is that relocation is a variable in the plan, not an afterthought. The two remote-accessible on-ramps, MATS and the Anthropic Fellows Program, both ultimately feed roles located in San Francisco and London, so a visa route is part of the frontier-lab path from India whether or not you enjoy that.",
+          "L3": "Stack this on Larson's finding that headquarters staff get more visibility than distributed offices and the problem compounds: the L8 and L9 scope problems are defined at headquarters, and the committee reads a record assembled by people in the room. Three honest strategies follow. Build a public reputation that routes around internal visibility, the only one fully under your control. Or relocate, via the H-1B lottery, UK Global Talent, or an intra-company transfer. Or target the Indian silicon ecosystem, where the India Semiconductor Mission build-out is creating new senior scope: Micron ATMP at Sanand opened 28 Feb 2026, Kaynes Semicon 31 Mar 2026, HCL-Foxconn 21 Feb 2026.",
+          "L4": [
+            {
+              "kind": "compute",
+              "prompt_tpl": "At {fx} INR per USD, convert a USD {usd}k frontier-lab package into INR lakh and give the multiple over the INR 80L figure reported for a 10-plus-year SoC architecture role in India. State the quality of both numbers. Answer with the multiple over the INR 80L figure.",
+              "params": {
+                "fx": [
+                  88,
+                  90
+                ],
+                "usd": [
+                  500,
+                  800
+                ]
+              },
+              "grader": "numeric",
+              "tolerance": 0.01,
+              "answer": "lakh = usd*1000*fx/100000; multiple = lakh/80. fx=88,usd=500 -> 440L, 5.5x. fx=88,usd=800 -> 704L, 8.8x. fx=90,usd=500 -> 450L, 5.6x. fx=90,usd=800 -> 720L, 9.0x. Both inputs are thin: the USD band is from a single secondary practitioner source and the INR figure is aggregated from consumer salary sites with no published sample sizes.",
+              "answer_expr": "usd*1000*fx/100000/80",
+              "explanation": "The 5-9x gap is the economic argument for relocation and simultaneously the reason relocation is competitive - everyone else can do this arithmetic too. Treat the multiple as an order of magnitude, not a forecast; neither side of the ratio comes from a company-published source.",
+              "uid": "01M23NVBH0P8NGP1YNVVPQ1JNV"
+            },
+            {
+              "kind": "choose-and-justify",
+              "prompt_tpl": "You are in {city} and want frontier-lab research work. Rank these three by expected value over 24 months: apply cold to lab job boards, apply to a remote-accessible fellowship, or take an India silicon or ML-infra role and build public artifacts. Justify with the board data.",
+              "params": {
+                "city": [
+                  "Bangalore",
+                  "Pune",
+                  "Hyderabad"
+                ]
+              },
+              "grader": "free",
+              "answer": "Fellowship first, India role plus public artifacts second, cold applications last. The boards show no India-based research roles, so a cold application implies relocation you have not yet been offered, while the fellowships are explicitly credential-agnostic and remote-accessible and have published outcome rates of 75 percent in-field and 40-plus percent hired.",
+              "explanation": "Cold applications are not worthless, they are just the lowest-yield of the three and they are the only one that produces nothing when it fails. The other two both leave you with an artifact or a job regardless of outcome, which is the property to optimise when acceptance rates are unpublished and probably very low.",
+              "uid": "01M23NVBH08PE7BWYYC9ENNCZX"
+            }
+          ],
+          "L5": "d26-7",
+          "prereqs": [],
+          "resources": [
+            "https://job-boards.greenhouse.io/anthropic",
+            "https://research.google/locations/india/",
+            "https://www.microsoft.com/en-us/research/lab/microsoft-research-india/",
+            "https://ism.gov.in/"
+          ],
+          "people": [
+            "Will Larson"
+          ],
+          "tags": [
+            "india",
+            "geography",
+            "relocation"
+          ],
+          "uid": "01M23NVBH0FBKHKWKVQNHM6MQF"
+        }
+      ],
+      "uid": "01M23NVBH0K0KH6BAER6EE06QM"
+    },
+    {
+      "t": "The interview loop",
+      "note": null,
+      "concepts": [
+        {
+          "t": "Structure",
+          "preserved": true,
+          "L0": {
+            "body": "a senior loop, typical shape:\n  2 x coding                 45 min each\n  1-2 x system design        45-60 min each   <- highest weight\n  1 x Googleyness/leadership 45 min\n  1 x deep technical/domain  45 min           (senior levels only)\nthen: written feedback -> hiring committee -> level decision\n\npreparation budget, by marginal value:\n  design    ~50%\n  coding    ~30%   (a filter you must clear, not a differentiator)\n  behavioral ~20%  (scored harder at senior than people expect)",
+            "cloze": "A senior loop is 2 coding rounds, {{c1::1-2 system design}} rounds,\na leadership round, and a deep technical round. The highest-weighted round\nis {{c2::system design}}. Coding at L6+ is a {{c3::filter}}, not a\ndifferentiator."
+          },
+          "L1": "Typically two coding rounds, one or two system design, one 'Googleyness and leadership', and for senior levels an additional deep technical or domain round.",
+          "L2": "Coding at L6+ is a screening filter, not a differentiator — you must clear it, and clearing it well doesn't compensate for a weak design round. Allocate preparation accordingly.",
+          "L3": "The allocation follows from how the rounds combine. Coding is close to a pass or fail gate: a strong pass and a clear pass produce nearly the same committee outcome, so the marginal hour beyond clearing it returns almost nothing. Design and behavioural feedback are written in prose and are what the committee actually argues about, so the marginal hour there changes the decision. This is why people who prepare only by grinding algorithm problems interview well and level low: they optimised the round with the least headroom. The deep technical round exists to find whether there is any subject you know to the bottom, which is a different question from whether you know many.",
+          "L4": [
+            {
+              "kind": "compute",
+              "prompt_tpl": "You have {h} preparation hours. Allocate them across coding, design and behavioural using the marginal-value split, and state how many hours coding gets and why more than that is wasted. Answer with the hours the stated split gives coding.",
+              "params": {
+                "h": [
+                  100,
+                  200,
+                  300
+                ]
+              },
+              "grader": "numeric",
+              "tolerance": 0.01,
+              "answer": "design 0.5h, coding 0.3h, behavioural 0.2h. h=100 -> 50/30/20. h=200 -> 100/60/40. h=300 -> 150/90/60. Beyond the point where you reliably clear medium problems with narration, extra coding hours convert a pass into a pass, which the committee reads identically.",
+              "answer_expr": "0.3*h",
+              "explanation": "The split is a heuristic, not a measurement, and the reasoning behind it is what matters: allocate to the rounds whose scores have range, not to the round that saturates. Coding saturates; design and behavioural do not.",
+              "uid": "01M23NVBH0V834VWCJK1TCXM9F"
+            }
+          ],
+          "L5": "w17-cryptopals-4-6",
+          "prereqs": [],
+          "resources": [
+            "https://blog.pragmaticengineer.com/"
+          ],
+          "people": [
+            "Gergely Orosz"
+          ],
+          "tags": [
+            "interview",
+            "loop",
+            "preparation"
+          ],
+          "uid": "01M23NVBH0JQRTF0FRM2YQWA0R"
+        },
+        {
+          "t": "Coding rounds",
+          "preserved": true,
+          "L0": {
+            "body": "45 minutes, two problems, medium, with follow-ups.\n\nthe shape that scores:\n  0-5 min    restate, ask about input size, nulls, duplicates, ranges\n  5-10 min   state a brute force and its complexity out loud\n  10-15 min  state the better approach and why it is better\n  15-35 min  code it, narrating decisions as you go\n  35-42 min  test it on a small case and one edge case, by hand\n  42-45 min  state time and space complexity, and what you would\n             change if the input were 1000x larger\n\nsilence is the failure mode, not slowness",
+            "cloze": "45 minutes, {{c1::two}} problems, medium difficulty. State a brute\nforce and its complexity {{c2::out loud}} before optimising, narrate while\ncoding, and hand-test on a small case plus an edge case. The failure mode\nis {{c3::silence}}, not slowness."
+          },
+          "L1": "Two problems in 45 minutes, medium difficulty, with follow-ups. Correctness, communication, testing, and complexity analysis all assessed.",
+          "L2": "Talking through the approach before coding is scored. Silent correct solutions score worse than narrated correct ones, because the interviewer is assessing collaboration as much as ability.",
+          "L3": "The reason narration is scored is structural rather than stylistic: the interviewer writes prose feedback for a committee that never met you, so unstated reasoning cannot enter the record. A silent correct solution produces a thin write-up - 'solved it, unclear how' - and a narrated correct solution produces a thick one. Hand-testing is worth the three minutes even when you are confident: it is the only visible evidence that you verify your own work, a trait the committee is asked about and cannot otherwise observe. At L6 and above the follow-up matters more than the first solution, because that is where judgment under a changed constraint shows.",
+          "L4": [
+            {
+              "kind": "find-the-bug",
+              "prompt_tpl": "A candidate solves both problems correctly in {m} minutes, says almost nothing, and declines to test. The written feedback is lukewarm. Identify what went wrong and what the feedback most likely says.",
+              "params": {
+                "m": [
+                  30,
+                  35
+                ]
+              },
+              "grader": "free",
+              "answer": "Nothing went wrong with the code and everything went wrong with the record. The interviewer has no material on approach, tradeoffs or verification, so the feedback reads roughly 'correct solutions, limited signal on collaboration and rigour' - which a committee reads as an unclear hire at senior level.",
+              "explanation": "The candidate optimised the wrong objective: correctness is necessary and the artifact being judged is written feedback. Anything you do not say aloud does not exist downstream, which is the same reason the preserved point about the hiring committee matters here.",
+              "uid": "01M23NVBH00BY7V5JHGDE2AEX0"
+            }
+          ],
+          "L5": "w17-cryptopals-4-6",
+          "prereqs": [
+            "Structure"
+          ],
+          "resources": [
+            "https://blog.pragmaticengineer.com/"
+          ],
+          "people": [
+            "Gergely Orosz"
+          ],
+          "tags": [
+            "interview",
+            "coding",
+            "narration"
+          ],
+          "uid": "01M23NVBH00VT2QD53JNFZWYAN"
+        },
+        {
+          "t": "System design",
+          "preserved": true,
+          "L0": {
+            "body": "60 minutes, the allocation that scores:\n  0-8   requirements: functional, then scale, then constraints\n  8-13  estimation: QPS, storage/day, read:write ratio, fan-out\n  13-25 high-level design, boxes and data flow\n  25-45 ONE deep dive you choose: schema, index, partition key,\n        consistency model, actual numbers\n  45-55 failure modes: what breaks first, blast radius, recovery\n  55-60 operations: rollout, metrics, on-call\n\nthe differentiator is minutes 25-45, taken unprompted",
+            "cloze": "Allocate 60 minutes: requirements, {{c1::estimation}}, high-level\ndesign, then {{c2::one deep dive}} of about 20 minutes taken\n{{c3::unprompted}}, then failure modes and operations. Uniform\nbox-and-arrow breadth reads as {{c4::junior}}."
+          },
+          "L1": "The highest-weighted round for senior levels. Requirements, estimation, high-level design, deep dive, then failure modes and operations.",
+          "L2": "The reliably differentiating move is going genuinely deep on one component unprompted — actual data model, actual numbers, actual failure analysis. Uniform box-and-arrow breadth reads as junior no matter how complete.",
+          "L3": "Why depth beats breadth here: breadth is cheap to fake and expensive to distinguish. Every prepared candidate can draw a load balancer, a service tier, a cache and a database, so that drawing carries almost no information about you. A partition key chosen with a stated cardinality and a hot-key analysis, or an index whose selectivity you actually computed, cannot be produced without having done the thing. The interviewer's written feedback needs one paragraph that only you could have written, and the deep dive is where that paragraph comes from. Take it unprompted, because waiting to be asked converts a demonstration of judgment into compliance with an instruction.",
+          "L4": [
+            {
+              "kind": "compute",
+              "prompt_tpl": "A design serves {dau} daily active users, each making {n} reads and {w} writes a day, with traffic peaking at {pk}x the average. Compute average read QPS, average write QPS, and peak read QPS. Answer with the peak read QPS.",
+              "params": {
+                "dau": [
+                  10000000,
+                  50000000
+                ],
+                "n": [
+                  20,
+                  5
+                ],
+                "w": [
+                  2,
+                  1
+                ],
+                "pk": [
+                  3,
+                  5
+                ]
+              },
+              "grader": "numeric",
+              "tolerance": 0.02,
+              "answer": "avg_read = dau*n/86400; avg_write = dau*w/86400; peak_read = pk*avg_read. dau=1e7,n=20 -> 2315 read QPS; w=2 -> 231 write QPS; pk=3 -> 6944 peak. dau=5e7,n=5 -> 2894 read QPS; w=1 -> 579 write QPS; pk=5 -> 14468 peak.",
+              "answer_expr": "pk*dau*n/86400",
+              "explanation": "86,400 seconds a day is the only constant you need and the arithmetic must be visible on the board. The read-to-write ratio it produces is what justifies every later decision about caching and replication, so an estimation step that stays in your head cannot be scored.",
+              "uid": "01M23NVBH029DM1F3HZ0XFEHH1"
+            },
+            {
+              "kind": "choose-and-justify",
+              "prompt_tpl": "With {m} minutes left in a design round and the interviewer silent, choose between adding another component to the diagram and going deep on the {c} you already drew. Justify by what the written feedback will contain.",
+              "params": {
+                "m": [
+                  20,
+                  25
+                ],
+                "c": [
+                  "data store",
+                  "queue",
+                  "cache"
+                ]
+              },
+              "grader": "free",
+              "answer": "Go deep. Another box adds a line the feedback will summarise as 'covered the standard components'. Twenty minutes on the partition key, the index, the consistency model and the failure behaviour of one component produces a specific paragraph that distinguishes you from every other candidate who drew the same diagram.",
+              "explanation": "The committee reads prose, and generic prose is scored generically. Depth is the only move that reliably produces non-generic prose, which is also why it does not matter enormously which component you pick, as long as you pick one and go to the bottom of it.",
+              "uid": "01M23NVBH09FZJDT9K8Y9VNWHM"
+            }
+          ],
+          "L5": "w17-cryptopals-4-6",
+          "prereqs": [
+            "Structure"
+          ],
+          "resources": [
+            "https://blog.pragmaticengineer.com/"
+          ],
+          "people": [
+            "Gergely Orosz"
+          ],
+          "tags": [
+            "interview",
+            "system-design",
+            "depth"
+          ],
+          "uid": "01M23NVBH0JMRC75W89RKH0X1D"
+        },
+        {
+          "t": "Behavioral, at senior level",
+          "preserved": true,
+          "L0": {
+            "body": "STAR, with the senior-level weighting:\n  Situation  2 sentences, no more\n  Task       what YOU owned, stated explicitly\n  Action     the decision and the alternative you rejected\n  Result     a number, and what changed afterward\n\nthe questions that recur:\n  a technical decision you got wrong, and what changed after\n  influencing a team that did not report to you\n  a conflict with a peer you did not win\n  ambiguity you resolved without being told to\n\na fake weakness reads worse than a real one",
+            "cloze": "STAR at senior level: Situation in {{c1::2 sentences}}, Task as what\n{{c2::you}} owned, Action as the decision plus {{c3::the alternative you\nrejected}}, Result as a number and what changed afterward. A\n{{c4::fake weakness}} reads worse than a real one."
+          },
+          "L1": "Conflict resolution, influencing without authority, technical decisions you got wrong, mentorship, handling ambiguity. STAR structure with quantified outcomes.",
+          "L2": "The mistake you regret and what changed afterward is nearly always asked and is scored hard. A non-answer or a fake weakness reads badly; a real one with a real learning reads as senior.",
+          "L3": "The reason the mistake question is scored hardest is that it is the only one where the candidate has an incentive to lie, so it discriminates. A real error, stated plainly with the cost and the specific practice that changed, demonstrates calibration - knowing what you do not know - which is precisely the trait that separates someone safe to give ambiguous scope from someone who is not. The two common failures are opposite: a non-answer signals dishonesty or no reflection, and an unresolved confession with no changed practice signals no learning. The fix is structural: name the decision, the cost as a number, the alternative you should have taken, and the mechanism that stops a recurrence.",
+          "L4": [
+            {
+              "kind": "explain",
+              "prompt_tpl": "Draft the four-part answer to 'tell me about a technical decision you got wrong' for a decision that cost {cost} of engineering time. Say what each part must contain and which part candidates omit.",
+              "params": {
+                "cost": [
+                  "three months",
+                  "six weeks"
+                ]
+              },
+              "grader": "free",
+              "answer": "The decision and why it looked right at the time; the cost stated as a number; the alternative you should have chosen and the evidence that would have revealed it; and the mechanism you introduced so it cannot recur. Candidates omit the fourth, which is the part that turns an error into evidence of judgment.",
+              "explanation": "Without the fourth part the answer is a confession, and a confession is scored as an unfixed risk. With it, the story becomes a demonstration that you convert failures into process, which is exactly what a committee is trying to establish about someone being handed ambiguous scope.",
+              "uid": "01M23NVBH0GD244M0EHEK5STX7"
+            }
+          ],
+          "L5": "w17-cryptopals-4-6",
+          "prereqs": [
+            "Structure"
+          ],
+          "resources": [
+            "https://blog.pragmaticengineer.com/"
+          ],
+          "people": [
+            "Gergely Orosz",
+            "Ethan Evans"
+          ],
+          "tags": [
+            "interview",
+            "behavioral",
+            "calibration"
+          ],
+          "uid": "01M23NVBH0R9EDHDQYYTXBQZKR"
+        },
+        {
+          "t": "The hiring committee",
+          "preserved": true,
+          "L0": {
+            "body": "the path of a decision:\n  you speak  ->  interviewer's notes  ->  written feedback  ->\n  committee packet  ->  hire/no-hire + level\n\nwhat survives each arrow:\n  spoken but not written down     -> lost at arrow 2\n  written but not specific        -> discounted at arrow 3\n  specific and quotable           -> survives to the decision\n\nthe committee has never met you and will not ask you anything.\nwhat is not in the record did not happen.",
+            "cloze": "Your reasoning passes through notes, then {{c1::written feedback}},\nthen the committee packet. Anything spoken but not written down is lost at\nthe {{c2::notes}} stage. The committee has {{c3::never met you}}; what is\nnot in the record {{c4::did not happen}}."
+          },
+          "L1": "Interviewers submit written feedback; a committee that never met you decides. They read the written record only.",
+          "L2": "This is why explicit verbalization matters so much. If your reasoning wasn't stated out loud, it doesn't exist in the packet, and the committee cannot infer what the interviewer didn't write down.",
+          "L3": "This is a lossy channel and every layer discards. The practical technique that follows is to speak in sentences an interviewer can transcribe: name the tradeoff, name the choice, name the reason, in that order, slowly enough to be written. 'I will use a composite index on tenant and created-at because the query is always tenant-scoped and the sort is on time' is transcribable. Ten minutes of exploratory thinking that arrives at the same index is not, and will be summarised as 'eventually got there'. The same logic explains the value of quotable artifacts elsewhere in this domain: a document persists through arrows that speech does not survive.",
+          "L4": [
+            {
+              "kind": "find-the-bug",
+              "prompt_tpl": "An interviewer's feedback reads: 'Strong candidate, good discussion, would work with them.' The committee downlevels. Identify the defect in this feedback and state what the candidate could have done in the {m}-minute round to prevent it.",
+              "params": {
+                "m": [
+                  45,
+                  60
+                ]
+              },
+              "grader": "free",
+              "answer": "The feedback contains no specifics, so there is nothing for the committee to weigh against the level bar and uncertainty resolves downward. The candidate should have produced quotable moments - a named tradeoff, a computed number, a specific failure mode - so the interviewer had concrete material to write.",
+              "explanation": "You cannot control what the interviewer writes, and you can control how much writable material you generate. Warm generic feedback is the standard signature of a downlevel, because the committee's job is to distinguish, and undifferentiated praise gives them nothing to distinguish with.",
+              "uid": "01M23NVBH0ZRBE8SHTP82ZH2H3"
+            }
+          ],
+          "L5": "w17-cryptopals-4-6",
+          "prereqs": [
+            "Structure"
+          ],
+          "resources": [
+            "https://blog.pragmaticengineer.com/"
+          ],
+          "people": [
+            "Gergely Orosz"
+          ],
+          "tags": [
+            "interview",
+            "committee",
+            "written-record"
+          ],
+          "uid": "01M23NVBH0988CQ8JP2ARM0J2R"
+        },
+        {
+          "t": "The fellowship route, in detail",
+          "preserved": false,
+          "L0": {
+            "body": "MATS, Berkeley and London\n  12 weeks + a 6-12 month extension\n  USD 1,250/wk stipend; USD 2,000/wk compute\n  631 researchers, 220+ papers, 19,000+ citations\n  75% of alumni now work in alignment / transparency / security\n  10% co-founded orgs (Apollo, Timaeus, Poseidon)\n\nAnthropic Fellows, 4 months\n  USD 3,850/wk stipend; ~USD 15,000/mo compute\n  \"You don't need a PhD, prior ML experience, or published papers.\"\n  selects for: Python, concrete progress on ambiguous problems,\n    fast learning, motivation on catastrophic AI risk\n  cohort 1: 80%+ papers, 40%+ hired",
+            "cloze": "MATS is {{c1::12 weeks}} plus a 6-12 month extension. {{c2::631}}\nresearchers have been through it and {{c3::75%}} of alumni now work in the\nfield. Anthropic Fellows is {{c4::4 months}} at USD 3,850/week, states you\ndon't need {{c5::a PhD, prior ML experience, or published papers}}, and\nhired over {{c6::40%}} of its first cohort."
+          },
+          "L1": "Two structured on-ramps have published outcome data better than anything else in this space. MATS is 12 weeks with a senior mentor and a paper as the explicit output. Anthropic Fellows is 4 months of paid empirical research inside the lab.",
+          "L2": "A strong application is not a CV. It is one thing you built and debugged end to end, one write-up with a measured result, and a research direction tied to a named mentor's agenda. Anthropic advises applying as an engineer if your background is engineering: you interview better and the role fits closer.",
+          "L3": "Read the outcome numbers with the selection effect attached. Neither publishes an acceptance rate, and both select from an already-strong pool, so 75 percent in-field and 40-plus percent hired reflect selection as much as programme effect. What they prove is still unusual: a 12-week programme demonstrably converts capable outsiders into employed lab researchers. That is the strongest evidence anywhere that a quarter can change a career, and what it produces is entry-level researchers, not Distinguished engineers. Mechanically: apply to both, apply early, name the mentor whose agenda your direction extends. Both are remote-accessible from India and both feed roles in SF and London.",
+          "L4": [
+            {
+              "kind": "compute",
+              "prompt_tpl": "MATS pays a stipend of USD {s} per week plus USD {c} per week of compute, for {w} weeks. Compute the total stipend, the total compute budget, and the ratio of compute to stipend. Answer with the total stipend in USD.",
+              "params": {
+                "s": [
+                  1250
+                ],
+                "c": [
+                  2000
+                ],
+                "w": [
+                  12,
+                  18
+                ]
+              },
+              "grader": "numeric",
+              "tolerance": 0.01,
+              "answer": "stipend = s*w, compute = c*w, ratio = c/s = 1.6. w=12 -> USD 15,000 stipend and USD 24,000 compute. w=18 -> USD 22,500 stipend and USD 36,000 compute.",
+              "answer_expr": "s*w",
+              "explanation": "The ratio is the interesting number. The programme spends 1.6 times as much on your GPUs as on you, which tells you what the bottleneck on this kind of research actually is and why individual applicants without an institution struggle to produce comparable work.",
+              "uid": "01M23NVBH0MENWW9G4TY31PNMT"
+            },
+            {
+              "kind": "explain",
+              "prompt_tpl": "You are writing a {n}-paragraph application to a research fellowship and you have no papers and no PhD. Describe what each paragraph should contain, given the programme's stated selection criteria.",
+              "params": {
+                "n": [
+                  3
+                ]
+              },
+              "grader": "free",
+              "answer": "One: the single most technically demanding thing you built, with what broke and how you found it - evidence you make concrete progress under ambiguity. Two: a measured result you produced and wrote up, linked, including a negative one. Three: a specific direction extending a named mentor's current agenda, with the first experiment you would run in week one.",
+              "explanation": "Anthropic states the criteria plainly: strong Python, concrete progress on ambiguous problems, fast learning, and motivation on catastrophic risk. Every paragraph above is evidence for one of those. Nothing in the stated criteria rewards coursework, so listing courses spends the space that evidence needed.",
+              "uid": "01M23NVBH00SVPJEN199NDA27B"
+            },
+            {
+              "kind": "choose-and-justify",
+              "prompt_tpl": "Given {hrs} focused hours before the next application deadline, choose between finishing a second replication project and polishing the write-up of the one you already have. Justify from what the programmes select for.",
+              "params": {
+                "hrs": [
+                  80,
+                  150
+                ]
+              },
+              "grader": "free",
+              "answer": "Polish the write-up. Selection is on demonstrated ability to execute research and communicate a result; one legible, reproducible, honestly-reported project is stronger evidence than two half-documented ones. A second project only wins if the first has no measured result at all.",
+              "explanation": "The failure mode here is collecting projects. The reader cannot verify work they cannot follow, and an unreadable repository is indistinguishable from an unfinished one. The marginal hour on legibility usually beats the marginal hour on volume, right up until you have nothing measured to report.",
+              "uid": "01M23NVBH0XRGCRGMVRSE9JYAD"
+            }
+          ],
+          "L5": "d26-7",
+          "prereqs": [
+            "Four clocks, not one"
+          ],
+          "resources": [
+            "https://www.matsprogram.org/",
+            "https://alignment.anthropic.com/2025/anthropic-fellows-program-2026/",
+            "https://www.anthropic.com/careers"
+          ],
+          "people": [
+            "Neel Nanda",
+            "Chris Olah"
+          ],
+          "tags": [
+            "fellowship",
+            "mats",
+            "anthropic",
+            "applications"
+          ],
+          "uid": "01M23NVBH0E5YXSZM1VJ3E8ND8"
+        },
+        {
+          "t": "The realistic silicon door from software",
+          "preserved": false,
+          "L0": {
+            "body": "NVIDIA, \"Architect - GPU Performance\", Bangalore (closed):\n  \"BE/BTech or MS/MTech in a relevant discipline; PhD is a plus or\n   equivalent industry experience\"\n  \"3+ years of experience in performance analysis involving complex\n   GPUs and/or SoC architectures\"\n  \"Strong hands-on programming skills in C/C++ and scripting\"\n  \"Hands-on experience developing performance simulators or\n   cycle-accurate models\"\n  \"Exposure to Verilog/SystemVerilog... is a strong advantage\"\n\nopen from software: perf modelling > kernels/compilers > DV\nshut in a quarter:  RTL, physical design, analog, arch research",
+            "cloze": "The binding line in the NVIDIA performance-architect posting is\n\"{{c1::3+ years of experience in performance analysis}} involving complex\nGPUs and/or SoC architectures\" - a {{c2::job-history}} requirement, not a\nknowledge one. Verilog/SystemVerilog is listed as a {{c3::strong\nadvantage}}, not a requirement."
+          },
+          "L1": "Three doors into silicon are genuinely open to a software background: performance modelling, the ML compiler and kernel layer, and ML systems infrastructure. Performance modelling is the best of them because it is C++ simulator work plus statistics plus workload analysis.",
+          "L2": "Read the posted requirements as a syllabus and exactly one line refuses to be studied: three-plus years of performance-analysis experience is job history, not knowledge. That single clause is why the realistic route is lateral entry through the kernel and compiler layer followed by internal movement, a two-to-four year path.",
+          "L3": "The asymmetry with machine learning is worth naming. ML has a published anti-credentialist norm; Anthropic's careers page says plenty of brilliant colleagues never went to college. Silicon has no such statement anywhere. Postings ask for BE/BTech or MS/MTech as a baseline and treat a PhD as a plus, and architecture research is PhD-dominated at NVIDIA, AMD, Intel, Arm and Google TPU. The workaround is 'or equivalent industry experience'. RTL and physical design assume a degree's worth of digital design, timing and CMOS intuition and hire from ECE pipelines; analog needs device physics. This is also the thinnest evidence in the dossier: almost no first-hand software-to-silicon accounts exist.",
+          "L4": [
+            {
+              "kind": "compute",
+              "prompt_tpl": "You start doing real performance-modelling or kernel work in month {M} from today. In what month, and after how many years total, do you first satisfy the '3+ years of experience in performance analysis' clause? Answer with the month number.",
+              "params": {
+                "M": [
+                  6,
+                  12,
+                  18
+                ]
+              },
+              "grader": "numeric",
+              "tolerance": 0.001,
+              "answer": "month M + 36; total years = (M + 36)/12. M=6 -> month 42, 3.5 years. M=12 -> month 48, 4.0 years. M=18 -> month 54, 4.5 years.",
+              "answer_expr": "M+36",
+              "explanation": "The arithmetic makes the strategy obvious: the clock only starts when the work is on your job description, so the highest-leverage move is not more study but getting paid to do performance or kernel work sooner, even in a role a rung below where you would like to be.",
+              "uid": "01M23NVBH00H4EJ2XDZ7FQ94DD"
+            },
+            {
+              "kind": "choose-and-justify",
+              "prompt_tpl": "With {q} months of full-time preparation from a software background, rank performance modelling, CUDA/Triton kernel work, design verification and RTL design by probability of a first offer, and say which one you would actually pick and why.",
+              "params": {
+                "q": [
+                  3,
+                  6
+                ]
+              },
+              "grader": "free",
+              "answer": "By probability of an offer: DV highest (largest headcount, learnable SystemVerilog/UVM, conversion courses exist), then kernels, then performance modelling, then RTL near zero. Pick kernels: it is real software work, artifacts are cheap and self-evidencing, and it stays adjacent to both silicon and ML rather than terminating in DV.",
+              "explanation": "DV is the easiest door and the worst destination if the goal is architecture - the DV to architecture transition is real but slow and not guaranteed, and many people terminal there. The kernel and compiler layer trades a slightly harder entry for a much better position afterwards, which is the right trade when the horizon is years.",
+              "uid": "01M23NVBH0TNDZB4H50BE7YGTX"
+            },
+            {
+              "kind": "explain",
+              "prompt_tpl": "A posting lists {n} requirements and you meet all but one. Explain how to tell, from the wording alone, which unmet requirements are worth applying against anyway, using the NVIDIA posting as the worked example.",
+              "params": {
+                "n": [
+                  6
+                ]
+              },
+              "grader": "free",
+              "answer": "Separate knowledge clauses from history clauses and note hedge words. 'Exposure to Verilog/SystemVerilog is a strong advantage' is a hedged knowledge clause: apply. 'PhD is a plus or equivalent industry experience' names its own workaround: apply. '3+ years of experience in performance analysis' is an unhedged history clause: it is the one that filters you.",
+              "explanation": "Job postings are written by people who know which lines are aspirational. Hedges - 'a plus', 'an advantage', 'or equivalent' - mark negotiable lines. Bare year counts attached to a named activity are the ones recruiters screen on mechanically, so treat them as the real gate.",
+              "uid": "01M23NVBH0Y9XQ36MF0YQEDCKT"
+            }
+          ],
+          "L5": "d26-7",
+          "prereqs": [
+            "The India map, checked against live job boards"
+          ],
+          "resources": [
+            "https://internshala.com/job/detail/architect--gpu-performance-job-in-bangalore-at-nvidia1767767484",
+            "https://www.gpumode.com/"
+          ],
+          "people": [
+            "Gergely Orosz"
+          ],
+          "tags": [
+            "silicon",
+            "nvidia",
+            "performance-modelling",
+            "entry"
+          ],
+          "uid": "01M23NVBH0M6G89GR0SEWKGTHQ"
+        }
+      ],
+      "uid": "01M23NVBH0592WFJHRTYGTP5AA"
+    },
+    {
+      "t": "What actually moves you past senior",
+      "note": null,
+      "concepts": [
+        {
+          "t": "Writing as the primary instrument",
+          "preserved": true,
+          "L0": {
+            "body": "the design doc that changes direction:\n  1. the decision, in the first paragraph\n  2. context: what is true today, with numbers\n  3. the options, including the one you rejected and why\n  4. the recommendation and what it costs\n  5. what would make this wrong (the falsifier)\n  6. what happens if we do nothing\n\nlength: 2-6 pages. anything longer is not read by the people\nwho decide. anything shorter is usually a decision without evidence.\n\ncirculate it before the meeting, not during.",
+            "cloze": "A direction-changing doc puts {{c1::the decision}} in the first\nparagraph, states the rejected options and why, names\n{{c2::what would make this wrong}}, and says what happens if\n{{c3::we do nothing}}. Circulate it {{c4::before the meeting}}."
+          },
+          "L1": "Design documents that change organizational direction. Technical strategy that others execute. Postmortems that change practice.",
+          "L2": "For someone from a literature background this is the compounding advantage, not a curiosity. Most strong engineers cannot construct a sustained written argument, and at staff level and above the written argument is the work product.",
+          "L3": "The falsifier section distinguishes a senior document from a merely persuasive one, and it is the section people delete. Stating in advance what evidence would overturn your recommendation does three things: it makes the argument checkable, it pre-empts the strongest objection by naming it, and it commits you to changing your mind on evidence rather than under pressure. Circulating early matters separately: a document read in silence is evaluated on its argument, one presented aloud on the presenter. For a career changer from a literature background this is the compounding advantage: most strong engineers cannot sustain a written argument, and above senior that argument is the work product.",
+          "L4": [
+            {
+              "kind": "choose-and-justify",
+              "prompt_tpl": "Your {p}-page design doc is being ignored. Choose between making it shorter, adding a prototype, and presenting it in a meeting. Justify by how technical decisions actually get adopted.",
+              "params": {
+                "p": [
+                  12,
+                  9
+                ]
+              },
+              "grader": "free",
+              "answer": "Shorten it first, to two to six pages, since twelve pages is not read by the people who decide. Then add the prototype: a document plus a working prototype is the standard mechanism for influence without authority. Presenting it last, because a meeting converts evaluation of the argument into evaluation of you.",
+              "explanation": "Length is the cheapest fix and the most common cause. The prototype matters because it removes the reader's largest uncertainty - whether the thing works - at which point the document only has to argue about whether it should be done.",
+              "uid": "01M23NVBH0GG3BJWVABZZ8QD8S"
+            },
+            {
+              "kind": "explain",
+              "prompt_tpl": "Explain what the falsifier section of a design doc contains and why removing it makes the document weaker, using a decision about {topic} as the example.",
+              "params": {
+                "topic": [
+                  "a storage engine choice",
+                  "a migration plan",
+                  "a model serving stack"
+                ]
+              },
+              "grader": "free",
+              "answer": "It states the evidence that would overturn the recommendation - a measured threshold, a workload shape, a cost that exceeds a number. Removing it makes the document an advocacy piece: readers can no longer check the claim, and you can no longer change your mind on evidence rather than under pressure.",
+              "explanation": "A recommendation nobody can disprove is a recommendation nobody can trust either. Naming the falsifier also happens to disarm the strongest objection in the room by raising it yourself, which is why the section that feels risky to write is the one that gets documents adopted.",
+              "uid": "01M23NVBH0RB03C2G3VMJTAVYX"
+            }
+          ],
+          "L5": "w20-design-and-load",
+          "prereqs": [],
+          "resources": [
+            "https://lethain.com/"
+          ],
+          "people": [
+            "Will Larson",
+            "Tanya Reilly"
+          ],
+          "tags": [
+            "writing",
+            "design-docs",
+            "influence"
+          ],
+          "uid": "01M23NVBH058SGC5FV4M0FC3AZ"
+        },
+        {
+          "t": "Judgment about what not to build",
+          "preserved": true,
+          "L0": {
+            "body": "the kill memo:\n  1. restate the proposal in its strongest form, better than the\n     proposer stated it\n  2. the cost, in engineer-years and in opportunity\n  3. the condition under which it WOULD be right\n  4. the cheaper experiment that tests that condition first\n  5. the decision, and who owns revisiting it and when\n\nstep 1 is not politeness. a proposer who does not recognise their\nown proposal in your summary will not accept the conclusion.",
+            "cloze": "A kill memo restates the proposal {{c1::in its strongest form}},\nprices it in {{c2::engineer-years}}, names the condition under which it\nwould be right, proposes a {{c3::cheaper experiment}} to test that\ncondition, and names {{c4::who owns revisiting it}}."
+          },
+          "L1": "Increasingly the whole job. Killing plausible, well-argued, expensive proposals and explaining why in terms the proposer accepts.",
+          "L2": "This is hard to demonstrate in an interview and it's what the 'tell me about a technical decision you reversed' question is probing for.",
+          "L3": "Killing work is harder than starting it because the costs are symmetric and the visibility is not: a project that ships badly is attributed to whoever shipped it, and a project that was correctly never started leaves no artifact at all. That asymmetry is why this judgment is hard to evidence in a packet or an interview, and it is what the question about a decision you reversed is probing. The technique that makes it survivable is step three: converting 'no' into 'not until', with a named condition and an owner. A proposal killed with a condition can be revisited on evidence, so the proposer loses an argument rather than a project and you keep the relationship you need next quarter.",
+          "L4": [
+            {
+              "kind": "choose-and-justify",
+              "prompt_tpl": "A well-argued proposal will cost {y} engineer-years and you believe it is wrong. Choose between rejecting it outright, letting it proceed and being proved right, and writing a kill memo with a condition. Justify by second-order effects.",
+              "params": {
+                "y": [
+                  3,
+                  6
+                ]
+              },
+              "grader": "free",
+              "answer": "The kill memo with a condition. Outright rejection spends relationship capital and invites the proposal's return through another route. Letting it proceed costs the engineer-years and makes you the person who watched it happen. The conditional memo converts the disagreement into a testable claim and leaves the proposer a path.",
+              "explanation": "Being right at the cost of the relationship is a bad trade at staff-plus, because your influence there depends on people bringing you proposals early. The conditional form preserves both the decision and the channel, which is the only version of this that compounds.",
+              "uid": "01M23NVBH07JESEM1VK688YY2G"
+            }
+          ],
+          "L5": "w20-design-and-load",
+          "prereqs": [
+            "Writing as the primary instrument"
+          ],
+          "resources": [
+            "https://lethain.com/"
+          ],
+          "people": [
+            "Will Larson"
+          ],
+          "tags": [
+            "judgment",
+            "prioritisation",
+            "memos"
+          ],
+          "uid": "01M23NVBH0NHRNA6GZ3DZPGVX3"
+        },
+        {
+          "t": "Influence without authority",
+          "preserved": true,
+          "L0": {
+            "body": "the mechanism that works:\n  a document that states the direction\n  + a prototype that shows it works\n  + one team that adopted it first and can be cited\n  = a second team adopts it without you asking\n\nwhat does not work:\n  being right in a meeting\n  escalation to a manager who then mandates it\n  a document with no running code attached\n\nadoption is a lagging indicator. write the doc before you need it.",
+            "cloze": "Influence without authority runs on a {{c1::document}} plus a\n{{c2::prototype}} plus {{c3::one team that adopted it first}}. Being right\nin a meeting is {{c4::forgettable}}; a document people keep referring to\ncompounds."
+          },
+          "L1": "Getting teams that don't report to you to adopt a direction. Achieved through demonstrated correctness over time, not through org charts.",
+          "L2": "The mechanism is usually a document plus a working prototype. Being right in a meeting is forgettable; being right in a document people keep referring to compounds.",
+          "L3": "The reason escalation fails is that a mandated adoption produces compliance and not advocacy, so the second team hears about the direction from a manager rather than from a peer who is glad they moved. The reason the prototype matters is that it collapses the reader's largest uncertainty at zero cost to them - once the thing demonstrably runs, the conversation moves from whether it can work to whether it should, which is an argument a document can win. And the first adopter is the actual unit of influence: one team with a good outcome they will describe unprompted is worth more than any amount of correctness, because it converts your claim into their evidence.",
+          "L4": [
+            {
+              "kind": "choose-and-justify",
+              "prompt_tpl": "You want {n} teams to adopt a new approach and none report to you. Choose between convincing all of them at once in a review, escalating to a shared director, and getting one team to adopt and publishing the outcome. Justify by how the second team decides.",
+              "params": {
+                "n": [
+                  4,
+                  6
+                ]
+              },
+              "grader": "free",
+              "answer": "Get one team to adopt and publish the outcome. The second team decides by asking who else has done this and how it went, so a peer with a good result answers the question that matters. A simultaneous pitch has no evidence; escalation produces compliance, and a mandated team is a bad reference for the next one.",
+              "explanation": "Adoption spreads on evidence held by peers, not on argument or authority. This is why the sequencing is doc, prototype, one adopter, then the rest - and why trying to shortcut to the last step usually costs more time than the sequence would have.",
+              "uid": "01M23NVBH0CS99H53KCRV4GSY7"
+            }
+          ],
+          "L5": "w20-design-and-load",
+          "prereqs": [
+            "Writing as the primary instrument"
+          ],
+          "resources": [
+            "https://staffeng.com/guides/staff-archetypes/"
+          ],
+          "people": [
+            "Will Larson"
+          ],
+          "tags": [
+            "influence",
+            "adoption",
+            "prototypes"
+          ],
+          "uid": "01M23NVBH0YJ53VKE5Q76XYHPX"
+        },
+        {
+          "t": "Multiplying others",
+          "preserved": true,
+          "L0": {
+            "body": "the arithmetic:\n  your own output               1 engineer-equivalent\n  a review that makes 5 people  0.1 better each    = 0.5\n  a document 20 people use      0.05 better each   = 1.0\n  a design you unblocked for\n    a team of 8, for a quarter                     = 2.0\n\npast a point, the first line stops being the largest term.\n\non the rubric at every large company. the last thing strong\nindividual contributors invest in, and the usual reason they stall.",
+            "cloze": "A review that makes {{c1::5}} people 0.1 better is worth 0.5\nengineer-equivalents; a document {{c2::20}} people use at 0.05 each is\nworth {{c3::1.0}}. Past a point your own output {{c4::stops being the\nlargest term}}."
+          },
+          "L1": "Past a point your direct output stops mattering. What counts is engineers whose work is better because of your review, your document, or your mentorship.",
+          "L2": "Explicitly on the promotion rubric at every large company, and the thing strong individual contributors most often neglect until it blocks them.",
+          "L3": "The arithmetic is illustrative, not measured; the shape is the point. Multiplier terms scale with headcount while your own output does not, so at sufficient organisational size any nonzero multiplier dominates. This is why it appears on every ladder above senior and why strong individual contributors stall - they optimise the one term that cannot grow. Reilly's caution is the counterweight: the same work is under-rewarded when invisible, and doing it too early can be career limiting. The resolution is not to avoid it but to make it produce artifacts - a review that becomes a guideline, a mentorship that becomes a document - so the multiplier leaves evidence, not only gratitude.",
+          "L4": [
+            {
+              "kind": "compute",
+              "prompt_tpl": "You spend {h} hours a week on your own work and {m} hours reviewing for {n} engineers, and estimate each review makes them {d} better for that week. Compute your multiplier term in engineer-equivalents and the headcount at which it exceeds your own output. Answer with the multiplier term in engineer-equivalents.",
+              "params": {
+                "h": [
+                  30
+                ],
+                "m": [
+                  10
+                ],
+                "n": [
+                  5,
+                  8
+                ],
+                "d": [
+                  0.1,
+                  0.05
+                ]
+              },
+              "grader": "numeric",
+              "tolerance": 0.02,
+              "answer": "multiplier = n*d; own output = h/40 = 0.75. n=5,d=0.1 -> 0.5, below. n=8,d=0.1 -> 0.8, above. n=5,d=0.05 -> 0.25. n=8,d=0.05 -> 0.4. Breakeven headcount is n = 0.75/d, so 8 engineers at d=0.1 and 15 at d=0.05.",
+              "answer_expr": "n*d",
+              "explanation": "The numbers are invented and the structure is not: your own term is capped by hours in a week while the multiplier term is linear in headcount. That is the entire argument for why the job changes above senior, and it also tells you the multiplier only pays at organisational scale.",
+              "uid": "01M23NVBH0Z224YE90TB6WH93N"
+            }
+          ],
+          "L5": "w20-design-and-load",
+          "prereqs": [],
+          "resources": [
+            "https://noidea.dog/glue"
+          ],
+          "people": [
+            "Tanya Reilly",
+            "Will Larson"
+          ],
+          "tags": [
+            "multiplier",
+            "mentorship",
+            "rubric"
+          ],
+          "uid": "01M23NVBH0MPMKV31G6MSFJMX6"
+        },
+        {
+          "t": "External standing",
+          "preserved": true,
+          "L0": {
+            "body": "what counts, roughly in order of cost:\n  a merged PR in a repository people use\n  a technical post with a measured result\n  a talk at a real conference\n  a maintained open-source component others depend on\n  a paper\n\nlevels.fyi on Distinguished: \"frequently published authors\"\nAnthropic: put independent research, blog posts and open source\n  \"at the top of your resume\"\n\ncannot be built privately. that is the whole point of it.",
+            "cloze": "External standing is built from merged PRs, posts with a\n{{c1::measured result}}, talks, maintained components and papers.\nlevels.fyi describes Distinguished engineers as \"{{c2::frequently\npublished authors}}\". It {{c3::cannot be built privately}}."
+          },
+          "L1": "Papers, talks, open source, public technical writing. Partly reputational, mostly it forces your reasoning to be legible to strangers.",
+          "L2": "For the L8/L9 path specifically this is not optional — those levels are partly assessed on industry recognition, which by definition cannot be built privately.",
+          "L3": "There are two separate benefits and they are worth separating, because one is reliable and one is not. The reliable one is that writing for strangers forces your reasoning to be legible: you cannot rely on shared context, so gaps you would otherwise skip become visible to you while writing. The unreliable one is reputation, where the causal direction is genuinely ambiguous - senior people write and writers become senior, and no controlled evidence separates them. For the India-based case there is a third, structural benefit: public standing is the only recognition that does not depend on being in the room where decisions happen, which is the input a distributed office is short of.",
+          "L4": [
+            {
+              "kind": "choose-and-justify",
+              "prompt_tpl": "You have {h} hours for external standing this quarter. Choose between one conference talk, {n} technical posts with measured results, and maintaining a small open-source component. Justify by cost, durability and verifiability.",
+              "params": {
+                "h": [
+                  60,
+                  100
+                ],
+                "n": [
+                  3,
+                  4
+                ]
+              },
+              "grader": "free",
+              "answer": "The posts, if you have results to report; they are the cheapest per artifact, verifiable, and permanently linkable. A maintained component is the most durable and the most expensive, since it creates an ongoing obligation. A talk is high effort, ephemeral unless recorded, and reaches fewer people who can check the work.",
+              "explanation": "Optimise for artifacts a stranger can verify years later. The ranking flips if you already maintain something people depend on, since that is the strongest of the three - it just is not a thing you can decide to have this quarter.",
+              "uid": "01M23NVBH0Z1PC0SFQ2HCT4C6G"
+            }
+          ],
+          "L5": "w20-design-and-load",
+          "prereqs": [
+            "What to publish, and what not to"
+          ],
+          "resources": [
+            "https://www.anthropic.com/careers",
+            "https://www.levels.fyi/blog/swe-level-framework.html"
+          ],
+          "people": [
+            "Chris Olah",
+            "Nathan Lambert"
+          ],
+          "tags": [
+            "reputation",
+            "public-work",
+            "standing"
+          ],
+          "uid": "01M23NVBH0WF5WPWEBRPPJ4AWJ"
+        },
+        {
+          "t": "Public research output as the strongest available credential",
+          "preserved": false,
+          "L0": {
+            "body": "Nanda:      \"public research output is your best credential.\"\nAnthropic:  \"If you've done interesting independent research, written a\n             thoughtful blog post, or contributed to open source, put\n             that at the top of your resume.\"\nlevels.fyi: Distinguished engineers are \"frequently published authors\"\n\nrecipe, per artifact:\n  1 question answerable in 1-2 wk\n  1 measured result: a number, a plot, a diff against a baseline\n  1 write-up: what you expected, what you measured, what broke\n  1 repo: commit hash, exact command, hardware named\n  negative results count and are cheaper",
+            "cloze": "Nanda: \"{{c1::public research output}} is your best credential.\"\nAnthropic asks you to put independent research, a thoughtful blog post or\nopen source {{c2::at the top of your resume}}.\nPer artifact: one question answerable in {{c3::1-2 weeks}}, one\n{{c4::measured result}}, one write-up, one reproducible repo."
+          },
+          "L1": "Three independent sources converge: Neel Nanda, Anthropic's own careers page, and levels.fyi's ladder all name public output as the credential that carries. It is the one input on this list that does not require an employer's permission.",
+          "L2": "The misconception is that it has to be novel, or accepted somewhere. The value is evidence you can execute, not evidence you were first. A documented negative result with a sound method and a reproducible repo outranks a survey post about papers you read, which is the format most people default to.",
+          "L3": "The mechanism is verification. A hiring manager cannot check a claim on a CV and can check a repository, so the artifact converts an assertion into something falsifiable in their favour. This is why the write-up matters as much as the code: what you expected, what you measured, and what broke is the part that shows judgment, and judgment is what they are hiring. Olsson's rule tells you what to produce: rather than learn X, try to learn to do X. Cadence is one artifact every two to four weeks - Nanda's stage two is throwaway 1-5 day projects for 2-4 weeks, then 1-2 week project sprints, and roughly 2-3 months of that reaches real research.",
+          "L4": [
+            {
+              "kind": "choose-and-justify",
+              "prompt_tpl": "You have {w} weeks and one slot to publish. Option A: a {n}-paper literature summary of a subfield. Option B: one experiment that failed to reproduce a published number, written up with the method and the discrepancy. Which is the stronger credential, and to whom?",
+              "params": {
+                "w": [
+                  2,
+                  3
+                ],
+                "n": [
+                  12,
+                  20
+                ]
+              },
+              "grader": "free",
+              "answer": "B, to anyone hiring. A demonstrates reading; B demonstrates running an experiment, measuring, noticing a discrepancy and reporting it honestly - which is the job. A summary is also unverifiable as evidence of skill, since the reader cannot tell whether you understood the papers or paraphrased them.",
+              "explanation": "Failed reproductions are underpriced. They are cheaper than novel results, they are genuinely useful to the field, and they display exactly the traits selection processes claim to want. The only requirement is that the method is documented well enough that a reader can locate the disagreement.",
+              "uid": "01M23NVBH0RP61647139F7XMY1"
+            },
+            {
+              "kind": "explain",
+              "prompt_tpl": "List the {k} things a reader must be able to do with your artifact before it counts as a credential rather than a blog post, and explain what each one proves about you.",
+              "params": {
+                "k": [
+                  4
+                ]
+              },
+              "grader": "free",
+              "answer": "Re-run it (repo, commit, exact command, hardware named) - proves the result exists. See the baseline you compared against - proves the number means something. Find the question it answers - proves you chose, not wandered. Read what went wrong - proves calibration and honesty, which is the trait a committee cannot get from a transcript.",
+              "explanation": "Each item is a check the reader performs in under a minute, and failing any one of them collapses the artifact back into an assertion. Note that the fourth is the one people delete before publishing, and it is the one that most distinguishes a practitioner from a learner.",
+              "uid": "01M23NVBH0ZZMGB4PCSFHWMPVZ"
+            }
+          ],
+          "L5": "w20-design-and-load",
+          "prereqs": [],
+          "resources": [
+            "https://www.lesswrong.com/posts/jP9KDyMkchuv6tHwm/how-to-become-a-mechanistic-interpretability-researcher",
+            "https://www.anthropic.com/careers",
+            "https://www.levels.fyi/blog/swe-level-framework.html"
+          ],
+          "people": [
+            "Neel Nanda",
+            "Chris Olah",
+            "Catherine Olsson"
+          ],
+          "tags": [
+            "credential",
+            "public-work",
+            "artifacts"
+          ],
+          "uid": "01M23NVBH0PMWN343PAF79TD44"
+        },
+        {
+          "t": "Mentorship and sponsorship are different purchases",
+          "preserved": false,
+          "L0": {
+            "body": "           spends           costs         how to get it\nmentor     an hour          ~nothing      ask directly\nsponsor    their own         credibility    cannot be asked,\n           reputation                       only earned\n\nLarson: activate \"internal sponsors and network in support of your\n  progression\".  The recurring complaint: being \"not in the room\n  where decisions happen\".\n\nmentor:  do the work first, then ask one narrow question about\n  an artifact you already made\nsponsor: make a senior person's stated goal succeed, visibly, in a\n  way they can point at in a room you are not in",
+            "cloze": "A mentor spends {{c1::an hour}}; a sponsor spends {{c2::their own\nreputation}}. A mentor {{c3::can be asked directly}}; a sponsor\n{{c4::cannot be asked and must be earned}}. The way to earn one is to make\na senior person's stated goal succeed in a way they can point at."
+          },
+          "L1": "A mentor tells you what to do. A sponsor argues for you when you are not present. Promotion at staff-plus is decided by people who have never worked with you, reading a written case, so the person who writes and defends that case decides the outcome.",
+          "L2": "Conflating them is why people ask for coffee chats and receive advice when they needed advocacy. You can request mentorship from almost anyone by asking one narrow, well-prepared question. You cannot request sponsorship at all, because you are asking someone to stake credibility they have on evidence they do not yet have.",
+          "L3": "The cheapest way to buy a named senior mentor is a structured programme: MATS assigns one and the Anthropic Fellows Programme is built around one, which is why both have outcome data nothing else matches. Sponsorship is slower. Sponsors form when your work made their stated objective succeed and they had to explain to someone else why. Two consequences: pick work attached to a goal a senior person has already committed to publicly, and keep your contribution legible in writing, because they will be quoting you in a room you are not in. Larson's outcome data: two-thirds got the title internally, one-third had to change companies, and about half the women surveyed had to.",
+          "L4": [
+            {
+              "kind": "choose-and-justify",
+              "prompt_tpl": "You get {n} minutes with a principal engineer you have never met. Choose between asking them to mentor you, asking one specific question about an artifact you built, and asking them to advocate for your promotion. Rank by expected value and say why the ranking is what it is.",
+              "params": {
+                "n": [
+                  15,
+                  30
+                ]
+              },
+              "grader": "free",
+              "answer": "One specific question about your artifact, first: it costs them little, it demonstrates you did the work, and it is how mentorship relationships actually start. A general mentorship request second, as it is a vague ask with no evidence attached. The advocacy request last and near zero - you are asking them to spend reputation on someone they have no basis to vouch for.",
+              "explanation": "The ordering follows from what each ask costs the other person and what evidence they have. The artifact question is the only one where you arrive having already done something, which is why it converts. Sponsorship follows from repeated instances of that, never from a request.",
+              "uid": "01M23NVBH0D4ZY40TM5J24NSRM"
+            },
+            {
+              "kind": "explain",
+              "prompt_tpl": "Describe the mechanism by which a sponsor forms, in {n} steps, and name the specific failure mode at each step for someone working from a distributed office rather than headquarters.",
+              "params": {
+                "n": [
+                  3
+                ]
+              },
+              "grader": "free",
+              "answer": "One: you attach your work to a goal a senior person has publicly committed to - failure mode is that those goals are announced and negotiated at HQ. Two: your contribution makes it succeed - failure mode is timezone-shifted collaboration hiding who did what. Three: they explain the success to someone else and name you - failure mode is that the explaining happens in rooms you are not in and cannot audit.",
+              "explanation": "All three failure modes are the same variable, visibility, which Larson identifies as structurally unequal between HQ and distributed offices. That is why building a public reputation is not vanity for an India-based engineer targeting a US-headquartered ladder; it is the only route to recognition you can control.",
+              "uid": "01M23NVBH0J5VFQ5FDX604PN1W"
+            }
+          ],
+          "L5": "d26-7",
+          "prereqs": [
+            "Scope, not knowledge breadth, is the promoted variable"
+          ],
+          "resources": [
+            "https://staffeng.com/guides/getting-the-title-where-you-are/",
+            "https://noidea.dog/glue"
+          ],
+          "people": [
+            "Will Larson",
+            "Tanya Reilly"
+          ],
+          "tags": [
+            "sponsorship",
+            "mentorship",
+            "visibility"
+          ],
+          "uid": "01M23NVBH01HVREEMH61FFVC9F"
+        },
+        {
+          "t": "Working in public without it becoming performance",
+          "preserved": false,
+          "L0": {
+            "body": "before publishing, the artifact must pass all five:\n  [ ] I would have done this work with the post disabled\n  [ ] there is a measured result, not only a summary\n  [ ] someone can reproduce it: repo, commit, command, hardware\n  [ ] what I got wrong is in the text\n  [ ] I can name the specific question it answers\n\nfailing signals:\n  cadence-driven posting, threads about learning rather than results,\n  reading lists, \"day 47 of\" counters, engagement as the tracked metric\n\ntrack: artifacts shipped, results measured\ndo not track: followers, impressions, streaks",
+            "cloze": "The five-item gate: I would have done this {{c1::with the post\ndisabled}}; there is a {{c2::measured result}}; it is\n{{c3::reproducible}}; what I got wrong is in the text; I can name the\nquestion it answers. Track {{c4::artifacts shipped and results measured}},\nnot followers or streaks."
+          },
+          "L1": "Publishing should be a byproduct of doing the work, not a separate activity with its own schedule. The test is whether the work would still have happened with the audience removed, and whether the post reports a result rather than an intention.",
+          "L2": "The variable you track decides which one you are doing. A posting cadence forces publication before there is a result, which trains announcing over finishing and produces output indistinguishable from every other learner's. Streak counters and daily-progress threads are the clearest tell, because they measure attendance.",
+          "L3": "The mechanism is who the writing is aimed at. Hiring signal comes from a reader who can check your work; performance optimises for readers who never will; the formats diverge at once - one has a commit hash and a baseline, the other a narrative arc. Keep the caveat in view: the link between visible writing and seniority is correlational - senior people write, writers get senior, and the direction is not established. Write because it forces your reasoning to be legible to strangers and because it is a credential you can produce without permission - not because a posting schedule is a strategy. Reilly's warning transfers: work that looks like contribution but banks nothing costs years.",
+          "L4": [
+            {
+              "kind": "find-the-bug",
+              "prompt_tpl": "An engineer posts every day for {d} days: reading notes, course progress, a diagram of an architecture they read about, and a thread on what they learned. After {d} days they have {n} posts and no repository. Identify what is broken and state the smallest change that fixes it.",
+              "params": {
+                "d": [
+                  90,
+                  60
+                ],
+                "n": [
+                  90,
+                  60
+                ]
+              },
+              "grader": "free",
+              "answer": "Nothing published is checkable, so none of it is a credential; the tracked variable is attendance, not results. Smallest fix: stop the daily cadence and publish only when an artifact passes the five-item gate - a measured result, a reproducible repo, and the thing that went wrong included.",
+              "explanation": "The volume is not the problem and the sincerity is not the problem. The problem is that a reader who wants to hire has nothing to verify, so ninety posts carry the same evidential weight as zero. One reproducible experiment would outweigh all of them.",
+              "uid": "01M23NVBH0B37KDA3XPBY3CFR0"
+            },
+            {
+              "kind": "choose-and-justify",
+              "prompt_tpl": "You finished an experiment {days} days ago and the result was that your idea did not work. Choose: publish it with the negative result, quietly move on, or rewrite it as a lessons-learned post without the numbers. Justify against the five-item gate.",
+              "params": {
+                "days": [
+                  3,
+                  10
+                ]
+              },
+              "grader": "free",
+              "answer": "Publish it with the negative result and the numbers. It passes all five items; the third option fails 'there is a measured result' and turns verifiable work into an unverifiable narrative, which is exactly the transformation that makes public work into performance.",
+              "explanation": "Negative results are the cheapest artifacts that still pass every gate, and they are the ones people suppress. Deleting the numbers to protect the story is the specific move to watch for in yourself, because it converts something a reader could check into something they can only be impressed by.",
+              "uid": "01M23NVBH0CBT0XCNDJY2005R6"
+            }
+          ],
+          "L5": "w20-design-and-load",
+          "prereqs": [
+            "Public research output as the strongest available credential"
+          ],
+          "resources": [
+            "https://noidea.dog/glue",
+            "https://www.lesswrong.com/posts/jP9KDyMkchuv6tHwm/how-to-become-a-mechanistic-interpretability-researcher"
+          ],
+          "people": [
+            "Tanya Reilly",
+            "Nathan Lambert"
+          ],
+          "tags": [
+            "public-work",
+            "discipline",
+            "signal"
+          ],
+          "uid": "01M23NVBH04VZXGKAQZ4BEHRRW"
+        }
+      ],
+      "uid": "01M23NVBH0VYZ2QHF29MGS4974"
+    },
+    {
+      "t": "A realistic study plan",
+      "note": "if you are starting now",
+      "concepts": [
+        {
+          "t": "Sequencing",
+          "preserved": true,
+          "L0": {
+            "body": "start now, in parallel, in this order of duration:\n  mathematics            3-4 yr part-time from a weak base\n  systems depth          1-2 yr of deliberate study\n  domain specialisation  6-12 mo\n  interview-specific     3-6 mo, LAST\n\nthe long pole starts first. everything else runs beside it.\n\nwhy last for interview prep: shortest shelf life of anything on\nthe list, and it depends on foundations that take years.",
+            "cloze": "Mathematics is the long pole at {{c1::3-4 years}} part-time from a\nweak base and starts {{c2::immediately}}. Systems depth is\n{{c3::1-2 years}}. Interview-specific preparation is 3-6 months and comes\n{{c4::last}}, because it has the shortest shelf life."
+          },
+          "L1": "Mathematics is the long pole at 3-4 years part-time from a weak base. Start it immediately and run everything else in parallel. Systems depth is 1-2 years of deliberate study. Interview-specific prep is 3-6 months and should come last.",
+          "L2": "Starting with interview prep is the common error. It has the shortest shelf life and depends on foundations that take years.",
+          "L3": "This is critical-path scheduling. The long pole sets the completion date regardless of how you order the short items, so anything multi-year starts on day one and anything short finishes just in time. Interview preparation decays: recall of problem patterns degrades within months, so preparing early means paying twice. There is a tension worth naming with the rest of this domain: sequencing optimises knowledge, and knowledge is a filter rather than a scored term. Run the schedule at the intensity needed to clear the filter and spend the surplus on artifacts, mentorship and scope. Do not let a multi-year plan become the reason you have nothing published in year one.",
+          "L4": [
+            {
+              "kind": "compute",
+              "prompt_tpl": "You start today and want to be interview-ready with {m} months of dedicated preparation, but mathematics needs {y} years running in parallel. Give the month you start interview preparation and the total elapsed months, assuming preparation ends when mathematics does. Answer with the month interview preparation starts.",
+              "params": {
+                "m": [
+                  3,
+                  6
+                ],
+                "y": [
+                  3,
+                  4
+                ]
+              },
+              "grader": "numeric",
+              "tolerance": 0.001,
+              "answer": "total = 12y; interview prep starts at month 12y - m. y=3,m=3 -> starts month 33, total 36. y=3,m=6 -> starts month 30, total 36. y=4,m=3 -> starts month 45, total 48. y=4,m=6 -> starts month 42, total 48.",
+              "answer_expr": "12*y-m",
+              "explanation": "The completion date is set entirely by the long pole; the short task floats. This is the whole argument for starting mathematics on day one and for not spending month one on interview problems, which would neither shorten the critical path nor still be fresh at month 42.",
+              "uid": "01M23NVBH01V35BWS5TMMSATY8"
+            },
+            {
+              "kind": "choose-and-justify",
+              "prompt_tpl": "You have {h} hours a day and a 3-4 year mathematics track. Choose between running the full study sequence at maximum intensity and running it at the intensity needed to clear the filter while spending the surplus on public artifacts. Justify from what gets scored.",
+              "params": {
+                "h": [
+                  12,
+                  10
+                ]
+              },
+              "grader": "free",
+              "answer": "Clear the filter and spend the surplus on artifacts. Knowledge is a prerequisite filter and not a term in the promotion function, while public output is the credential three independent sources name. Maximum-intensity study optimises the variable with a ceiling and defers the one that compounds.",
+              "explanation": "This is deliberately in tension with the study plan itself, and the tension is real. The plan is correct about sequencing and silent about the fact that a person with a perfect study record and no artifacts is invisible to every hiring process described in this domain.",
+              "uid": "01M23NVBH02XQPAPBHB8H1J0F7"
+            }
+          ],
+          "L5": "w20-design-and-load",
+          "prereqs": [],
+          "resources": [
+            "https://80000hours.org/articles/ml-engineering-career-transition-guide/"
+          ],
+          "people": [
+            "Neel Nanda"
+          ],
+          "tags": [
+            "planning",
+            "sequencing",
+            "critical-path"
+          ],
+          "uid": "01M23NVBH0JPX3Y6T81JHRXB8Z"
+        },
+        {
+          "t": "Weekly shape",
+          "preserved": true,
+          "L0": {
+            "body": "daily    90 min mathematics, non-negotiable\nweekly   2 long systems sessions, each ending in something built\nweekly   1 paper, read properly\nmonthly  1 written artifact\n\nannual arithmetic:\n  90 min x 365          = 547 h of mathematics\n  2 sessions x 3 h x 52 = 312 h of systems\n  52 papers, 12 artifacts\n\ntwo years: ~1100 h maths, ~620 h systems, 104 papers, 24 artifacts",
+            "cloze": "{{c1::90 minutes}} of mathematics daily is 547 hours a year. Two long\nsystems sessions weekly, {{c2::one paper}} weekly, and\n{{c3::one written artifact}} monthly. Over two years that is\n{{c4::24}} artifacts, which is a portfolio and a skill at the same time."
+          },
+          "L1": "90 minutes daily on mathematics, non-negotiable. Two longer sessions weekly on a systems topic with something built. One paper per week, read properly. One written artifact per month.",
+          "L2": "The written artifact is the highest-leverage item and the first thing people drop. A design doc or technical post per month for two years is a portfolio and a skill simultaneously.",
+          "L3": "The artifact is the item that gets dropped first and is the only one on the list that produces an external credential. Everything else - mathematics, systems sessions, papers - is input that leaves no trace a stranger can verify, which is exactly the failure mode the rest of this domain warns about. Note what the schedule assumes: a source of feedback on the artifacts. Twelve documents a year read by nobody trains writing far slower than twelve read by a critical reader, which is another argument for joining a community rather than running the schedule alone. And 547 hours of mathematics a year is roughly one MATS cohort's worth of full-time weeks, spread across twelve months.",
+          "L4": [
+            {
+              "kind": "compute",
+              "prompt_tpl": "At {mins} minutes of mathematics a day and {s} systems sessions of {dur} hours a week, compute annual hours for each and the combined two-year total. Answer with the annual mathematics hours.",
+              "params": {
+                "mins": [
+                  90,
+                  60
+                ],
+                "s": [
+                  2
+                ],
+                "dur": [
+                  3,
+                  4
+                ]
+              },
+              "grader": "numeric",
+              "tolerance": 0.02,
+              "answer": "maths = mins*365/60; systems = s*dur*52. mins=90 -> 547.5 h/yr; mins=60 -> 365 h/yr. dur=3 -> 312 h/yr; dur=4 -> 416 h/yr. Two-year totals: 90/3 -> 1719 h; 90/4 -> 1927 h; 60/3 -> 1354 h; 60/4 -> 1562 h.",
+              "answer_expr": "mins*365/60",
+              "explanation": "Ninety minutes daily beats a weekend blitz on the same annual total because retrieval spacing does the work, but note that the annual figure is what makes the plan credible. Cutting to sixty minutes costs 182 hours a year, which is roughly the entire 80,000 Hours floor for a domain transition.",
+              "uid": "01M23NVBH0EZ7AB0AHG04207YC"
+            },
+            {
+              "kind": "choose-and-justify",
+              "prompt_tpl": "A week goes badly and you can protect only {n} of the four commitments. Rank them by what you lose, and say which one you should protect that most people drop.",
+              "params": {
+                "n": [
+                  2,
+                  3
+                ]
+              },
+              "grader": "free",
+              "answer": "Protect the daily mathematics and the monthly artifact. Mathematics is on the critical path and decays fastest when interrupted. The artifact is the only item that produces a verifiable credential. Papers and systems sessions are recoverable next week; a skipped artifact month is a permanent hole in the portfolio.",
+              "explanation": "Most people protect the systems sessions because they are enjoyable and drop the artifact because it is uncomfortable and has no deadline. That is exactly backwards on both the critical-path argument and the credential argument.",
+              "uid": "01M23NVBH0DZCTRRS22VVTZFNQ"
+            }
+          ],
+          "L5": "w20-design-and-load",
+          "prereqs": [
+            "Sequencing"
+          ],
+          "resources": [
+            "https://www.matsprogram.org/"
+          ],
+          "people": [
+            "Neel Nanda"
+          ],
+          "tags": [
+            "schedule",
+            "habit",
+            "artifacts"
+          ],
+          "uid": "01M23NVBH0X0DEQ45RHGS9SPYP"
+        },
+        {
+          "t": "Build things that force depth",
+          "preserved": true,
+          "L0": {
+            "body": "the four:\n  a toy Raft implementation        -> consensus, failure, time\n  a small LSM storage engine       -> IO, compaction, write amp\n  a transformer trained from\n    scratch on a small corpus      -> the whole ML stack, debugged\n  a CUDA kernel that beats the\n    naive version                  -> memory hierarchy, occupancy\n\neach answers \"tell me about something you built\" with a number.\n\nthe kernel is the one that opens silicon-adjacent doors; the\ntransformer is the one that opens fellowship applications.",
+            "cloze": "The four: a toy {{c1::Raft}} implementation, a small\n{{c2::LSM storage engine}}, a transformer trained from scratch, and a\n{{c3::CUDA kernel}} that beats the naive version. The kernel opens\n{{c4::silicon-adjacent}} doors; the transformer opens fellowship\napplications."
+          },
+          "L1": "A toy Raft implementation. A small LSM storage engine. A transformer trained from scratch on a small corpus. A CUDA kernel that beats the naive version.",
+          "L2": "These four projects cover most of the credibility you need. They are also the concrete answers to 'tell me about something you built' that separate you from candidates reciting concepts.",
+          "L3": "These four are chosen because each one fails in a way reading cannot simulate. Raft is correct on paper and wrong in your implementation the first time a leader changes mid-append. An LSM engine is simple until compaction interacts with read amplification under a real workload. A transformer trains to a plausible loss curve while being subtly wrong, which is why debugging it is the actual skill. A CUDA kernel that is merely correct is usually slower than the library, so the target has to be a measured speedup against a named baseline. Publish each with the number, the baseline, the hardware and the commit, and the four projects become four artifacts rather than four private experiences.",
+          "L4": [
+            {
+              "kind": "choose-and-justify",
+              "prompt_tpl": "You have time for {n} of the four projects and want to be a credible fellowship applicant and a credible performance-engineering candidate. Choose which, and say what number each artifact must report.",
+              "params": {
+                "n": [
+                  2,
+                  3
+                ]
+              },
+              "grader": "free",
+              "answer": "The transformer trained from scratch and the CUDA kernel. The transformer reports a loss curve against a known baseline on a named corpus and hardware; the kernel reports a measured speedup against cuBLAS or PyTorch on a stated shape and GPU. Raft and the LSM engine are excellent depth and speak to neither target audience directly.",
+              "explanation": "Project selection should follow the door you are aiming at. All four force real depth, and only two of them produce artifacts that a fellowship reviewer or a GPU performance team reads as directly relevant. If the target changes, the selection changes.",
+              "uid": "01M23NVBH02PKKRGR6AQR30JME"
+            },
+            {
+              "kind": "explain",
+              "prompt_tpl": "Explain why a CUDA kernel that is correct but {pct} percent slower than cuBLAS is a weaker artifact than a failed reproduction of a published speedup, in terms of what a reader learns.",
+              "params": {
+                "pct": [
+                  30,
+                  60
+                ]
+              },
+              "grader": "free",
+              "answer": "The slow-but-correct kernel shows you can write CUDA, which the library already proves is possible; the reader learns nothing about your ability to reason about memory hierarchy or occupancy. A documented failed reproduction shows you set up a fair comparison, measured, and located a discrepancy - which is the actual work.",
+              "explanation": "Artifacts are judged on what they let the reader conclude. Correctness against an existing library is a low-information outcome. A measured comparison with an honest gap and a hypothesis is a high-information one, even when the number is worse than you wanted.",
+              "uid": "01M23NVBH0DHWGQWG76YG069F6"
+            }
+          ],
+          "L5": "w20-design-and-load",
+          "prereqs": [],
+          "resources": [
+            "https://www.gpumode.com/",
+            "https://github.com/KellerJordan/modded-nanogpt"
+          ],
+          "people": [
+            "Keller Jordan"
+          ],
+          "tags": [
+            "projects",
+            "depth",
+            "artifacts"
+          ],
+          "uid": "01M23NVBH0JCDSK089DM5X3V7Z"
+        },
+        {
+          "t": "Read papers properly",
+          "preserved": true,
+          "L0": {
+            "body": "three passes:\n  1  structure   title, abstract, figures, conclusion    ~10 min\n  2  argument    what is claimed, against what baseline  ~45 min\n  3  detail      reproduce the key derivation or a\n                 simplified version of the experiment    hours\n\narithmetic: 1 paper/week x 104 weeks = 104 papers in two years\nZiegler: 20-30 deep-RL papers, ~1.5 h each solo plus 30 min\n  discussion, working from a curated key-papers list\n\npass 3 is the one that converts reading into knowledge.",
+            "cloze": "Three passes: {{c1::structure}}, then argument, then\n{{c2::detail, reproducing the key derivation}}. One a week for two years\nis {{c3::104}} papers. Skimming a hundred papers produces the ability to\n{{c4::recognize titles}}."
+          },
+          "L1": "Three passes: skim structure, read for the main argument, then read for the details and reproduce the key derivation. One per week for two years is a hundred papers.",
+          "L2": "Reproducing at least the central derivation or a simplified version of the experiment is what converts reading into knowledge. Skimming a hundred papers produces the ability to recognize titles.",
+          "L3": "Pass three is where the cost is and where the return is, and it is the pass that gets skipped because passes one and two feel productive. Ziegler's numbers are a useful calibration: 20 to 30 papers at roughly 1.5 hours each, plus 30 minutes of discussion per paper, is under 60 hours of reading in total - and he then spent the bulk of six weeks implementing rather than reading. Two consequences. Work from a curated list rather than a search, because paper selection is a skill you do not have yet. And treat discussion as part of the method, not an extra: 30 minutes with another person catches the misreading you cannot detect alone, which is input three from the outliers table.",
+          "L4": [
+            {
+              "kind": "compute",
+              "prompt_tpl": "You read {n} papers at {t} hours each with {d} minutes of discussion per paper. Compute total reading hours, total discussion hours, and the share of a {W}-hour full-time block that leaves for implementation. Answer with the hours left for implementation.",
+              "params": {
+                "n": [
+                  25,
+                  30
+                ],
+                "t": [
+                  1.5
+                ],
+                "d": [
+                  30
+                ],
+                "W": [
+                  240
+                ]
+              },
+              "grader": "numeric",
+              "tolerance": 0.02,
+              "answer": "reading = n*t; discussion = n*d/60; remainder = W - reading - discussion. n=25 -> 37.5 h reading, 12.5 h discussion, 190 h left of 240 (79%). n=30 -> 45 h reading, 15 h discussion, 180 h left (75%).",
+              "answer_expr": "W-n*t-n*d/60",
+              "explanation": "Roughly three-quarters of a six-week full-time block remains for implementation after reading the literature properly. That ratio is the shape of Ziegler's transition and the corrective to a plan that is mostly reading: the reading is the small part.",
+              "uid": "01M23NVBH0TBZXNQAMDK7P28NG"
+            },
+            {
+              "kind": "choose-and-justify",
+              "prompt_tpl": "You have {h} hours for one paper. Choose between three passes on it and pass-one skims of {n} papers. Justify by what each produces that you could show someone.",
+              "params": {
+                "h": [
+                  6,
+                  8
+                ],
+                "n": [
+                  20,
+                  30
+                ]
+              },
+              "grader": "free",
+              "answer": "Three passes on one paper. It produces a reproduced derivation or a small experiment, which is a showable artifact and a real piece of knowledge. Skimming twenty papers produces the ability to recognize titles, which is showable to nobody and decays within weeks.",
+              "explanation": "The choice looks like breadth versus depth and is really artifact versus no artifact. Breadth has a place in pass one across a curated list to decide what to read deeply, but breadth as an end state is the failure mode the study plan explicitly names.",
+              "uid": "01M23NVBH09XZ8H0M6YMJCHSFY"
+            }
+          ],
+          "L5": "w20-design-and-load",
+          "prereqs": [
+            "The three-pass read"
+          ],
+          "resources": [
+            "https://80000hours.org/articles/ml-engineering-career-transition-guide/"
+          ],
+          "people": [
+            "Daniel Ziegler",
+            "Catherine Olsson"
+          ],
+          "tags": [
+            "reading",
+            "papers",
+            "method"
+          ],
+          "uid": "01M23NVBH089HTRD5CY5H6WDJA"
+        },
+        {
+          "t": "The four inputs every documented fast outlier had",
+          "preserved": false,
+          "L0": {
+            "body": "(1) a strong pre-existing technical foundation\n(2) full-time availability\n(3) a named senior mentor or feedback community\n(4) an environment producing a public artifact\n\nZiegler    OpenAI in ~6 wk: MIT CS, had begun a Stanford PhD;\n           those weeks retargeted existing ability\nOlah       no degree to co-founder: Thiel Fellowship, ~9 yr of\n           public work before the title\nEleutherAI \"core contributor within weeks\": already engineers,\n           donated clusters, feedback community\nMATS       12 wk to lab jobs: selection, full-time, assigned\n           mentor, a paper as the output",
+            "cloze": "The four inputs: a strong {{c1::pre-existing technical foundation}},\n{{c2::full-time availability}}, a {{c3::named senior mentor or active\nfeedback community}}, and an environment that produces a\n{{c4::public artifact by default}}. Absent from the list: breadth, a\nsyllabus, certifications."
+          },
+          "L1": "Every documented fast progression in the evidence base shares the same four inputs. None of the four is comprehensive knowledge, and two of them are things you join rather than things you study.",
+          "L2": "Software can supply the first two and cannot supply the last two. A curriculum can build foundation and can structure full-time hours; it cannot assign you a senior mentor or place you in an environment where an artifact is the default output. A programme of solitary study is missing half of what every outlier had.",
+          "L3": "The fine print on Ziegler is the part people skip. The guide documenting his six weeks states its assumed starting point: a technical bachelor's degree plus software engineering strong enough to pass a Google interview. Those six weeks were an elite engineer retargeting existing ability, not a novice arriving. The same guide's floor for a less-prepared starter is at minimum 200 hours, and likely more. Olah's nine years between dropping out and Anthropic is the other correction: the no-degree story is real and it is not a fast story. Operationally, inputs three and four are the ones to go buy - a fellowship, a repository, a community with review - because they are the two you are missing.",
+          "L4": [
+            {
+              "kind": "compute",
+              "prompt_tpl": "You have inputs (1) and (2) and are working {h} hours a day for {d} days. Compute total hours and the multiple over the 200-hour floor, then state which of the four inputs that number does not address. Answer with the multiple over the 200-hour floor.",
+              "params": {
+                "h": [
+                  12,
+                  10
+                ],
+                "d": [
+                  90,
+                  60
+                ]
+              },
+              "grader": "numeric",
+              "tolerance": 0.02,
+              "answer": "hours = h*d; multiple = hours/200. h=12,d=90 -> 1080 h, 5.4x. h=12,d=60 -> 720 h, 3.6x. h=10,d=90 -> 900 h, 4.5x. h=10,d=60 -> 600 h, 3.0x. The number addresses input (2) only; it says nothing about (3) a named mentor or (4) an artifact-producing environment.",
+              "answer_expr": "h*d/200",
+              "explanation": "This is the useful and uncomfortable calculation. Even a very large hour count moves exactly one of the four inputs. Hours are the variable most under your control and the one with the least remaining headroom, which is why an application to a mentored programme is usually worth more than another hundred hours of study.",
+              "uid": "01M23NVBH0BV9ECZQCV7SVDVF4"
+            },
+            {
+              "kind": "choose-and-justify",
+              "prompt_tpl": "You can add exactly one thing to a solitary study plan: {a}, a paid mentor for an hour a week, or membership in an open-source project with code review. Which input does each supply, and which do you add first?",
+              "params": {
+                "a": [
+                  "another 200 hours",
+                  "a second textbook track"
+                ]
+              },
+              "grader": "free",
+              "answer": "More hours supplies input (2), which you already have. The mentor supplies (3). The open-source project supplies (3) and (4) at once, since review is feedback and merged work is a public artifact by default. Add the project first; it is the only option that buys two of the four missing inputs.",
+              "explanation": "The ranking falls out of the table rather than from taste. Note that the project is also free and requires no selection process, which makes it the highest expected value action available on any day you are not writing a fellowship application.",
+              "uid": "01M23NVBH0495G9HTG8JBTQPN0"
+            }
+          ],
+          "L5": "d26-7",
+          "prereqs": [
+            "Four clocks, not one"
+          ],
+          "resources": [
+            "https://80000hours.org/articles/ml-engineering-career-transition-guide/",
+            "https://arxiv.org/pdf/2210.06413",
+            "https://en.wikipedia.org/wiki/Chris_Olah"
+          ],
+          "people": [
+            "Daniel Ziegler",
+            "Chris Olah",
+            "Catherine Olsson"
+          ],
+          "tags": [
+            "outliers",
+            "inputs",
+            "evidence"
+          ],
+          "uid": "01M23NVBH09Z25610NEHSFAYYT"
+        },
+        {
+          "t": "Reproducing a hard result as a portfolio strategy",
+          "preserved": false,
+          "L0": {
+            "body": "modded-nanogpt speedrun (KellerJordan/modded-nanogpt)\n  task:     train a 124M GPT to val loss 3.28 or below on\n            FineWeb, 8x H100, as fast as possible\n  baseline: Karpathy's llm.c GPT-2 replication, 45 min\n  record:   1.353 min (29 Apr 2026); 82 records since May\n            2024, each attributed to a named contributor\n  rules:    data pipeline fixed; algorithmic and systems\n            changes allowed; records hold at p<0.01\n  spillover: the Muon optimizer came out of this arena\n\nZiegler: 5+ algorithms reimplemented, 2-10 days each (DQN, A2C,\n  PPO, DDPG) on Gym, Cartpole to Atari",
+            "cloze": "The speedrun target is val loss {{c1::3.28 or below}} on FineWeb with\n{{c2::8x H100}}, against a {{c3::45 minute}} llm.c baseline; the record is\n{{c4::1.353}} minutes over {{c5::82}} attributed records. Ziegler\nreimplemented 5+ algorithms at {{c6::2-10 days}} each."
+          },
+          "L1": "Pick a published result with a stated number, reproduce it exactly, then change one thing and measure the difference. This is the cheapest artifact that is legible to a stranger, because the baseline does the explaining for you.",
+          "L2": "The objection is that reproduction is not real work. Reproduction is where the unstated details live: the initialisation, the schedule, the numerical detail the paper omitted. A failed reproduction, documented well enough that a reader can locate the disagreement, is a genuine result and cheaper than a novel one.",
+          "L3": "What makes an arena like the speedrun valuable is that it removes every ambiguity a hiring reader would otherwise have to resolve. The task is fixed, the hardware is fixed, the metric is a single number, records are attributed by name, and improvements must be statistically significant. Your contribution is unarguable in a way that no project description can be. Ziegler used the same principle without an arena: 20-30 deep-RL papers at roughly 1.5 hours each, then five or more algorithms reimplemented at 2-10 days apiece, sometimes twelve hours a day debugging and tuning. Debugging was the activity, not reading. Olsson's rule again: rather than learn X, try to learn to do X.",
+          "L4": [
+            {
+              "kind": "compute",
+              "prompt_tpl": "Following Ziegler's method you reimplement {n} algorithms at {lo} to {hi} days each, working full-time. Give the calendar range in days and in weeks, and say what the range depends on. Answer with the upper end of the range in days.",
+              "params": {
+                "n": [
+                  5,
+                  7
+                ],
+                "lo": [
+                  2
+                ],
+                "hi": [
+                  10
+                ]
+              },
+              "grader": "numeric",
+              "tolerance": 0.02,
+              "answer": "days = n*lo to n*hi. n=5 -> 10 to 50 days, 1.4 to 7.1 weeks. n=7 -> 14 to 70 days, 2.0 to 10.0 weeks. The range depends almost entirely on debugging time, not on reading or typing time, which is why the spread is 5x.",
+              "answer_expr": "n*hi",
+              "explanation": "The 5x spread is the informative part. Implementation is fast and getting a wrong implementation to reveal that it is wrong is slow, so plan against the upper end. Ziegler's own description of the period was debugging and tuning, sometimes twelve hours a day.",
+              "uid": "01M23NVBH0B8JJ87PKRYXT10MZ"
+            },
+            {
+              "kind": "choose-and-justify",
+              "prompt_tpl": "You have {w} weeks for one portfolio artifact. Choose between building a novel system nobody has built, reproducing a published result and beating one number, and entering a public benchmark arena with attributed records. Justify by what a reader can verify.",
+              "params": {
+                "w": [
+                  4,
+                  6
+                ]
+              },
+              "grader": "free",
+              "answer": "The arena, then the reproduction, then the novel system. The arena has a fixed task, a fixed metric and named attribution, so a reader verifies your contribution in seconds. A reproduction needs the reader to trust your baseline. A novel system requires them to evaluate both the problem and the solution, which is expensive and usually is not done.",
+              "explanation": "Optimise for cheapness of verification, not for ambition. The novel system may be better work and it is worse evidence, because evidence is a property of the reader's cost to check. That asymmetry is why competitive public arenas are disproportionately effective for people without institutional credentials.",
+              "uid": "01M23NVBH0K3B8NJ29WT7T9WR7"
+            },
+            {
+              "kind": "explain",
+              "prompt_tpl": "Your reproduction lands at {loss} instead of the paper's number and you have checked it {k} times. Explain why this is publishable and what the write-up must contain for it to be a credential rather than a complaint.",
+              "params": {
+                "loss": [
+                  "a worse loss",
+                  "a slower time"
+                ],
+                "k": [
+                  3
+                ]
+              },
+              "grader": "free",
+              "answer": "It is publishable because a documented discrepancy is a result: either the paper omitted something or you did, and both are useful to readers. The write-up needs the exact configuration, the commit, the hardware, every difference from the paper you are aware of, the measurement variance across runs, and a specific hypothesis for the gap.",
+              "explanation": "The difference between a credential and a complaint is whether a reader can act on it. Variance across repeated runs is the item people omit and the first thing a careful reader asks for, because a single run cannot distinguish a real gap from noise.",
+              "uid": "01M23NVBH0KEHY6B3CX93DPVTJ"
+            }
+          ],
+          "L5": "d26-7",
+          "prereqs": [
+            "Public research output as the strongest available credential"
+          ],
+          "resources": [
+            "https://github.com/KellerJordan/modded-nanogpt",
+            "https://80000hours.org/podcast/episodes/olsson-and-ziegler-ml-engineering-and-safety/",
+            "https://github.com/KellerJordan/Muon"
+          ],
+          "people": [
+            "Keller Jordan",
+            "Daniel Ziegler",
+            "Catherine Olsson"
+          ],
+          "tags": [
+            "reproduction",
+            "portfolio",
+            "speedrun"
+          ],
+          "uid": "01M23NVBH04FAVY0607WW23F3W"
+        },
+        {
+          "t": "Open source as a hiring funnel",
+          "preserved": false,
+          "L0": {
+            "body": "EleutherAI paper (arXiv 2210.06413), verbatim:\n  \"The early members of EleutherAI were largely not from the ML or\n   NLP academic communities, but consisted mostly of software\n   engineers, ML hobbyists, and researchers in fields outside of\n   machine learning\"\n  \"individuals with minimal computer science backgrounds and no\n   prior research knowledge becoming core contributors... within a\n   matter of weeks\"\n  compute: donated allocations (CoreWeave, TPU Research Cloud)\n\nwhere to work: GPU MODE, vLLM, torchtitan, TransformerLens, GPT-NeoX\nquarter target: 2-4 merged PRs in a real repository",
+            "cloze": "EleutherAI's members were \"mostly {{c1::software engineers, ML\nhobbyists, and researchers in fields outside of machine learning}}\", and\nsome became core contributors \"within {{c2::a matter of weeks}}\". Compute\ncame from {{c3::donated allocations}}. A quarter's target is\n{{c4::2-4 merged PRs}} in a real repository."
+          },
+          "L1": "A merged pull request in a live repository is a third-party endorsement: a maintainer with reputation staked on the project read your code and accepted it. That is evidence no course or certificate can produce.",
+          "L2": "The misconception is that you need permission or an invitation. The bar is a reviewed diff, and the first useful contributions are usually failing tests, reproductions of open issues, and documentation of behaviour the maintainers already know is undocumented. Nobody is waiting to grant access.",
+          "L3": "The EleutherAI paper is the strongest primary evidence that non-credentialed open work produces real researchers, and it also names the mechanism: members could draw on donated GPU allocations, so the compute barrier is surmountable without an employer. Kernel work is the most self-evidencing corner of this - a kernel that beats a cuBLAS or PyTorch baseline on a stated benchmark needs no reference letter. One honest caveat: GPU MODE publishes no membership figures and no documented hiring outcomes, so treat it as a place to do the work rather than as evidence that the work gets hired. The funnel is real; its conversion rate is unmeasured.",
+          "L4": [
+            {
+              "kind": "choose-and-justify",
+              "prompt_tpl": "You have {w} weeks and want your first merged PR in a large inference or training repository. Choose your first contribution among a new feature, a failing-test reproduction of an open issue, and a refactor you think improves the design. Justify by review cost.",
+              "params": {
+                "w": [
+                  2,
+                  3
+                ]
+              },
+              "grader": "free",
+              "answer": "The failing-test reproduction. It is small, it is obviously useful, it requires no design agreement, and a maintainer can review it in minutes. A feature needs buy-in you have not earned; an unsolicited refactor is the highest-review-cost, lowest-trust contribution a newcomer can open and is usually declined.",
+              "explanation": "Maintainer attention is the scarce resource, so the contribution that wins is the one cheapest to review and hardest to argue with. This is also why the first merge matters more than its size - it converts you from a stranger into someone whose next patch gets read.",
+              "uid": "01M23NVBH04JWF5BC2TKDR5D8A"
+            },
+            {
+              "kind": "explain",
+              "prompt_tpl": "Explain why {n} merged pull requests in a real repository is stronger hiring evidence than a certificate for the same subject, in terms of who did the verifying.",
+              "params": {
+                "n": [
+                  2,
+                  4
+                ]
+              },
+              "grader": "free",
+              "answer": "A certificate says an institution verified you against a syllabus it also wrote. A merged PR says a practitioner with their own reputation at stake read your specific code, in their codebase, and accepted the risk of it running in production. The second is adversarial verification by someone with something to lose.",
+              "explanation": "Anthropic's careers page asks applicants to put independent research, blog posts and open source at the top of the resume, and lists no certifications anywhere. That is the same reasoning stated from the hiring side: they want evidence verified by someone whose incentives were not aligned with passing you.",
+              "uid": "01M23NVBH0YQESAAPPZSJSFQYH"
+            }
+          ],
+          "L5": "d26-7",
+          "prereqs": [
+            "The four inputs every documented fast outlier had"
+          ],
+          "resources": [
+            "https://arxiv.org/pdf/2210.06413",
+            "https://www.eleuther.ai/",
+            "https://www.gpumode.com/"
+          ],
+          "people": [
+            "Nathan Lambert",
+            "Keller Jordan"
+          ],
+          "tags": [
+            "open-source",
+            "gpu-mode",
+            "contribution"
+          ],
+          "uid": "01M23NVBH0VT0GD61W9P72KKDJ"
+        }
+      ],
+      "uid": "01M23NVBH0W2J6G3FENR4WWAW1"
+    }
+  ]
+}

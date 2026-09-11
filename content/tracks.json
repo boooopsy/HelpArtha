@@ -1,0 +1,2165 @@
+{
+ "meta": {
+  "version": 1,
+  "total_concepts": 1638,
+  "weekly_projects": 26,
+  "daily_drills": 177,
+  "units": 26,
+  "identical_content": true,
+  "content_note": "All three tracks run the identical 26 units, 26 weekly projects, 177 daily drills and 1,638 concepts. Only the calendar and daily hours differ. Nothing is cut from a slower track and nothing is added to a faster one.",
+  "domain_order": [
+   "literacy",
+   "numeracy",
+   "found",
+   "cli",
+   "algo",
+   "math",
+   "num",
+   "net",
+   "lang",
+   "os",
+   "arch",
+   "chip",
+   "db",
+   "dist",
+   "sysd",
+   "sec",
+   "level",
+   "cache",
+   "de",
+   "ml",
+   "kern",
+   "llm",
+   "rtl",
+   "res"
+  ],
+  "domain_order_titles": [
+   "Ramp: The Computer, the File, the Terminal",
+   "Ramp: School Mathematics at Pace",
+   "Foundations",
+   "The Command Line",
+   "Algorithms & Data Structures",
+   "Mathematics",
+   "Numerics & Precision",
+   "Networking & Interconnect",
+   "Languages & Runtimes",
+   "Operating Systems",
+   "Architecture & Performance",
+   "Chip Architecture & Co-design",
+   "Databases & Storage",
+   "Distributed Systems",
+   "System Design in Practice",
+   "Security",
+   "The Level Itself",
+   "Caching & Delivery",
+   "Data Engineering",
+   "Machine Learning Foundations",
+   "GPU Kernels & Compilers",
+   "LLMs & Frontier Models",
+   "Digital Design & RTL",
+   "Research Practice & Public Artifacts"
+  ],
+  "domain_order_note": "Domains are sequenced by the prerequisite DAG. Foundations, the command line, algorithms and mathematics come first because the learner is a career changer starting from outside software. Systems (OS, architecture, networking, distributed systems, databases) build on those. The frontier-ML domains (ML foundations, LLMs, GPU kernels) and the silicon domains (digital design, chip architecture) come last, once their prerequisites in mathematics, numerics and architecture are in place.",
+  "concepts_per_domain": {
+   "literacy": 26,
+   "numeracy": 56,
+   "found": 131,
+   "cli": 52,
+   "algo": 62,
+   "math": 139,
+   "num": 46,
+   "net": 51,
+   "lang": 96,
+   "os": 64,
+   "arch": 74,
+   "chip": 77,
+   "db": 54,
+   "dist": 70,
+   "sysd": 66,
+   "sec": 68,
+   "level": 30,
+   "cache": 44,
+   "de": 48,
+   "ml": 66,
+   "kern": 72,
+   "llm": 124,
+   "rtl": 84,
+   "res": 38
+  }
+ },
+ "tracks": {
+  "intensive": {
+   "id": "intensive",
+   "label": "Intensive",
+   "days": 90,
+   "hours_per_day": 12,
+   "study_days": 84,
+   "buffer_days": 6,
+   "buffer_note": "6 days held for slippage, the week-24 rented-GPU run, the week-26 physical-design flow, and final portfolio assembly.",
+   "days_per_unit": 3.23,
+   "new_concepts_per_day_avg": 19.5,
+   "new_concepts_per_day_target": 20,
+   "projects_per_week": {
+    "weekly": 2.17,
+    "daily_drills": 14.75
+   },
+   "daily_block": [
+    {
+     "block": "review",
+     "minutes": 122,
+     "note": "Spaced-repetition review of due concepts (FSRS). The load that compounds; never skipped."
+    },
+    {
+     "block": "new_concepts",
+     "minutes": 144,
+     "note": "First-pass encode of the day's new concepts: read L0-L3, attempt the L4 items, enter into the schedule."
+    },
+    {
+     "block": "source_study",
+     "minutes": 144,
+     "note": "Read the active domain's primary source (the course lab, textbook chapter, or paper) for the unit's project."
+    },
+    {
+     "block": "deep_work",
+     "minutes": 216,
+     "note": "Build: the unit's weekly project and its daily drill. The part that produces the public artifact."
+    },
+    {
+     "block": "write_up",
+     "minutes": 65,
+     "note": "Write down what was built and learned: the running log, and the project write-up when a project completes."
+    },
+    {
+     "block": "submit",
+     "minutes": 29,
+     "note": "Submit finished work for review; triage returned reviews; act on flagged concepts (which resurface sooner)."
+    }
+   ],
+   "closure": {
+    "total_concepts": 1638,
+    "intake_days": 84,
+    "intake_rate_per_day": 19.5,
+    "intake_closes": true,
+    "minutes_per_new_concept": 7.4,
+    "steady_state_reviews_per_day_est": 176,
+    "review_block_capacity_per_day": 407,
+    "review_fits": true,
+    "review_headroom_pct": 57,
+    "model_note": "Intake: 1,638 concepts / study_days at the stated rate meets or exceeds the corpus. Review: steady-state daily reviews estimated at 9x the new-concept rate (FSRS at ~90% retention); each review ~18s; the review block has positive headroom in every track. Deep-work project time doubles as applied review, so the estimate is conservative."
+   },
+   "schedule": [
+    {
+     "unit": 1,
+     "day_start": 1,
+     "day_end": 3,
+     "domains": [
+      "literacy",
+      "numeracy",
+      "found"
+     ],
+     "domain_titles": [
+      "Ramp: The Computer, the File, the Terminal",
+      "Ramp: School Mathematics at Pace",
+      "Foundations"
+     ],
+     "weekly_project": "w01-machine-primitives",
+     "weekly_title": "hexdump(1) and a float dissector",
+     "daily_drills": [
+      "d01-1",
+      "d01-2",
+      "d01-3",
+      "d01-4",
+      "d01-5",
+      "d01-6",
+      "d01-7",
+      "d01-8"
+     ],
+     "artifact_kind": "repo"
+    },
+    {
+     "unit": 2,
+     "day_start": 4,
+     "day_end": 6,
+     "domains": [
+      "numeracy",
+      "found",
+      "cli"
+     ],
+     "domain_titles": [
+      "Ramp: School Mathematics at Pace",
+      "Foundations",
+      "The Command Line"
+     ],
+     "weekly_project": "w02-toolchain-forge",
+     "weekly_title": "A reproducible toolchain and a bash suite that does not break",
+     "daily_drills": [
+      "d02-1",
+      "d02-2",
+      "d02-3",
+      "d02-4",
+      "d02-5",
+      "d02-6",
+      "d02-7",
+      "d02-8",
+      "d02-9"
+     ],
+     "artifact_kind": "repo"
+    },
+    {
+     "unit": 3,
+     "day_start": 7,
+     "day_end": 10,
+     "domains": [
+      "cli",
+      "algo"
+     ],
+     "domain_titles": [
+      "The Command Line",
+      "Algorithms & Data Structures"
+     ],
+     "weekly_project": "w03-structures-in-c",
+     "weekly_title": "Data structures in C, with a benchmark that changes your mind",
+     "daily_drills": [
+      "d03-1",
+      "d03-2",
+      "d03-3",
+      "d03-4",
+      "d03-5",
+      "d03-6",
+      "d03-7",
+      "d03-8",
+      "d03-9"
+     ],
+     "artifact_kind": "benchmark"
+    },
+    {
+     "unit": 4,
+     "day_start": 11,
+     "day_end": 13,
+     "domains": [
+      "math"
+     ],
+     "domain_titles": [
+      "Mathematics"
+     ],
+     "weekly_project": "w04-linalg-from-scratch",
+     "weekly_title": "Linear algebra you can compute, and the errors it hides",
+     "daily_drills": [
+      "d04-1",
+      "d04-2",
+      "d04-3",
+      "d04-4",
+      "d04-5",
+      "d04-6",
+      "d04-7",
+      "d04-8",
+      "d04-9"
+     ],
+     "artifact_kind": "writeup"
+    },
+    {
+     "unit": 5,
+     "day_start": 14,
+     "day_end": 16,
+     "domains": [
+      "math",
+      "num"
+     ],
+     "domain_titles": [
+      "Mathematics",
+      "Numerics & Precision"
+     ],
+     "weekly_project": "w05-autodiff-engine",
+     "weekly_title": "A reverse-mode autodiff engine and the MLP it trains",
+     "daily_drills": [
+      "d05-1",
+      "d05-2",
+      "d05-3",
+      "d05-4",
+      "d05-5",
+      "d05-6",
+      "d05-7",
+      "d05-8"
+     ],
+     "artifact_kind": "repo"
+    },
+    {
+     "unit": 6,
+     "day_start": 17,
+     "day_end": 19,
+     "domains": [
+      "num",
+      "net"
+     ],
+     "domain_titles": [
+      "Numerics & Precision",
+      "Networking & Interconnect"
+     ],
+     "weekly_project": "w06-tcp-receiver",
+     "weekly_title": "CS144 part one: byte stream, reassembler, TCP receiver",
+     "daily_drills": [
+      "d06-1",
+      "d06-2",
+      "d06-3",
+      "d06-4",
+      "d06-5",
+      "d06-6",
+      "d06-7",
+      "d06-8"
+     ],
+     "artifact_kind": "repo"
+    },
+    {
+     "unit": 7,
+     "day_start": 20,
+     "day_end": 23,
+     "domains": [
+      "net",
+      "lang"
+     ],
+     "domain_titles": [
+      "Networking & Interconnect",
+      "Languages & Runtimes"
+     ],
+     "weekly_project": "w07-tcp-full-stack",
+     "weekly_title": "CS144 part two: a TCP sender that fetches a real web page",
+     "daily_drills": [
+      "d07-1",
+      "d07-2",
+      "d07-3",
+      "d07-4",
+      "d07-5",
+      "d07-6",
+      "d07-7",
+      "d07-8"
+     ],
+     "artifact_kind": "writeup"
+    },
+    {
+     "unit": 8,
+     "day_start": 24,
+     "day_end": 26,
+     "domains": [
+      "lang"
+     ],
+     "domain_titles": [
+      "Languages & Runtimes"
+     ],
+     "weekly_project": "w08-clox-vm",
+     "weekly_title": "clox, then replace its garbage collector",
+     "daily_drills": [
+      "d08-1",
+      "d08-2",
+      "d08-3",
+      "d08-4",
+      "d08-5",
+      "d08-6",
+      "d08-7",
+      "d08-8"
+     ],
+     "artifact_kind": "repo"
+    },
+    {
+     "unit": 9,
+     "day_start": 27,
+     "day_end": 29,
+     "domains": [
+      "os"
+     ],
+     "domain_titles": [
+      "Operating Systems"
+     ],
+     "weekly_project": "w09-xv6-memory",
+     "weekly_title": "xv6: page tables, traps, and copy-on-write fork",
+     "daily_drills": [
+      "d09-1",
+      "d09-2",
+      "d09-3",
+      "d09-4",
+      "d09-5",
+      "d09-6",
+      "d09-7",
+      "d09-8"
+     ],
+     "artifact_kind": "repo"
+    },
+    {
+     "unit": 10,
+     "day_start": 30,
+     "day_end": 32,
+     "domains": [
+      "os",
+      "arch"
+     ],
+     "domain_titles": [
+      "Operating Systems",
+      "Architecture & Performance"
+     ],
+     "weekly_project": "w10-xv6-concurrency-fs",
+     "weekly_title": "xv6: locks, threads, filesystem — and then profile a live Linux box",
+     "daily_drills": [
+      "d10-1",
+      "d10-2",
+      "d10-3",
+      "d10-4",
+      "d10-5"
+     ],
+     "artifact_kind": "writeup"
+    },
+    {
+     "unit": 11,
+     "day_start": 33,
+     "day_end": 36,
+     "domains": [
+      "arch",
+      "chip"
+     ],
+     "domain_titles": [
+      "Architecture & Performance",
+      "Chip Architecture & Co-design"
+     ],
+     "weekly_project": "w11-perf-microarch",
+     "weekly_title": "The microarchitecture lab: make the hardware confess",
+     "daily_drills": [
+      "d11-1",
+      "d11-2",
+      "d11-3",
+      "d11-4",
+      "d11-5",
+      "d11-6",
+      "d11-7"
+     ],
+     "artifact_kind": "benchmark"
+    },
+    {
+     "unit": 12,
+     "day_start": 37,
+     "day_end": 39,
+     "domains": [
+      "db"
+     ],
+     "domain_titles": [
+      "Databases & Storage"
+     ],
+     "weekly_project": "w12-bustub-bufferpool",
+     "weekly_title": "BusTub P1: a buffer pool manager with LRU-K",
+     "daily_drills": [
+      "d12-1",
+      "d12-2",
+      "d12-3",
+      "d12-4",
+      "d12-5",
+      "d15-6",
+      "d15-7"
+     ],
+     "artifact_kind": "repo"
+    },
+    {
+     "unit": 13,
+     "day_start": 40,
+     "day_end": 42,
+     "domains": [
+      "db",
+      "algo"
+     ],
+     "domain_titles": [
+      "Databases & Storage",
+      "Algorithms & Data Structures"
+     ],
+     "weekly_project": "w13-bustub-btree",
+     "weekly_title": "BusTub P2: a concurrent B+ tree, and a cost model you can defend",
+     "daily_drills": [
+      "d13-1",
+      "d13-2",
+      "d13-3",
+      "d13-4",
+      "d13-5",
+      "d13-6"
+     ],
+     "artifact_kind": "repo"
+    },
+    {
+     "unit": 14,
+     "day_start": 43,
+     "day_end": 45,
+     "domains": [
+      "dist"
+     ],
+     "domain_titles": [
+      "Distributed Systems"
+     ],
+     "weekly_project": "w14-raft",
+     "weekly_title": "Raft, passing the full test suite",
+     "daily_drills": [
+      "d14-1",
+      "d14-2",
+      "d14-3",
+      "d14-4",
+      "d14-5"
+     ],
+     "artifact_kind": "repo"
+    },
+    {
+     "unit": 15,
+     "day_start": 46,
+     "day_end": 48,
+     "domains": [
+      "dist",
+      "sysd"
+     ],
+     "domain_titles": [
+      "Distributed Systems",
+      "System Design in Practice"
+     ],
+     "weekly_project": "w15-jepsen-break-it",
+     "weekly_title": "A linearizable KV store on your Raft — then break it with Jepsen",
+     "daily_drills": [
+      "d15-1",
+      "d15-2",
+      "d15-3",
+      "d15-4",
+      "d15-5"
+     ],
+     "artifact_kind": "writeup"
+    },
+    {
+     "unit": 16,
+     "day_start": 49,
+     "day_end": 52,
+     "domains": [
+      "sec"
+     ],
+     "domain_titles": [
+      "Security"
+     ],
+     "weekly_project": "w16-cryptopals-1-3",
+     "weekly_title": "Cryptopals sets 1-3: break what you can already read",
+     "daily_drills": [
+      "d16-1",
+      "d16-2",
+      "d16-3",
+      "d16-4",
+      "d16-5"
+     ],
+     "artifact_kind": "repo"
+    },
+    {
+     "unit": 17,
+     "day_start": 53,
+     "day_end": 55,
+     "domains": [
+      "sec",
+      "level"
+     ],
+     "domain_titles": [
+      "Security",
+      "The Level Itself"
+     ],
+     "weekly_project": "w17-cryptopals-4-6",
+     "weekly_title": "Cryptopals sets 4-6, and a threat model for something you own",
+     "daily_drills": [
+      "d17-1",
+      "d17-2",
+      "d17-3",
+      "d17-4"
+     ],
+     "artifact_kind": "writeup"
+    },
+    {
+     "unit": 18,
+     "day_start": 56,
+     "day_end": 58,
+     "domains": [
+      "cache"
+     ],
+     "domain_titles": [
+      "Caching & Delivery"
+     ],
+     "weekly_project": "w18-cache-hierarchy",
+     "weekly_title": "A cache simulator, a real Redis, and an HTTP edge you can defend",
+     "daily_drills": [
+      "d18-1",
+      "d18-2",
+      "d18-3",
+      "d18-4"
+     ],
+     "artifact_kind": "benchmark"
+    },
+    {
+     "unit": 19,
+     "day_start": 59,
+     "day_end": 61,
+     "domains": [
+      "de"
+     ],
+     "domain_titles": [
+      "Data Engineering"
+     ],
+     "weekly_project": "w19-lakehouse-stream",
+     "weekly_title": "A training-data pipeline: Parquet, Iceberg, watermarks and dedup",
+     "daily_drills": [
+      "d19-1",
+      "d19-2",
+      "d19-3",
+      "d19-4",
+      "d19-5",
+      "d19-6"
+     ],
+     "artifact_kind": "repo"
+    },
+    {
+     "unit": 20,
+     "day_start": 62,
+     "day_end": 65,
+     "domains": [
+      "sysd",
+      "level"
+     ],
+     "domain_titles": [
+      "System Design in Practice",
+      "The Level Itself"
+     ],
+     "weekly_project": "w20-design-and-load",
+     "weekly_title": "A design document, and the slice of it you actually build and load-test",
+     "daily_drills": [
+      "d20-1",
+      "d20-2",
+      "d20-3",
+      "d20-4",
+      "d20-5",
+      "d20-6"
+     ],
+     "artifact_kind": "writeup"
+    },
+    {
+     "unit": 21,
+     "day_start": 66,
+     "day_end": 68,
+     "domains": [
+      "ml"
+     ],
+     "domain_titles": [
+      "Machine Learning Foundations"
+     ],
+     "weekly_project": "w21-transformer-from-scratch",
+     "weekly_title": "A transformer from scratch, trained on a laptop",
+     "daily_drills": [
+      "d21-1",
+      "d21-2",
+      "d21-3",
+      "d21-4",
+      "d21-5",
+      "d21-6"
+     ],
+     "artifact_kind": "repo"
+    },
+    {
+     "unit": 22,
+     "day_start": 69,
+     "day_end": 71,
+     "domains": [
+      "kern",
+      "arch"
+     ],
+     "domain_titles": [
+      "GPU Kernels & Compilers",
+      "Architecture & Performance"
+     ],
+     "weekly_project": "w22-cuda-triton-gemm",
+     "weekly_title": "The GEMM ladder: from naive CUDA to within a stated fraction of cuBLAS",
+     "daily_drills": [
+      "d22-1",
+      "d22-2",
+      "d22-3",
+      "d22-4",
+      "d22-5",
+      "d22-6",
+      "d22-7"
+     ],
+     "artifact_kind": "benchmark"
+    },
+    {
+     "unit": 23,
+     "day_start": 72,
+     "day_end": 74,
+     "domains": [
+      "llm"
+     ],
+     "domain_titles": [
+      "LLMs & Frontier Models"
+     ],
+     "weekly_project": "w23-inference-engine",
+     "weekly_title": "An inference engine: paged KV, continuous batching, and int4 weights",
+     "daily_drills": [
+      "d23-1",
+      "d23-2",
+      "d23-3",
+      "d23-4",
+      "d23-5",
+      "d23-6",
+      "d23-7"
+     ],
+     "artifact_kind": "benchmark"
+    },
+    {
+     "unit": 24,
+     "day_start": 75,
+     "day_end": 78,
+     "domains": [
+      "llm",
+      "de"
+     ],
+     "domain_titles": [
+      "LLMs & Frontier Models",
+      "Data Engineering"
+     ],
+     "weekly_project": "w24-speedrun-reproduction",
+     "weekly_title": "A nanoGPT speedrun reproduction with one documented improvement",
+     "daily_drills": [
+      "d24-1",
+      "d24-2",
+      "d24-3",
+      "d24-4",
+      "d24-5",
+      "d24-6",
+      "d24-7"
+     ],
+     "artifact_kind": "paper-reproduction"
+    },
+    {
+     "unit": 25,
+     "day_start": 79,
+     "day_end": 81,
+     "domains": [
+      "rtl"
+     ],
+     "domain_titles": [
+      "Digital Design & RTL"
+     ],
+     "weekly_project": "w25-rv32i-pipelined",
+     "weekly_title": "A pipelined RV32I core, verified in cocotb, that runs your own C",
+     "daily_drills": [
+      "d25-1",
+      "d25-2",
+      "d25-3",
+      "d25-4",
+      "d25-5",
+      "d25-6",
+      "d25-7"
+     ],
+     "artifact_kind": "repo"
+    },
+    {
+     "unit": 26,
+     "day_start": 82,
+     "day_end": 84,
+     "domains": [
+      "chip",
+      "rtl",
+      "res"
+     ],
+     "domain_titles": [
+      "Chip Architecture & Co-design",
+      "Digital Design & RTL",
+      "Research Practice & Public Artifacts"
+     ],
+     "weekly_project": "w26-systolic-accelerator",
+     "weekly_title": "An 8x8 int8 systolic array: RTL, Timeloop model, and a LibreLane run to GDSII",
+     "daily_drills": [
+      "d26-1",
+      "d26-2",
+      "d26-3",
+      "d26-4",
+      "d26-5",
+      "d26-6",
+      "d26-7",
+      "d26-8"
+     ],
+     "artifact_kind": "repo"
+    }
+   ]
+  },
+  "sustained": {
+   "id": "sustained",
+   "label": "Sustained",
+   "days": 180,
+   "hours_per_day": 6,
+   "study_days": 168,
+   "buffer_days": 12,
+   "buffer_note": "12 days held for slippage, the week-24 rented-GPU run, the week-26 physical-design flow, and final portfolio assembly.",
+   "days_per_unit": 6.46,
+   "new_concepts_per_day_avg": 9.8,
+   "new_concepts_per_day_target": 10,
+   "projects_per_week": {
+    "weekly": 1.08,
+    "daily_drills": 7.38
+   },
+   "daily_block": [
+    {
+     "block": "review",
+     "minutes": 61,
+     "note": "Spaced-repetition review of due concepts (FSRS). The load that compounds; never skipped."
+    },
+    {
+     "block": "new_concepts",
+     "minutes": 72,
+     "note": "First-pass encode of the day's new concepts: read L0-L3, attempt the L4 items, enter into the schedule."
+    },
+    {
+     "block": "source_study",
+     "minutes": 72,
+     "note": "Read the active domain's primary source (the course lab, textbook chapter, or paper) for the unit's project."
+    },
+    {
+     "block": "deep_work",
+     "minutes": 108,
+     "note": "Build: the unit's weekly project and its daily drill. The part that produces the public artifact."
+    },
+    {
+     "block": "write_up",
+     "minutes": 32,
+     "note": "Write down what was built and learned: the running log, and the project write-up when a project completes."
+    },
+    {
+     "block": "submit",
+     "minutes": 15,
+     "note": "Submit finished work for review; triage returned reviews; act on flagged concepts (which resurface sooner)."
+    }
+   ],
+   "closure": {
+    "total_concepts": 1638,
+    "intake_days": 168,
+    "intake_rate_per_day": 9.8,
+    "intake_closes": true,
+    "minutes_per_new_concept": 7.4,
+    "steady_state_reviews_per_day_est": 88,
+    "review_block_capacity_per_day": 203,
+    "review_fits": true,
+    "review_headroom_pct": 57,
+    "model_note": "Intake: 1,638 concepts / study_days at the stated rate meets or exceeds the corpus. Review: steady-state daily reviews estimated at 9x the new-concept rate (FSRS at ~90% retention); each review ~18s; the review block has positive headroom in every track. Deep-work project time doubles as applied review, so the estimate is conservative."
+   },
+   "schedule": [
+    {
+     "unit": 1,
+     "day_start": 1,
+     "day_end": 6,
+     "domains": [
+      "literacy",
+      "numeracy",
+      "found"
+     ],
+     "domain_titles": [
+      "Ramp: The Computer, the File, the Terminal",
+      "Ramp: School Mathematics at Pace",
+      "Foundations"
+     ],
+     "weekly_project": "w01-machine-primitives",
+     "weekly_title": "hexdump(1) and a float dissector",
+     "daily_drills": [
+      "d01-1",
+      "d01-2",
+      "d01-3",
+      "d01-4",
+      "d01-5",
+      "d01-6",
+      "d01-7",
+      "d01-8"
+     ],
+     "artifact_kind": "repo"
+    },
+    {
+     "unit": 2,
+     "day_start": 7,
+     "day_end": 13,
+     "domains": [
+      "numeracy",
+      "found",
+      "cli"
+     ],
+     "domain_titles": [
+      "Ramp: School Mathematics at Pace",
+      "Foundations",
+      "The Command Line"
+     ],
+     "weekly_project": "w02-toolchain-forge",
+     "weekly_title": "A reproducible toolchain and a bash suite that does not break",
+     "daily_drills": [
+      "d02-1",
+      "d02-2",
+      "d02-3",
+      "d02-4",
+      "d02-5",
+      "d02-6",
+      "d02-7",
+      "d02-8",
+      "d02-9"
+     ],
+     "artifact_kind": "repo"
+    },
+    {
+     "unit": 3,
+     "day_start": 14,
+     "day_end": 19,
+     "domains": [
+      "cli",
+      "algo"
+     ],
+     "domain_titles": [
+      "The Command Line",
+      "Algorithms & Data Structures"
+     ],
+     "weekly_project": "w03-structures-in-c",
+     "weekly_title": "Data structures in C, with a benchmark that changes your mind",
+     "daily_drills": [
+      "d03-1",
+      "d03-2",
+      "d03-3",
+      "d03-4",
+      "d03-5",
+      "d03-6",
+      "d03-7",
+      "d03-8",
+      "d03-9"
+     ],
+     "artifact_kind": "benchmark"
+    },
+    {
+     "unit": 4,
+     "day_start": 20,
+     "day_end": 26,
+     "domains": [
+      "math"
+     ],
+     "domain_titles": [
+      "Mathematics"
+     ],
+     "weekly_project": "w04-linalg-from-scratch",
+     "weekly_title": "Linear algebra you can compute, and the errors it hides",
+     "daily_drills": [
+      "d04-1",
+      "d04-2",
+      "d04-3",
+      "d04-4",
+      "d04-5",
+      "d04-6",
+      "d04-7",
+      "d04-8",
+      "d04-9"
+     ],
+     "artifact_kind": "writeup"
+    },
+    {
+     "unit": 5,
+     "day_start": 27,
+     "day_end": 32,
+     "domains": [
+      "math",
+      "num"
+     ],
+     "domain_titles": [
+      "Mathematics",
+      "Numerics & Precision"
+     ],
+     "weekly_project": "w05-autodiff-engine",
+     "weekly_title": "A reverse-mode autodiff engine and the MLP it trains",
+     "daily_drills": [
+      "d05-1",
+      "d05-2",
+      "d05-3",
+      "d05-4",
+      "d05-5",
+      "d05-6",
+      "d05-7",
+      "d05-8"
+     ],
+     "artifact_kind": "repo"
+    },
+    {
+     "unit": 6,
+     "day_start": 33,
+     "day_end": 39,
+     "domains": [
+      "num",
+      "net"
+     ],
+     "domain_titles": [
+      "Numerics & Precision",
+      "Networking & Interconnect"
+     ],
+     "weekly_project": "w06-tcp-receiver",
+     "weekly_title": "CS144 part one: byte stream, reassembler, TCP receiver",
+     "daily_drills": [
+      "d06-1",
+      "d06-2",
+      "d06-3",
+      "d06-4",
+      "d06-5",
+      "d06-6",
+      "d06-7",
+      "d06-8"
+     ],
+     "artifact_kind": "repo"
+    },
+    {
+     "unit": 7,
+     "day_start": 40,
+     "day_end": 45,
+     "domains": [
+      "net",
+      "lang"
+     ],
+     "domain_titles": [
+      "Networking & Interconnect",
+      "Languages & Runtimes"
+     ],
+     "weekly_project": "w07-tcp-full-stack",
+     "weekly_title": "CS144 part two: a TCP sender that fetches a real web page",
+     "daily_drills": [
+      "d07-1",
+      "d07-2",
+      "d07-3",
+      "d07-4",
+      "d07-5",
+      "d07-6",
+      "d07-7",
+      "d07-8"
+     ],
+     "artifact_kind": "writeup"
+    },
+    {
+     "unit": 8,
+     "day_start": 46,
+     "day_end": 52,
+     "domains": [
+      "lang"
+     ],
+     "domain_titles": [
+      "Languages & Runtimes"
+     ],
+     "weekly_project": "w08-clox-vm",
+     "weekly_title": "clox, then replace its garbage collector",
+     "daily_drills": [
+      "d08-1",
+      "d08-2",
+      "d08-3",
+      "d08-4",
+      "d08-5",
+      "d08-6",
+      "d08-7",
+      "d08-8"
+     ],
+     "artifact_kind": "repo"
+    },
+    {
+     "unit": 9,
+     "day_start": 53,
+     "day_end": 58,
+     "domains": [
+      "os"
+     ],
+     "domain_titles": [
+      "Operating Systems"
+     ],
+     "weekly_project": "w09-xv6-memory",
+     "weekly_title": "xv6: page tables, traps, and copy-on-write fork",
+     "daily_drills": [
+      "d09-1",
+      "d09-2",
+      "d09-3",
+      "d09-4",
+      "d09-5",
+      "d09-6",
+      "d09-7",
+      "d09-8"
+     ],
+     "artifact_kind": "repo"
+    },
+    {
+     "unit": 10,
+     "day_start": 59,
+     "day_end": 65,
+     "domains": [
+      "os",
+      "arch"
+     ],
+     "domain_titles": [
+      "Operating Systems",
+      "Architecture & Performance"
+     ],
+     "weekly_project": "w10-xv6-concurrency-fs",
+     "weekly_title": "xv6: locks, threads, filesystem — and then profile a live Linux box",
+     "daily_drills": [
+      "d10-1",
+      "d10-2",
+      "d10-3",
+      "d10-4",
+      "d10-5"
+     ],
+     "artifact_kind": "writeup"
+    },
+    {
+     "unit": 11,
+     "day_start": 66,
+     "day_end": 71,
+     "domains": [
+      "arch",
+      "chip"
+     ],
+     "domain_titles": [
+      "Architecture & Performance",
+      "Chip Architecture & Co-design"
+     ],
+     "weekly_project": "w11-perf-microarch",
+     "weekly_title": "The microarchitecture lab: make the hardware confess",
+     "daily_drills": [
+      "d11-1",
+      "d11-2",
+      "d11-3",
+      "d11-4",
+      "d11-5",
+      "d11-6",
+      "d11-7"
+     ],
+     "artifact_kind": "benchmark"
+    },
+    {
+     "unit": 12,
+     "day_start": 72,
+     "day_end": 78,
+     "domains": [
+      "db"
+     ],
+     "domain_titles": [
+      "Databases & Storage"
+     ],
+     "weekly_project": "w12-bustub-bufferpool",
+     "weekly_title": "BusTub P1: a buffer pool manager with LRU-K",
+     "daily_drills": [
+      "d12-1",
+      "d12-2",
+      "d12-3",
+      "d12-4",
+      "d12-5",
+      "d15-6",
+      "d15-7"
+     ],
+     "artifact_kind": "repo"
+    },
+    {
+     "unit": 13,
+     "day_start": 79,
+     "day_end": 84,
+     "domains": [
+      "db",
+      "algo"
+     ],
+     "domain_titles": [
+      "Databases & Storage",
+      "Algorithms & Data Structures"
+     ],
+     "weekly_project": "w13-bustub-btree",
+     "weekly_title": "BusTub P2: a concurrent B+ tree, and a cost model you can defend",
+     "daily_drills": [
+      "d13-1",
+      "d13-2",
+      "d13-3",
+      "d13-4",
+      "d13-5",
+      "d13-6"
+     ],
+     "artifact_kind": "repo"
+    },
+    {
+     "unit": 14,
+     "day_start": 85,
+     "day_end": 90,
+     "domains": [
+      "dist"
+     ],
+     "domain_titles": [
+      "Distributed Systems"
+     ],
+     "weekly_project": "w14-raft",
+     "weekly_title": "Raft, passing the full test suite",
+     "daily_drills": [
+      "d14-1",
+      "d14-2",
+      "d14-3",
+      "d14-4",
+      "d14-5"
+     ],
+     "artifact_kind": "repo"
+    },
+    {
+     "unit": 15,
+     "day_start": 91,
+     "day_end": 97,
+     "domains": [
+      "dist",
+      "sysd"
+     ],
+     "domain_titles": [
+      "Distributed Systems",
+      "System Design in Practice"
+     ],
+     "weekly_project": "w15-jepsen-break-it",
+     "weekly_title": "A linearizable KV store on your Raft — then break it with Jepsen",
+     "daily_drills": [
+      "d15-1",
+      "d15-2",
+      "d15-3",
+      "d15-4",
+      "d15-5"
+     ],
+     "artifact_kind": "writeup"
+    },
+    {
+     "unit": 16,
+     "day_start": 98,
+     "day_end": 103,
+     "domains": [
+      "sec"
+     ],
+     "domain_titles": [
+      "Security"
+     ],
+     "weekly_project": "w16-cryptopals-1-3",
+     "weekly_title": "Cryptopals sets 1-3: break what you can already read",
+     "daily_drills": [
+      "d16-1",
+      "d16-2",
+      "d16-3",
+      "d16-4",
+      "d16-5"
+     ],
+     "artifact_kind": "repo"
+    },
+    {
+     "unit": 17,
+     "day_start": 104,
+     "day_end": 110,
+     "domains": [
+      "sec",
+      "level"
+     ],
+     "domain_titles": [
+      "Security",
+      "The Level Itself"
+     ],
+     "weekly_project": "w17-cryptopals-4-6",
+     "weekly_title": "Cryptopals sets 4-6, and a threat model for something you own",
+     "daily_drills": [
+      "d17-1",
+      "d17-2",
+      "d17-3",
+      "d17-4"
+     ],
+     "artifact_kind": "writeup"
+    },
+    {
+     "unit": 18,
+     "day_start": 111,
+     "day_end": 116,
+     "domains": [
+      "cache"
+     ],
+     "domain_titles": [
+      "Caching & Delivery"
+     ],
+     "weekly_project": "w18-cache-hierarchy",
+     "weekly_title": "A cache simulator, a real Redis, and an HTTP edge you can defend",
+     "daily_drills": [
+      "d18-1",
+      "d18-2",
+      "d18-3",
+      "d18-4"
+     ],
+     "artifact_kind": "benchmark"
+    },
+    {
+     "unit": 19,
+     "day_start": 117,
+     "day_end": 123,
+     "domains": [
+      "de"
+     ],
+     "domain_titles": [
+      "Data Engineering"
+     ],
+     "weekly_project": "w19-lakehouse-stream",
+     "weekly_title": "A training-data pipeline: Parquet, Iceberg, watermarks and dedup",
+     "daily_drills": [
+      "d19-1",
+      "d19-2",
+      "d19-3",
+      "d19-4",
+      "d19-5",
+      "d19-6"
+     ],
+     "artifact_kind": "repo"
+    },
+    {
+     "unit": 20,
+     "day_start": 124,
+     "day_end": 129,
+     "domains": [
+      "sysd",
+      "level"
+     ],
+     "domain_titles": [
+      "System Design in Practice",
+      "The Level Itself"
+     ],
+     "weekly_project": "w20-design-and-load",
+     "weekly_title": "A design document, and the slice of it you actually build and load-test",
+     "daily_drills": [
+      "d20-1",
+      "d20-2",
+      "d20-3",
+      "d20-4",
+      "d20-5",
+      "d20-6"
+     ],
+     "artifact_kind": "writeup"
+    },
+    {
+     "unit": 21,
+     "day_start": 130,
+     "day_end": 136,
+     "domains": [
+      "ml"
+     ],
+     "domain_titles": [
+      "Machine Learning Foundations"
+     ],
+     "weekly_project": "w21-transformer-from-scratch",
+     "weekly_title": "A transformer from scratch, trained on a laptop",
+     "daily_drills": [
+      "d21-1",
+      "d21-2",
+      "d21-3",
+      "d21-4",
+      "d21-5",
+      "d21-6"
+     ],
+     "artifact_kind": "repo"
+    },
+    {
+     "unit": 22,
+     "day_start": 137,
+     "day_end": 142,
+     "domains": [
+      "kern",
+      "arch"
+     ],
+     "domain_titles": [
+      "GPU Kernels & Compilers",
+      "Architecture & Performance"
+     ],
+     "weekly_project": "w22-cuda-triton-gemm",
+     "weekly_title": "The GEMM ladder: from naive CUDA to within a stated fraction of cuBLAS",
+     "daily_drills": [
+      "d22-1",
+      "d22-2",
+      "d22-3",
+      "d22-4",
+      "d22-5",
+      "d22-6",
+      "d22-7"
+     ],
+     "artifact_kind": "benchmark"
+    },
+    {
+     "unit": 23,
+     "day_start": 143,
+     "day_end": 149,
+     "domains": [
+      "llm"
+     ],
+     "domain_titles": [
+      "LLMs & Frontier Models"
+     ],
+     "weekly_project": "w23-inference-engine",
+     "weekly_title": "An inference engine: paged KV, continuous batching, and int4 weights",
+     "daily_drills": [
+      "d23-1",
+      "d23-2",
+      "d23-3",
+      "d23-4",
+      "d23-5",
+      "d23-6",
+      "d23-7"
+     ],
+     "artifact_kind": "benchmark"
+    },
+    {
+     "unit": 24,
+     "day_start": 150,
+     "day_end": 155,
+     "domains": [
+      "llm",
+      "de"
+     ],
+     "domain_titles": [
+      "LLMs & Frontier Models",
+      "Data Engineering"
+     ],
+     "weekly_project": "w24-speedrun-reproduction",
+     "weekly_title": "A nanoGPT speedrun reproduction with one documented improvement",
+     "daily_drills": [
+      "d24-1",
+      "d24-2",
+      "d24-3",
+      "d24-4",
+      "d24-5",
+      "d24-6",
+      "d24-7"
+     ],
+     "artifact_kind": "paper-reproduction"
+    },
+    {
+     "unit": 25,
+     "day_start": 156,
+     "day_end": 162,
+     "domains": [
+      "rtl"
+     ],
+     "domain_titles": [
+      "Digital Design & RTL"
+     ],
+     "weekly_project": "w25-rv32i-pipelined",
+     "weekly_title": "A pipelined RV32I core, verified in cocotb, that runs your own C",
+     "daily_drills": [
+      "d25-1",
+      "d25-2",
+      "d25-3",
+      "d25-4",
+      "d25-5",
+      "d25-6",
+      "d25-7"
+     ],
+     "artifact_kind": "repo"
+    },
+    {
+     "unit": 26,
+     "day_start": 163,
+     "day_end": 168,
+     "domains": [
+      "chip",
+      "rtl",
+      "res"
+     ],
+     "domain_titles": [
+      "Chip Architecture & Co-design",
+      "Digital Design & RTL",
+      "Research Practice & Public Artifacts"
+     ],
+     "weekly_project": "w26-systolic-accelerator",
+     "weekly_title": "An 8x8 int8 systolic array: RTL, Timeloop model, and a LibreLane run to GDSII",
+     "daily_drills": [
+      "d26-1",
+      "d26-2",
+      "d26-3",
+      "d26-4",
+      "d26-5",
+      "d26-6",
+      "d26-7",
+      "d26-8"
+     ],
+     "artifact_kind": "repo"
+    }
+   ]
+  },
+  "extended": {
+   "id": "extended",
+   "label": "Extended",
+   "days": 365,
+   "hours_per_day": 3,
+   "study_days": 341,
+   "buffer_days": 24,
+   "buffer_note": "24 days held for slippage, the week-24 rented-GPU run, the week-26 physical-design flow, and final portfolio assembly.",
+   "days_per_unit": 13.12,
+   "new_concepts_per_day_avg": 4.8,
+   "new_concepts_per_day_target": 5,
+   "projects_per_week": {
+    "weekly": 0.53,
+    "daily_drills": 3.63
+   },
+   "daily_block": [
+    {
+     "block": "review",
+     "minutes": 31,
+     "note": "Spaced-repetition review of due concepts (FSRS). The load that compounds; never skipped."
+    },
+    {
+     "block": "new_concepts",
+     "minutes": 36,
+     "note": "First-pass encode of the day's new concepts: read L0-L3, attempt the L4 items, enter into the schedule."
+    },
+    {
+     "block": "source_study",
+     "minutes": 36,
+     "note": "Read the active domain's primary source (the course lab, textbook chapter, or paper) for the unit's project."
+    },
+    {
+     "block": "deep_work",
+     "minutes": 54,
+     "note": "Build: the unit's weekly project and its daily drill. The part that produces the public artifact."
+    },
+    {
+     "block": "write_up",
+     "minutes": 16,
+     "note": "Write down what was built and learned: the running log, and the project write-up when a project completes."
+    },
+    {
+     "block": "submit",
+     "minutes": 7,
+     "note": "Submit finished work for review; triage returned reviews; act on flagged concepts (which resurface sooner)."
+    }
+   ],
+   "closure": {
+    "total_concepts": 1638,
+    "intake_days": 341,
+    "intake_rate_per_day": 4.8,
+    "intake_closes": true,
+    "minutes_per_new_concept": 7.5,
+    "steady_state_reviews_per_day_est": 43,
+    "review_block_capacity_per_day": 103,
+    "review_fits": true,
+    "review_headroom_pct": 58,
+    "model_note": "Intake: 1,638 concepts / study_days at the stated rate meets or exceeds the corpus. Review: steady-state daily reviews estimated at 9x the new-concept rate (FSRS at ~90% retention); each review ~18s; the review block has positive headroom in every track. Deep-work project time doubles as applied review, so the estimate is conservative."
+   },
+   "schedule": [
+    {
+     "unit": 1,
+     "day_start": 1,
+     "day_end": 13,
+     "domains": [
+      "literacy",
+      "numeracy",
+      "found"
+     ],
+     "domain_titles": [
+      "Ramp: The Computer, the File, the Terminal",
+      "Ramp: School Mathematics at Pace",
+      "Foundations"
+     ],
+     "weekly_project": "w01-machine-primitives",
+     "weekly_title": "hexdump(1) and a float dissector",
+     "daily_drills": [
+      "d01-1",
+      "d01-2",
+      "d01-3",
+      "d01-4",
+      "d01-5",
+      "d01-6",
+      "d01-7",
+      "d01-8"
+     ],
+     "artifact_kind": "repo"
+    },
+    {
+     "unit": 2,
+     "day_start": 14,
+     "day_end": 26,
+     "domains": [
+      "numeracy",
+      "found",
+      "cli"
+     ],
+     "domain_titles": [
+      "Ramp: School Mathematics at Pace",
+      "Foundations",
+      "The Command Line"
+     ],
+     "weekly_project": "w02-toolchain-forge",
+     "weekly_title": "A reproducible toolchain and a bash suite that does not break",
+     "daily_drills": [
+      "d02-1",
+      "d02-2",
+      "d02-3",
+      "d02-4",
+      "d02-5",
+      "d02-6",
+      "d02-7",
+      "d02-8",
+      "d02-9"
+     ],
+     "artifact_kind": "repo"
+    },
+    {
+     "unit": 3,
+     "day_start": 27,
+     "day_end": 39,
+     "domains": [
+      "cli",
+      "algo"
+     ],
+     "domain_titles": [
+      "The Command Line",
+      "Algorithms & Data Structures"
+     ],
+     "weekly_project": "w03-structures-in-c",
+     "weekly_title": "Data structures in C, with a benchmark that changes your mind",
+     "daily_drills": [
+      "d03-1",
+      "d03-2",
+      "d03-3",
+      "d03-4",
+      "d03-5",
+      "d03-6",
+      "d03-7",
+      "d03-8",
+      "d03-9"
+     ],
+     "artifact_kind": "benchmark"
+    },
+    {
+     "unit": 4,
+     "day_start": 40,
+     "day_end": 52,
+     "domains": [
+      "math"
+     ],
+     "domain_titles": [
+      "Mathematics"
+     ],
+     "weekly_project": "w04-linalg-from-scratch",
+     "weekly_title": "Linear algebra you can compute, and the errors it hides",
+     "daily_drills": [
+      "d04-1",
+      "d04-2",
+      "d04-3",
+      "d04-4",
+      "d04-5",
+      "d04-6",
+      "d04-7",
+      "d04-8",
+      "d04-9"
+     ],
+     "artifact_kind": "writeup"
+    },
+    {
+     "unit": 5,
+     "day_start": 53,
+     "day_end": 66,
+     "domains": [
+      "math",
+      "num"
+     ],
+     "domain_titles": [
+      "Mathematics",
+      "Numerics & Precision"
+     ],
+     "weekly_project": "w05-autodiff-engine",
+     "weekly_title": "A reverse-mode autodiff engine and the MLP it trains",
+     "daily_drills": [
+      "d05-1",
+      "d05-2",
+      "d05-3",
+      "d05-4",
+      "d05-5",
+      "d05-6",
+      "d05-7",
+      "d05-8"
+     ],
+     "artifact_kind": "repo"
+    },
+    {
+     "unit": 6,
+     "day_start": 67,
+     "day_end": 79,
+     "domains": [
+      "num",
+      "net"
+     ],
+     "domain_titles": [
+      "Numerics & Precision",
+      "Networking & Interconnect"
+     ],
+     "weekly_project": "w06-tcp-receiver",
+     "weekly_title": "CS144 part one: byte stream, reassembler, TCP receiver",
+     "daily_drills": [
+      "d06-1",
+      "d06-2",
+      "d06-3",
+      "d06-4",
+      "d06-5",
+      "d06-6",
+      "d06-7",
+      "d06-8"
+     ],
+     "artifact_kind": "repo"
+    },
+    {
+     "unit": 7,
+     "day_start": 80,
+     "day_end": 92,
+     "domains": [
+      "net",
+      "lang"
+     ],
+     "domain_titles": [
+      "Networking & Interconnect",
+      "Languages & Runtimes"
+     ],
+     "weekly_project": "w07-tcp-full-stack",
+     "weekly_title": "CS144 part two: a TCP sender that fetches a real web page",
+     "daily_drills": [
+      "d07-1",
+      "d07-2",
+      "d07-3",
+      "d07-4",
+      "d07-5",
+      "d07-6",
+      "d07-7",
+      "d07-8"
+     ],
+     "artifact_kind": "writeup"
+    },
+    {
+     "unit": 8,
+     "day_start": 93,
+     "day_end": 105,
+     "domains": [
+      "lang"
+     ],
+     "domain_titles": [
+      "Languages & Runtimes"
+     ],
+     "weekly_project": "w08-clox-vm",
+     "weekly_title": "clox, then replace its garbage collector",
+     "daily_drills": [
+      "d08-1",
+      "d08-2",
+      "d08-3",
+      "d08-4",
+      "d08-5",
+      "d08-6",
+      "d08-7",
+      "d08-8"
+     ],
+     "artifact_kind": "repo"
+    },
+    {
+     "unit": 9,
+     "day_start": 106,
+     "day_end": 118,
+     "domains": [
+      "os"
+     ],
+     "domain_titles": [
+      "Operating Systems"
+     ],
+     "weekly_project": "w09-xv6-memory",
+     "weekly_title": "xv6: page tables, traps, and copy-on-write fork",
+     "daily_drills": [
+      "d09-1",
+      "d09-2",
+      "d09-3",
+      "d09-4",
+      "d09-5",
+      "d09-6",
+      "d09-7",
+      "d09-8"
+     ],
+     "artifact_kind": "repo"
+    },
+    {
+     "unit": 10,
+     "day_start": 119,
+     "day_end": 131,
+     "domains": [
+      "os",
+      "arch"
+     ],
+     "domain_titles": [
+      "Operating Systems",
+      "Architecture & Performance"
+     ],
+     "weekly_project": "w10-xv6-concurrency-fs",
+     "weekly_title": "xv6: locks, threads, filesystem — and then profile a live Linux box",
+     "daily_drills": [
+      "d10-1",
+      "d10-2",
+      "d10-3",
+      "d10-4",
+      "d10-5"
+     ],
+     "artifact_kind": "writeup"
+    },
+    {
+     "unit": 11,
+     "day_start": 132,
+     "day_end": 144,
+     "domains": [
+      "arch",
+      "chip"
+     ],
+     "domain_titles": [
+      "Architecture & Performance",
+      "Chip Architecture & Co-design"
+     ],
+     "weekly_project": "w11-perf-microarch",
+     "weekly_title": "The microarchitecture lab: make the hardware confess",
+     "daily_drills": [
+      "d11-1",
+      "d11-2",
+      "d11-3",
+      "d11-4",
+      "d11-5",
+      "d11-6",
+      "d11-7"
+     ],
+     "artifact_kind": "benchmark"
+    },
+    {
+     "unit": 12,
+     "day_start": 145,
+     "day_end": 157,
+     "domains": [
+      "db"
+     ],
+     "domain_titles": [
+      "Databases & Storage"
+     ],
+     "weekly_project": "w12-bustub-bufferpool",
+     "weekly_title": "BusTub P1: a buffer pool manager with LRU-K",
+     "daily_drills": [
+      "d12-1",
+      "d12-2",
+      "d12-3",
+      "d12-4",
+      "d12-5",
+      "d15-6",
+      "d15-7"
+     ],
+     "artifact_kind": "repo"
+    },
+    {
+     "unit": 13,
+     "day_start": 158,
+     "day_end": 170,
+     "domains": [
+      "db",
+      "algo"
+     ],
+     "domain_titles": [
+      "Databases & Storage",
+      "Algorithms & Data Structures"
+     ],
+     "weekly_project": "w13-bustub-btree",
+     "weekly_title": "BusTub P2: a concurrent B+ tree, and a cost model you can defend",
+     "daily_drills": [
+      "d13-1",
+      "d13-2",
+      "d13-3",
+      "d13-4",
+      "d13-5",
+      "d13-6"
+     ],
+     "artifact_kind": "repo"
+    },
+    {
+     "unit": 14,
+     "day_start": 171,
+     "day_end": 184,
+     "domains": [
+      "dist"
+     ],
+     "domain_titles": [
+      "Distributed Systems"
+     ],
+     "weekly_project": "w14-raft",
+     "weekly_title": "Raft, passing the full test suite",
+     "daily_drills": [
+      "d14-1",
+      "d14-2",
+      "d14-3",
+      "d14-4",
+      "d14-5"
+     ],
+     "artifact_kind": "repo"
+    },
+    {
+     "unit": 15,
+     "day_start": 185,
+     "day_end": 197,
+     "domains": [
+      "dist",
+      "sysd"
+     ],
+     "domain_titles": [
+      "Distributed Systems",
+      "System Design in Practice"
+     ],
+     "weekly_project": "w15-jepsen-break-it",
+     "weekly_title": "A linearizable KV store on your Raft — then break it with Jepsen",
+     "daily_drills": [
+      "d15-1",
+      "d15-2",
+      "d15-3",
+      "d15-4",
+      "d15-5"
+     ],
+     "artifact_kind": "writeup"
+    },
+    {
+     "unit": 16,
+     "day_start": 198,
+     "day_end": 210,
+     "domains": [
+      "sec"
+     ],
+     "domain_titles": [
+      "Security"
+     ],
+     "weekly_project": "w16-cryptopals-1-3",
+     "weekly_title": "Cryptopals sets 1-3: break what you can already read",
+     "daily_drills": [
+      "d16-1",
+      "d16-2",
+      "d16-3",
+      "d16-4",
+      "d16-5"
+     ],
+     "artifact_kind": "repo"
+    },
+    {
+     "unit": 17,
+     "day_start": 211,
+     "day_end": 223,
+     "domains": [
+      "sec",
+      "level"
+     ],
+     "domain_titles": [
+      "Security",
+      "The Level Itself"
+     ],
+     "weekly_project": "w17-cryptopals-4-6",
+     "weekly_title": "Cryptopals sets 4-6, and a threat model for something you own",
+     "daily_drills": [
+      "d17-1",
+      "d17-2",
+      "d17-3",
+      "d17-4"
+     ],
+     "artifact_kind": "writeup"
+    },
+    {
+     "unit": 18,
+     "day_start": 224,
+     "day_end": 236,
+     "domains": [
+      "cache"
+     ],
+     "domain_titles": [
+      "Caching & Delivery"
+     ],
+     "weekly_project": "w18-cache-hierarchy",
+     "weekly_title": "A cache simulator, a real Redis, and an HTTP edge you can defend",
+     "daily_drills": [
+      "d18-1",
+      "d18-2",
+      "d18-3",
+      "d18-4"
+     ],
+     "artifact_kind": "benchmark"
+    },
+    {
+     "unit": 19,
+     "day_start": 237,
+     "day_end": 249,
+     "domains": [
+      "de"
+     ],
+     "domain_titles": [
+      "Data Engineering"
+     ],
+     "weekly_project": "w19-lakehouse-stream",
+     "weekly_title": "A training-data pipeline: Parquet, Iceberg, watermarks and dedup",
+     "daily_drills": [
+      "d19-1",
+      "d19-2",
+      "d19-3",
+      "d19-4",
+      "d19-5",
+      "d19-6"
+     ],
+     "artifact_kind": "repo"
+    },
+    {
+     "unit": 20,
+     "day_start": 250,
+     "day_end": 262,
+     "domains": [
+      "sysd",
+      "level"
+     ],
+     "domain_titles": [
+      "System Design in Practice",
+      "The Level Itself"
+     ],
+     "weekly_project": "w20-design-and-load",
+     "weekly_title": "A design document, and the slice of it you actually build and load-test",
+     "daily_drills": [
+      "d20-1",
+      "d20-2",
+      "d20-3",
+      "d20-4",
+      "d20-5",
+      "d20-6"
+     ],
+     "artifact_kind": "writeup"
+    },
+    {
+     "unit": 21,
+     "day_start": 263,
+     "day_end": 275,
+     "domains": [
+      "ml"
+     ],
+     "domain_titles": [
+      "Machine Learning Foundations"
+     ],
+     "weekly_project": "w21-transformer-from-scratch",
+     "weekly_title": "A transformer from scratch, trained on a laptop",
+     "daily_drills": [
+      "d21-1",
+      "d21-2",
+      "d21-3",
+      "d21-4",
+      "d21-5",
+      "d21-6"
+     ],
+     "artifact_kind": "repo"
+    },
+    {
+     "unit": 22,
+     "day_start": 276,
+     "day_end": 289,
+     "domains": [
+      "kern",
+      "arch"
+     ],
+     "domain_titles": [
+      "GPU Kernels & Compilers",
+      "Architecture & Performance"
+     ],
+     "weekly_project": "w22-cuda-triton-gemm",
+     "weekly_title": "The GEMM ladder: from naive CUDA to within a stated fraction of cuBLAS",
+     "daily_drills": [
+      "d22-1",
+      "d22-2",
+      "d22-3",
+      "d22-4",
+      "d22-5",
+      "d22-6",
+      "d22-7"
+     ],
+     "artifact_kind": "benchmark"
+    },
+    {
+     "unit": 23,
+     "day_start": 290,
+     "day_end": 302,
+     "domains": [
+      "llm"
+     ],
+     "domain_titles": [
+      "LLMs & Frontier Models"
+     ],
+     "weekly_project": "w23-inference-engine",
+     "weekly_title": "An inference engine: paged KV, continuous batching, and int4 weights",
+     "daily_drills": [
+      "d23-1",
+      "d23-2",
+      "d23-3",
+      "d23-4",
+      "d23-5",
+      "d23-6",
+      "d23-7"
+     ],
+     "artifact_kind": "benchmark"
+    },
+    {
+     "unit": 24,
+     "day_start": 303,
+     "day_end": 315,
+     "domains": [
+      "llm",
+      "de"
+     ],
+     "domain_titles": [
+      "LLMs & Frontier Models",
+      "Data Engineering"
+     ],
+     "weekly_project": "w24-speedrun-reproduction",
+     "weekly_title": "A nanoGPT speedrun reproduction with one documented improvement",
+     "daily_drills": [
+      "d24-1",
+      "d24-2",
+      "d24-3",
+      "d24-4",
+      "d24-5",
+      "d24-6",
+      "d24-7"
+     ],
+     "artifact_kind": "paper-reproduction"
+    },
+    {
+     "unit": 25,
+     "day_start": 316,
+     "day_end": 328,
+     "domains": [
+      "rtl"
+     ],
+     "domain_titles": [
+      "Digital Design & RTL"
+     ],
+     "weekly_project": "w25-rv32i-pipelined",
+     "weekly_title": "A pipelined RV32I core, verified in cocotb, that runs your own C",
+     "daily_drills": [
+      "d25-1",
+      "d25-2",
+      "d25-3",
+      "d25-4",
+      "d25-5",
+      "d25-6",
+      "d25-7"
+     ],
+     "artifact_kind": "repo"
+    },
+    {
+     "unit": 26,
+     "day_start": 329,
+     "day_end": 341,
+     "domains": [
+      "chip",
+      "rtl",
+      "res"
+     ],
+     "domain_titles": [
+      "Chip Architecture & Co-design",
+      "Digital Design & RTL",
+      "Research Practice & Public Artifacts"
+     ],
+     "weekly_project": "w26-systolic-accelerator",
+     "weekly_title": "An 8x8 int8 systolic array: RTL, Timeloop model, and a LibreLane run to GDSII",
+     "daily_drills": [
+      "d26-1",
+      "d26-2",
+      "d26-3",
+      "d26-4",
+      "d26-5",
+      "d26-6",
+      "d26-7",
+      "d26-8"
+     ],
+     "artifact_kind": "repo"
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,566 @@
+{
+  "module": "22",
+  "level": 1,
+  "questions": [
+    {
+      "id": "M22_L1_S1_Q1",
+      "sprint": 1,
+      "level": 1,
+      "kind": "mcq",
+      "prompt": "[Network Sockets, TCP/IP & Custom RPC Protocols - Sprint 1] Mechanics Check #1: Which core invariant governs state transition at step 1?",
+      "options": [
+        "Invariant A: State preserves physical conservation in Network Sockets, TCP/IP & Custom RPC Protocols",
+        "Invariant B: Unbounded buffer without flow control",
+        "Invariant C: Floating voltage state without pull-up/pull-down"
+      ],
+      "answer": "Invariant A: State preserves physical conservation in Network Sockets, TCP/IP & Custom RPC Protocols",
+      "explanation": "Physical and mathematical consistency in Network Sockets, TCP/IP & Custom RPC Protocols requires deterministic invariants without floating or undefined states."
+    },
+    {
+      "id": "M22_L1_S1_Q2",
+      "sprint": 1,
+      "level": 1,
+      "kind": "mcq",
+      "prompt": "[Network Sockets, TCP/IP & Custom RPC Protocols - Sprint 1] Mechanics Check #2: Which core invariant governs state transition at step 2?",
+      "options": [
+        "Invariant A: State preserves physical conservation in Network Sockets, TCP/IP & Custom RPC Protocols",
+        "Invariant B: Unbounded buffer without flow control",
+        "Invariant C: Floating voltage state without pull-up/pull-down"
+      ],
+      "answer": "Invariant A: State preserves physical conservation in Network Sockets, TCP/IP & Custom RPC Protocols",
+      "explanation": "Physical and mathematical consistency in Network Sockets, TCP/IP & Custom RPC Protocols requires deterministic invariants without floating or undefined states."
+    },
+    {
+      "id": "M22_L1_S1_Q3",
+      "sprint": 1,
+      "level": 1,
+      "kind": "mcq",
+      "prompt": "[Network Sockets, TCP/IP & Custom RPC Protocols - Sprint 1] Mechanics Check #3: Which core invariant governs state transition at step 3?",
+      "options": [
+        "Invariant A: State preserves physical conservation in Network Sockets, TCP/IP & Custom RPC Protocols",
+        "Invariant B: Unbounded buffer without flow control",
+        "Invariant C: Floating voltage state without pull-up/pull-down"
+      ],
+      "answer": "Invariant A: State preserves physical conservation in Network Sockets, TCP/IP & Custom RPC Protocols",
+      "explanation": "Physical and mathematical consistency in Network Sockets, TCP/IP & Custom RPC Protocols requires deterministic invariants without floating or undefined states."
+    },
+    {
+      "id": "M22_L1_S1_Q4",
+      "sprint": 1,
+      "level": 1,
+      "kind": "mcq",
+      "prompt": "[Network Sockets, TCP/IP & Custom RPC Protocols - Sprint 1] Mechanics Check #4: Which core invariant governs state transition at step 4?",
+      "options": [
+        "Invariant A: State preserves physical conservation in Network Sockets, TCP/IP & Custom RPC Protocols",
+        "Invariant B: Unbounded buffer without flow control",
+        "Invariant C: Floating voltage state without pull-up/pull-down"
+      ],
+      "answer": "Invariant A: State preserves physical conservation in Network Sockets, TCP/IP & Custom RPC Protocols",
+      "explanation": "Physical and mathematical consistency in Network Sockets, TCP/IP & Custom RPC Protocols requires deterministic invariants without floating or undefined states."
+    },
+    {
+      "id": "M22_L1_S1_Q5",
+      "sprint": 1,
+      "level": 1,
+      "kind": "mcq",
+      "prompt": "[Network Sockets, TCP/IP & Custom RPC Protocols - Sprint 1] Mechanics Check #5: Which core invariant governs state transition at step 5?",
+      "options": [
+        "Invariant A: State preserves physical conservation in Network Sockets, TCP/IP & Custom RPC Protocols",
+        "Invariant B: Unbounded buffer without flow control",
+        "Invariant C: Floating voltage state without pull-up/pull-down"
+      ],
+      "answer": "Invariant A: State preserves physical conservation in Network Sockets, TCP/IP & Custom RPC Protocols",
+      "explanation": "Physical and mathematical consistency in Network Sockets, TCP/IP & Custom RPC Protocols requires deterministic invariants without floating or undefined states."
+    },
+    {
+      "id": "M22_L1_S1_Q6",
+      "sprint": 1,
+      "level": 1,
+      "kind": "mcq",
+      "prompt": "[Network Sockets, TCP/IP & Custom RPC Protocols - Sprint 1] Mechanics Check #6: Which core invariant governs state transition at step 6?",
+      "options": [
+        "Invariant A: State preserves physical conservation in Network Sockets, TCP/IP & Custom RPC Protocols",
+        "Invariant B: Unbounded buffer without flow control",
+        "Invariant C: Floating voltage state without pull-up/pull-down"
+      ],
+      "answer": "Invariant A: State preserves physical conservation in Network Sockets, TCP/IP & Custom RPC Protocols",
+      "explanation": "Physical and mathematical consistency in Network Sockets, TCP/IP & Custom RPC Protocols requires deterministic invariants without floating or undefined states."
+    },
+    {
+      "id": "M22_L1_S1_Q7",
+      "sprint": 1,
+      "level": 1,
+      "kind": "mcq",
+      "prompt": "[Network Sockets, TCP/IP & Custom RPC Protocols - Sprint 1] Mechanics Check #7: Which core invariant governs state transition at step 7?",
+      "options": [
+        "Invariant A: State preserves physical conservation in Network Sockets, TCP/IP & Custom RPC Protocols",
+        "Invariant B: Unbounded buffer without flow control",
+        "Invariant C: Floating voltage state without pull-up/pull-down"
+      ],
+      "answer": "Invariant A: State preserves physical conservation in Network Sockets, TCP/IP & Custom RPC Protocols",
+      "explanation": "Physical and mathematical consistency in Network Sockets, TCP/IP & Custom RPC Protocols requires deterministic invariants without floating or undefined states."
+    },
+    {
+      "id": "M22_L1_S1_Q8",
+      "sprint": 1,
+      "level": 1,
+      "kind": "mcq",
+      "prompt": "[Network Sockets, TCP/IP & Custom RPC Protocols - Sprint 1] Mechanics Check #8: Which core invariant governs state transition at step 8?",
+      "options": [
+        "Invariant A: State preserves physical conservation in Network Sockets, TCP/IP & Custom RPC Protocols",
+        "Invariant B: Unbounded buffer without flow control",
+        "Invariant C: Floating voltage state without pull-up/pull-down"
+      ],
+      "answer": "Invariant A: State preserves physical conservation in Network Sockets, TCP/IP & Custom RPC Protocols",
+      "explanation": "Physical and mathematical consistency in Network Sockets, TCP/IP & Custom RPC Protocols requires deterministic invariants without floating or undefined states."
+    },
+    {
+      "id": "M22_L1_S1_Q9",
+      "sprint": 1,
+      "level": 1,
+      "kind": "mcq",
+      "prompt": "[Network Sockets, TCP/IP & Custom RPC Protocols - Sprint 1] Mechanics Check #9: Which core invariant governs state transition at step 9?",
+      "options": [
+        "Invariant A: State preserves physical conservation in Network Sockets, TCP/IP & Custom RPC Protocols",
+        "Invariant B: Unbounded buffer without flow control",
+        "Invariant C: Floating voltage state without pull-up/pull-down"
+      ],
+      "answer": "Invariant A: State preserves physical conservation in Network Sockets, TCP/IP & Custom RPC Protocols",
+      "explanation": "Physical and mathematical consistency in Network Sockets, TCP/IP & Custom RPC Protocols requires deterministic invariants without floating or undefined states."
+    },
+    {
+      "id": "M22_L1_S1_Q10",
+      "sprint": 1,
+      "level": 1,
+      "kind": "mcq",
+      "prompt": "[Network Sockets, TCP/IP & Custom RPC Protocols - Sprint 1] Mechanics Check #10: Which core invariant governs state transition at step 10?",
+      "options": [
+        "Invariant A: State preserves physical conservation in Network Sockets, TCP/IP & Custom RPC Protocols",
+        "Invariant B: Unbounded buffer without flow control",
+        "Invariant C: Floating voltage state without pull-up/pull-down"
+      ],
+      "answer": "Invariant A: State preserves physical conservation in Network Sockets, TCP/IP & Custom RPC Protocols",
+      "explanation": "Physical and mathematical consistency in Network Sockets, TCP/IP & Custom RPC Protocols requires deterministic invariants without floating or undefined states."
+    },
+    {
+      "id": "M22_L1_S2_Q1",
+      "sprint": 2,
+      "level": 1,
+      "kind": "mcq",
+      "prompt": "[Network Sockets, TCP/IP & Custom RPC Protocols - Sprint 2] Mechanics Check #1: Which core invariant governs state transition at step 11?",
+      "options": [
+        "Invariant A: State preserves physical conservation in Network Sockets, TCP/IP & Custom RPC Protocols",
+        "Invariant B: Unbounded buffer without flow control",
+        "Invariant C: Floating voltage state without pull-up/pull-down"
+      ],
+      "answer": "Invariant A: State preserves physical conservation in Network Sockets, TCP/IP & Custom RPC Protocols",
+      "explanation": "Physical and mathematical consistency in Network Sockets, TCP/IP & Custom RPC Protocols requires deterministic invariants without floating or undefined states."
+    },
+    {
+      "id": "M22_L1_S2_Q2",
+      "sprint": 2,
+      "level": 1,
+      "kind": "mcq",
+      "prompt": "[Network Sockets, TCP/IP & Custom RPC Protocols - Sprint 2] Mechanics Check #2: Which core invariant governs state transition at step 12?",
+      "options": [
+        "Invariant A: State preserves physical conservation in Network Sockets, TCP/IP & Custom RPC Protocols",
+        "Invariant B: Unbounded buffer without flow control",
+        "Invariant C: Floating voltage state without pull-up/pull-down"
+      ],
+      "answer": "Invariant A: State preserves physical conservation in Network Sockets, TCP/IP & Custom RPC Protocols",
+      "explanation": "Physical and mathematical consistency in Network Sockets, TCP/IP & Custom RPC Protocols requires deterministic invariants without floating or undefined states."
+    },
+    {
+      "id": "M22_L1_S2_Q3",
+      "sprint": 2,
+      "level": 1,
+      "kind": "mcq",
+      "prompt": "[Network Sockets, TCP/IP & Custom RPC Protocols - Sprint 2] Mechanics Check #3: Which core invariant governs state transition at step 13?",
+      "options": [
+        "Invariant A: State preserves physical conservation in Network Sockets, TCP/IP & Custom RPC Protocols",
+        "Invariant B: Unbounded buffer without flow control",
+        "Invariant C: Floating voltage state without pull-up/pull-down"
+      ],
+      "answer": "Invariant A: State preserves physical conservation in Network Sockets, TCP/IP & Custom RPC Protocols",
+      "explanation": "Physical and mathematical consistency in Network Sockets, TCP/IP & Custom RPC Protocols requires deterministic invariants without floating or undefined states."
+    },
+    {
+      "id": "M22_L1_S2_Q4",
+      "sprint": 2,
+      "level": 1,
+      "kind": "mcq",
+      "prompt": "[Network Sockets, TCP/IP & Custom RPC Protocols - Sprint 2] Mechanics Check #4: Which core invariant governs state transition at step 14?",
+      "options": [
+        "Invariant A: State preserves physical conservation in Network Sockets, TCP/IP & Custom RPC Protocols",
+        "Invariant B: Unbounded buffer without flow control",
+        "Invariant C: Floating voltage state without pull-up/pull-down"
+      ],
+      "answer": "Invariant A: State preserves physical conservation in Network Sockets, TCP/IP & Custom RPC Protocols",
+      "explanation": "Physical and mathematical consistency in Network Sockets, TCP/IP & Custom RPC Protocols requires deterministic invariants without floating or undefined states."
+    },
+    {
+      "id": "M22_L1_S2_Q5",
+      "sprint": 2,
+      "level": 1,
+      "kind": "mcq",
+      "prompt": "[Network Sockets, TCP/IP & Custom RPC Protocols - Sprint 2] Mechanics Check #5: Which core invariant governs state transition at step 15?",
+      "options": [
+        "Invariant A: State preserves physical conservation in Network Sockets, TCP/IP & Custom RPC Protocols",
+        "Invariant B: Unbounded buffer without flow control",
+        "Invariant C: Floating voltage state without pull-up/pull-down"
+      ],
+      "answer": "Invariant A: State preserves physical conservation in Network Sockets, TCP/IP & Custom RPC Protocols",
+      "explanation": "Physical and mathematical consistency in Network Sockets, TCP/IP & Custom RPC Protocols requires deterministic invariants without floating or undefined states."
+    },
+    {
+      "id": "M22_L1_S2_Q6",
+      "sprint": 2,
+      "level": 1,
+      "kind": "mcq",
+      "prompt": "[Network Sockets, TCP/IP & Custom RPC Protocols - Sprint 2] Mechanics Check #6: Which core invariant governs state transition at step 16?",
+      "options": [
+        "Invariant A: State preserves physical conservation in Network Sockets, TCP/IP & Custom RPC Protocols",
+        "Invariant B: Unbounded buffer without flow control",
+        "Invariant C: Floating voltage state without pull-up/pull-down"
+      ],
+      "answer": "Invariant A: State preserves physical conservation in Network Sockets, TCP/IP & Custom RPC Protocols",
+      "explanation": "Physical and mathematical consistency in Network Sockets, TCP/IP & Custom RPC Protocols requires deterministic invariants without floating or undefined states."
+    },
+    {
+      "id": "M22_L1_S2_Q7",
+      "sprint": 2,
+      "level": 1,
+      "kind": "mcq",
+      "prompt": "[Network Sockets, TCP/IP & Custom RPC Protocols - Sprint 2] Mechanics Check #7: Which core invariant governs state transition at step 17?",
+      "options": [
+        "Invariant A: State preserves physical conservation in Network Sockets, TCP/IP & Custom RPC Protocols",
+        "Invariant B: Unbounded buffer without flow control",
+        "Invariant C: Floating voltage state without pull-up/pull-down"
+      ],
+      "answer": "Invariant A: State preserves physical conservation in Network Sockets, TCP/IP & Custom RPC Protocols",
+      "explanation": "Physical and mathematical consistency in Network Sockets, TCP/IP & Custom RPC Protocols requires deterministic invariants without floating or undefined states."
+    },
+    {
+      "id": "M22_L1_S2_Q8",
+      "sprint": 2,
+      "level": 1,
+      "kind": "mcq",
+      "prompt": "[Network Sockets, TCP/IP & Custom RPC Protocols - Sprint 2] Mechanics Check #8: Which core invariant governs state transition at step 18?",
+      "options": [
+        "Invariant A: State preserves physical conservation in Network Sockets, TCP/IP & Custom RPC Protocols",
+        "Invariant B: Unbounded buffer without flow control",
+        "Invariant C: Floating voltage state without pull-up/pull-down"
+      ],
+      "answer": "Invariant A: State preserves physical conservation in Network Sockets, TCP/IP & Custom RPC Protocols",
+      "explanation": "Physical and mathematical consistency in Network Sockets, TCP/IP & Custom RPC Protocols requires deterministic invariants without floating or undefined states."
+    },
+    {
+      "id": "M22_L1_S2_Q9",
+      "sprint": 2,
+      "level": 1,
+      "kind": "mcq",
+      "prompt": "[Network Sockets, TCP/IP & Custom RPC Protocols - Sprint 2] Mechanics Check #9: Which core invariant governs state transition at step 19?",
+      "options": [
+        "Invariant A: State preserves physical conservation in Network Sockets, TCP/IP & Custom RPC Protocols",
+        "Invariant B: Unbounded buffer without flow control",
+        "Invariant C: Floating voltage state without pull-up/pull-down"
+      ],
+      "answer": "Invariant A: State preserves physical conservation in Network Sockets, TCP/IP & Custom RPC Protocols",
+      "explanation": "Physical and mathematical consistency in Network Sockets, TCP/IP & Custom RPC Protocols requires deterministic invariants without floating or undefined states."
+    },
+    {
+      "id": "M22_L1_S2_Q10",
+      "sprint": 2,
+      "level": 1,
+      "kind": "mcq",
+      "prompt": "[Network Sockets, TCP/IP & Custom RPC Protocols - Sprint 2] Mechanics Check #10: Which core invariant governs state transition at step 20?",
+      "options": [
+        "Invariant A: State preserves physical conservation in Network Sockets, TCP/IP & Custom RPC Protocols",
+        "Invariant B: Unbounded buffer without flow control",
+        "Invariant C: Floating voltage state without pull-up/pull-down"
+      ],
+      "answer": "Invariant A: State preserves physical conservation in Network Sockets, TCP/IP & Custom RPC Protocols",
+      "explanation": "Physical and mathematical consistency in Network Sockets, TCP/IP & Custom RPC Protocols requires deterministic invariants without floating or undefined states."
+    },
+    {
+      "id": "M22_L1_S3_Q1",
+      "sprint": 3,
+      "level": 1,
+      "kind": "mcq",
+      "prompt": "[Network Sockets, TCP/IP & Custom RPC Protocols - Sprint 3] Mechanics Check #1: Which core invariant governs state transition at step 21?",
+      "options": [
+        "Invariant A: State preserves physical conservation in Network Sockets, TCP/IP & Custom RPC Protocols",
+        "Invariant B: Unbounded buffer without flow control",
+        "Invariant C: Floating voltage state without pull-up/pull-down"
+      ],
+      "answer": "Invariant A: State preserves physical conservation in Network Sockets, TCP/IP & Custom RPC Protocols",
+      "explanation": "Physical and mathematical consistency in Network Sockets, TCP/IP & Custom RPC Protocols requires deterministic invariants without floating or undefined states."
+    },
+    {
+      "id": "M22_L1_S3_Q2",
+      "sprint": 3,
+      "level": 1,
+      "kind": "mcq",
+      "prompt": "[Network Sockets, TCP/IP & Custom RPC Protocols - Sprint 3] Mechanics Check #2: Which core invariant governs state transition at step 22?",
+      "options": [
+        "Invariant A: State preserves physical conservation in Network Sockets, TCP/IP & Custom RPC Protocols",
+        "Invariant B: Unbounded buffer without flow control",
+        "Invariant C: Floating voltage state without pull-up/pull-down"
+      ],
+      "answer": "Invariant A: State preserves physical conservation in Network Sockets, TCP/IP & Custom RPC Protocols",
+      "explanation": "Physical and mathematical consistency in Network Sockets, TCP/IP & Custom RPC Protocols requires deterministic invariants without floating or undefined states."
+    },
+    {
+      "id": "M22_L1_S3_Q3",
+      "sprint": 3,
+      "level": 1,
+      "kind": "mcq",
+      "prompt": "[Network Sockets, TCP/IP & Custom RPC Protocols - Sprint 3] Mechanics Check #3: Which core invariant governs state transition at step 23?",
+      "options": [
+        "Invariant A: State preserves physical conservation in Network Sockets, TCP/IP & Custom RPC Protocols",
+        "Invariant B: Unbounded buffer without flow control",
+        "Invariant C: Floating voltage state without pull-up/pull-down"
+      ],
+      "answer": "Invariant A: State preserves physical conservation in Network Sockets, TCP/IP & Custom RPC Protocols",
+      "explanation": "Physical and mathematical consistency in Network Sockets, TCP/IP & Custom RPC Protocols requires deterministic invariants without floating or undefined states."
+    },
+    {
+      "id": "M22_L1_S3_Q4",
+      "sprint": 3,
+      "level": 1,
+      "kind": "mcq",
+      "prompt": "[Network Sockets, TCP/IP & Custom RPC Protocols - Sprint 3] Mechanics Check #4: Which core invariant governs state transition at step 24?",
+      "options": [
+        "Invariant A: State preserves physical conservation in Network Sockets, TCP/IP & Custom RPC Protocols",
+        "Invariant B: Unbounded buffer without flow control",
+        "Invariant C: Floating voltage state without pull-up/pull-down"
+      ],
+      "answer": "Invariant A: State preserves physical conservation in Network Sockets, TCP/IP & Custom RPC Protocols",
+      "explanation": "Physical and mathematical consistency in Network Sockets, TCP/IP & Custom RPC Protocols requires deterministic invariants without floating or undefined states."
+    },
+    {
+      "id": "M22_L1_S3_Q5",
+      "sprint": 3,
+      "level": 1,
+      "kind": "mcq",
+      "prompt": "[Network Sockets, TCP/IP & Custom RPC Protocols - Sprint 3] Mechanics Check #5: Which core invariant governs state transition at step 25?",
+      "options": [
+        "Invariant A: State preserves physical conservation in Network Sockets, TCP/IP & Custom RPC Protocols",
+        "Invariant B: Unbounded buffer without flow control",
+        "Invariant C: Floating voltage state without pull-up/pull-down"
+      ],
+      "answer": "Invariant A: State preserves physical conservation in Network Sockets, TCP/IP & Custom RPC Protocols",
+      "explanation": "Physical and mathematical consistency in Network Sockets, TCP/IP & Custom RPC Protocols requires deterministic invariants without floating or undefined states."
+    },
+    {
+      "id": "M22_L1_S3_Q6",
+      "sprint": 3,
+      "level": 1,
+      "kind": "mcq",
+      "prompt": "[Network Sockets, TCP/IP & Custom RPC Protocols - Sprint 3] Mechanics Check #6: Which core invariant governs state transition at step 26?",
+      "options": [
+        "Invariant A: State preserves physical conservation in Network Sockets, TCP/IP & Custom RPC Protocols",
+        "Invariant B: Unbounded buffer without flow control",
+        "Invariant C: Floating voltage state without pull-up/pull-down"
+      ],
+      "answer": "Invariant A: State preserves physical conservation in Network Sockets, TCP/IP & Custom RPC Protocols",
+      "explanation": "Physical and mathematical consistency in Network Sockets, TCP/IP & Custom RPC Protocols requires deterministic invariants without floating or undefined states."
+    },
+    {
+      "id": "M22_L1_S3_Q7",
+      "sprint": 3,
+      "level": 1,
+      "kind": "mcq",
+      "prompt": "[Network Sockets, TCP/IP & Custom RPC Protocols - Sprint 3] Mechanics Check #7: Which core invariant governs state transition at step 27?",
+      "options": [
+        "Invariant A: State preserves physical conservation in Network Sockets, TCP/IP & Custom RPC Protocols",
+        "Invariant B: Unbounded buffer without flow control",
+        "Invariant C: Floating voltage state without pull-up/pull-down"
+      ],
+      "answer": "Invariant A: State preserves physical conservation in Network Sockets, TCP/IP & Custom RPC Protocols",
+      "explanation": "Physical and mathematical consistency in Network Sockets, TCP/IP & Custom RPC Protocols requires deterministic invariants without floating or undefined states."
+    },
+    {
+      "id": "M22_L1_S3_Q8",
+      "sprint": 3,
+      "level": 1,
+      "kind": "mcq",
+      "prompt": "[Network Sockets, TCP/IP & Custom RPC Protocols - Sprint 3] Mechanics Check #8: Which core invariant governs state transition at step 28?",
+      "options": [
+        "Invariant A: State preserves physical conservation in Network Sockets, TCP/IP & Custom RPC Protocols",
+        "Invariant B: Unbounded buffer without flow control",
+        "Invariant C: Floating voltage state without pull-up/pull-down"
+      ],
+      "answer": "Invariant A: State preserves physical conservation in Network Sockets, TCP/IP & Custom RPC Protocols",
+      "explanation": "Physical and mathematical consistency in Network Sockets, TCP/IP & Custom RPC Protocols requires deterministic invariants without floating or undefined states."
+    },
+    {
+      "id": "M22_L1_S3_Q9",
+      "sprint": 3,
+      "level": 1,
+      "kind": "mcq",
+      "prompt": "[Network Sockets, TCP/IP & Custom RPC Protocols - Sprint 3] Mechanics Check #9: Which core invariant governs state transition at step 29?",
+      "options": [
+        "Invariant A: State preserves physical conservation in Network Sockets, TCP/IP & Custom RPC Protocols",
+        "Invariant B: Unbounded buffer without flow control",
+        "Invariant C: Floating voltage state without pull-up/pull-down"
+      ],
+      "answer": "Invariant A: State preserves physical conservation in Network Sockets, TCP/IP & Custom RPC Protocols",
+      "explanation": "Physical and mathematical consistency in Network Sockets, TCP/IP & Custom RPC Protocols requires deterministic invariants without floating or undefined states."
+    },
+    {
+      "id": "M22_L1_S3_Q10",
+      "sprint": 3,
+      "level": 1,
+      "kind": "mcq",
+      "prompt": "[Network Sockets, TCP/IP & Custom RPC Protocols - Sprint 3] Mechanics Check #10: Which core invariant governs state transition at step 30?",
+      "options": [
+        "Invariant A: State preserves physical conservation in Network Sockets, TCP/IP & Custom RPC Protocols",
+        "Invariant B: Unbounded buffer without flow control",
+        "Invariant C: Floating voltage state without pull-up/pull-down"
+      ],
+      "answer": "Invariant A: State preserves physical conservation in Network Sockets, TCP/IP & Custom RPC Protocols",
+      "explanation": "Physical and mathematical consistency in Network Sockets, TCP/IP & Custom RPC Protocols requires deterministic invariants without floating or undefined states."
+    },
+    {
+      "id": "M22_L1_S4_Q1",
+      "sprint": 4,
+      "level": 1,
+      "kind": "mcq",
+      "prompt": "[Network Sockets, TCP/IP & Custom RPC Protocols - Sprint 4] Mechanics Check #1: Which core invariant governs state transition at step 31?",
+      "options": [
+        "Invariant A: State preserves physical conservation in Network Sockets, TCP/IP & Custom RPC Protocols",
+        "Invariant B: Unbounded buffer without flow control",
+        "Invariant C: Floating voltage state without pull-up/pull-down"
+      ],
+      "answer": "Invariant A: State preserves physical conservation in Network Sockets, TCP/IP & Custom RPC Protocols",
+      "explanation": "Physical and mathematical consistency in Network Sockets, TCP/IP & Custom RPC Protocols requires deterministic invariants without floating or undefined states."
+    },
+    {
+      "id": "M22_L1_S4_Q2",
+      "sprint": 4,
+      "level": 1,
+      "kind": "mcq",
+      "prompt": "[Network Sockets, TCP/IP & Custom RPC Protocols - Sprint 4] Mechanics Check #2: Which core invariant governs state transition at step 32?",
+      "options": [
+        "Invariant A: State preserves physical conservation in Network Sockets, TCP/IP & Custom RPC Protocols",
+        "Invariant B: Unbounded buffer without flow control",
+        "Invariant C: Floating voltage state without pull-up/pull-down"
+      ],
+      "answer": "Invariant A: State preserves physical conservation in Network Sockets, TCP/IP & Custom RPC Protocols",
+      "explanation": "Physical and mathematical consistency in Network Sockets, TCP/IP & Custom RPC Protocols requires deterministic invariants without floating or undefined states."
+    },
+    {
+      "id": "M22_L1_S4_Q3",
+      "sprint": 4,
+      "level": 1,
+      "kind": "mcq",
+      "prompt": "[Network Sockets, TCP/IP & Custom RPC Protocols - Sprint 4] Mechanics Check #3: Which core invariant governs state transition at step 33?",
+      "options": [
+        "Invariant A: State preserves physical conservation in Network Sockets, TCP/IP & Custom RPC Protocols",
+        "Invariant B: Unbounded buffer without flow control",
+        "Invariant C: Floating voltage state without pull-up/pull-down"
+      ],
+      "answer": "Invariant A: State preserves physical conservation in Network Sockets, TCP/IP & Custom RPC Protocols",
+      "explanation": "Physical and mathematical consistency in Network Sockets, TCP/IP & Custom RPC Protocols requires deterministic invariants without floating or undefined states."
+    },
+    {
+      "id": "M22_L1_S4_Q4",
+      "sprint": 4,
+      "level": 1,
+      "kind": "mcq",
+      "prompt": "[Network Sockets, TCP/IP & Custom RPC Protocols - Sprint 4] Mechanics Check #4: Which core invariant governs state transition at step 34?",
+      "options": [
+        "Invariant A: State preserves physical conservation in Network Sockets, TCP/IP & Custom RPC Protocols",
+        "Invariant B: Unbounded buffer without flow control",
+        "Invariant C: Floating voltage state without pull-up/pull-down"
+      ],
+      "answer": "Invariant A: State preserves physical conservation in Network Sockets, TCP/IP & Custom RPC Protocols",
+      "explanation": "Physical and mathematical consistency in Network Sockets, TCP/IP & Custom RPC Protocols requires deterministic invariants without floating or undefined states."
+    },
+    {
+      "id": "M22_L1_S4_Q5",
+      "sprint": 4,
+      "level": 1,
+      "kind": "mcq",
+      "prompt": "[Network Sockets, TCP/IP & Custom RPC Protocols - Sprint 4] Mechanics Check #5: Which core invariant governs state transition at step 35?",
+      "options": [
+        "Invariant A: State preserves physical conservation in Network Sockets, TCP/IP & Custom RPC Protocols",
+        "Invariant B: Unbounded buffer without flow control",
+        "Invariant C: Floating voltage state without pull-up/pull-down"
+      ],
+      "answer": "Invariant A: State preserves physical conservation in Network Sockets, TCP/IP & Custom RPC Protocols",
+      "explanation": "Physical and mathematical consistency in Network Sockets, TCP/IP & Custom RPC Protocols requires deterministic invariants without floating or undefined states."
+    },
+    {
+      "id": "M22_L1_S4_Q6",
+      "sprint": 4,
+      "level": 1,
+      "kind": "mcq",
+      "prompt": "[Network Sockets, TCP/IP & Custom RPC Protocols - Sprint 4] Mechanics Check #6: Which core invariant governs state transition at step 36?",
+      "options": [
+        "Invariant A: State preserves physical conservation in Network Sockets, TCP/IP & Custom RPC Protocols",
+        "Invariant B: Unbounded buffer without flow control",
+        "Invariant C: Floating voltage state without pull-up/pull-down"
+      ],
+      "answer": "Invariant A: State preserves physical conservation in Network Sockets, TCP/IP & Custom RPC Protocols",
+      "explanation": "Physical and mathematical consistency in Network Sockets, TCP/IP & Custom RPC Protocols requires deterministic invariants without floating or undefined states."
+    },
+    {
+      "id": "M22_L1_S4_Q7",
+      "sprint": 4,
+      "level": 1,
+      "kind": "mcq",
+      "prompt": "[Network Sockets, TCP/IP & Custom RPC Protocols - Sprint 4] Mechanics Check #7: Which core invariant governs state transition at step 37?",
+      "options": [
+        "Invariant A: State preserves physical conservation in Network Sockets, TCP/IP & Custom RPC Protocols",
+        "Invariant B: Unbounded buffer without flow control",
+        "Invariant C: Floating voltage state without pull-up/pull-down"
+      ],
+      "answer": "Invariant A: State preserves physical conservation in Network Sockets, TCP/IP & Custom RPC Protocols",
+      "explanation": "Physical and mathematical consistency in Network Sockets, TCP/IP & Custom RPC Protocols requires deterministic invariants without floating or undefined states."
+    },
+    {
+      "id": "M22_L1_S4_Q8",
+      "sprint": 4,
+      "level": 1,
+      "kind": "mcq",
+      "prompt": "[Network Sockets, TCP/IP & Custom RPC Protocols - Sprint 4] Mechanics Check #8: Which core invariant governs state transition at step 38?",
+      "options": [
+        "Invariant A: State preserves physical conservation in Network Sockets, TCP/IP & Custom RPC Protocols",
+        "Invariant B: Unbounded buffer without flow control",
+        "Invariant C: Floating voltage state without pull-up/pull-down"
+      ],
+      "answer": "Invariant A: State preserves physical conservation in Network Sockets, TCP/IP & Custom RPC Protocols",
+      "explanation": "Physical and mathematical consistency in Network Sockets, TCP/IP & Custom RPC Protocols requires deterministic invariants without floating or undefined states."
+    },
+    {
+      "id": "M22_L1_S4_Q9",
+      "sprint": 4,
+      "level": 1,
+      "kind": "mcq",
+      "prompt": "[Network Sockets, TCP/IP & Custom RPC Protocols - Sprint 4] Mechanics Check #9: Which core invariant governs state transition at step 39?",
+      "options": [
+        "Invariant A: State preserves physical conservation in Network Sockets, TCP/IP & Custom RPC Protocols",
+        "Invariant B: Unbounded buffer without flow control",
+        "Invariant C: Floating voltage state without pull-up/pull-down"
+      ],
+      "answer": "Invariant A: State preserves physical conservation in Network Sockets, TCP/IP & Custom RPC Protocols",
+      "explanation": "Physical and mathematical consistency in Network Sockets, TCP/IP & Custom RPC Protocols requires deterministic invariants without floating or undefined states."
+    },
+    {
+      "id": "M22_L1_S4_Q10",
+      "sprint": 4,
+      "level": 1,
+      "kind": "mcq",
+      "prompt": "[Network Sockets, TCP/IP & Custom RPC Protocols - Sprint 4] Mechanics Check #10: Which core invariant governs state transition at step 40?",
+      "options": [
+        "Invariant A: State preserves physical conservation in Network Sockets, TCP/IP & Custom RPC Protocols",
+        "Invariant B: Unbounded buffer without flow control",
+        "Invariant C: Floating voltage state without pull-up/pull-down"
+      ],
+      "answer": "Invariant A: State preserves physical conservation in Network Sockets, TCP/IP & Custom RPC Protocols",
+      "explanation": "Physical and mathematical consistency in Network Sockets, TCP/IP & Custom RPC Protocols requires deterministic invariants without floating or undefined states."
+    }
+  ]
+}
